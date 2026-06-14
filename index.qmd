@@ -1,100 +1,52 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
-page-navigation: false
-toc: false
-#sidebar: false
+title: "Gabriel Frazer-McKee"
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 70%
-  links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
+listing:
+  - id: recent-news
+    contents: posts
+    sort: "date desc"
     type: grid
     max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+    categories: true
+    fields: [image, date, title, description, categories]
 ---
 
-:::{#hero-heading}
+::: {.landing-page}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+::: {.hero-grid}
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+::: {.hero-text}
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
+# Gabriel Frazer-McKee
 
-Check [Quarto Academic Website Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html) and [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+## PhD candidate in linguistics at Université Laval
 
-## Experience
+::: {.social-row}
+[GitHub](https://github.com/gafrm) · [ORCID](https://orcid.org) · [Google Scholar](https://scholar.google.com) · [Email](contact.qmd)
+:::
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
+I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.
 
-## Education
-
-- PhD, Univerisity
-- Master, Univerisity
-- Bachelor, Univerisity
+[Learn more about me →](about.qmd){.learn-more}
 
 :::
 
+::: {.hero-graphic}
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
+::: {.circle-graphic}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+:::
+
+:::
+
+::: {.news-bottom}
+
+## Recent news
+
+::: {#recent-news}
+:::
+
+:::
+
+:::
