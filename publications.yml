@@ -1,0 +1,39 @@
+- section: Selected Work
+  authors: "Helveston, John, **Gang He**\\*, and Michael Davidson"
+  year: 2022
+  date: 2022-10-26
+  title: Quantifying the Cost Savings of Global Solar Photovoltaic Supply Chains
+  path: "https://drganghe.github.io/posts/2022-10-nature-cost-savings-of-global-solar-pv-value-chains/index.html"
+  journal: Nature
+  volume: 612
+  pages: 83-87
+  doi: 10.1038/s41586-022-05316-6
+  preprint: "https://drganghe.github.io/files/papers/2022-nature-solar-supply-chains-preprint.pdf"
+  shareit: "https://rdcu.be/enuBz"
+  github: "https://github.com/jhelvy/solar-learning-2021"
+  data: "https://doi.org/10.5281/zenodo.6989075"
+  highlycited: 1
+  hotpaper: 1
+  awards: "[IAMC2022 Best Poster Award](https://drganghe.github.io/posts/2022-12-iamc-2022-best-poster-award/index.html)"
+  mediacoverage: "[SBU News](https://news.stonybrook.edu/environmental-stewardship/international-collaboration-is-key-to-addressing-global-climate-change/) | [GWU News](https://mediarelations.gwu.edu/global-collaboration-saved-countries-67-billion-solar-panel-production-costs) | [UCSD News](https://today.ucsd.edu/story/open-trade-saves-countries-billions-in-solar-panel-production) | [*Nature* Research Highlights](https://web.archive.org/web/20230603073317/https://www.natureasia.com/en/research/highlight/14262) | [*E&E News*](https://www.eenews.net/articles/how-bidens-made-in-america-solar-strategy-may-backfire/) | [*Foreign Policy*](https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/) | [GRID News](https://web.archive.org/web/20240106093827/https://themessenger.com/grid/the-us-is-reducing-its-reliance-on-china-for-green-technology-could-that-slow-progress-on-climate-change) | [PV Magazine](https://pv-magazine-usa.com/2022/10/26/a-globalized-supply-chain-is-key-to-cutting-costs-in-solar-module-manufacturing/) | [dot.LA](https://dot.la/deglobalization-2658510850.html) | [pvbuzz](https://pvbuzz.com/new-study-quantifies-cost-savings-solar-industry-globalized-supply-chains/) | [InnovateLongIsland](https://www.innovateli.com/no-736-on-immigrants-solar-energy-supplies-and-other-american-strengths-with-lots-of-candy-to-share/) | [Mercom India](https://mercomindia.com/imposing-import-tariffs-hamper-of-solar-energy-study/) | [China News](https://www.chinanews.com.cn/cj/2022/10-27/9881042.shtml) | [Science and Technology Daily](http://www.stdaily.com/index/kejixinwen/202210/e38ea5c3a3054d87a43996d39a2924ab.shtml)"
+  invitedpresentation: "[Peking University](https://cese.pku.edu.cn/images/content/2024-03/20240325151929637875.png) | [Tsinghua University](https://mp.weixin.qq.com/s/c_Z0RHwzkjziq-QvdUzs-g) | [Harvard University](https://www.belfercenter.org/event/energy-policy-seminar-michael-davidson-decoupling-china-clean-tech) (M.D.) | ITIF (J.H.) | [Climate Change Economics Forum](https://mp.weixin.qq.com/s/teDhroPPbaA6z1pVU2JrwA)"
+  categories: [2022, selected, peer-reviewed, award, highly-cited, hot-paper, nature-series, supply-chain, solar, united-states, china, germany]
+
+- section: Peer-reviewed Journal Paper
+  authors: "**He, Gang**\\*, Jiang Lin\\*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke\\*"
+  year: 2020
+  date: 2020-05-15
+  title: Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China's Power System
+  path: "https://drganghe.github.io/posts/2020-05-ncomms-rapid-re-cost/index.html"
+  journal: Nature Communications
+  volume: 11
+  issue: 1
+  pages: 2486
+  doi: 10.1038/s41467-020-16184-x
+  pdf: "https://www.nature.com/articles/s41467-020-16184-x.pdf"
+  supplemental: "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16184-x/MediaObjects/41467_2020_16184_MOESM1_ESM.pdf"
+  github: "https://github.com/switch-model/switch-china-open-model"
+  highlycited: 1
+  mediacoverage: "[SBU News](https://news.stonybrook.edu/newsroom/study-shows-decrease-in-renewable-energy-costs-may-serve-as-an-accelerator-for-clean-energy-expansion/) | [LBL News](https://eta.lbl.gov/news/falling-prices-could-accelerate-china) | [*Carbon Brief* Headline](https://www.carbonbrief.org/guest-post-chinas-power-sector-could-be-10-per-cent-cheaper-in-2030-with-more-renewables) | [*InsideClimateNews*](https://insideclimatenews.org/news/04062020/inside-clean-energy-arkansas-rooftop-solar/) | [*E&E News*/*ClimateWire*](https://subscriber.politicopro.com/article/eenews/1063354565) | [*Forbes*](https://www.forbes.com/sites/energyinnovation/2020/08/10/plummeting-renewable-energy-battery-prices-mean-china-could-hit-62-clean-power-and-cut-costs-11-by-2030/?sh=29fa3f2f1519) | [*Nature* News](https://www.nature.com/articles/d41586-020-02927-9)"
+  invitedpresentation: "[Asia Pacific Energy Research Centre (APERC) Annual Conference 2020](https://aperc.or.jp/presentations/event_detail.php?article_info__id=388) | [Beijing Institute of Technology](https://ceep.bit.edu.cn/xzhd/xshdyg/8c8df4e81437434fb80b7ebb8d973b4c.htm) | Dartmouth College | [Harvard Kennedy School Growth Lab](https://growthlab.hks.harvard.edu/event/research-seminar-achieving-power-sector-carbon-neutrality-in-a-low-cost-renewable-era/)"
+  categories: [2020, selected, peer-reviewed, highly-cited, nature-series, power-system, switch-china, solar, wind, storage]
