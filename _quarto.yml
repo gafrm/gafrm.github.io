@@ -42,8 +42,8 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "© <script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
-    center: ""
+    left: ""
+    center: "© <script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
     right:  
       - text: Contact
         href: contact.qmd

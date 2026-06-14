@@ -269,3 +269,31 @@ body {
     letter-spacing: 0.08em;
   }
 }
+
+/* ---------- Recent news hover effects ---------- */
+
+.news-bottom .quarto-grid-item {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+  cursor: pointer;
+}
+
+.news-bottom .quarto-grid-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(7, 48, 74, 0.16);
+  border-color: var(--rust);
+  background: #fff7ed;
+}
+
+.news-bottom .quarto-grid-item:hover .listing-title,
+.news-bottom .quarto-grid-item:hover .card-title {
+  color: var(--rust);
+}
+
+.news-bottom .quarto-grid-item:active {
+  transform: translateY(-2px) scale(0.99);
+  box-shadow: 0 8px 20px rgba(7, 48, 74, 0.12);
+}
