@@ -22,7 +22,10 @@ listing:
 ## PhD candidate in linguistics at Université Laval
 
 ::: {.social-row}
-[GitHub](https://github.com/gafrm) · [ORCID](https://orcid.org) · [Google Scholar](https://scholar.google.com) · [Email](contact.qmd)
+[{{< fa brands github >}}](https://github.com/gafrm)
+[{{< fa brands orcid >}}](https://orcid.org)
+[{{< fa solid graduation-cap >}}](https://scholar.google.com)
+[{{< fa solid envelope >}}](contact.qmd)
 :::
 
 I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.
