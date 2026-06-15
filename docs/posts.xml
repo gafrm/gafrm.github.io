@@ -10,7 +10,41 @@
 <atom:link href="https://gafrm.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Academic website of Gabriel Frazer-McKee</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Feb 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Passing my second doctoral examination</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2026-02-24-Doctoral-Exam-2/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I am very happy to share that I have passed my second doctoral examination.</p>
+<p>This marks an important milestone in my PhD. The examination was based on a substantial written document of about 70 pages, in which I presented the current state of my doctoral project, its theoretical and methodological foundations, and the next stages of the research.</p>
+<p>I am especially grateful to the members of my committee, who agreed to evaluate the document within a tight timeline before I began parental leave. I know that reading and assessing a long doctoral examination document requires a significant investment of time and attention, and I truly appreciated their generosity, availability, and constructive feedback.</p>
+<p>With this second examination completed, the project is now moving more fully into the thesis research phase. The next steps include continuing work on the scoping review, advancing the empirical components of the thesis, and preparing for the next stages of data collection and analysis.</p>
+<p>It feels good to reach this point. Doctoral work is rarely linear, and this milestone represents not only the completion of a program requirement, but also a clearer sense of where the project is going.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>phd</category>
+  <category>milestone</category>
+  <guid>https://gafrm.github.io/posts/2026-02-24-Doctoral-Exam-2/</guid>
+  <pubDate>Tue, 24 Feb 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2026-02-24-Doctoral-Exam-2/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://gafrm.github.io/</link>
@@ -21,73 +55,10 @@
   <media:content url="https://gafrm.github.io/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Event item</title>
-  <dc:creator>Event </dc:creator>
-  <link>https://gafrm.github.io/posts/event-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://gafrm.github.io/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>event</category>
-  <category>presentation</category>
-  <guid>https://gafrm.github.io/posts/event-title/</guid>
-  <pubDate>Tue, 03 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/files/images/placeholder2.JPG" medium="image"/>
-</item>
-<item>
-  <title>News item</title>
-  <dc:creator>News </dc:creator>
-  <link>https://gafrm.github.io/posts/news-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>About the news</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://gafrm.github.io/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/files/images/placeholder3.JPG" medium="image"/>
-</item>
-<item>
-  <title>Can quantum-mechanical description of physical reality be considered complete?</title>
-  <dc:creator>Albert Einstein</dc:creator>
-  <dc:creator>Boris Podolsky</dc:creator>
-  <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://gafrm.github.io/posts/paper-title/</link>
+  <title>The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <dc:creator>Patrick J. Duffley</dc:creator>
+  <link>https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/</link>
   <description><![CDATA[ 
 
 
@@ -109,7 +80,7 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+<p>There are broad disagreements between existing models regarding the mental representations and processes involved in the “DEGREE ADVERB + PROPER NAME” construction, including divergences regarding the semantics of the degree device, the category status of the proper name, the construction’s expressed meaning, its compositionality, and, crucially, the operation holding between the degree device and the proper name. Our corpus-based investigation of two competing models from Construction Grammar and Formal Semantics shows that while both make useful contributions to the scientific understanding of the construction, neither is empirically adequate. Most importantly, we find that the construction participates in several non-predicted expressed meanings; multivariate analyses show that the three meanings amenable to statistical analysis cluster with different semantic usage-features. We argue that the best way to account for the construction’s semantics/pragmatics is via a previously-dismissed cognitive mechanism: an enrichment/strengthening-type operation whereby a pragmatically-supplied scale is added to the message.</p>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
@@ -121,28 +92,60 @@ https://badge.dimensions.ai/
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{einstein1935,
-  author = {Einstein, Albert and Podolsky, Boris and Rosen, Nathan},
-  title = {Can Quantum-Mechanical Description of Physical Reality Be
-    Considered Complete?},
-  journal = {Physical Review},
-  volume = {47},
-  number = {7938},
-  pages = {777-80},
-  date = {1935-05-15},
-  url = {https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777},
-  doi = {10.1103/PhysRev.47.777},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{frazer-mckee2024,
+  author = {Frazer-McKee, Gabriel and J. Duffley, Patrick},
+  title = {The Cognitive Mechanisms Involved in the “{DEGREE} {ADVERB} +
+    {PROPER} {NAME}” Construction},
+  journal = {International Review of Pragmatics},
+  volume = {16},
+  number = {2},
+  pages = {188-231},
+  date = {2024-07-24},
+  url = {https://brill.com/view/journals/irp/16/2/article-p188_2.xml?srsltid=AfmBOoriHOcTdLI8X_h1OkqNHHWN_NrCyoLaHT_dNnr2y1S3dP93Xndf&amp;ebody=Abstract%2FExcerpt},
+  doi = {https://doi.org/10.1163/18773109-01602002},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-einstein1935" class="csl-entry quarto-appendix-citeas">
-Einstein, Albert, Boris Podolsky, and Nathan Rosen. 1935. <span>“Can
-Quantum-Mechanical Description of Physical Reality Be Considered
-Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-frazer-mckee2024" class="csl-entry quarto-appendix-citeas">
+Frazer-McKee, Gabriel, and Patrick J. Duffley. 2024. <span>“The
+Cognitive Mechanisms Involved in the <span>‘DEGREE ADVERB + PROPER
+NAME’</span> Construction.”</span> <em>International Review of
+Pragmatics</em> 16 (2): 188–231. https://doi.org/<a href="https://doi.org/10.1163/18773109-01602002">https://doi.org/10.1163/18773109-01602002</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://gafrm.github.io/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/</guid>
+  <pubDate>Wed, 24 Jul 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>TCHÉCALEX 2024</title>
+  <dc:creator>Event </dc:creator>
+  <link>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Just got back from <strong>Tchécalex 2024</strong>, held at the <strong>Faculty of Arts of the University of West Bohemia</strong> in <strong>Plzeň</strong> — also known in English as <strong>Pilsen</strong> — in Czechia.</p>
+<p>Bruno (Courbon) and I presented work on French-English comparisons of the <strong>degree adverb + Place</strong> construction on Twitter/X, with examples such as <em>Hockey is very Montréal</em>. A publication stemming from this preliminary work is planned for the conference proceedings.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>event</category>
+  <category>presentation</category>
+  <guid>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</guid>
+  <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
 </item>
 </channel>
 </rss>

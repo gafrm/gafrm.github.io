@@ -387,3 +387,91 @@ body {
 .aa-DetachedContainer .aa-Item[aria-selected="true"] {
   background: rgba(166, 70, 19, 0.08) !important;
 }
+
+/*body of the news post itself, with a more traditional newspaper-like style */
+body.newspaper-post {
+  background: #f4ecd8;
+  color: #1d1a17;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body.newspaper-post main.content {
+  max-width: 850px;
+  background: #fbf4df;
+  padding: 3rem;
+  border: 1px solid #2b2722;
+  box-shadow: 0 0 0 4px #fbf4df, 0 0 0 5px #2b2722;
+}
+
+body.newspaper-post .quarto-title-block .title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  border-top: 4px double #1d1a17;
+  border-bottom: 4px double #1d1a17;
+  padding: 0.5rem 0;
+}
+
+body.newspaper-post .quarto-title-meta {
+  border-bottom: 1px solid #1d1a17;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+body.newspaper-post main.content p {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  text-align: justify;
+}
+
+body.newspaper-post main.content p:first-of-type::first-letter {
+  float: left;
+  font-size: 4.8rem;
+  line-height: 0.8;
+  padding-right: 0.4rem;
+  font-weight: bold;
+}
+
+body.newspaper-post main.content img {
+  filter: grayscale(100%) contrast(1.1);
+  border: 1px solid #1d1a17;
+}
+
+body.newspaper-post main.content h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #1d1a17;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  body.newspaper-post main.content {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+
+  body.newspaper-post .quarto-title-block,
+  body.newspaper-post main.content h1,
+  body.newspaper-post main.content h2,
+  body.newspaper-post main.content h3,
+  body.newspaper-post main.content img,
+  body.newspaper-post main.content figure,
+  body.newspaper-post main.content blockquote {
+    column-span: all;
+  }
+}
+
+@media (max-width: 700px) {
+  body.newspaper-post main.content {
+    padding: 1.5rem;
+    box-shadow: none;
+  }
+
+  body.newspaper-post main.content p {
+    text-align: left;
+  }
+}

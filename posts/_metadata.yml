@@ -10,3 +10,7 @@ title-block-banner: false
 # Draft support
 # See https://quarto.org/docs/prerelease/1.5/website-drafts.html
 draft-mode: unlinked
+
+format:
+  html:
+    body-classes: newspaper-post

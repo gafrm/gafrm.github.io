@@ -1,0 +1,45 @@
+---
+title: "The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction"
+subtitle: "A publication stemming from my MA thesis"
+author: 
+  - name: Gabriel Frazer-McKee
+  - name: Patrick J. Duffley
+date: "2024-07-24"
+categories: [paper]
+image: "featured.png"
+format:
+  html:
+    css: newspaper.css
+citation:
+  type: article-journal
+  container-title: "International Review of Pragmatics"
+  doi: "https://doi.org/10.1163/18773109-01602002"
+  available-date: "2024-07-24"
+  issued: "2024-07-24"
+  volume: 16
+  issue: 2
+  page: 188-231
+  url: https://brill.com/view/journals/irp/16/2/article-p188_2.xml?srsltid=AfmBOoriHOcTdLI8X_h1OkqNHHWN_NrCyoLaHT_dNnr2y1S3dP93Xndf&ebody=Abstract%2FExcerpt
+google-scholar: true
+---
+
+<!--Include academic icons or bottons-->
+
+{{< include /files/includes/_academic.qmd >}}
+
+
+## Abstract
+
+There are broad disagreements between existing models regarding the mental representations and processes involved in the “DEGREE ADVERB + PROPER NAME” construction, including divergences regarding the semantics of the degree device, the category status of the proper name, the construction’s expressed meaning, its compositionality, and, crucially, the operation holding between the degree device and the proper name. Our corpus-based investigation of two competing models from Construction Grammar and Formal Semantics shows that while both make useful contributions to the scientific understanding of the construction, neither is empirically adequate. Most importantly, we find that the construction participates in several non-predicted expressed meanings; multivariate analyses show that the three meanings amenable to statistical analysis cluster with different semantic usage-features. We argue that the best way to account for the construction’s semantics/pragmatics is via a previously-dismissed cognitive mechanism: an enrichment/strengthening-type operation whereby a pragmatically-supplied scale is added to the message.
+
+
+## Links
+
+Published [paper](https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777)
+
+
+```{=html}
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+```

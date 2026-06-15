@@ -309,3 +309,70 @@ body {
   border: none;
   background: transparent;
 }
+
+/* ---------- Dark mode overrides ---------- */
+
+:root {
+  --cream: #0f1720;
+  --navy: #f3eadf;
+  --rust: #f2a36f;
+  --rust-dark: #ffc49c;
+  --soft-rust: #442716;
+  --text: #f3eadf;
+  --muted: #d4c6b8;
+  --card: #182230;
+  --border: #304050;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+}
+
+.navbar {
+  background: var(--cream) !important;
+}
+
+.navbar-title {
+  color: var(--navy) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--rust) !important;
+}
+
+.hero-text h1,
+.hero-text h2,
+.news-bottom h2 {
+  color: var(--navy);
+}
+
+.hero-text p {
+  color: var(--muted);
+}
+
+.social-row a {
+  color: var(--rust);
+  border-color: var(--rust);
+}
+
+.social-row a:hover {
+  color: var(--cream);
+  background: var(--rust);
+}
+
+.hero-image {
+  filter: brightness(0.92) contrast(1.05);
+}
+
+.quarto-grid-item,
+.card {
+  background: var(--card);
+  border-color: var(--border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.page-footer {
+  background: var(--cream);
+  color: var(--muted);
+}

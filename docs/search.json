@@ -53,21 +53,21 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPassing my second doctoral examination\n\n\n\n\n\n\nphd\n\nmilestone\n\n\n\nA PhD milestone before parental leave.\n\n\n\n\n\nFeb 24, 2026\n\n\nGabriel Frazer-McKee\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nThe cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction\n\n\nA publication stemming from my MA thesis\n\n\n\npaper\n\n\n\n\n\n\n\n\n\nJul 24, 2024\n\n\nGabriel Frazer-McKee, Patrick J. Duffley\n\n\n\n\n\n\n\n\n\n\n\n\nTCHÉCALEX 2024\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nMy first international conference presentation experience\n\n\n\n\n\nMay 26, 2024\n\n\nEvent\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
+    "objectID": "posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html#abstract",
+    "href": "posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html#abstract",
+    "title": "The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction",
+    "section": "Abstract",
+    "text": "Abstract\nThere are broad disagreements between existing models regarding the mental representations and processes involved in the “DEGREE ADVERB + PROPER NAME” construction, including divergences regarding the semantics of the degree device, the category status of the proper name, the construction’s expressed meaning, its compositionality, and, crucially, the operation holding between the degree device and the proper name. Our corpus-based investigation of two competing models from Construction Grammar and Formal Semantics shows that while both make useful contributions to the scientific understanding of the construction, neither is empirically adequate. Most importantly, we find that the construction participates in several non-predicted expressed meanings; multivariate analyses show that the three meanings amenable to statistical analysis cluster with different semantic usage-features. We argue that the best way to account for the construction’s semantics/pragmatics is via a previously-dismissed cognitive mechanism: an enrichment/strengthening-type operation whereby a pragmatically-supplied scale is added to the message."
   },
   {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
+    "objectID": "posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html#links",
+    "href": "posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html#links",
+    "title": "The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction",
+    "section": "Links",
+    "text": "Links\nPublished paper"
   },
   {
     "objectID": "people.html",
@@ -116,21 +116,21 @@
     "href": "index.html#recent-news",
     "title": "Gabriel Frazer-McKee",
     "section": "Recent news",
-    "text": "Recent news\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\nAbout Event item.\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\nAbout new item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\nMay 15, 1935\n\n\n\n\n\n\nNo matching items"
+    "text": "Recent news\n\n\n\n\n\n\n\n\n\n\nPassing my second doctoral examination\n\n\nA PhD milestone before parental leave.\n\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction\n\n\n\n\n\n\nJul 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTCHÉCALEX 2024\n\n\nMy first international conference presentation experience\n\n\n\nMay 26, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+    "objectID": "posts/2024-05-28-Conference-presentation-Pilsen/index.html",
+    "href": "posts/2024-05-28-Conference-presentation-Pilsen/index.html",
+    "title": "TCHÉCALEX 2024",
+    "section": "",
+    "text": "Just got back from Tchécalex 2024, held at the Faculty of Arts of the University of West Bohemia in Plzeň — also known in English as Pilsen — in Czechia.\nBruno (Courbon) and I presented work on French-English comparisons of the degree adverb + Place construction on Twitter/X, with examples such as Hockey is very Montréal. A publication stemming from this preliminary work is planned for the conference proceedings."
   },
   {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
+    "objectID": "posts/2026-02-24-Doctoral-Exam-2/index.html",
+    "href": "posts/2026-02-24-Doctoral-Exam-2/index.html",
+    "title": "Passing my second doctoral examination",
+    "section": "",
+    "text": "I am very happy to share that I have passed my second doctoral examination.\nThis marks an important milestone in my PhD. The examination was based on a substantial written document of about 70 pages, in which I presented the current state of my doctoral project, its theoretical and methodological foundations, and the next stages of the research.\nI am especially grateful to the members of my committee, who agreed to evaluate the document within a tight timeline before I began parental leave. I know that reading and assessing a long doctoral examination document requires a significant investment of time and attention, and I truly appreciated their generosity, availability, and constructive feedback.\nWith this second examination completed, the project is now moving more fully into the thesis research phase. The next steps include continuing work on the scoping review, advancing the empirical components of the thesis, and preparing for the next stages of data collection and analysis.\nIt feels good to reach this point. Doctoral work is rarely linear, and this milestone represents not only the completion of a program requirement, but also a clearer sense of where the project is going."
   },
   {
     "objectID": "projects.html",

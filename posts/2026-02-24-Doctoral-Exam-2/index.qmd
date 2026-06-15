@@ -1,0 +1,24 @@
+---
+title: "Passing my second doctoral examination"
+description: "A PhD milestone before parental leave."
+author: "Gabriel Frazer-McKee"
+date: "2026-02-24"
+categories: [phd, milestone]
+image: "featured.png"
+#draft: true
+---
+
+I am very happy to share that I have passed my second doctoral examination.
+
+This marks an important milestone in my PhD. The examination was based on a substantial written document of about 70 pages, in which I presented the current state of my doctoral project, its theoretical and methodological foundations, and the next stages of the research.
+
+I am especially grateful to the members of my committee, who agreed to evaluate the document within a tight timeline before I began parental leave. I know that reading and assessing a long doctoral examination document requires a significant investment of time and attention, and I truly appreciated their generosity, availability, and constructive feedback.
+
+With this second examination completed, the project is now moving more fully into the thesis research phase. The next steps include continuing work on the scoping review, advancing the empirical components of the thesis, and preparing for the next stages of data collection and analysis.
+
+It feels good to reach this point. Doctoral work is rarely linear, and this milestone represents not only the completion of a program requirement, but also a clearer sense of where the project is going.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
