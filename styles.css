@@ -345,3 +345,45 @@ body {
   color: var(--rust);
   background: rgba(166, 70, 19, 0.08);
 }
+
+/* ---------- Search overlay styling ---------- */
+
+/* Dim + blur the page behind Quarto's search overlay */
+.aa-DetachedOverlay {
+  background: rgba(251, 246, 235, 0.55) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Center/top search modal styling */
+.aa-DetachedContainer {
+  background: var(--cream) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 22px 60px rgba(7, 48, 74, 0.22) !important;
+  margin-top: 5rem !important;
+}
+
+/* Search input */
+.aa-DetachedContainer .aa-Form {
+  border: 2px solid var(--rust) !important;
+  border-radius: 999px !important;
+  background: var(--cream) !important;
+}
+
+/* Search text */
+.aa-DetachedContainer .aa-Input {
+  color: var(--navy) !important;
+  font-family: "Source Sans 3", system-ui, sans-serif !important;
+}
+
+/* Search results panel */
+.aa-DetachedContainer .aa-Panel {
+  background: var(--cream) !important;
+  color: var(--navy) !important;
+}
+
+/* Search result hover */
+.aa-DetachedContainer .aa-Item[aria-selected="true"] {
+  background: rgba(166, 70, 19, 0.08) !important;
+}

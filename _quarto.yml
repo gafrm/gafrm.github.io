@@ -69,10 +69,10 @@ website:
       - icon: rss
         href: posts.xml
         target: _blank
-  
+        
   search:
     location: navbar
-    type: textbox
+    type: overlay
   
   reader-mode: true
 
