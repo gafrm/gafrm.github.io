@@ -1,14 +1,15 @@
 ---
 title: "Gabriel Frazer-McKee"
 page-layout: full
+toc: false
 listing:
   - id: recent-news
     contents: posts
     sort: "date desc"
     type: grid
     max-items: 3
-    categories: true
-    fields: [image, date, title, description, categories]
+    categories: false
+    fields: [image, date, title, description]
 ---
 
 ::: {.landing-page}
@@ -23,8 +24,10 @@ listing:
 
 ::: {.social-row}
 [{{< fa brands github >}}](https://github.com/gafrm)
-[{{< fa brands orcid >}}](https://orcid.org)
-[{{< fa solid graduation-cap >}}](https://scholar.google.com)
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-0860-6192)
+[{{< fa brands researchgate >}}](https://www.researchgate.net/profile/Gabriel-Frazer-Mckee)
+[{{< fa brands linkedin-in >}}](https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/)
+[{{< fa solid graduation-cap >}}](https://scholar.google.com/citations?hl=en&user=MWAQth4AAAAJ)
 [{{< fa solid envelope >}}](contact.qmd)
 :::
 
@@ -35,8 +38,7 @@ I study neology, lexical diffusion, corpus linguistics, lexicography, and method
 :::
 
 ::: {.hero-graphic}
-
-::: {.circle-graphic}
+![](files/images/frontpage-portrait.png){.hero-image}
 :::
 
 :::

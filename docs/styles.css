@@ -111,8 +111,9 @@ body {
 .social-row {
   display: flex;
   justify-content: center;
-  gap: 0.85rem;
+  gap: 0.6rem;
   margin-bottom: 1.2rem;
+  flex-wrap: wrap;
 }
 
 .social-row a {
@@ -296,4 +297,51 @@ body {
 .news-bottom .quarto-grid-item:active {
   transform: translateY(-2px) scale(0.99);
   box-shadow: 0 8px 20px rgba(7, 48, 74, 0.12);
+}
+
+.hero-image {
+  width: min(390px, 75vw);
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  display: block;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/* Force top-left dropdown to look like the site title */
+
+#quarto-header nav.navbar .navbar-nav.me-auto .nav-link.dropdown-toggle,
+#quarto-header nav.navbar .navbar-nav.me-auto .nav-link {
+  color: var(--navy) !important;
+  font-family: "Source Sans 3", system-ui, sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+}
+
+#quarto-header nav.navbar .navbar-nav.me-auto .nav-link.dropdown-toggle:hover,
+#quarto-header nav.navbar .navbar-nav.me-auto .nav-link:hover {
+  color: var(--rust) !important;
+}
+
+/* Optional: make the dropdown menu itself match the site */
+
+#quarto-header .dropdown-menu {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 28px rgba(7, 48, 74, 0.12);
+}
+
+#quarto-header .dropdown-item {
+  color: var(--navy);
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 1rem;
+}
+
+#quarto-header .dropdown-item:hover {
+  color: var(--rust);
+  background: rgba(166, 70, 19, 0.08);
 }
