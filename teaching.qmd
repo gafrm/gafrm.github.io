@@ -4,64 +4,60 @@ subtitle: "I teach."
 title-block-banner: false
 ---
 
+I have over a decade of teaching experience in linguistics and French-language studies. During this time, I have taught more than ten course sections as instructor of record and served as a teaching assistant for roughly twice as many. My teaching has covered areas such as lexicology, introductory linguistics, grammar, writing, and language acquisition.
 
-## Class 1
+Below is a selection of courses I have taught recently as instructor of record.
+
+## Introduction to Linguistics
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
 ![](files/images/placeholder1.jpg)
-
 :::
 
 ::: {.g-col-12 .g-col-md-10}
+**Université Laval**  
+Fall 2025; Fall 2023; Fall 2022  
+Instructor of record
 
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 1 introduction.
-
+An introductory course covering the main areas of linguistic analysis, including sounds, words, sentences, meaning, language variation, and the structure of human language.
 :::
 
 :::
 
-
-## Class 2
+## Lexicologie
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
 ![](files/images/placeholder2.JPG)
-
 :::
 
 ::: {.g-col-12 .g-col-md-10}
+**Université Laval**  
+Winter 2025; Winter 2024  
+Instructor of record
 
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 2 introduction.
-
+A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and the role of usage in lexical analysis.
 :::
 
 :::
 
-
-## Class 3
+## Understanding Grammar
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
 ![](files/images/placeholder3.JPG)
-
 :::
 
 ::: {.g-col-12 .g-col-md-10}
+**Université Laval**  
+Fall 2024  
+Instructor of record
 
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
-
-Class 3 introduction. 
-
+A course focused on grammatical analysis and the tools used to describe language structure, with attention to how grammar works in actual language use.
 :::
 
 :::
-
-
