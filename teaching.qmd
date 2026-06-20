@@ -26,7 +26,7 @@ An introductory course covering the main areas of linguistic analysis, including
 
 :::
 
-## Lexicologie
+## Lexicology
 
 ::: {.grid}
 
@@ -39,7 +39,7 @@ An introductory course covering the main areas of linguistic analysis, including
 Winter 2025; Winter 2024  
 Instructor of record
 
-A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and the role of usage in lexical analysis.
+A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and standard methods used to investigate these objects. 
 :::
 
 :::

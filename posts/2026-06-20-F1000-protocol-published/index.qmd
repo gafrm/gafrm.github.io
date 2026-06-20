@@ -1,0 +1,31 @@
+---
+
+title: "Protocol published in F1000Research"
+description: "A first published step in my doctoral research on neological diffusion."
+author: "Gabriel Frazer-McKee"
+date: "2026-06-20"
+categories: [phd, publication, scoping-review, neology]
+image: "featured.png"
+#draft: true
+------------
+
+I am very pleased to share that the protocol for the first study of my doctoral thesis has now been published in *F1000Research*.
+
+The article, entitled “[Linguistic and extralinguistic factors associated with neological (non-)diffusion: A protocol for a scoping review of the English- and French-language literatures (1952–2026)](https://f1000research.com/articles/15-984),” sets out the methodological plan for a scoping review on the factors associated with the diffusion — and non-diffusion — of neologisms.
+
+This is an important milestone for the thesis. The review aims to map how researchers have studied neological diffusion across more than seven decades of English- and French-language scholarship. More specifically, it asks what kinds of linguistic, social, institutional, communicational, and methodological factors have been associated with whether new lexical items circulate, stabilize, remain marginal, or disappear.
+
+Publishing a protocol is not the same thing as publishing results, but that is precisely why I find it valuable. A protocol makes the research design visible before the review is completed. It clarifies the questions being asked, the sources being searched, the eligibility criteria being applied, and the information that will be charted from the included studies. For a project that deals with a heterogeneous literature — across linguistics, terminology, lexicography, sociolinguistics, corpus studies, and related fields — that kind of explicit methodological groundwork is essential.
+
+The article is also part of a broader commitment to open and transparent research practices. The protocol is accompanied by materials deposited on OSF, including search documentation and data-charting resources. My hope is that these materials will make the review easier to evaluate, reproduce, and build on.
+
+I am grateful to my co-authors, Émilie Paquette Raynard, Nicolas Gignac, Davie Dulude, and Bruno Courbon, for their contributions to this project. I am especially thankful to Bruno for his continued guidance as the thesis takes shape, and to the team for helping move this first major piece of the project forward.
+
+The next step is to complete the review itself: finishing the source collection, screening the records, charting the data, and synthesizing what the literature can tell us about the conditions under which neologisms diffuse — or fail to diffuse.
+
+It feels good to see this first protocol published. Doctoral work often advances through long stretches of planning, reading, revising, and reorganizing before anything becomes publicly visible. This publication makes one part of that work visible, and marks a real step forward in the thesis.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
