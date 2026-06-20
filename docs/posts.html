@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="description" content="Posts about papers, events, news, and more">
 
-<title>Gabriel Frazer-McKee</title>
+<title>What’s New &amp; Updated – Gabriel Frazer-McKee</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -47,8 +47,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-31eaf266902e15e6572a3934ae2616ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,14 +163,14 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Gabriel Frazer-McKee">
-<meta property="og:description" content="Academic website of Gabriel Frazer-McKee">
+<link rel="alternate" type="application/rss+xml" title="Gabriel Frazer-McKee" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – Gabriel Frazer-McKee">
+<meta property="og:description" content="Posts about papers, events, news, and more">
 <meta property="og:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
 <meta property="og:site_name" content="Gabriel Frazer-McKee">
 <meta property="og:image:height" content="941">
 <meta property="og:image:width" content="1672">
-<meta name="twitter:title" content="Gabriel Frazer-McKee">
-<meta name="twitter:description" content="Academic website of Gabriel Frazer-McKee">
+<meta name="twitter:title" content="What’s New &amp; Updated – Gabriel Frazer-McKee">
+<meta name="twitter:description" content="Posts about papers, events, news, and more">
 <meta name="twitter:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
 <meta name="twitter:image-height" content="941">
 <meta name="twitter:image-width" content="1672">
@@ -241,7 +239,7 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -275,21 +273,24 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWlsZXN0b25l">milestone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmVvbG9neQ==">neology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhk">phd <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2NvcGluZy1yZXZpZXc=">scoping-review <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gabriel Frazer-McKee</h1>
+<h1 class="title">What’s New &amp; Updated</h1>
+<p class="subtitle lead">Posts about papers, events, news, and more</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -301,101 +302,218 @@ window.Quarto = {
 </header>
 
 
-<div class="landing-page">
-<div class="hero-grid">
-<section id="gabriel-frazer-mckee" class="level1 hero-text">
-<h1>Gabriel Frazer-McKee</h1>
-<section id="phd-candidate-in-linguistics-at-université-laval" class="level2">
-<h2 class="anchored" data-anchor-id="phd-candidate-in-linguistics-at-université-laval">PhD candidate in linguistics at Université Laval</h2>
-<div class="social-row">
-<p><a href="https://github.com/gafrm"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-0860-6192"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://www.researchgate.net/profile/Gabriel-Frazer-Mckee"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i></a> <a href="https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/"><i class="fa-brands fa-linkedin-in" aria-label="linkedin-in"></i></a> <a href="https://scholar.google.com/citations?hl=en&amp;user=MWAQth4AAAAJ"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i></a> <a href="./contact.html"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<div id="posts">
+
 </div>
-<p>I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.</p>
-<p><a href="about.qmd" class="learn-more">Learn more about me →</a></p>
-</section>
-</section>
-<div class="hero-graphic">
-<p><img src="files/images/frontpage-portrait.png" class="hero-image img-fluid"></p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="cGhkJTJDcHVibGljYXRpb24lMkNzY29waW5nLXJldmlldyUyQ25lb2xvZ3k=" data-listing-date-sort="1781928000000" data-listing-file-modified-sort="1781973308837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
+<div class="thumbnail"><a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2026-06-20-F1000-protocol-published/featured.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="no-external">Protocol published in F1000Research</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="no-external"></a>
 </div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGhk'); return false;">phd</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2NvcGluZy1yZXZpZXc='); return false;">scoping-review</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvbG9neQ=='); return false;">neology</div>
+
 </div>
-<section id="recent-news" class="level2 news-bottom">
-<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
-<div id="listing-recent-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGhkJTJDcHVibGljYXRpb24lMkNzY29waW5nLXJldmlldyUyQ25lb2xvZ3k=" data-listing-date-sort="1781928000000" data-listing-file-modified-sort="1781973308837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
-<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-06-20-F1000-protocol-published/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Protocol published in F1000Research
-</h5>
-<div class="card-text listing-description delink">
+<div class="delink listing-description"><a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="no-external">
 <p>A first published step in my doctoral research on neological diffusion.</p>
+</a></div>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="metadata">
+<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="no-external">
 <div class="listing-date">
 Jun 20, 2026
 </div>
+<div class="listing-author">
+Gabriel Frazer-McKee
+</div>
+</a>
 </div>
 </div>
-</div></a>
+<div class="quarto-post image-right" data-index="1" data-categories="cGhkJTJDbWlsZXN0b25l" data-listing-date-sort="1771909200000" data-listing-file-modified-sort="1781522558985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="thumbnail"><a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2026-02-24-Doctoral-Exam-2/featured.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="no-external">Passing my second doctoral examination</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="no-external"></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cGhkJTJDbWlsZXN0b25l" data-listing-date-sort="1771909200000" data-listing-file-modified-sort="1781522558985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-02-24-Doctoral-Exam-2/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Passing my second doctoral examination
-</h5>
-<div class="card-text listing-description delink">
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGhk'); return false;">phd</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWlsZXN0b25l'); return false;">milestone</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="no-external">
 <p>A PhD milestone before parental leave.</p>
+</a></div>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="metadata">
+<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="no-external">
 <div class="listing-date">
 Feb 24, 2026
 </div>
+<div class="listing-author">
+Gabriel Frazer-McKee
+</div>
+</a>
 </div>
 </div>
-</div></a>
+<div class="quarto-post image-right" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
+<div class="thumbnail"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
+
+<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">Quarto Academic Website Examples and Tips</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="cGFwZXI=" data-listing-date-sort="1721793600000" data-listing-file-modified-sort="1781542171640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
-<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction
-</h5>
-<div class="card-text listing-description delink">
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
+<div class="delink listing-description"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
+<p>Examples and tips for Quarto Academic Website</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
+<div class="listing-date">
+Oct 15, 2024
+</div>
+<div class="listing-author">
+Dr.&nbsp;Gang He
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXI=" data-listing-date-sort="1721793600000" data-listing-file-modified-sort="1781542171640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<div class="thumbnail"><a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="no-external">The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="no-external">A publication stemming from my MA thesis</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="no-external">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</a></div>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="metadata">
+<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="no-external">
 <div class="listing-date">
 Jul 24, 2024
 </div>
+<div class="listing-author">
+Gabriel Frazer-McKee, Patrick J. Duffley
+</div>
+</a>
 </div>
 </div>
-</div></a>
+<div class="quarto-post image-right" data-index="4" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1716696000000" data-listing-file-modified-sort="1781542218545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="thumbnail"><a href="./posts/2024-05-28-Conference-presentation-Pilsen/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-05-28-Conference-presentation-Pilsen/index.html" class="no-external">TCHÉCALEX 2024</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-05-28-Conference-presentation-Pilsen/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnQ='); return false;">event</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">presentation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2024-05-28-Conference-presentation-Pilsen/index.html" class="no-external">
+<p>My first international conference presentation experience</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2024-05-28-Conference-presentation-Pilsen/index.html" class="no-external">
+<div class="listing-date">
+May 26, 2024
+</div>
+<div class="listing-author">
+Event
+</div>
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<p>:::</p>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

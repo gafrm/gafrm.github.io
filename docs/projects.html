@@ -9,7 +9,7 @@
 <meta name="author" content="Dr.&nbsp;Gang He">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>Gabriel Frazer-McKee</title>
+<title>Projects – Gabriel Frazer-McKee</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -47,8 +47,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-31eaf266902e15e6572a3934ae2616ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-subtitle','listing-description','listing-funding','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-author","listing-subtitle","listing-description","listing-started","listing-ended","listing-funding"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,17 +163,13 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Gabriel Frazer-McKee">
-<meta property="og:description" content="Academic website of Gabriel Frazer-McKee">
-<meta property="og:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
+<meta property="og:title" content="Projects – Gabriel Frazer-McKee">
+<meta property="og:description" content="Funded projects">
+<meta property="og:image" content="https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png">
 <meta property="og:site_name" content="Gabriel Frazer-McKee">
-<meta property="og:image:height" content="941">
-<meta property="og:image:width" content="1672">
-<meta name="twitter:title" content="Gabriel Frazer-McKee">
-<meta name="twitter:description" content="Academic website of Gabriel Frazer-McKee">
-<meta name="twitter:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
-<meta name="twitter:image-height" content="941">
-<meta name="twitter:image-width" content="1672">
+<meta name="twitter:title" content="Projects – Gabriel Frazer-McKee">
+<meta name="twitter:description" content="Funded projects">
+<meta name="twitter:image" content="https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -233,7 +227,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -278,13 +272,16 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gabriel Frazer-McKee</h1>
+<h1 class="title">Projects</h1>
+<p class="subtitle lead">Funded projects</p>
 </div>
 
 
@@ -301,96 +298,125 @@ window.Quarto = {
 </header>
 
 
-<div class="landing-page">
-<div class="hero-grid">
-<section id="gabriel-frazer-mckee" class="level1 hero-text">
-<h1>Gabriel Frazer-McKee</h1>
-<section id="phd-candidate-in-linguistics-at-université-laval" class="level2">
-<h2 class="anchored" data-anchor-id="phd-candidate-in-linguistics-at-université-laval">PhD candidate in linguistics at Université Laval</h2>
-<div class="social-row">
-<p><a href="https://github.com/gafrm"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-0860-6192"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://www.researchgate.net/profile/Gabriel-Frazer-Mckee"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i></a> <a href="https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/"><i class="fa-brands fa-linkedin-in" aria-label="linkedin-in"></i></a> <a href="https://scholar.google.com/citations?hl=en&amp;user=MWAQth4AAAAJ"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i></a> <a href="./contact.html"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-projects-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-projects'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Team
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Funder
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-started" data-direction="asc">
+        Start
+      </option>
+      <option value="listing-ended" data-direction="asc">
+        End
+      </option>
+      <option value="listing-funding" data-direction="asc">
+        Funding
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<p>I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.</p>
-<p><a href="about.qmd" class="learn-more">Learn more about me →</a></p>
-</section>
-</section>
-<div class="hero-graphic">
-<p><img src="files/images/frontpage-portrait.png" class="hero-image img-fluid"></p>
-</div>
-</div>
-</div>
-<section id="recent-news" class="level2 news-bottom">
-<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
-<div id="listing-recent-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGhkJTJDcHVibGljYXRpb24lMkNzY29waW5nLXJldmlldyUyQ25lb2xvZ3k=" data-listing-date-sort="1781928000000" data-listing-file-modified-sort="1781973308837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
-<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-06-20-F1000-protocol-published/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Protocol published in F1000Research
-</h5>
-<div class="card-text listing-description delink">
-<p>A first published step in my doctoral research on neological diffusion.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cGhkJTJDbWlsZXN0b25l" data-listing-date-sort="1771909200000" data-listing-file-modified-sort="1781522558985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-02-24-Doctoral-Exam-2/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Passing my second doctoral examination
-</h5>
-<div class="card-text listing-description delink">
-<p>A PhD milestone before parental leave.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 24, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cGFwZXI=" data-listing-date-sort="1721793600000" data-listing-file-modified-sort="1781542171640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
-<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction
-</h5>
-<div class="card-text listing-description delink">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 24, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Team</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Funder</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-funding" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Funding</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Start</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">End</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-title-sort="Exploring ">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nsf.gov/" class="title listing-title">Exploring </a>
+</td>
+<td>
+<span class="listing-author">Academic Website</span>
+</td>
+<td>
+<span class="listing-subtitle">Funder</span>
+</td>
+<td>
+<span class="listing-description">The goal of this project is to investigate .</span>
+</td>
+<td>
+<span class="listing-funding">$0</span>
+</td>
+<td>
+<span class="listing-started">2024</span>
+</td>
+<td>
+<span class="listing-ended">2025</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
-<p>:::</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
 

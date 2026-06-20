@@ -1,13 +1,12 @@
 ---
-
 title: "Protocol published in F1000Research"
 description: "A first published step in my doctoral research on neological diffusion."
 author: "Gabriel Frazer-McKee"
 date: "2026-06-20"
 categories: [phd, publication, scoping-review, neology]
 image: "featured.png"
-#draft: true
-------------
+##draft: true
+---
 
 I am very pleased to share that the protocol for the first study of my doctoral thesis has now been published in *F1000Research*.
 

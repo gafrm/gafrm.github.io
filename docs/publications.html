@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="description" content="Information, pdfs, and social metrics of papers">
 
-<title>Gabriel Frazer-McKee</title>
+<title>Publications – Gabriel Frazer-McKee</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,8 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -47,8 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-31eaf266902e15e6572a3934ae2616ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -134,49 +101,15 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Gabriel Frazer-McKee">
+<link rel="stylesheet" href="custom.css">
+<meta property="og:title" content="Publications – Gabriel Frazer-McKee">
 <meta property="og:description" content="Academic website of Gabriel Frazer-McKee">
-<meta property="og:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
 <meta property="og:site_name" content="Gabriel Frazer-McKee">
-<meta property="og:image:height" content="941">
-<meta property="og:image:width" content="1672">
-<meta name="twitter:title" content="Gabriel Frazer-McKee">
+<meta name="twitter:title" content="Publications – Gabriel Frazer-McKee">
 <meta name="twitter:description" content="Academic website of Gabriel Frazer-McKee">
-<meta name="twitter:image" content="https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/featured.png">
-<meta name="twitter:image-height" content="941">
-<meta name="twitter:image-width" content="1672">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -245,7 +178,7 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -275,21 +208,29 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#selected-work" id="toc-selected-work" class="nav-link active" data-scroll-target="#selected-work">Selected Work</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gabriel Frazer-McKee</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -301,99 +242,53 @@ window.Quarto = {
 </header>
 
 
-<div class="landing-page">
-<div class="hero-grid">
-<section id="gabriel-frazer-mckee" class="level1 hero-text">
-<h1>Gabriel Frazer-McKee</h1>
-<section id="phd-candidate-in-linguistics-at-université-laval" class="level2">
-<h2 class="anchored" data-anchor-id="phd-candidate-in-linguistics-at-université-laval">PhD candidate in linguistics at Université Laval</h2>
-<div class="social-row">
-<p><a href="https://github.com/gafrm"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-0860-6192"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://www.researchgate.net/profile/Gabriel-Frazer-Mckee"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i></a> <a href="https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/"><i class="fa-brands fa-linkedin-in" aria-label="linkedin-in"></i></a> <a href="https://scholar.google.com/citations?hl=en&amp;user=MWAQth4AAAAJ"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i></a> <a href="./contact.html"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<!--Include academic icons or buttons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<p>Notes: * corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; <img src="https://drganghe.github.io/files/images/highly-cited-paper-badge.png" title="ESI Highly Cited Paper" class="img-fluid" alt="Highly cited paper" width="20"> ESI <a href="https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html">Highly Cited Paper</a> (top 1%); <img src="https://drganghe.github.io/files/images/hot-paper-badge.png" title="ESI Hot Paper" class="img-fluid" alt="Hot paper" width="20"> ESI <a href="https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html">Hot Paper</a> (top 0.1%)</p>
+<p>Total citations as of January 2025:</p>
+<ul>
+<li><a href="https://www.webofscience.com">Web of Science</a>: 100,000 (h-index = 100)<br>
+</li>
+<li><a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ&amp;hl=en">Google Scholar</a>: 179,000 (h-index = 127, i10-index = 377)</li>
+</ul>
+<section id="selected-work" class="level2">
+<h2 class="anchored" data-anchor-id="selected-work">Selected Work</h2>
+Einstein, A., Podolsky, B., &amp; Rosen, N. (1935). <a href="posts/paper-title/index.qmd">Can quantum-mechanical description of physical reality be considered complete?</a>. <em>Physical review</em>, 47(10), 777. [<a href="https://scholar.google.com/">pdf</a>] [<a href="https://doi.org">code and data</a>] <img src="https://drganghe.github.io/files/images/highly-cited-paper-badge.png" title="ESI Highly Cited Paper" class="img-fluid" alt="Highly cited paper" width="20"> <img src="https://drganghe.github.io/files/images/hot-paper-badge.png" title="ESI Hot Paper" class="img-fluid" alt="Hot paper" width="20"> <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span>
+<div class="altmetric-embed" data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true">
+
 </div>
-<p>I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.</p>
-<p><a href="about.qmd" class="learn-more">Learn more about me →</a></p>
-</section>
-</section>
-<div class="hero-graphic">
-<p><img src="files/images/frontpage-portrait.png" class="hero-image img-fluid"></p>
+<center>
+<hr style="width:50%">
+</center>
+Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. <em>American Journal of Physics</em>, 33(5), 367. [<a href="https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf">pdf</a>] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span>
+<div class="altmetric-embed" data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true">
+
 </div>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
 </div>
-</div>
-<section id="recent-news" class="level2 news-bottom">
-<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
-<div id="listing-recent-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGhkJTJDcHVibGljYXRpb24lMkNzY29waW5nLXJldmlldyUyQ25lb2xvZ3k=" data-listing-date-sort="1781928000000" data-listing-file-modified-sort="1781973308837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
-<a href="./posts/2026-06-20-F1000-protocol-published/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-06-20-F1000-protocol-published/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Protocol published in F1000Research
-</h5>
-<div class="card-text listing-description delink">
-<p>A first published step in my doctoral research on neological diffusion.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cGhkJTJDbWlsZXN0b25l" data-listing-date-sort="1771909200000" data-listing-file-modified-sort="1781522558985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<a href="./posts/2026-02-24-Doctoral-Exam-2/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-02-24-Doctoral-Exam-2/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Passing my second doctoral examination
-</h5>
-<div class="card-text listing-description delink">
-<p>A PhD milestone before parental leave.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 24, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cGFwZXI=" data-listing-date-sort="1721793600000" data-listing-file-modified-sort="1781542171640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
-<a href="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction
-</h5>
-<div class="card-text listing-description delink">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 24, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<p>:::</p>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
