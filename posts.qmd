@@ -1,21 +1,21 @@
 ---
-title: "What’s New & Updated"
-subtitle: "Posts about papers, events, news, and more"
+title: "Blog"
+subtitle: "Notes on doctoral research, neology, academic life, conferences, funding, and more"
 description-meta: "Posts about papers, events, news, and more"
+
 listing: 
   sort: "date desc"
-  type: default
+  type: grid
   page-size: 100
-  categories: true
-  sort-ui: true
-  filter-ui: true
+  categories: false
+  sort-ui: false
+  filter-ui: false
   feed: true
   contents: 
       - posts
-      - posts/post-links.yml  # Use this file to add external links
-#      categories: [] 
+      - posts/post-links.yml
 
-#page-layout: full
+page-layout: full
 draft-mode: unlinked
 page-navigation: false
 title-block-banner: false

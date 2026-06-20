@@ -5,7 +5,7 @@ project:
     - py xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
     
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+description-meta: "Quarto Academic Website Template adapted from a template by Dr. Gang He"
 author-meta: "Dr. Gang He"
 
 website:
