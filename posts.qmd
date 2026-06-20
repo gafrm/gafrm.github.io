@@ -16,6 +16,7 @@ listing:
       - posts/post-links.yml
 
 page-layout: full
+body-classes: blog-page
 draft-mode: unlinked
 page-navigation: false
 title-block-banner: false

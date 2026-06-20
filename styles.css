@@ -274,9 +274,9 @@ body {
 /* ---------- Recent news / blog card hover effects ---------- */
 
 .news-bottom .quarto-grid-item,
+.blog-page .quarto-grid-item,
 .news-bottom .card,
-#posts .quarto-grid-item,
-#posts .card {
+.blog-page .card {
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -286,9 +286,9 @@ body {
 }
 
 .news-bottom .quarto-grid-item:hover,
+.blog-page .quarto-grid-item:hover,
 .news-bottom .card:hover,
-#posts .quarto-grid-item:hover,
-#posts .card:hover {
+.blog-page .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 16px 36px rgba(7, 48, 74, 0.16);
   border-color: var(--rust);
@@ -297,40 +297,21 @@ body {
 
 .news-bottom .quarto-grid-item:hover .listing-title,
 .news-bottom .quarto-grid-item:hover .card-title,
+.blog-page .quarto-grid-item:hover .listing-title,
+.blog-page .quarto-grid-item:hover .card-title,
 .news-bottom .card:hover .listing-title,
 .news-bottom .card:hover .card-title,
-#posts .quarto-grid-item:hover .listing-title,
-#posts .quarto-grid-item:hover .card-title,
-#posts .card:hover .listing-title,
-#posts .card:hover .card-title {
+.blog-page .card:hover .listing-title,
+.blog-page .card:hover .card-title {
   color: var(--rust);
 }
 
 .news-bottom .quarto-grid-item:active,
+.blog-page .quarto-grid-item:active,
 .news-bottom .card:active,
-#posts .quarto-grid-item:active,
-#posts .card:active {
+.blog-page .card:active {
   transform: translateY(-2px) scale(0.99);
   box-shadow: 0 8px 20px rgba(7, 48, 74, 0.12);
-}
-
-/* Optional: make the dropdown menu itself match the site */
-
-#quarto-header .dropdown-menu {
-  background: var(--cream);
-  border: 1px solid var(--border);
-  box-shadow: 0 12px 28px rgba(7, 48, 74, 0.12);
-}
-
-#quarto-header .dropdown-item {
-  color: var(--navy);
-  font-family: "Source Sans 3", system-ui, sans-serif;
-  font-size: 1rem;
-}
-
-#quarto-header .dropdown-item:hover {
-  color: var(--rust);
-  background: rgba(166, 70, 19, 0.08);
 }
 
 /* ---------- Search overlay styling ---------- */
@@ -601,3 +582,5 @@ body.newspaper-post main.content h2 {
     min-height: 13rem;
   }
 }
+
+
