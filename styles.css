@@ -274,7 +274,9 @@ body {
 /* ---------- Recent news / blog card hover effects ---------- */
 
 .news-bottom .quarto-grid-item,
-#posts .quarto-grid-item {
+.news-bottom .card,
+#posts .quarto-grid-item,
+#posts .card {
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -284,7 +286,9 @@ body {
 }
 
 .news-bottom .quarto-grid-item:hover,
-#posts .quarto-grid-item:hover {
+.news-bottom .card:hover,
+#posts .quarto-grid-item:hover,
+#posts .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 16px 36px rgba(7, 48, 74, 0.16);
   border-color: var(--rust);
@@ -293,32 +297,21 @@ body {
 
 .news-bottom .quarto-grid-item:hover .listing-title,
 .news-bottom .quarto-grid-item:hover .card-title,
+.news-bottom .card:hover .listing-title,
+.news-bottom .card:hover .card-title,
 #posts .quarto-grid-item:hover .listing-title,
-#posts .quarto-grid-item:hover .card-title {
+#posts .quarto-grid-item:hover .card-title,
+#posts .card:hover .listing-title,
+#posts .card:hover .card-title {
   color: var(--rust);
 }
 
 .news-bottom .quarto-grid-item:active,
-#posts .quarto-grid-item:active {
+.news-bottom .card:active,
+#posts .quarto-grid-item:active,
+#posts .card:active {
   transform: translateY(-2px) scale(0.99);
   box-shadow: 0 8px 20px rgba(7, 48, 74, 0.12);
-}
-
-/* Force top-left dropdown to look like the site title */
-
-#quarto-header nav.navbar .navbar-nav.me-auto .nav-link.dropdown-toggle,
-#quarto-header nav.navbar .navbar-nav.me-auto .nav-link {
-  color: var(--navy) !important;
-  font-family: "Source Sans 3", system-ui, sans-serif !important;
-  font-size: 1.05rem !important;
-  font-weight: 800 !important;
-  letter-spacing: 0.13em !important;
-  text-transform: uppercase !important;
-}
-
-#quarto-header nav.navbar .navbar-nav.me-auto .nav-link.dropdown-toggle:hover,
-#quarto-header nav.navbar .navbar-nav.me-auto .nav-link:hover {
-  color: var(--rust) !important;
 }
 
 /* Optional: make the dropdown menu itself match the site */
