@@ -54,7 +54,7 @@ A course on the study of the lexicon, with attention to word formation, lexical 
 
 ::: {.g-col-12 .g-col-md-10}
 **Université Laval**  
-Fall 2024  
+[Fall 2024](https://web.archive.org/web/20240731222708/https://www.ulaval.ca/etudes/cours/ang-2502-understanding-grammar)    
 Instructor of record
 
 A course focused on grammatical analysis and the tools used to describe language structure, with attention to how grammar works in actual language use.
