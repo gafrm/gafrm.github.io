@@ -1,0 +1,46 @@
+---
+title: "Going on paid parental leave during a PhD"
+description: "A reflection on interrupting my doctoral studies"
+author: "Gabriel Frazer-McKee"
+date: "2026-02-25"
+categories: [PhD, Funding, SSHRC, Parenting]
+image: "featured.png"
+image-alt: "A father holding his newborn"
+##draft: true
+---
+
+**Going on paid parental leave during a PhD**
+
+I am about to go on paid parental leave.
+
+That sentence feels simple, but in the context of a PhD it carries a surprising amount of weight. Doctoral timelines are often imagined as linear: coursework, exams, data collection, analysis, writing, defence. Even when everyone knows that life is more complicated than that, the imagined shape of the degree still tends to be uninterrupted. Progress is measured in milestones, submissions, chapters, articles, conferences, and deadlines.
+
+A child does not fit neatly into that calendar.
+
+Georges arrived earlier than expected, and his first year has changed the rhythm of my doctoral work in ways that are difficult to summarize. There have been hospital memories, appointments, paperwork, fatigue, joy, worry, and then the ordinary, repetitive, beautiful work of caring for a baby. The thesis has continued in the background, sometimes steadily and sometimes not. But it has no longer been possible — or desirable — to pretend that doctoral research exists outside the rest of life.
+
+This is why paid parental leave matters.
+
+Through the Tri-agency award-holder rules, a SSHRC doctoral award can be interrupted for paid parental leave. In administrative terms, this is a policy about award interruptions, eligibility, primary caregiving, and stipend payments. In human terms, it means that I can pause my doctoral funding and step more fully into caregiving without treating that pause as a rupture or a personal failure.
+
+I find that important.
+
+Graduate students are often encouraged to think of funding as recognition: a sign that a project is promising, that an application was successful, that a student has demonstrated potential. That is true, but it is incomplete. Funding is also infrastructure. It is one of the things that makes research materially possible. It pays rent. It buys time. It protects continuity. And, in this case, it creates room for a doctoral student to become a parent without the entire structure of the degree collapsing.
+
+I am grateful for that.
+
+I am also aware that going on leave produces its own complicated feelings. Part of me is relieved. Part of me is anxious about stepping back from a project that already feels too large and too delayed. Part of me worries about losing momentum. Another part of me knows that the language of “momentum” can become cruel when applied to care work, illness, birth, prematurity, and family life.
+
+There is a strange tension here. On paper, parental leave is an interruption. But in reality, it is not an interruption of life. It is life. The administrative system pauses the award so that caregiving can happen, but the broader work of becoming a researcher does not simply stop. I suspect this year will shape how I understand academic work, institutional support, and the hidden conditions that make scholarship possible.
+
+I do not know exactly what returning will look like. I know there will be data to collect, articles to write, collaborators to update, and timelines to revise. I know I will probably return with some frustration about lost time. But I also hope I will return with a clearer sense of what kind of academic life I want to build: one that does not depend on pretending that care is peripheral to serious work.
+
+For now, I am trying to accept the pause as legitimate.
+
+Not as a detour from the doctorate, and not as an apology.
+
+As part of it.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
