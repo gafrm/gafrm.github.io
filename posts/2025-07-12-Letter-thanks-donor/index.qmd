@@ -4,7 +4,7 @@ description: "A letter of thanks to the donor whose support made my short resear
 author: "Gabriel Frazer-McKee"
 date: "2025-08-12"
 categories: [news, research, funding]
-image: "grenoble-thumbnail.jpg"
+image: "featured.jpg"
 image-alt: "View of Grenoble with the French Alps in the background"
 ---
 
@@ -29,8 +29,7 @@ SSHRC Doctoral Fellow in Linguistics
 Specialist in neology in Quebec French
 Université Laval
 
-(chamrousse_photo_group.jpg){fig-alt="Group photo - Chamrousse in the French Alps" width="100%"}
-
+![Group photo from an excursion to Chamrousse, in the French Alps.](chamrousse_photo_group.jpg){fig-alt="Group photo from an excursion to Chamrousse, in the French Alps." width="100%"}
 *Memory from an excursion to Chamrousse, in the French Alps, with my co-supervisor Olivier and my fellow doctoral students Rim and Ola, after a productive week of work in Grenoble. The fresh mountain air offered a welcome contrast to the stifling heat of the city, aptly nicknamed “the Bowl.”*
 
 <!--Include social share buttons-->
