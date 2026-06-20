@@ -1,0 +1,29 @@
+---
+title: "Neologisms in Tourism: Notes from Giovanni Tallarico’s Presentation"
+description: "ENEOLI's Action Chair in Quebec City"
+author: "Gabriel Frazer-McKee"
+date: "2026-06-19"
+categories: [visiting scholar, academic talk]
+image: "featured.png"
+image-alt: "Tourists walking through a crowded historic street lined with shops"
+##draft: true
+---
+
+On Friday, I attended [Giovanni Tallarico’s] (https://eneoli.eu/mmbr/giovanni-tallarico/) presentation on neologisms in the field of tourism. I followed the talk online from home, in the slightly improvised conditions that have become familiar this year: laptop open, notebook nearby, and Georges requiring attention at regular intervals. It was not the most conventional conference setting, but it was a very real one.
+
+The presentation was especially interesting to me because tourism offers a rich testing ground for the study of neology. New words in this domain do not emerge only because new objects or practices need to be named. They also circulate through institutions, promotional discourse, regional identities, commercial branding, and changing cultural imaginaries of travel. Tourism vocabulary sits somewhere between specialized terminology, public-facing communication, and everyday language. This makes it a particularly useful site for thinking about how neologisms are formed, stabilized, and diffused.
+
+One aspect that stood out to me was the way tourism neology can reveal tensions between linguistic creativity and institutional framing. A new tourism-related term may begin as a descriptive label, a promotional invention, a regional marker, or a calque from another language. But once it begins circulating, it can be taken up by dictionaries, tourist offices, journalists, online platforms, and speakers themselves. In other words, tourism vocabulary gives us a compact view of several processes that matter more broadly in neology: formation, selection, legitimation, and diffusion.
+
+The talk also connected closely with questions I am currently working through in my own research. My doctoral project focuses on the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of neologisms. Tallarico’s examples were a reminder that diffusion is rarely just a matter of linguistic form. The social life of a word depends on who uses it, where it appears, what kinds of texts carry it, and whether institutions or communities have reasons to repeat it.
+
+This was also a good reminder that specialized domains are not closed linguistic spaces. Tourism, in particular, constantly moves between expert discourse and general discourse. A term may be created within a professional context but addressed to tourists, residents, policymakers, or the general public. That movement across audiences is precisely where neological diffusion becomes visible.
+
+Attending from home while taking care of Georges made the event feel less like a break from ordinary life than a continuation of it. I was listening to a talk about how words travel while managing the small logistics of family life in the background. In a way, that felt appropriate: diffusion is also about circulation across spaces, routines, and contexts. Academic ideas, like words, do not move in ideal conditions. They move through the actual conditions we have.
+
+Overall, the presentation gave me several useful points to think about as I continue working on my scoping review and on the empirical parts of my thesis. Tourism neology seems to offer not only a specialized lexical field, but a particularly clear window onto the broader mechanisms through which new words become visible, usable, and sometimes durable.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
