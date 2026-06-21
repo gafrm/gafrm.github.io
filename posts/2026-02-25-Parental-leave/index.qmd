@@ -1,5 +1,6 @@
 ---
 title: "Going on paid parental leave during a PhD"
+subtitle: "A reflection on interrupting my doctoral studies"
 description: "A reflection on interrupting my doctoral studies"
 author: "Gabriel Frazer-McKee"
 date: "2026-02-25"

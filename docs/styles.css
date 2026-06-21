@@ -693,3 +693,64 @@ body.newspaper-post main.content h2 {
   margin: 1.5rem auto;
   display: block;
 }
+
+```css
+/* BLOG POST TITLE BLOCK */
+
+body.quarto-blog article header#title-block-header,
+body:has(.quarto-title-block) header#title-block-header {
+  margin-bottom: 2.5rem;
+}
+
+header#title-block-header .quarto-title h1.title {
+  font-size: clamp(2.7rem, 6vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.75rem;
+  max-width: 950px;
+}
+
+header#title-block-header .quarto-title .subtitle {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  line-height: 1.35;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  opacity: 0.78;
+}
+
+/* Author and publication date */
+
+header#title-block-header .quarto-title-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+
+header#title-block-header .quarto-title-meta > div {
+  display: flex;
+  gap: 0.35rem;
+}
+
+/* Remove the labels “Author” and “Published” */
+
+header#title-block-header .quarto-title-meta-heading {
+  display: none;
+}
+
+header#title-block-header .quarto-title-meta-contents,
+header#title-block-header .quarto-title-meta-contents p {
+  margin: 0;
+}
+
+/* Separator between author and date */
+
+header#title-block-header .quarto-title-meta > div + div::before {
+  content: "•";
+  margin-right: 0.9rem;
+  opacity: 0.55;
+}
+```

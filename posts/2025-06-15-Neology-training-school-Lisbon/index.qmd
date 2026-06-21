@@ -1,0 +1,33 @@
+---
+title: "Neology Training School"
+description: "Attending the first ENEOLI Training School on Lexical Innovation"
+author: "Gabriel Frazer-McKee"
+date: 2025-06-15
+categories: [Neology, training, ENEOLI]
+image: "featured.png"
+#draft: true
+---
+
+From June 9 to 13, 2025, I attended the first [**ENEOLI Training School on Lexical Innovation**](https://eneoli.eu/event/1st-eneoli-training-school-on-lexical-innovation/), held at NOVA University Lisbon. Organized through the ENEOLI COST Action network, the school brought together doctoral students, researchers, and professionals interested in neology and its connections with lexicography, terminology, sociolinguistics, language planning, and translation.
+
+It was an unusually good fit for my doctoral research. Although my work focuses primarily on the factors associated with the diffusion—or disappearance—of neologisms, studying lexical innovation requires engaging with a much broader set of questions: What exactly counts as a neologism? How can new words and meanings be detected in corpora? When should they be included in dictionaries or terminological resources? How do social and cultural conditions influence their emergence and circulation?
+
+The school approached these questions from a different perspective each day. We began with the basic concepts and categories used to describe neology before turning to its relationship with lexicography, terminology, sociolinguistics, and technology. Morning sessions introduced the theoretical foundations of each area, while the afternoons were generally devoted to practical exercises involving real linguistic data.
+
+This combination was one of the program’s main strengths. The training covered not only conceptual distinctions but also the practical work required to build resources, extract neological candidates, document new lexical units, and present the resulting data. We were introduced to tools and resources including TermoStat, FAIRterm, ParlaMint, Sketch Engine, Lexonomy, and Wikibase. Even when a particular tool did not correspond directly to my own research design, seeing how other researchers operationalize and process lexical innovation helped me situate my methods within the wider field.
+
+I was particularly looking forward to the session led by **Kris Heylen and Uri Horesh** on neology in cultural and social contexts. Its emphasis on language contact, lexical borrowing, sociolinguistic variation, and cultural change connected closely with my interest in the linguistic and extralinguistic conditions that shape neological diffusion.
+
+Unfortunately, Lisbon intervened.
+
+The evening before the session, a bicycle courier ran over my foot. Nothing was broken, thankfully, but by the following morning my foot was so badly bruised that I could not even hobble well enough to attend. Missing one of the sessions most closely related to my own work was frustrating, although I was mostly relieved that the accident had not caused a more serious injury—or ended the week altogether.
+
+Beyond the individual courses, the training school offered something that can be difficult to obtain when working on a highly specialized doctoral project: a view of neology as a genuinely international and interdisciplinary research area. The same basic phenomenon—lexical innovation—can be approached as a question of linguistic structure, dictionary-making, terminological management, technological infrastructure, social variation, or language policy. Each perspective brings its own concepts, methods, and assumptions.
+
+The week in Lisbon therefore gave me more than a collection of techniques. It helped me better understand where my own research sits within the field, what it shares with neighbouring traditions, and where those traditions sometimes speak past one another. It also provided an opportunity to meet researchers working on similar questions in different languages and institutional contexts—the kind of contact that can lead to conversations and collaborations long after a training school has ended.
+
+Even with one bruised foot and one unfortunately missed session, the first ENEOLI Training School was an important and timely part of my doctoral training.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

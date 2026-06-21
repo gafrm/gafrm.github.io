@@ -6,20 +6,7 @@ author:
 date: "2024-07-24"
 categories: [paper]
 image: "featured.png"
-format:
-  html:
-    css: newspaper.css
-citation:
-  type: article-journal
-  container-title: "International Review of Pragmatics"
-  doi: "https://doi.org/10.1163/18773109-01602002"
-  available-date: "2024-07-24"
-  issued: "2024-07-24"
-  volume: 16
-  issue: 2
-  page: 188-231
-  url: https://brill.com/view/journals/irp/16/2/article-p188_2.xml?srsltid=AfmBOoriHOcTdLI8X_h1OkqNHHWN_NrCyoLaHT_dNnr2y1S3dP93Xndf&ebody=Abstract%2FExcerpt
-google-scholar: true
+
 ---
 
 <!--Include academic icons or bottons-->

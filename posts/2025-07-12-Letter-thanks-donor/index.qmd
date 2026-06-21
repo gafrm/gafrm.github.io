@@ -1,15 +1,13 @@
 ---
-title: "Letter of thanks for a short-term research stay abroad"
-description: "A letter of thanks to the donor whose support made my short research stay in Grenoble possible."
+title: "Letter of thanks for a short-term research stay in Grenoble, France"
+subtitle: "To the anonymous donor whose support made it possible."
+description: "To the anonymous donor whose support made it possible."
 author: "Gabriel Frazer-McKee"
 date: "2025-08-12"
 categories: [news, research, funding]
 image: "featured.jpg"
 image-alt: "View of Grenoble with the French Alps in the background"
 ---
-
-Letter of thanks for a short-term research stay abroad
-
 *Originally written as a letter of thanks to the anonymous donor whose support made this short research stay possible.*
 
 Dear donor,

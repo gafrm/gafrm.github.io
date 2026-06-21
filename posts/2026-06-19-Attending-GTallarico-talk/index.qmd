@@ -1,6 +1,7 @@
 ---
-title: "Neologisms in Tourism: Notes from Giovanni Tallarico’s Presentation"
-description: "ENEOLI's Action Chair in Quebec City"
+title: "Neologisms in Tourism"
+subtitle: "Notes from Giovanni Tallarico’s Presentation"
+description: "Notes from Giovanni Tallarico’s Presentation"
 author: "Gabriel Frazer-McKee"
 date: "2026-06-19"
 categories: [visiting scholar, academic talk]
@@ -9,7 +10,7 @@ image-alt: "Tourists walking through a crowded historic street lined with shops"
 ##draft: true
 ---
 
-On Friday, I attended [Giovanni Tallarico’s] (https://eneoli.eu/mmbr/giovanni-tallarico/) presentation on neologisms in the field of tourism. I followed the talk online from home, in the slightly improvised conditions that have become familiar this year: laptop open, notebook nearby, and Georges requiring attention at regular intervals. It was not the most conventional conference setting, but it was a very real one.
+On Friday, I attended [**Giovanni Tallarico’s**](https://eneoli.eu/mmbr/giovanni-tallarico/) presentation on neologisms in the field of tourism. I followed the talk online from home, in the slightly improvised conditions that have become familiar this year: laptop open, notebook nearby, and Georges requiring attention at regular intervals. It was not the most conventional conference setting, but it was a very real one.
 
 The presentation was especially interesting to me because tourism offers a rich testing ground for the study of neology. New words in this domain do not emerge only because new objects or practices need to be named. They also circulate through institutions, promotional discourse, regional identities, commercial branding, and changing cultural imaginaries of travel. Tourism vocabulary sits somewhere between specialized terminology, public-facing communication, and everyday language. This makes it a particularly useful site for thinking about how neologisms are formed, stabilized, and diffused.
 
