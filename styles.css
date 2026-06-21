@@ -52,13 +52,12 @@ body {
   color: var(--rust-dark) !important;
 }
 
-/* Remove default page-title spacing on homepage */
+/* Hide Quarto's automatic title block only on the homepage */ 
 
-.quarto-title-block {
-  display: none;
-}
+body.home-page .quarto-title-block { display: none; }
 
 /* Main landing layout */
+
 
 .landing-page {
   min-height: calc(100vh - 90px);
@@ -621,136 +620,149 @@ body.newspaper-post main.content h2 {
   letter-spacing: 0.04em;
 }
 
-/* ---------- Standard blog post pages ---------- */
+/* ---------- Standard blog post layout ---------- */
 
-.blog-post main.content {
-  max-width: 780px;
+body.blog-post main.content {
+  max-width: 880px;
   margin: 0 auto;
-  padding: 3rem 1.25rem 5rem 1.25rem;
+  padding: 2.75rem 1.5rem 5rem;
+}
+
+/* ---------- Blog post title block ---------- */
+
+body.blog-post #title-block-header {
+  margin: 0 0 3.5rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border);
 }
 
 /* Title */
 
-.blog-post h1.title {
+body.blog-post #title-block-header .quarto-title h1.title {
+  max-width: 780px;
+  margin: 0 !important;
   font-family: "Libre Baskerville", Georgia, serif;
   color: var(--navy);
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
-  line-height: 1.15;
-  margin-bottom: 0.75rem;
+  font-size: clamp(2.6rem, 4.5vw, 3.75rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
-/* Subtitle / description */
+/* Subtitle */
 
-.blog-post .subtitle {
-  color: var(--muted);
-  font-size: 1.2rem;
+body.blog-post #title-block-header .quarto-title .subtitle {
+  display: block;
+  max-width: 720px;
+  margin: 1.65rem 0 0 !important;
+  padding: 0;
+  color: #6b7075;
+  font-size: clamp(1.15rem, 1.8vw, 1.4rem);
   line-height: 1.5;
-  max-width: 680px;
+  font-weight: 400;
 }
 
-/* Metadata block */
+/* Hide repeated description and categories */
 
-.blog-post .quarto-title-meta {
-  color: var(--muted);
-  font-size: 0.9rem;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  padding: 0.75rem 0;
-  margin: 1.5rem 0 2rem 0;
+body.blog-post #title-block-header .description,
+body.blog-post #title-block-header .quarto-categories {
+  display: none;
 }
+
+/* Author and date: keep both together */
+
+body.blog-post #title-block-header .quarto-title-meta {
+  display: inline-grid !important;
+  grid-template-columns: max-content max-content !important;
+  column-gap: 0 !important;
+  justify-content: start !important;
+  align-items: center;
+  margin: 2.1rem 0 0;
+  padding: 0;
+  border: 0;
+  color: #777b80;
+  font-size: 0.98rem;
+}
+
+body.blog-post #title-block-header .quarto-title-meta > div {
+  display: flex !important;
+  align-items: center;
+  width: max-content !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.blog-post #title-block-header .quarto-title-meta-heading {
+  display: none;
+}
+
+body.blog-post #title-block-header .quarto-title-meta-contents,
+body.blog-post #title-block-header .quarto-title-meta-contents p,
+body.blog-post #title-block-header .quarto-title-meta-contents a {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #777b80;
+}
+
+/* Separator between author and date */
+
+body.blog-post #title-block-header .quarto-title-meta > div + div::before {
+  content: "·";
+  margin: 0 0.35rem;
+  color: #aaa5a0;
+  font-weight: 700;
+}
+
 
 /* Body text */
 
-.blog-post main.content p {
+body.blog-post main.content p {
+  color: #243746;
   font-size: 1.08rem;
   line-height: 1.75;
-  color: #243746;
   margin-bottom: 1.25rem;
-}
-
-/* Links */
-
-.blog-post main.content a {
-  color: var(--rust);
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.18em;
 }
 
 /* Section headings */
 
-.blog-post main.content h2,
-.blog-post main.content h3 {
+body.blog-post main.content h2,
+body.blog-post main.content h3 {
   font-family: "Libre Baskerville", Georgia, serif;
   color: var(--navy);
   margin-top: 2.5rem;
 }
 
+/* Links */
+
+body.blog-post main.content a {
+  color: var(--rust);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
 /* Images */
 
-.blog-post main.content img {
-  border-radius: 18px;
-  box-shadow: 0 8px 24px rgba(7, 48, 74, 0.08);
-  margin: 1.5rem auto;
+body.blog-post main.content img {
   display: block;
+  margin: 1.75rem auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(7, 48, 74, 0.08);
 }
 
-```css
-/* BLOG POST TITLE BLOCK */
+@media (max-width: 700px) {
+  body.blog-post main.content {
+    padding-top: 1.75rem;
+  }
 
-body.quarto-blog article header#title-block-header,
-body:has(.quarto-title-block) header#title-block-header {
-  margin-bottom: 2.5rem;
+  body.blog-post #title-block-header {
+    margin-bottom: 2.25rem;
+  }
+
+  body.blog-post #title-block-header .quarto-title h1.title {
+    font-size: clamp(2.3rem, 12vw, 3.1rem);
+  }
 }
 
-header#title-block-header .quarto-title h1.title {
-  font-size: clamp(2.7rem, 6vw, 5rem);
-  line-height: 1.02;
-  letter-spacing: -0.035em;
-  margin-bottom: 0.75rem;
-  max-width: 950px;
-}
 
-header#title-block-header .quarto-title .subtitle {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  line-height: 1.35;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  max-width: 800px;
-  opacity: 0.78;
-}
 
-/* Author and publication date */
-
-header#title-block-header .quarto-title-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.25rem;
-  margin-top: 0;
-  font-size: 0.95rem;
-}
-
-header#title-block-header .quarto-title-meta > div {
-  display: flex;
-  gap: 0.35rem;
-}
-
-/* Remove the labels “Author” and “Published” */
-
-header#title-block-header .quarto-title-meta-heading {
-  display: none;
-}
-
-header#title-block-header .quarto-title-meta-contents,
-header#title-block-header .quarto-title-meta-contents p {
-  margin: 0;
-}
-
-/* Separator between author and date */
-
-header#title-block-header .quarto-title-meta > div + div::before {
-  content: "•";
-  margin-right: 0.9rem;
-  opacity: 0.55;
-}
-```

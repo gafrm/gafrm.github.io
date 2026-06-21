@@ -7,17 +7,17 @@
 # Freeze computational output
 freeze: true
 
-# Shared post metadata
 author: "Gabriel Frazer-McKee"
 date-format: "MMMM D, YYYY"
 
-# Draft support
-draft-mode: unlinked
+title-block-style: default
+title-block-banner: false
 
+draft-mode: unlinked
 page-navigation: true
 
 format:
   html:
-    title-block-style: plain
-    title-block-banner: false
     body-classes: blog-post
+
+
