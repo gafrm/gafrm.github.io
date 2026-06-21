@@ -1,0 +1,35 @@
+---
+title: "Passing my first doctoral examination"
+description: "Three questions, six weeks, and a finish that came later than planned."
+author: "Gabriel Frazer-McKee"
+date: "2025-02-11"
+categories: [phd, milestone]
+image: "featured.png"
+#draft: true
+---
+
+The first doctoral exam in my program took the form of three questions assigned by a panel of three professors. Each professor selected one question connected to my research, and I was given six weeks to prepare three substantial written responses.
+
+My questions were:
+
+1. In what ways and to what extent does neology depend, on the one hand, on the language in which it occurs and, on the other, on non-linguistic or extralinguistic reality?
+2. What methodological approaches can be used in corpus linguistics to identify neologisms and trace their diffusion?
+3. What are the main characteristics of neology in Quebec French?
+
+At first glance, each question seemed closely aligned with my doctoral research. One concerned the relationship between neology, language structure, and extralinguistic reality. Another focused on corpus-based methods for detecting neologisms and tracing their diffusion. The third addressed the characteristics of neology in Quebec French.
+
+The difficulty was not that the questions were unrelated to my expertise. It was that they were extraordinarily broad.
+
+Specific research questions are often much easier to answer. They define their objects, delimit the relevant evidence, and make it possible to construct an argument around a relatively precise problem. These exam questions did almost the opposite. Each could have supported a book-length treatment. Before answering them, I first had to decide what a satisfactory answer could reasonably include—and, just as importantly, what it would have to leave out.
+
+That made the exam an exercise not only in knowledge, but also in intellectual judgment. I had to impose structure on large and sometimes fragmented bodies of scholarship, distinguish central issues from secondary ones, and develop a defensible answer without pretending that the question could be settled exhaustively.
+
+I did not quite complete the work within the six-week deadline, partly because of difficult personal circumstances at the time. The delay slightly affected my final result: I received an A rather than an A+. Although I was disappointed, particularly after investing so much effort in the responses, the exam was nevertheless successfully completed.
+
+Looking back, the most valuable lesson was not any particular fact about neology. It was learning how to respond when a question is much larger than the space available to answer it. Broad questions initially feel liberating because they leave room to explore. In practice, they demand considerable discipline. The challenge is to find a coherent path through the literature, make the limits of the answer explicit, and still arrive at a meaningful position.
+
+Passing the exam marked an important step in the doctorate. It also clarified the intellectual territory in which my thesis would develop: the linguistic and extralinguistic conditions of neological diffusion, the methodological problem of detecting new words in corpora, and the particular institutional and sociolinguistic context of Quebec French.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
