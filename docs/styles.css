@@ -583,4 +583,32 @@ body.newspaper-post main.content h2 {
   }
 }
 
+/* Blog cards: remove author, polish reading time/date */
 
+#posts .listing-author,
+.blog-page .listing-author {
+  display: none;
+}
+
+#posts .listing-reading-time,
+.blog-page .listing-reading-time {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+#posts .listing-reading-time::before,
+.blog-page .listing-reading-time::before {
+  content: "◷ ";
+}
+
+#posts .listing-date,
+.blog-page .listing-date {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

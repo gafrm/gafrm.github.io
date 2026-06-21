@@ -6,6 +6,7 @@ description-meta: "Posts about papers, events, news, and more"
 listing: 
   sort: "date desc"
   type: grid
+  fields: [image, title, description, reading-time, date]
   page-size: 100
   categories: false
   sort-ui: false
