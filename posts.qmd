@@ -13,7 +13,6 @@ listing:
   feed: true
   contents: 
       - posts
-      #- posts/post-links.yml
 
 page-layout: full
 body-classes: blog-page
