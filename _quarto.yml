@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   pre-render:  # This can be deleted if you are using the manually curated list of publications in publications.qmd
-    - py xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
+    - scripts/fetch-orcid.ts  # Automatically generate publications.yml from ORCID publications
     
 # Meta
 description-meta: "Quarto Academic Website Template adapted from a template by Dr. Gang He"
