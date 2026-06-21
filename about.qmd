@@ -1,0 +1,33 @@
+---
+
+title: "About"
+description-meta: "About Gabriel Frazer-McKee"
+page-navigation: false
+title-block-banner: false
+---
+
+# About
+
+I am a PhD candidate in linguistics at Université Laval, in the Département de langues, linguistique et traduction. My doctoral research focuses on neology, especially the linguistic and extralinguistic factors that help explain why some new words and terms circulate, stabilize, or fail to diffuse.
+
+My work is situated at the intersection of corpus linguistics, lexicology, terminology, distributional semantics, and digital methods. I am particularly interested in how lexical innovation can be studied across institutional, media, and everyday language contexts.
+
+My dissertation is supervised by Bruno Courbon at Université Laval and co-supervised by Olivier Kraif at Université Grenoble Alpes. It is structured as a thesis by articles and includes work on neological diffusion, terminological uptake, and methodological approaches to studying lexical change.
+
+Alongside my doctoral research, I have taught linguistics and French-language courses since 2015. I have also been involved in student research dissemination, including editorial work for the *Actes des Journées de linguistique*.
+
+Outside of research and teaching, I am based in Lévis, Québec, where I live with my wife and our son.
+
+## Research interests
+
+* Neology and lexical innovation
+* Neological diffusion and non-diffusion
+* Corpus linguistics
+* Lexicology and terminology
+* Distributional semantics
+* Digital methods for linguistic research
+* French and English lexical data
+
+## Contact
+
+You can reach me through the contact page or find my academic profiles through the links in the site navigation.

@@ -112,6 +112,27 @@
     "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "title: “About” description-meta: “About Gabriel Frazer-McKee” page-navigation: false title-block-banner: false —"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research interests",
+    "text": "Research interests\n\nNeology and lexical innovation\nNeological diffusion and non-diffusion\nCorpus linguistics\nLexicology and terminology\nDistributional semantics\nDigital methods for linguistic research\nFrench and English lexical data"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nYou can reach me through the contact page or find my academic profiles through the links in the site navigation."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Gabriel Frazer-McKee",
