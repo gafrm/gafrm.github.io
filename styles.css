@@ -357,7 +357,7 @@ body {
 }
 
 /*body of the news post itself, with a more traditional newspaper-like style */
-body.newspaper-post {
+/*body.newspaper-post {
   background: #f4ecd8;
   color: #1d1a17;
   font-family: Georgia, "Times New Roman", serif;
@@ -443,7 +443,7 @@ body.newspaper-post main.content h2 {
     text-align: left;
   }
 }
-
+*/
 
 /* Blog page */
 
