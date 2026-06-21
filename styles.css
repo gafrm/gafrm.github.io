@@ -620,3 +620,76 @@ body.newspaper-post main.content h2 {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+
+/* ---------- Standard blog post pages ---------- */
+
+.blog-post main.content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem 1.25rem;
+}
+
+/* Title */
+
+.blog-post h1.title {
+  font-family: "Libre Baskerville", Georgia, serif;
+  color: var(--navy);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+}
+
+/* Subtitle / description */
+
+.blog-post .subtitle {
+  color: var(--muted);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 680px;
+}
+
+/* Metadata block */
+
+.blog-post .quarto-title-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Body text */
+
+.blog-post main.content p {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: #243746;
+  margin-bottom: 1.25rem;
+}
+
+/* Links */
+
+.blog-post main.content a {
+  color: var(--rust);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+/* Section headings */
+
+.blog-post main.content h2,
+.blog-post main.content h3 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  color: var(--navy);
+  margin-top: 2.5rem;
+}
+
+/* Images */
+
+.blog-post main.content img {
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(7, 48, 74, 0.08);
+  margin: 1.5rem auto;
+  display: block;
+}
