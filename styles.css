@@ -585,13 +585,22 @@ body.newspaper-post main.content h2 {
 
 /* Blog cards: remove author, polish reading time/date */
 
-#posts .listing-author,
-.blog-page .listing-author {
-  display: none;
+/* Blog cards: move reading time to bottom left, date to bottom right */
+
+#posts .quarto-grid-item .card-body,
+.blog-page .quarto-grid-item .card-body,
+#posts .card .card-body,
+.blog-page .card .card-body {
+  position: relative;
+  padding-bottom: 3.4rem;
 }
 
 #posts .listing-reading-time,
 .blog-page .listing-reading-time {
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.25rem;
+  margin: 0;
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 700;
@@ -599,13 +608,12 @@ body.newspaper-post main.content h2 {
   letter-spacing: 0.04em;
 }
 
-#posts .listing-reading-time::before,
-.blog-page .listing-reading-time::before {
-  content: "◷ ";
-}
-
 #posts .listing-date,
 .blog-page .listing-date {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  margin: 0;
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 700;
