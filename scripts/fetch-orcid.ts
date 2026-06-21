@@ -1,9 +1,18 @@
 // Generate a Quarto publication list from Gabriel Frazer-McKee's public ORCID record.
-// Quarto runs TypeScript with its bundled Deno runtime, so no Python packages are needed.
+//
+// Data hierarchy:
+// 1. ORCID determines which public works belong on the page.
+// 2. DOI citation metadata supplies the preferred bibliographic record.
+// 3. The full ORCID work record supplies contributors when DOI metadata is absent/incomplete.
+// 4. _data/publication-overrides.json corrects known publisher or registry errors.
 
 const ORCID_ID = "0000-0002-0860-6192";
 const ORCID_URL = `https://orcid.org/${ORCID_ID}`;
 const OUTPUT_FILE = "_generated/publications.md";
+const OVERRIDES_FILE = "_data/publication-overrides.json";
+
+const MAX_AUTHORS_BEFORE_TRUNCATION = 12;
+const LEADING_AUTHORS_IN_TRUNCATED_LIST = 5;
 
 const EXCLUDED_TYPES = new Set([
   "conference-abstract",
@@ -38,7 +47,7 @@ async function fileExists(path) {
 }
 
 // During incremental preview, reuse the existing generated fragment.
-// A full `quarto render` or a manual `quarto run scripts/fetch-orcid.ts` refreshes it.
+// A full `quarto render` or `quarto run scripts/fetch-orcid.ts` refreshes it.
 const isPreRender = Deno.env.get("QUARTO_PROJECT_INPUT_FILES") !== undefined;
 const isFullRender = Deno.env.get("QUARTO_PROJECT_RENDER_ALL") === "1";
 
@@ -74,57 +83,51 @@ function isGabriel(name) {
   return normalized.includes("gabriel") && normalized.includes("frazer mckee");
 }
 
+function authorFullName(author) {
+  const literal = String(author?.literal ?? "").trim();
+  return literal || [author?.given, author?.family].filter(Boolean).join(" ").trim();
+}
+
 function formatAuthorName(author) {
-  const literal = author?.literal?.trim();
-  const fullName = literal || [author?.given, author?.family].filter(Boolean).join(" ").trim();
+  const fullName = authorFullName(author);
   if (!fullName) return "";
 
   const escaped = markdownText(fullName);
   return isGabriel(fullName) ? `**${escaped}**` : escaped;
 }
 
-function joinAuthors(authors) {
-  const authorList = authors ?? [];
+function deduplicateAuthors(authors) {
+  const seen = new Set();
+  const output = [];
 
-  const names = authorList
-    .map(formatAuthorName)
-    .filter(Boolean);
-
-  if (names.length === 0) {
-    return "**Gabriel Frazer-McKee**";
+  for (const author of authors ?? []) {
+    const fullName = authorFullName(author);
+    const key = normalizeName(fullName);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    output.push(author);
   }
 
-  if (names.length === 1) {
-    return names[0];
-  }
+  return output;
+}
 
-  if (names.length === 2) {
-    return `${names[0]} & ${names[1]}`;
-  }
+function joinAuthors(rawAuthors) {
+  const authors = deduplicateAuthors(rawAuthors);
+  const names = authors.map(formatAuthorName).filter(Boolean);
 
-  // Display ordinary author lists in full.
-  if (names.length <= 12) {
+  if (names.length === 0) return "**Gabriel Frazer-McKee**";
+  if (names.length === 1) return names[0];
+  if (names.length === 2) return `${names[0]} & ${names[1]}`;
+
+  if (names.length <= MAX_AUTHORS_BEFORE_TRUNCATION) {
     return `${names.slice(0, -1).join(", ")}, & ${names.at(-1)}`;
   }
 
-  // For very large collaborations, show the first authors,
-  // Gabriel's name, and the final author.
-  const gabrielIndex = authorList.findIndex((author) => {
-    const literal = author?.literal?.trim();
-    const fullName =
-      literal ||
-      [author?.given, author?.family]
-        .filter(Boolean)
-        .join(" ")
-        .trim();
-
-    return isGabriel(fullName);
-  });
-
-  const firstAuthors = names.slice(0, 5);
+  const gabrielIndex = authors.findIndex((author) => isGabriel(authorFullName(author)));
+  const firstAuthors = names.slice(0, LEADING_AUTHORS_IN_TRUNCATED_LIST);
   const finalAuthor = names.at(-1);
 
-  if (gabrielIndex >= 0 && gabrielIndex < 5) {
+  if (gabrielIndex >= 0 && gabrielIndex < LEADING_AUTHORS_IN_TRUNCATED_LIST) {
     return `${firstAuthors.join(", ")}, …, & ${finalAuthor}`;
   }
 
@@ -143,7 +146,8 @@ function normalizeDoi(rawDoi) {
   return String(rawDoi ?? "")
     .trim()
     .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
-    .replace(/^doi:\s*/i, "");
+    .replace(/^doi:\s*/i, "")
+    .toLowerCase();
 }
 
 function doiUrl(doi) {
@@ -179,6 +183,7 @@ function fallbackUrl(work) {
 
 function preferredSummary(group) {
   const summaries = group?.["work-summary"] ?? [];
+
   return summaries.reduce((preferred, candidate) => {
     if (!preferred) return candidate;
     const preferredIndex = Number(preferred?.["display-index"] ?? 0);
@@ -187,7 +192,12 @@ function preferredSummary(group) {
   }, null);
 }
 
-function orcidFallback(summary) {
+function firstString(input) {
+  if (Array.isArray(input)) return String(input[0] ?? "").trim();
+  return String(input ?? "").trim();
+}
+
+function orcidSummaryMetadata(summary) {
   const title = value(summary?.title?.title) || "Untitled work";
   const subtitle = value(summary?.title?.subtitle);
   const fullTitle = subtitle ? `${title}: ${subtitle}` : title;
@@ -203,7 +213,7 @@ function orcidFallback(summary) {
     type,
     doi,
     url: doi ? doiUrl(doi) : fallbackUrl(summary),
-    authors: [{ given: "Gabriel", family: "Frazer-McKee" }],
+    authors: [],
     volume: "",
     issue: "",
     pages: "",
@@ -211,9 +221,59 @@ function orcidFallback(summary) {
   };
 }
 
-function firstString(input) {
-  if (Array.isArray(input)) return String(input[0] ?? "").trim();
-  return String(input ?? "").trim();
+function orcidContributorName(contributor) {
+  const creditName = value(contributor?.["credit-name"]);
+  if (creditName) return { literal: creditName };
+
+  const given = value(contributor?.["contributor-orcid"]?.["given-names"]);
+  const family = value(contributor?.["contributor-orcid"]?.["family-name"]);
+  if (given || family) return { given, family };
+
+  return null;
+}
+
+function authorsFromFullOrcidWork(work) {
+  const contributors = work?.contributors?.contributor ?? [];
+  if (!Array.isArray(contributors) || contributors.length === 0) return [];
+
+  const authorContributors = contributors.filter((contributor) => {
+    const role = String(
+      contributor?.["contributor-attributes"]?.["contributor-role"] ?? ""
+    ).toLowerCase();
+
+    return role === "author";
+  });
+
+  // Some deposits omit the role, or incorrectly repeat every contributor for several roles.
+  // Prefer explicit authors when available, then deduplicate by normalized name.
+  const selected = authorContributors.length > 0 ? authorContributors : contributors;
+
+  return deduplicateAuthors(
+    selected.map(orcidContributorName).filter(Boolean)
+  );
+}
+
+async function fullOrcidWork(summary) {
+  const putCode = summary?.["put-code"];
+  if (!putCode) return null;
+
+  const path = summary?.path || `/${ORCID_ID}/work/${putCode}`;
+  const url = path.startsWith("http")
+    ? path
+    : `https://orcid.org${path.startsWith("/") ? path : `/${path}`}`;
+
+  const response = await fetch(url, {
+    redirect: "follow",
+    headers: {
+      Accept: "application/json",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`full ORCID work request failed (${response.status})`);
+  }
+
+  return await response.json();
 }
 
 async function doiMetadata(doi) {
@@ -231,32 +291,88 @@ async function doiMetadata(doi) {
   return await response.json();
 }
 
-async function enrichWork(summary) {
-  const fallback = orcidFallback(summary);
-  if (!fallback.doi) return fallback;
+async function loadOverrides() {
+  if (!await fileExists(OVERRIDES_FILE)) return {};
 
   try {
-    const csl = await doiMetadata(fallback.doi);
-    const cslYear = Number(csl?.issued?.["date-parts"]?.[0]?.[0]) || fallback.year;
-
-    return {
-      ...fallback,
-      title: firstString(csl?.title) || fallback.title,
-      year: cslYear,
-      venue: firstString(csl?.["container-title"]) || fallback.venue,
-      authors: Array.isArray(csl?.author) && csl.author.length > 0
-        ? csl.author
-        : fallback.authors,
-      volume: String(csl?.volume ?? "").trim(),
-      issue: String(csl?.issue ?? "").trim(),
-      pages: String(csl?.page ?? csl?.["article-number"] ?? "").trim(),
-      publisher: String(csl?.publisher ?? "").trim(),
-      url: fallback.url,
-    };
+    const raw = await Deno.readTextFile(OVERRIDES_FILE);
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" ? parsed : {};
   } catch (error) {
-    console.warn(`Could not enrich DOI ${fallback.doi}: ${error.message}`);
-    return fallback;
+    throw new Error(`Could not read ${OVERRIDES_FILE}: ${error.message}`);
   }
+}
+
+function applyOverride(work, override) {
+  if (!override || typeof override !== "object") return work;
+
+  return {
+    ...work,
+    ...override,
+    authors: Array.isArray(override.authors)
+      ? deduplicateAuthors(override.authors)
+      : work.authors,
+  };
+}
+
+async function enrichWork(summary, overrides) {
+  let work = orcidSummaryMetadata(summary);
+  let fullWork = null;
+
+  // Fetch the full ORCID item so non-DOI works can retain their contributors.
+  try {
+    fullWork = await fullOrcidWork(summary);
+    const orcidAuthors = authorsFromFullOrcidWork(fullWork);
+    if (orcidAuthors.length > 0) {
+      work.authors = orcidAuthors;
+    }
+
+    // The full item can contain a better URL or identifiers than the summary.
+    work.url = work.url || fallbackUrl(fullWork);
+    work.doi = work.doi || findDoi(fullWork);
+  } catch (error) {
+    console.warn(`Could not retrieve full ORCID item ${summary?.["put-code"]}: ${error.message}`);
+  }
+
+  // For DOI works, prefer registry/publisher citation metadata over ORCID contributor roles.
+  if (work.doi) {
+    try {
+      const csl = await doiMetadata(work.doi);
+      const cslAuthors = deduplicateAuthors(
+        Array.isArray(csl?.author) ? csl.author : []
+      );
+      const cslYear = Number(csl?.issued?.["date-parts"]?.[0]?.[0]) || work.year;
+
+      work = {
+        ...work,
+        title: firstString(csl?.title) || work.title,
+        year: cslYear,
+        venue: firstString(csl?.["container-title"]) || work.venue,
+        authors: cslAuthors.length > 0 ? cslAuthors : work.authors,
+        volume: String(csl?.volume ?? "").trim(),
+        issue: String(csl?.issue ?? "").trim(),
+        pages: String(csl?.page ?? csl?.["article-number"] ?? "").trim(),
+        publisher: String(csl?.publisher ?? "").trim(),
+        url: work.url || doiUrl(work.doi),
+      };
+    } catch (error) {
+      console.warn(`Could not enrich DOI ${work.doi}: ${error.message}`);
+    }
+  }
+
+  // Key overrides by normalized DOI. For a non-DOI item, a future override may use
+  // "orcid-put-code:<number>".
+  const overrideKey = work.doi
+    ? work.doi
+    : `orcid-put-code:${summary?.["put-code"]}`;
+
+  work = applyOverride(work, overrides[overrideKey]);
+
+  if (!Array.isArray(work.authors) || work.authors.length === 0) {
+    work.authors = [{ given: "Gabriel", family: "Frazer-McKee" }];
+  }
+
+  return work;
 }
 
 function venueLine(work) {
@@ -334,7 +450,7 @@ function renderPublicationList(works) {
   }
 
   output.push(
-    `<p class="publications-source">Source: <a href="${ORCID_URL}" target="_blank" rel="noopener">ORCID</a>. DOI metadata is resolved when the site is built.</p>`,
+    `<p class="publications-source">Works are selected from <a href="${ORCID_URL}" target="_blank" rel="noopener">ORCID</a>; bibliographic metadata is resolved from DOI records where available.</p>`,
     "",
   );
 
@@ -361,6 +477,8 @@ async function writeOnlyIfChanged(path, content) {
 }
 
 try {
+  const overrides = await loadOverrides();
+
   const response = await fetch(ORCID_URL, {
     redirect: "follow",
     headers: {
@@ -384,12 +502,17 @@ try {
     throw new Error("No public works were found in the ORCID record.");
   }
 
-  const works = await Promise.all(summaries.map(enrichWork));
+  // Process sequentially to avoid unnecessary bursts against ORCID and DOI services.
+  const works = [];
+  for (const summary of summaries) {
+    works.push(await enrichWork(summary, overrides));
+  }
+
   const content = renderPublicationList(works);
   await writeOnlyIfChanged(OUTPUT_FILE, content);
 } catch (error) {
   if (await fileExists(OUTPUT_FILE)) {
-    console.warn(`ORCID refresh failed; keeping the cached list. ${error.message}`);
+    console.warn(`Publication refresh failed; keeping the cached list. ${error.message}`);
     Deno.exit(0);
   }
 

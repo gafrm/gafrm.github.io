@@ -2,20 +2,20 @@
 
 ::: {.publication-entry}
 **[Linguistic and extralinguistic factors associated with neological (non-)diffusion: A protocol for a scoping review of the English- and French-language literatures (1952-2026) \[version 1; peer review: awaiting peer review\]](<https://doi.org/10.12688/f1000research.180485.1>)**  
-**Gabriel Frazer-McKee**  
+**Gabriel Frazer-McKee**, Emmanuelle Paquette Raynard, Nicolas Gignac, Davie Dulude, & Bruno Courbon  
 Journal article · [DOI](<https://doi.org/10.12688/f1000research.180485.1>)
 :::
 
 ::: {.publication-entry}
 **[Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque](<https://doi.org/10.70637/xkt9v194>)**  
 **Gabriel Frazer-McKee**  
-*Actes des Journées de linguistique* · Journal article · [DOI](<https://doi.org/10.70637/xkt9v194>)
+*Actes des Journées de linguistique*, 2, 1-8 · Journal article · [DOI](<https://doi.org/10.70637/xkt9v194>)
 :::
 
 ::: {.publication-entry}
 **[Vol. 2: Actes des JDL 2025](<https://doi.org/10.70637/kqamk124>)**  
 **Gabriel Frazer-McKee**  
-*Actes des Journées de linguistique* · journal issue · [DOI](<https://doi.org/10.70637/kqamk124>)
+*Actes des Journées de linguistique*, 2 · journal issue · [DOI](<https://doi.org/10.70637/kqamk124>)
 :::
 
 ## 2025
@@ -37,7 +37,7 @@ Journal article · [DOI](<https://doi.org/10.12688/f1000research.180485.1>)
 ::: {.publication-entry}
 **[Vol. 1: Actes des JDL 2024](<https://doi.org/10.70637/5p9znc31>)**  
 **Gabriel Frazer-McKee**  
-*Actes des Journées de linguistique* · journal issue · [DOI](<https://doi.org/10.70637/5p9znc31>)
+*Actes des Journées de linguistique*, 1 · journal issue · [DOI](<https://doi.org/10.70637/5p9znc31>)
 :::
 
 ## 2023
@@ -65,9 +65,9 @@ Stefano Coretta, Joseph V. Casillas, Simon Roessig, Michael Franke, Byron Ahn, �
 ## 2020
 
 ::: {.publication-entry}
-**[The semantics and pragmatics of proper names in adverbial degree constructions in English: A corpus-driven contribution](<https://doi.org/10.13140/RG.2.2.28317.23523>)**  
+**[The semantics and pragmatics of proper names in adverbial degree constructions in English: A corpus-driven contribution](<https://doi.org/10.13140/rg.2.2.28317.23523>)**  
 **Gabriel Frazer-Mckee**  
-*Unpublished* · Thesis · [DOI](<https://doi.org/10.13140/RG.2.2.28317.23523>)
+*Unpublished* · Thesis · [DOI](<https://doi.org/10.13140/rg.2.2.28317.23523>)
 :::
 
 ::: {.publication-entry}
@@ -76,4 +76,4 @@ Stefano Coretta, Joseph V. Casillas, Simon Roessig, Michael Franke, Byron Ahn, �
 *Proceedings of the 14th Linguistic Annotation Workshop* · Conference paper
 :::
 
-<p class="publications-source">Source: <a href="https://orcid.org/0000-0002-0860-6192" target="_blank" rel="noopener">ORCID</a>. DOI metadata is resolved when the site is built.</p>
+<p class="publications-source">Works are selected from <a href="https://orcid.org/0000-0002-0860-6192" target="_blank" rel="noopener">ORCID</a>; bibliographic metadata is resolved from DOI records where available.</p>
