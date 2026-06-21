@@ -1,0 +1,9 @@
+- title: "Quarto Academic Website Examples and Tips"
+  author: "Dr. Gang He"
+  date: "2024-10-15"
+  path: "https://example.com"
+  description: "Examples and tips for Quarto Academic Website"
+  image: "images/some-image.jpg"
+  categories:
+    - website
+    - quarto
