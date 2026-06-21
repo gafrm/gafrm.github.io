@@ -254,23 +254,32 @@ function authorsFromFullOrcidWork(work) {
 }
 
 async function fullOrcidWork(summary) {
+  // Detailed ORCID work records require the Public API and a /read-public token.
+  // Do not commit the token to the repository. If it is supplied as an
+  // ORCID_ACCESS_TOKEN environment variable, use it; otherwise skip this layer.
+  const token = Deno.env.get("ORCID_ACCESS_TOKEN");
+  if (!token) return null;
+
   const putCode = summary?.["put-code"];
   if (!putCode) return null;
 
-  const path = summary?.path || `/${ORCID_ID}/work/${putCode}`;
-  const url = path.startsWith("http")
-    ? path
-    : `https://orcid.org${path.startsWith("/") ? path : `/${path}`}`;
+  const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/work/${putCode}`;
 
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
-      Accept: "application/json",
+      Accept: "application/vnd.orcid+json",
+      Authorization: `Bearer ${token}`,
     },
   });
 
   if (!response.ok) {
     throw new Error(`full ORCID work request failed (${response.status})`);
+  }
+
+  const contentType = response.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) {
+    throw new Error(`full ORCID work request returned ${contentType || "non-JSON content"}`);
   }
 
   return await response.json();
@@ -319,17 +328,20 @@ async function enrichWork(summary, overrides) {
   let work = orcidSummaryMetadata(summary);
   let fullWork = null;
 
-  // Fetch the full ORCID item so non-DOI works can retain their contributors.
+  // Fetch the full ORCID item only when an optional Public API token is present.
   try {
     fullWork = await fullOrcidWork(summary);
-    const orcidAuthors = authorsFromFullOrcidWork(fullWork);
-    if (orcidAuthors.length > 0) {
-      work.authors = orcidAuthors;
-    }
 
-    // The full item can contain a better URL or identifiers than the summary.
-    work.url = work.url || fallbackUrl(fullWork);
-    work.doi = work.doi || findDoi(fullWork);
+    if (fullWork) {
+      const orcidAuthors = authorsFromFullOrcidWork(fullWork);
+      if (orcidAuthors.length > 0) {
+        work.authors = orcidAuthors;
+      }
+
+      // The full item can contain a better URL or identifiers than the summary.
+      work.url = work.url || fallbackUrl(fullWork);
+      work.doi = work.doi || findDoi(fullWork);
+    }
   } catch (error) {
     console.warn(`Could not retrieve full ORCID item ${summary?.["put-code"]}: ${error.message}`);
   }
@@ -356,7 +368,11 @@ async function enrichWork(summary, overrides) {
         url: work.url || doiUrl(work.doi),
       };
     } catch (error) {
-      console.warn(`Could not enrich DOI ${work.doi}: ${error.message}`);
+      // A local override may intentionally handle a newly published or malformed
+      // DOI record, so avoid printing a scary warning when that correction exists.
+      if (!overrides[work.doi]) {
+        console.warn(`Could not enrich DOI ${work.doi}: ${error.message}`);
+      }
     }
   }
 
