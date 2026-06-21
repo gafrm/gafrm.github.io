@@ -15,25 +15,7 @@ website:
  
   navbar:
     background: light
-    title: false
-
-    left:
-      - text: "Gabriel Frazer-McKee"
-        menu:
-        - text: About
-          href: about.qmd
-        - text: Research
-          href: projects.qmd
-        - text: Teaching
-          href: teaching.qmd
-        - text: Blog
-          href: posts.qmd
-        - text: Publications
-          href: publications.qmd
-        - text: CV
-          href: files/nsf-biosketch.pdf
-        - text: Contact
-          href: contact.qmd
+    title: "GABRIEL FRAZER-MCKEE"
 
     right:
       - text: About
@@ -96,7 +78,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
     footnotes-hover: true
     code-copy: true
     code-link: true

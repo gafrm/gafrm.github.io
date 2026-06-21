@@ -1,9 +1,9 @@
 ---
-
 title: "About"
 description-meta: "About Gabriel Frazer-McKee"
 page-navigation: false
 title-block-banner: false
+toc: false
 ---
 
 # About

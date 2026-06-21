@@ -22,7 +22,8 @@ listing:
     include:
       section: "Peer-reviewed Journal Paper"
 css: pub-listing.css
-filters: [remove-stray-divfence.lua]  # This filter is used to remove stray ":::" strings that leak into the HTML output when Quarto's listing wrapper fenced divs are interrupted by raw HTML blocks from the EJS template.
+filters:
+  - remove-stray-divfence.lua
 ---
 
 {{< include /files/includes/_academic.qmd >}}
@@ -33,13 +34,13 @@ Note: \* corresponding author; ![](https://drganghe.github.io/files/images/highl
 
 ## Selected Work
 
-::: {#selected-work}
-:::
+::::: {#selected-work}
+:::::
 
 ## Peer-reviewed Journal Papers
 
-::: {#peer-reviewed}
-:::
+::::: {#peer-reviewed}
+:::::
 
 
 {{< include /files/includes/_socialshare.qmd >}}
