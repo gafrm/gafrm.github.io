@@ -12,6 +12,11 @@
   <div class="publication-authors"><strong class="publication-me">Gabriel Frazer-McKee</strong></div>
   <div class="publication-meta"><span class="publication-venue"><cite>Actes des Journées de linguistique</cite>, 2, 1-8</span><span class="publication-dot">·</span><span class="publication-type">Journal article</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.70637/xkt9v194" aria-label="Open DOI">DOI</a></div>
 </article>
+<article class="publication-entry">
+  <div class="publication-title-row"><a class="publication-title" href="https://doi.org/10.70637/kqamk124">Vol. 2: Actes des JDL 2025</a></div>
+  <div class="publication-authors"><strong class="publication-me">Gabriel Frazer-McKee</strong></div>
+  <div class="publication-meta"><span class="publication-venue"><cite>Actes des Journées de linguistique</cite>, 2</span><span class="publication-dot">·</span><span class="publication-type">Edited journal issue</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.70637/kqamk124" aria-label="Open DOI">DOI</a></div>
+</article>
   </div>
 </section>
 <section class="publication-year">
@@ -31,6 +36,11 @@
   <div class="publication-title-row"><a class="publication-title" href="https://doi.org/10.1163/18773109-01602002">The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</a></div>
   <div class="publication-authors"><strong class="publication-me">Gabriel Frazer-McKee</strong> <span class="author-amp">&amp;</span> Patrick J. Duffley</div>
   <div class="publication-meta"><span class="publication-venue"><cite>International Review of Pragmatics</cite>, 16(2), 188-231</span><span class="publication-dot">·</span><span class="publication-type">Journal article</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.1163/18773109-01602002" aria-label="Open DOI">DOI</a></div>
+</article>
+<article class="publication-entry">
+  <div class="publication-title-row"><a class="publication-title" href="https://doi.org/10.70637/5p9znc31">Vol. 1: Actes des JDL 2024</a></div>
+  <div class="publication-authors"><strong class="publication-me">Gabriel Frazer-McKee</strong></div>
+  <div class="publication-meta"><span class="publication-venue"><cite>Actes des Journées de linguistique</cite>, 1</span><span class="publication-dot">·</span><span class="publication-type">Edited journal issue</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.70637/5p9znc31" aria-label="Open DOI">DOI</a></div>
 </article>
   </div>
 </section>

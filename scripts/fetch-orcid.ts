@@ -19,7 +19,6 @@ const EXCLUDED_TYPES = new Set([
   "conference-poster",
   "conference-presentation",
   "lecture-speech",
-  "journal-issue",
 ]);
 
 const TYPE_LABELS = new Map([
@@ -36,6 +35,7 @@ const TYPE_LABELS = new Map([
   ["encyclopedia-entry", "Encyclopedia entry"],
   ["review", "Review"],
   ["other", "Scholarly output"],
+  ["journal-issue", "Edited journal issue"],
 ]);
 
 async function fileExists(path) {
