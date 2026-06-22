@@ -1,8 +1,8 @@
 ---
 title: "Publications"
-description: "Research publications and scholarly outputs by Gabriel Frazer-McKee."
+description: "Research publications and scholarly outputs."
+body-classes: publications-page
+css: publications.css
 ---
-
-This page is generated from my [ORCID record](https://orcid.org/0000-0002-0860-6192). Updates made in ORCID appear here the next time the website is fully rendered.
 
 {{< include _generated/publications.md >}}

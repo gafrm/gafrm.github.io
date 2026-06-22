@@ -1,5 +1,6 @@
 {
   "10.12688/f1000research.180485.1": {
+    "title": "Linguistic and extralinguistic factors associated with neological (non-)diffusion: A protocol for a scoping review of the English- and French-language literatures (1952–2026)",
     "authors": [
       {
         "given": "Gabriel",
@@ -20,6 +21,76 @@
       {
         "given": "Bruno",
         "family": "Courbon"
+      }
+    ],
+    "venue": "F1000Research",
+    "volume": "15",
+    "pages": "984",
+    "type": "journal-article",
+    "url": "https://f1000research.com/articles/15-984"
+  },
+  "10.25071/2564-2855.19": {
+    "authors": [
+      {
+        "given": "Gabriel",
+        "family": "Frazer-McKee"
+      },
+      {
+        "given": "Kendall",
+        "family": "Vogh"
+      }
+    ],
+    "venue": "Working Papers in Applied Linguistics and Linguistics at York",
+    "volume": "2",
+    "issue": "1",
+    "pages": "89–111"
+  },
+  "10.52497/signifiances.v5i1.314": {
+    "authors": [
+      {
+        "given": "Gabriel",
+        "family": "Frazer-McKee"
+      },
+      {
+        "given": "Bruno",
+        "family": "Courbon"
+      }
+    ],
+    "venue": "Signifiances (Signifying)",
+    "volume": "5",
+    "issue": "1",
+    "pages": "128–162"
+  },
+  "title:towards a standardized fine grained manual annotation protocol for verbal fluency data": {
+    "authors": [
+      {
+        "given": "Gabriel",
+        "family": "Frazer-McKee"
+      },
+      {
+        "given": "Joël",
+        "family": "Macoir"
+      },
+      {
+        "given": "Lydia",
+        "family": "Gagnon"
+      },
+      {
+        "given": "Pascale",
+        "family": "Tremblay"
+      }
+    ],
+    "venue": "Proceedings of the 14th Linguistic Annotation Workshop",
+    "pages": "160–166",
+    "publisher": "Association for Computational Linguistics",
+    "type": "conference-paper",
+    "url": "https://aclanthology.org/2020.law-1.15/"
+  },
+  "title:the semantics and pragmatics of proper names in adverbial degree constructions in english a corpus driven contribution": {
+    "authors": [
+      {
+        "given": "Gabriel",
+        "family": "Frazer-McKee"
       }
     ]
   }
