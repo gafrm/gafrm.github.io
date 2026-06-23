@@ -86,6 +86,6 @@ format:
     fig-align: center
     link-external-icon: false
     link-external-newwindow: true
-    email-obfuscation: javascript
+    email-obfuscation: none
     include-in-header: "files/includes/_academic.qmd"
 

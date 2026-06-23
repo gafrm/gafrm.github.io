@@ -85,4 +85,4 @@
   </div>
 </section>
 </div>
-<p class="publications-source">Publication selection is synchronized with <a href="https://orcid.org/0000-0002-0860-6192">ORCID</a>; incomplete registry metadata is corrected locally.</p>
+<p class="publications-source">Publication selection is synchronized with <a href="https://orcid.org/0000-0002-0860-6192">ORCID</a>.</p>

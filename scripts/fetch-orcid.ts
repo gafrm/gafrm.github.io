@@ -613,7 +613,7 @@ function renderPublicationList(works) {
 
   output.push(
     "</div>",
-    `<p class="publications-source">Publication selection is synchronized with <a href="${ORCID_URL}">ORCID</a>; incomplete registry metadata is corrected locally.</p>`,
+    `<p class="publications-source">Publication selection is synchronized with <a href="${ORCID_URL}">ORCID</a>.</p>`,
     ""
   );
 

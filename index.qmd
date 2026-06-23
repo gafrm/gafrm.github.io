@@ -1,5 +1,8 @@
 ---
-title: "Gabriel Frazer-McKee"
+title: Gabriel Frazer-McKee
+format: 
+  html: 
+    body-classes: home-page
 page-layout: full
 toc: false
 listing:
@@ -28,7 +31,7 @@ listing:
 [{{< fa brands researchgate >}}](https://www.researchgate.net/profile/Gabriel-Frazer-Mckee)
 [{{< fa brands linkedin-in >}}](https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/)
 [{{< fa solid graduation-cap >}}](https://scholar.google.com/citations?hl=en&user=MWAQth4AAAAJ)
-[{{< fa solid envelope >}}](contact.qmd)
+[{{< fa solid envelope >}}](mailto:gabriel.frazer.mckee@gmail.com)
 :::
 
 I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.
@@ -54,4 +57,3 @@ I study neology, lexical diffusion, corpus linguistics, lexicography, and method
 
 :::
 
-:::
