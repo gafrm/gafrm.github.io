@@ -13,6 +13,11 @@
   <div class="publication-meta"><span class="publication-venue"><cite>Actes des Journées de linguistique</cite>, 2, 1-8</span><span class="publication-dot">·</span><span class="publication-type">Journal article</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.70637/xkt9v194" aria-label="Open DOI">DOI</a></div>
 </article>
 <article class="publication-entry">
+  <div class="publication-title-row"><span class="publication-title">Représentations associées à trois métropoles occidentales : : étude sémantique des constructions &lt;très + {Montréal, New York, Paris}&gt; et &lt;very + {Montreal, New York, Paris}&gt;</span></div>
+  <div class="publication-authors">Bruno Courbon <span class="author-amp">&amp;</span> <strong class="publication-me">Gabriel Frazer-McKee</strong></div>
+  <div class="publication-meta"><span class="publication-venue"><cite>Représentations de l’espace dans le lexique</cite></span><span class="publication-dot">·</span><span class="publication-type">Book chapter</span></div>
+</article>
+<article class="publication-entry">
   <div class="publication-title-row"><a class="publication-title" href="https://doi.org/10.70637/kqamk124">Vol. 2: Actes des JDL 2025</a></div>
   <div class="publication-authors"><strong class="publication-me">Gabriel Frazer-McKee</strong>, Maggie Bertolacci, Emmanuel Blaise Tapon, <span class="author-amp">&amp;</span> Linda Wong</div>
   <div class="publication-meta"><span class="publication-venue"><cite>Actes des Journées de linguistique</cite>, 2</span><span class="publication-dot">·</span><span class="publication-type">Edited journal issue</span><span class="publication-dot">·</span><a class="publication-doi" href="https://doi.org/10.70637/kqamk124" aria-label="Open DOI">DOI</a></div>

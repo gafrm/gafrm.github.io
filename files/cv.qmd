@@ -1,0 +1,41 @@
+---
+lang: en-CA
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    papersize: letter
+    fontsize: 10pt
+    geometry:
+      - top=0.58in
+      - bottom=0.62in
+      - left=0.70in
+      - right=0.70in
+    include-in-header: cv-header.tex
+    number-sections: false
+    toc: false
+    keep-tex: false
+output-file: cv.pdf
+---
+
+```{=latex}
+\begin{center}
+  {\fontsize{24}{27}\selectfont\bfseries\color{cvnavy} Gabriel Frazer-McKee}\\[0.55em]
+  \small
+  \cvlink{https://gafrm.github.io}{webblue}{\faGlobe}{Website}
+  \quad
+  \cvlink{mailto:gabriel.frazer.mckee@gmail.com}{emailred}{\faEnvelope}{Email}
+  \quad
+  \cvlink{https://orcid.org/0000-0002-0860-6192}{orcidgreen}{\faOrcid}{ORCID}
+  \quad
+  \cvlink{https://scholar.google.com/citations?user=MWAQth4AAAAJ}{scholarblue}{\faGraduationCap}{Google Scholar}\\[0.35em]
+  \cvlink{https://github.com/gafrm}{githubblack}{\faGithub}{GitHub}
+  \quad
+  \cvlink{https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/}{linkedinblue}{\faLinkedinIn}{LinkedIn}
+  \quad
+  \cvlink{https://www.researchgate.net/profile/Gabriel-Frazer-Mckee}{researchgateteal}{\faResearchgate}{ResearchGate}
+\end{center}
+\vspace{-0.55em}
+```
+
+{{< include ../_generated/cv-orcid.md >}}

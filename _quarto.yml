@@ -3,7 +3,8 @@ project:
   output-dir: docs
   pre-render:  # This can be deleted if you are using the manually curated list of publications in publications.qmd
     - scripts/fetch-orcid.ts  # Automatically generate publications.yml from ORCID publications
-    
+    - scripts/fetch-cv.ts
+
 # Meta
 description-meta: "Quarto Academic Website Template adapted from a template by Dr. Gang He"
 author-meta: "Dr. Gang He"
@@ -29,7 +30,7 @@ website:
       - text: Publications
         href: publications.qmd
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/cv.pdf
       - icon: github
         href: https://github.com/gafrm
         target: _blank
