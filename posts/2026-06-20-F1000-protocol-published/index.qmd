@@ -1,5 +1,5 @@
 ---
-title: "Protocol published in F1000Research"
+title: "PhD protocol #1 published in F1000Research"
 description: "A first published step in my doctoral research on neological diffusion."
 author: "Gabriel Frazer-McKee"
 date: "2026-06-20"

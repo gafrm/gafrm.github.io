@@ -1,0 +1,41 @@
+---
+title: "Publication: Students would benefit from guidelines for preparing conference abstracts"
+subtitle: "A corpus-based study of how graduate students structure French-language conference abstracts."
+description: "A corpus-based study of how graduate students structure French-language conference abstracts."
+author: "Gabriel Frazer-McKee"
+date: "2022-11-02"
+categories: [Publications, Academic writing, Corpus linguistics]
+image: "featured.png"
+#css: /custom.css
+#draft: true
+---
+
+My colleague Kendall Vogh and I have just published an article on the structure of French-language conference abstracts in *Working Papers in Applied Linguistics and Linguistics at York*.
+
+The article, [“Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields”](https://wally.journals.yorku.ca/index.php/default/article/view/19), examines 107 abstracts submitted to the *Journées de linguistique* at Université Laval.
+
+Conference abstracts are short, but they must accomplish a great deal. Authors are expected to introduce their topic, establish the purpose of their study, describe their methods, present their results, and explain the significance of those results—often within only a few hundred words.
+
+Graduate students are nevertheless frequently expected to learn how to write abstracts through observation and trial and error. Submission instructions may specify a word limit and formatting requirements without explaining what information an effective abstract should contain.
+
+Our study uses rhetorical-move analysis to examine five common components of research abstracts:
+
+1. background;
+2. aims;
+3. methods;
+4. results;
+5. conclusions.
+
+We found considerable variation in how the abstracts were structured. Some included the principal elements expected in an informative abstract and presented them in a clear sequence. Many others omitted important information or devoted so much space to the background that little room remained for the methods, results, or conclusions.
+
+These difficulties should not simply be treated as failures on the part of individual students. Writing a conference abstract is a specialized academic task, and many emerging researchers receive little explicit instruction in how to perform it.
+
+We therefore argue that student conferences—and academic conferences more generally—would benefit from providing clearer guidelines to authors. A short description of the expected components of an abstract could help students communicate their research more effectively and make the submission process more accessible to first-time presenters.
+
+This project is especially meaningful because of its connection to the *Journées de linguistique*. Kendall was a good friend of mine during my master’s degree and was involved with the JDL in 2016 and 2017. The conference provided both the corpus for the study and the practical motivation behind it: helping graduate students present their work as clearly and effectively as possible.
+
+[Read the article](https://wally.journals.yorku.ca/index.php/default/article/view/19).
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

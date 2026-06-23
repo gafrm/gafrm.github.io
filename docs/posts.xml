@@ -12,7 +12,7 @@
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Sat, 20 Jun 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Protocol published in F1000Research</title>
+  <title>PhD protocol #1 published in F1000Research</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2026-06-20-F1000-protocol-published/</link>
   <description><![CDATA[ 
@@ -427,6 +427,53 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</guid>
   <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
+</item>
+<item>
+  <title>Publication: Students would benefit from guidelines for preparing conference abstracts</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>My colleague Kendall Vogh and I have just published an article on the structure of French-language conference abstracts in <em>Working Papers in Applied Linguistics and Linguistics at York</em>.</p>
+<p>The article, <a href="https://wally.journals.yorku.ca/index.php/default/article/view/19">“Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields”</a>, examines 107 abstracts submitted to the <em>Journées de linguistique</em> at Université Laval.</p>
+<p>Conference abstracts are short, but they must accomplish a great deal. Authors are expected to introduce their topic, establish the purpose of their study, describe their methods, present their results, and explain the significance of those results—often within only a few hundred words.</p>
+<p>Graduate students are nevertheless frequently expected to learn how to write abstracts through observation and trial and error. Submission instructions may specify a word limit and formatting requirements without explaining what information an effective abstract should contain.</p>
+<p>Our study uses rhetorical-move analysis to examine five common components of research abstracts:</p>
+<ol type="1">
+<li>background;</li>
+<li>aims;</li>
+<li>methods;</li>
+<li>results;</li>
+<li>conclusions.</li>
+</ol>
+<p>We found considerable variation in how the abstracts were structured. Some included the principal elements expected in an informative abstract and presented them in a clear sequence. Many others omitted important information or devoted so much space to the background that little room remained for the methods, results, or conclusions.</p>
+<p>These difficulties should not simply be treated as failures on the part of individual students. Writing a conference abstract is a specialized academic task, and many emerging researchers receive little explicit instruction in how to perform it.</p>
+<p>We therefore argue that student conferences—and academic conferences more generally—would benefit from providing clearer guidelines to authors. A short description of the expected components of an abstract could help students communicate their research more effectively and make the submission process more accessible to first-time presenters.</p>
+<p>This project is especially meaningful because of its connection to the <em>Journées de linguistique</em>. Kendall was a good friend of mine during my master’s degree and was involved with the JDL in 2016 and 2017. The conference provided both the corpus for the study and the practical motivation behind it: helping graduate students present their work as clearly and effectively as possible.</p>
+<p><a href="https://wally.journals.yorku.ca/index.php/default/article/view/19">Read the article</a>.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <category>Academic writing</category>
+  <category>Corpus linguistics</category>
+  <guid>https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/</guid>
+  <pubDate>Wed, 02 Nov 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Why a blog?</title>
