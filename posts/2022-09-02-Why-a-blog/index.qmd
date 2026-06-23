@@ -1,0 +1,87 @@
+---
+title: "Why a blog?"
+subtitle: "Documenting the work, decisions, and detours that rarely appear in an academic CV."
+description: "A place to document the work, decisions, and detours that rarely appear in an academic CV."
+author: "Gabriel Frazer-McKee"
+date: "2022-09-04"
+categories: [event, PhD]
+image: "featured.png"
+#css: /custom.css
+#draft: true
+---
+
+This fall, I am beginning a PhD in linguistics at Université Laval.
+
+It is not quite the path I expected to be taking a few years ago. I have recently been studying computer science, and until fairly recently I was seriously considering applying to a master’s programme in speech recognition at the University of Groningen. The programme appealed to me because it sat directly at the intersection of language, programming, and data—three areas that I increasingly wanted to bring together in my work.
+
+This is also not my first experience beginning a doctorate. I previously started a PhD in neuroscience, but eventually realized that it was not the right fit for me. Leaving was not an easy decision, but it forced me to think more carefully about the kinds of questions I wanted to spend several years pursuing.
+
+I kept returning to language.
+
+More specifically, I wanted to study Quebec French using the computational skills I had been developing.
+
+From building a corpus to studying neology
+
+My first idea was to build a large corpus of Quebec French.
+
+There was a clear motivation for doing so. Researchers interested in Quebec French often work with corpora designed for particular purposes, limited to particular genres, or covering only certain periods. A large and reusable corpus could potentially support many different kinds of linguistic research.
+
+When I discussed the idea with my supervisor, Bruno Courbon, he cautioned that it was probably too ambitious for a doctoral project. Building a corpus of that scale would require much more than collecting texts. It would also involve questions of representativeness, copyright, metadata, annotation, storage, access, and long-term maintenance.
+
+Rather than making the construction of a research infrastructure the thesis itself, I needed a more focused linguistic problem that would allow me to work with large collections of textual data.
+
+Bruno suggested that I turn toward neology: the study of new words and new meanings.
+
+The suggestion was especially timely. He knew that ENEOLI, a European network devoted to lexical innovation, was preparing an application to become a COST Action. A project on neology would allow me to connect my interests in Quebec French, corpus linguistics, computation, and language planning while becoming involved in a broader international research community.
+
+The more I read, the more the topic began to make sense.
+
+Why do some new words spread?
+
+The question at the centre of the project is relatively simple to formulate:
+
+Why do some new words spread while others do not?
+
+Like all living languages, Quebec French is continually enriched by new words. Some emerge spontaneously among speakers. Others are proposed deliberately, particularly by the Office québécois de la langue française, which regularly recommends French alternatives to English terms.
+
+Some of these innovations become widely used. Others remain marginal, disappear, or coexist with competing forms.
+
+A new word’s trajectory may depend on its linguistic characteristics: its length, structure, transparency, similarity to existing words, or compatibility with the language. Its diffusion may also depend on extralinguistic factors, including speakers’ attitudes, social networks, age, geographic mobility, the prestige of the people who use it, or the kinds of texts in which it appears.
+
+Many such explanations have been proposed, but they are dispersed across several fields, including lexicology, terminology, sociolinguistics, psychology, and computer science. They have also rarely been evaluated together using very large collections of naturally occurring language data.
+
+My doctoral project will examine the linguistic and extralinguistic factors associated with the diffusion—or non-diffusion—of institutional and non-institutional neologisms in Quebec French.
+
+Three studies
+
+The thesis is currently organized around three complementary studies.
+
+The first will be a scoping review of the factors that researchers have associated with neological diffusion. Its purpose will be to gather ideas and evidence distributed across several disciplines and create a structured inventory of the variables that may influence whether a new word succeeds.
+
+This review will provide the conceptual foundation for the two empirical studies that follow.
+
+The second study will examine neologisms proposed by the OQLF as alternatives to English terms. I plan to compare the use of the recommended French forms with that of their English competitors in Quebec social-media and newspaper data.
+
+For example, why might one institutional recommendation become common while another is rarely used outside official contexts? Do the recommendations circulate differently in journalism and on Twitter? Which linguistic and social factors appear to influence their uptake?
+
+The third study will turn to non-institutional neologisms: words that emerge without being proposed through an official language-planning process. Using large corpora of Quebec newspapers and Twitter posts, I hope to identify new forms, trace their circulation, and examine the factors associated with their spread.
+
+Together, the three studies should make it possible to compare institutional and spontaneous lexical innovation across two very different communicative settings.
+
+Bringing linguistics and computation together
+
+One of the things that excites me most about this project is the opportunity to combine linguistic questions with computational methods.
+
+The studies will require the collection and management of large quantities of textual data, text mining, statistical modelling, and possibly machine-learning methods. My recent studies in computer science therefore do not represent a departure from linguistics. Instead, they have given me a new set of tools with which to approach linguistic problems.
+
+At the same time, the project remains fundamentally about language: how new words are created, how they circulate, how speakers respond to them, and how deliberate language planning interacts with actual usage.
+
+The current plan is ambitious. It involves three studies, several large datasets, and methods that I will continue learning throughout the doctorate. The proposal I submitted for admission includes a detailed schedule leading to a thesis submission in 2025 and a defence in 2026.
+
+I am aware that doctoral projects evolve. Some questions will probably become more precise, some methods may change, and some parts of the plan may prove more difficult than they currently appear.
+
+For now, however, I have a question that I want to answer, a project that brings together several of my interests, and a place from which to begin.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
