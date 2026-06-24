@@ -8,57 +8,93 @@
 \usepackage{needspace}
 \usepackage{etoolbox}
 \usepackage{newunicodechar}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
 
 \definecolor{cvnavy}{HTML}{17324D}
 \definecolor{cvtext}{HTML}{253342}
 \definecolor{cvmuted}{HTML}{657382}
 \definecolor{cvline}{HTML}{D9E1E8}
-\definecolor{webblue}{HTML}{3877A8}
-\definecolor{emailred}{HTML}{C45B5B}
-\definecolor{orcidgreen}{HTML}{A6CE39}
-\definecolor{scholarblue}{HTML}{4285F4}
-\definecolor{githubblack}{HTML}{24292F}
-\definecolor{linkedinblue}{HTML}{0A66C2}
-\definecolor{researchgateteal}{HTML}{00A39A}
 
-\hypersetup{
-  colorlinks=true,
-  linkcolor=cvnavy,
-  urlcolor=cvnavy,
-  citecolor=cvnavy,
-  pdfborder={0 0 0}
+% Quarto can add its own hyperlink setup after the header include. Applying
+% this again at the beginning of the document prevents bright-blue links.
+\AtBeginDocument{%
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=cvnavy,
+    urlcolor=cvnavy,
+    citecolor=cvnavy,
+    pdfborder={0 0 0}
+  }%
 }
 \urlstyle{same}
 \newunicodechar{≈}{\ensuremath{\approx}}
 
-\newcommand{\cvlink}[4]{%
-  \mbox{%
-    \href{#1}{%
-      \makebox[1.35em][c]{\textcolor{#2}{#3}}%
-      \hspace{0.28em}%
-      \textcolor{cvtext}{#4}%
-    }%
+% Contact row: black fixed-width icon followed by the visible address.
+\newcommand{\cvlink}[3]{%
+  \href{#1}{%
+    \makebox[1.45em][c]{\textcolor{black}{#2}}%
+    \hspace{0.28em}%
+    \textcolor{cvtext}{\nolinkurl{#3}}%
   }%
 }
 
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+
+% Degree and position entries with dates aligned consistently on the right.
+\newcommand{\cventry}[4]{%
+  \Needspace{4\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.23\textwidth}@{}}
+    \textbf{#1} & \textcolor{cvmuted}{#2}\\[-0.05em]
+    \textcolor{cvmuted}{#3} &
+  \end{tabularx}%
+  \ifstrempty{#4}{}{%
+    \par\vspace{-0.08em}{\small\textcolor{cvmuted}{#4}}%
+  }%
+  \par\vspace{0.48em}%
+}
+
+\newcommand{\cvrole}[3]{%
+  \Needspace{3\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.23\textwidth}@{}}
+    \textbf{#1} & \textcolor{cvmuted}{#2}\\[-0.05em]
+    \textcolor{cvmuted}{#3} &
+  \end{tabularx}%
+  \par\vspace{0.35em}%
+}
+
+\newcommand{\cvcourse}[3]{%
+  \Needspace{2\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.43\textwidth}@{}}
+    \textbf{#1} --- #2 & \textcolor{cvmuted}{#3}
+  \end{tabularx}%
+  \par\vspace{0.10em}%
+}
+
 \titleformat{\section}
-  {\Large\bfseries\color{cvnavy}}
+  {\fontsize{15}{18}\selectfont\bfseries\color{cvnavy}}
   {}{0pt}{}
-  [\vspace{0.15em}\color{cvline}\titlerule]
-\titlespacing*{\section}{0pt}{1.15em}{0.55em}
+  [\vspace{0.13em}\color{cvline}\titlerule]
+\titlespacing*{\section}{0pt}{1.05em}{0.48em}
 
 \titleformat{\subsection}
-  {\normalsize\bfseries\color{cvnavy}}
+  {\fontsize{11.2}{13.4}\selectfont\bfseries\color{cvnavy}}
   {}{0pt}{}
-\titlespacing*{\subsection}{0pt}{0.85em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.82em}{0.28em}
+
 \pretocmd{\section}{\Needspace{6\baselineskip}}{}{}
-\pretocmd{\subsection}{\Needspace{4\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.38em}
-\setlist[itemize]{leftmargin=1.25em,itemsep=0.15em,topsep=0.2em}
-\setlist[enumerate]{leftmargin=1.4em,itemsep=0.2em,topsep=0.2em}
+\setlength{\parskip}{0.30em}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.12em,topsep=0.18em}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.18em,topsep=0.18em}
 \emergencystretch=2em
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
 
 \pagestyle{fancy}
 \fancyhf{}
