@@ -68,6 +68,11 @@ function value(node) {
   return typeof node?.value === "string" ? node.value.trim() : "";
 }
 
+function textValue(node) {
+  if (typeof node === "string") return node.trim();
+  return value(node);
+}
+
 function htmlEscape(text) {
   return String(text ?? "")
     .replaceAll("&", "&amp;")
@@ -839,16 +844,25 @@ async function enrichFunding(summary) {
   const titleNode = item?.title ?? summary?.title;
   const startDate = item?.["start-date"] ?? summary?.["start-date"];
   const endDate = item?.["end-date"] ?? summary?.["end-date"];
-  const organization = value(item?.organization?.name) || value(summary?.organization?.name);
+  // ORCID serializes organization.name as a plain string, whereas many
+  // other text fields are objects with a `value` property.
+  const funder =
+    textValue(item?.organization?.name) ||
+    textValue(summary?.organization?.name) ||
+    textValue(item?.source?.["source-name"]) ||
+    textValue(summary?.source?.["source-name"]);
+
   const amount = amountText(item?.amount ?? summary?.amount);
   const url = value(item?.url) || value(summary?.url);
   const subtype =
-    value(item?.["organization-defined-type"]) ||
-    value(summary?.["organization-defined-type"]);
+    textValue(item?.["organization-defined-type"]) ||
+    textValue(summary?.["organization-defined-type"]);
 
   return {
     title: titleFromNode(titleNode, "Untitled funding award"),
-    organization,
+    funder,
+    // Retain the old property for compatibility with any local customizations.
+    organization: funder,
     amount,
     type: String(item?.type ?? summary?.type ?? "funding").trim(),
     subtype,
@@ -1020,7 +1034,11 @@ function isTravelAward(funding) {
   return normalizeName(funding?.subtype) === "travel award";
 }
 
-function renderFundingSection(titleText, fundings) {
+function renderFundingSection(
+  titleText,
+  fundings,
+  { labelFunder = false } = {}
+) {
   if (fundings.length === 0) return "";
 
   const output = [`# ${titleText}`, ""];
@@ -1032,8 +1050,13 @@ function renderFundingSection(titleText, fundings) {
   for (const funding of sorted) {
     const escapedTitle = markdownEscape(funding.title);
     const title = funding.url ? `[${escapedTitle}](${funding.url})` : escapedTitle;
+    const funder = funding.funder || funding.organization || "";
+    const funderText = funder
+      ? `${labelFunder ? "Funder: " : ""}${markdownEscape(funder)}`
+      : "";
+
     const details = [
-      funding.organization ? markdownEscape(funding.organization) : "",
+      funderText,
       formatYearRange(funding.startDate, funding.endDate),
       funding.amount,
     ].filter(Boolean);
@@ -1053,7 +1076,11 @@ function renderCvFunding(fundings) {
 
   return [
     renderFundingSection("Major Grants and Awards", majorFunding),
-    renderFundingSection("Travel Awards", travelAwards),
+    renderFundingSection(
+      "Competitive Travel Awards",
+      travelAwards,
+      { labelFunder: true }
+    ),
   ].filter(Boolean).join("\n");
 }
 

@@ -31,24 +31,15 @@ website:
         href: publications.qmd
       - text: CV
         href: files/cv.pdf
-      - icon: github
-        href: https://github.com/gafrm
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank
   
   page-navigation: true
   
   page-footer: 
     left: ""
-    center: "© <script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
+    center: "©2022–<script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
     right:  
       - text: Contact
         href: contact.qmd
-      - icon: github
-        href: https://github.com/gafrm
-        target: _blank
       - icon: rss
         href: posts.xml
         target: _blank

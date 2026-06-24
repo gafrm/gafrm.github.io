@@ -35,14 +35,14 @@
 
 # Major Grants and Awards
 
-- **[European Network On Lexical Innovation (ENEOLI)](http://www.eneoli.eu)**. 2023–2027 · EUR 450,000.
-- **Les facteurs linguistiques et extralinguistiques associés à la (non-) diffusion de néologismes dans le français québécois au début du 21e siècle : Une approche par les mégadonnées**. 2023–2028 · CAD 120,000.
+- **[European Network On Lexical Innovation (ENEOLI)](http://www.eneoli.eu)**. European Cooperation in Science and Technology · 2023–2027 · EUR 450,000.
+- **Les facteurs linguistiques et extralinguistiques associés à la (non-) diffusion de néologismes dans le français québécois au début du 21e siècle : Une approche par les mégadonnées**. Social Sciences and Humanities Research Council · 2023–2028 · CAD 120,000.
 
-# Travel Awards
+# Competitive Travel Awards
 
-- **Research stay in Grenoble, France (2027)**. 2027 · CAD 1,500.
-- **Research stay in Grenoble, France (2025)**. 2025 · CAD 1,500.
-- **Research stay in Lisbon, Portugual**. 2025 · CAD 1,000.
+- **Research stay in Grenoble, France (2027)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 1,500.
+- **Research stay in Grenoble, France (2025)**. Funder: Social Sciences and Humanities Research Council of Canada · 2025 · CAD 1,500.
+- **Research stay in Lisbon, Portugual**. Funder: Université Laval · 2025 · CAD 1,000.
 
 # Peer Review
 
