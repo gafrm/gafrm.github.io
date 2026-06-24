@@ -1,0 +1,36 @@
+---
+title: "My first invited conference presentation"
+subtitle: "Presenting the scoping review protocol and meeting potential allies for the next stage."
+description: "the most important part of a conference presentation may happen after the final slide"
+author: "Gabriel Frazer-McKee"
+date: 2026-06-16
+categories: [Conferences, PhD, Scoping review]
+image: "featured.png"
+---
+
+Today, I gave my first invited conference presentation.
+
+Because I am currently on parental leave, I cleared my participation with the BBAF beforehand. The presentation concerned work completed before the beginning of my leave: the protocol for our scoping review of the linguistic and extralinguistic factors associated with neological diffusion.
+
+The talk gave me an opportunity to present the logic of the review in greater detail: why the literature needs to be mapped systematically, how we intend to identify relevant studies, and how we plan to extract and classify the many different factors that researchers have associated with the diffusion—or non-diffusion—of new words.
+
+I do not particularly enjoy giving presentations. Preparing them takes time, and I rarely feel entirely comfortable speaking in front of a room. Still, presentations have a value that is difficult to reproduce through publications alone. They make it possible to discuss a project while it is still developing, receive immediate reactions, and meet people whose expertise may help move the work forward.
+
+That was certainly the case today.
+
+I met **Xavier Darras**, from the Office québécois de la langue française, and **Giovanni Tallarico**. Both responded favourably to the project and indicated that they would do what they could to help us recruit specialists for the scoping review.
+
+This is especially valuable because the next stage of the review depends on obtaining informed feedback from researchers and practitioners with expertise in neology, terminology, and related fields. Identifying relevant specialists—and persuading them to contribute their time—is not a minor part of the process.
+
+The presentation therefore accomplished more than simply communicating the protocol. It helped create connections that may strengthen the review itself.
+
+I am still unlikely to become someone who looks forward to presenting. But today was a useful reminder that the most important part of a conference presentation may happen after the final slide.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
