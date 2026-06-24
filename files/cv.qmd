@@ -1,23 +1,22 @@
 ---
-
 lang: en-CA
 format:
-pdf:
-pdf-engine: xelatex
-documentclass: article
-papersize: letter
-fontsize: 10pt
-geometry:
-- top=0.58in
-- bottom=0.62in
-- left=0.70in
-- right=0.70in
-include-in-header: cv-header.tex
-number-sections: false
-toc: false
-keep-tex: false
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    papersize: letter
+    fontsize: 10pt
+    geometry:
+    - top=0.58in
+    - bottom=0.62in
+    - left=0.70in
+    - right=0.70in
+    include-in-header: cv-header.tex
+    number-sections: false
+    toc: false
+    keep-tex: false
 output-file: cv.pdf
--------------------
+---
 
 ```{=latex}
 \begin{center}

@@ -1,10 +1,9 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
 title-block-banner: false
 ---
 
-I have over a decade of teaching experience in linguistics and French-language studies. During this time, I have taught more than ten course sections as instructor of record and served as a teaching assistant for roughly twice as many. My teaching has covered areas such as lexicology, introductory linguistics, grammar, writing, and language acquisition.
+I have over a decade of teaching experience in linguistics and French-language studies. 
 
 Below is a selection of courses I have taught recently as instructor of record.
 
