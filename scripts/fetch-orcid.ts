@@ -1,4 +1,4 @@
-// Build a polished Quarto publication page from Gabriel Frazer-McKee's public ORCID record.
+// Build polished Quarto publication and CV fragments from Gabriel Frazer-McKee's public ORCID record.
 //
 // Source hierarchy:
 // 1. ORCID determines which public works belong on the page.
@@ -8,7 +8,8 @@
 
 const ORCID_ID = "0000-0002-0860-6192";
 const ORCID_URL = `https://orcid.org/${ORCID_ID}`;
-const OUTPUT_FILE = "_generated/publications.md";
+const PUBLICATIONS_OUTPUT_FILE = "_generated/publications.md";
+const CV_OUTPUT_FILE = "_generated/cv-orcid.md";
 const OVERRIDES_FILE = "_data/publication-overrides.json";
 
 const MAX_AUTHORS_BEFORE_TRUNCATION = 12;
@@ -52,8 +53,13 @@ async function fileExists(path) {
 const isPreRender = Deno.env.get("QUARTO_PROJECT_INPUT_FILES") !== undefined;
 const isFullRender = Deno.env.get("QUARTO_PROJECT_RENDER_ALL") === "1";
 
-if (isPreRender && !isFullRender && await fileExists(OUTPUT_FILE)) {
-  console.log("Using cached ORCID publication list.");
+if (
+  isPreRender &&
+  !isFullRender &&
+  await fileExists(PUBLICATIONS_OUTPUT_FILE) &&
+  await fileExists(CV_OUTPUT_FILE)
+) {
+  console.log("Using cached ORCID publication and CV fragments.");
   Deno.exit(0);
 }
 
@@ -267,14 +273,14 @@ function authorsFromFullOrcidWork(work) {
   return deduplicateAuthors(selected.map(orcidContributorName).filter(Boolean));
 }
 
-async function fullOrcidWork(summary) {
+async function fullOrcidItem(endpoint, summary) {
   const token = Deno.env.get("ORCID_ACCESS_TOKEN");
   if (!token) return null;
 
   const putCode = summary?.["put-code"];
   if (!putCode) return null;
 
-  const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/work/${putCode}`;
+  const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/${endpoint}/${putCode}`;
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
@@ -284,15 +290,21 @@ async function fullOrcidWork(summary) {
   });
 
   if (!response.ok) {
-    throw new Error(`full ORCID work request failed (${response.status})`);
+    throw new Error(`full ORCID ${endpoint} request failed (${response.status})`);
   }
 
   const contentType = response.headers.get("content-type") ?? "";
   if (!contentType.includes("json")) {
-    throw new Error(`full ORCID work request returned ${contentType || "non-JSON content"}`);
+    throw new Error(
+      `full ORCID ${endpoint} request returned ${contentType || "non-JSON content"}`
+    );
   }
 
   return await response.json();
+}
+
+async function fullOrcidWork(summary) {
+  return await fullOrcidItem("work", summary);
 }
 
 function cslMetadata(csl, source) {
@@ -620,6 +632,352 @@ function renderPublicationList(works) {
   return output.join("\n");
 }
 
+
+function markdownEscape(text) {
+  return String(text ?? "")
+    .replaceAll("\\", "\\\\")
+    .replaceAll("*", "\\*")
+    .replaceAll("_", "\\_")
+    .replaceAll("[", "\\[")
+    .replaceAll("]", "\\]");
+}
+
+function formatAuthorMarkdown(author) {
+  const fullName = authorFullName(author);
+  if (!fullName) return "";
+
+  const escaped = markdownEscape(fullName);
+  return isGabriel(fullName) ? `**${escaped}**` : escaped;
+}
+
+function joinAuthorsMarkdown(rawAuthors) {
+  const authors = deduplicateAuthors(rawAuthors);
+  const names = authors.map(formatAuthorMarkdown).filter(Boolean);
+
+  if (names.length === 0) return "**Gabriel Frazer-McKee**";
+  if (names.length === 1) return names[0];
+  if (names.length === 2) return `${names[0]} & ${names[1]}`;
+
+  if (names.length <= MAX_AUTHORS_BEFORE_TRUNCATION) {
+    return `${names.slice(0, -1).join(", ")}, & ${names.at(-1)}`;
+  }
+
+  const gabrielIndex = authors.findIndex((author) => isGabriel(authorFullName(author)));
+  const firstAuthors = names.slice(0, LEADING_AUTHORS_IN_TRUNCATED_LIST);
+  const finalAuthor = names.at(-1);
+
+  if (
+    gabrielIndex >= 0 &&
+    (gabrielIndex < LEADING_AUTHORS_IN_TRUNCATED_LIST || gabrielIndex === names.length - 1)
+  ) {
+    return `${firstAuthors.join(", ")}, …, & ${finalAuthor}`;
+  }
+
+  if (gabrielIndex >= 0) {
+    return `${firstAuthors.join(", ")}, …, ${names[gabrielIndex]}, …, & ${finalAuthor}`;
+  }
+
+  return `${firstAuthors.join(", ")}, …, & ${finalAuthor}`;
+}
+
+function preferredActivitySummary(group, summaryKey) {
+  const summaries = group?.[summaryKey] ?? [];
+
+  return summaries.reduce((preferred, candidate) => {
+    if (!preferred) return candidate;
+    const preferredIndex = Number(preferred?.["display-index"] ?? 0);
+    const candidateIndex = Number(candidate?.["display-index"] ?? 0);
+    return candidateIndex > preferredIndex ? candidate : preferred;
+  }, null);
+}
+
+function activitySummaries(record, sectionKey, summaryKey) {
+  const groups = record?.["activities-summary"]?.[sectionKey]?.group ?? [];
+  return groups.map((group) => preferredActivitySummary(group, summaryKey)).filter(Boolean);
+}
+
+function datePart(date, part) {
+  return value(date?.[part]);
+}
+
+function dateYear(date) {
+  return Number(datePart(date, "year")) || 0;
+}
+
+function formatYearRange(startDate, endDate) {
+  const startYear = dateYear(startDate);
+  const endYear = dateYear(endDate);
+
+  if (startYear && endYear && startYear !== endYear) return `${startYear}–${endYear}`;
+  if (startYear) return String(startYear);
+  if (endYear) return String(endYear);
+  return "";
+}
+
+function titleFromNode(node, fallback = "Untitled") {
+  const title = value(node?.title) || fallback;
+  const subtitle = value(node?.subtitle);
+  return subtitle ? `${title}: ${subtitle}` : title;
+}
+
+function amountText(amount) {
+  const raw = value(amount);
+  if (!raw) return "";
+
+  const currency = String(
+    amount?.["currency-code"] ?? amount?.currencyCode ?? amount?.currency ?? ""
+  ).trim();
+
+  const numeric = Number(raw.replaceAll(",", ""));
+  const formatted = Number.isFinite(numeric)
+    ? new Intl.NumberFormat("en-CA", { maximumFractionDigits: 2 }).format(numeric)
+    : raw;
+
+  return currency ? `${currency} ${formatted}` : formatted;
+}
+
+async function enrichFunding(summary) {
+  let item = summary;
+
+  try {
+    item = (await fullOrcidItem("funding", summary)) ?? summary;
+  } catch (error) {
+    console.warn(`Could not retrieve full ORCID funding item ${summary?.["put-code"]}: ${error.message}`);
+  }
+
+  const titleNode = item?.title ?? summary?.title;
+  const startDate = item?.["start-date"] ?? summary?.["start-date"];
+  const endDate = item?.["end-date"] ?? summary?.["end-date"];
+  const organization = value(item?.organization?.name) || value(summary?.organization?.name);
+  const amount = amountText(item?.amount ?? summary?.amount);
+  const url = value(item?.url) || value(summary?.url);
+
+  return {
+    title: titleFromNode(titleNode, "Untitled funding award"),
+    organization,
+    amount,
+    type: String(item?.type ?? summary?.type ?? "funding").trim(),
+    startDate,
+    endDate,
+    year: dateYear(startDate) || dateYear(endDate),
+    url,
+  };
+}
+
+function peerReviewVenue(item, summary) {
+  const candidates = [
+    value(item?.["subject-container-name"]),
+    value(item?.subject?.["subject-container-name"]),
+    value(summary?.["subject-container-name"]),
+    value(item?.["convening-organization"]?.name),
+    value(summary?.["convening-organization"]?.name),
+    value(item?.source?.["source-name"]),
+    value(summary?.source?.["source-name"]),
+    String(item?.["review-group-id"] ?? summary?.["review-group-id"] ?? "").trim(),
+  ];
+
+  return candidates.find(Boolean) || "Unspecified venue";
+}
+
+async function enrichPeerReview(summary) {
+  let item = summary;
+
+  try {
+    item = (await fullOrcidItem("peer-review", summary)) ?? summary;
+  } catch (error) {
+    console.warn(
+      `Could not retrieve full ORCID peer-review item ${summary?.["put-code"]}: ${error.message}`
+    );
+  }
+
+  const completionDate =
+    item?.["review-completion-date"] ??
+    item?.["completion-date"] ??
+    summary?.["review-completion-date"] ??
+    summary?.["completion-date"];
+
+  return {
+    venue: peerReviewVenue(item, summary),
+    year: dateYear(completionDate),
+    role: String(item?.["reviewer-role"] ?? summary?.["reviewer-role"] ?? "reviewer").trim(),
+    reviewType: String(item?.["review-type"] ?? summary?.["review-type"] ?? "review").trim(),
+    url: value(item?.["review-url"]) || value(summary?.["review-url"]),
+  };
+}
+
+const CV_SECTION_ORDER = [
+  "Peer-Reviewed Journal Articles",
+  "Book Chapters",
+  "Books and Edited Volumes",
+  "Conference Proceedings",
+  "Working Papers",
+  "Preprints",
+  "Reports",
+  "Theses",
+  "Editorial and Reference Work",
+  "Other Scholarly Outputs",
+];
+
+function cvSectionForWork(work) {
+  if (work.cvSection) return String(work.cvSection);
+
+  const sections = new Map([
+    ["journal-article", "Peer-Reviewed Journal Articles"],
+    ["book-chapter", "Book Chapters"],
+    ["book", "Books and Edited Volumes"],
+    ["edited-book", "Books and Edited Volumes"],
+    ["conference-paper", "Conference Proceedings"],
+    ["working-paper", "Working Papers"],
+    ["preprint", "Preprints"],
+    ["report", "Reports"],
+    ["dissertation-thesis", "Theses"],
+    ["journal-issue", "Editorial and Reference Work"],
+    ["dictionary-entry", "Editorial and Reference Work"],
+    ["encyclopedia-entry", "Editorial and Reference Work"],
+    ["review", "Other Scholarly Outputs"],
+    ["other", "Other Scholarly Outputs"],
+  ]);
+
+  return sections.get(work.type) ?? "Other Scholarly Outputs";
+}
+
+function renderCvWork(work) {
+  const authors = joinAuthorsMarkdown(work.authors);
+  const year = work.year || "forthcoming";
+  const escapedTitle = markdownEscape(work.title);
+  const title = work.url ? `[${escapedTitle}](${work.url})` : escapedTitle;
+  const details = [];
+  const venue = work.venue || work.publisher;
+
+  if (venue) details.push(`*${markdownEscape(venue)}*`);
+
+  let volumeIssue = "";
+  if (work.volume) volumeIssue += markdownEscape(work.volume);
+  if (work.issue) volumeIssue += `(${markdownEscape(work.issue)})`;
+  if (volumeIssue) details.push(volumeIssue);
+  if (work.pages) details.push(markdownEscape(work.pages));
+  if (work.doi) details.push(`[doi:${work.doi}](${doiUrl(work.doi)})`);
+
+  const tail = details.length > 0 ? ` ${details.join(", ")}.` : "";
+  return `- ${authors}. (${year}). ${title}.${tail}`;
+}
+
+function renderCvPublications(works) {
+  if (works.length === 0) return "";
+
+  const grouped = new Map();
+  for (const work of works) {
+    const section = cvSectionForWork(work);
+    if (!grouped.has(section)) grouped.set(section, []);
+    grouped.get(section).push(work);
+  }
+
+  const extraSections = [...grouped.keys()]
+    .filter((section) => !CV_SECTION_ORDER.includes(section))
+    .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+
+  const sections = [...CV_SECTION_ORDER, ...extraSections].filter((section) => grouped.has(section));
+  const output = ["# Publications", ""];
+
+  for (const section of sections) {
+    output.push(`## ${section}`, "");
+
+    const entries = grouped.get(section).sort((a, b) => {
+      if (a.year !== b.year) return (b.year || 0) - (a.year || 0);
+      return a.title.localeCompare(b.title, "en", { sensitivity: "base" });
+    });
+
+    for (const work of entries) output.push(renderCvWork(work));
+    output.push("");
+  }
+
+  return output.join("\n");
+}
+
+function renderCvFunding(fundings) {
+  if (fundings.length === 0) return "";
+
+  const output = ["# Major Grants and Awards", ""];
+  const sorted = [...fundings].sort((a, b) => {
+    if (a.year !== b.year) return (b.year || 0) - (a.year || 0);
+    return a.title.localeCompare(b.title, "en", { sensitivity: "base" });
+  });
+
+  for (const funding of sorted) {
+    const titleText = markdownEscape(funding.title);
+    const title = funding.url ? `[${titleText}](${funding.url})` : titleText;
+    const details = [
+      funding.organization ? markdownEscape(funding.organization) : "",
+      formatYearRange(funding.startDate, funding.endDate),
+      funding.amount,
+    ].filter(Boolean);
+
+    output.push(`- **${title}**${details.length ? `. ${details.join(" · ")}.` : "."}`);
+  }
+
+  output.push("");
+  return output.join("\n");
+}
+
+function roleLabel(role) {
+  const labels = new Map([
+    ["reviewer", "Reviewer"],
+    ["editor", "Editor"],
+    ["chair", "Review chair"],
+    ["member", "Review-panel member"],
+    ["organizer", "Review organizer"],
+  ]);
+  return labels.get(String(role).toLowerCase()) ?? "Reviewer";
+}
+
+function renderCvPeerReviews(peerReviews) {
+  if (peerReviews.length === 0) return "";
+
+  const grouped = new Map();
+  for (const review of peerReviews) {
+    const key = normalizeName(review.venue) || review.venue;
+    if (!grouped.has(key)) {
+      grouped.set(key, {
+        venue: review.venue,
+        role: review.role,
+        years: new Set(),
+        count: 0,
+      });
+    }
+
+    const group = grouped.get(key);
+    group.count += 1;
+    if (review.year) group.years.add(review.year);
+  }
+
+  const entries = [...grouped.values()].sort((a, b) =>
+    a.venue.localeCompare(b.venue, "en", { sensitivity: "base" })
+  );
+
+  const output = ["# Peer Review", ""];
+  for (const entry of entries) {
+    const years = [...entry.years].sort((a, b) => b - a).join(", ");
+    const countText = entry.count === 1 ? "1 review" : `${entry.count} reviews`;
+    const suffix = years ? ` (${years})` : "";
+    output.push(
+      `- *${markdownEscape(entry.venue)}* — ${roleLabel(entry.role)}; ${countText}${suffix}.`
+    );
+  }
+
+  output.push("");
+  return output.join("\n");
+}
+
+function renderCvFragment(works, fundings, peerReviews) {
+  const sections = [
+    renderCvPublications(works),
+    renderCvFunding(fundings),
+    renderCvPeerReviews(peerReviews),
+  ].filter(Boolean);
+
+  return `${sections.join("\n")}\n`;
+}
+
 async function writeOnlyIfChanged(path, content) {
   await Deno.mkdir(path.substring(0, path.lastIndexOf("/")), { recursive: true });
 
@@ -631,7 +989,7 @@ async function writeOnlyIfChanged(path, content) {
   }
 
   if (existing === content) {
-    console.log("ORCID publication list is already current.");
+    console.log(`Generated ORCID file is already current: ${path}.`);
     return;
   }
 
@@ -670,13 +1028,39 @@ try {
     works.push(await enrichWork(summary, overrides));
   }
 
-  await writeOnlyIfChanged(OUTPUT_FILE, renderPublicationList(works));
+  const fundingSummaries = activitySummaries(record, "fundings", "funding-summary");
+  const fundings = [];
+  for (const summary of fundingSummaries) {
+    fundings.push(await enrichFunding(summary));
+  }
+
+  const peerReviewSummaries = activitySummaries(
+    record,
+    "peer-reviews",
+    "peer-review-summary"
+  );
+  const peerReviews = [];
+  for (const summary of peerReviewSummaries) {
+    peerReviews.push(await enrichPeerReview(summary));
+  }
+
+  await writeOnlyIfChanged(
+    PUBLICATIONS_OUTPUT_FILE,
+    renderPublicationList(works)
+  );
+  await writeOnlyIfChanged(
+    CV_OUTPUT_FILE,
+    renderCvFragment(works, fundings, peerReviews)
+  );
 } catch (error) {
-  if (await fileExists(OUTPUT_FILE)) {
-    console.warn(`Publication refresh failed; keeping the cached list. ${error.message}`);
+  const hasPublicationCache = await fileExists(PUBLICATIONS_OUTPUT_FILE);
+  const hasCvCache = await fileExists(CV_OUTPUT_FILE);
+
+  if (hasPublicationCache && hasCvCache) {
+    console.warn(`ORCID refresh failed; keeping the cached files. ${error.message}`);
     Deno.exit(0);
   }
 
-  console.error(`Could not generate the publication list. ${error.message}`);
+  console.error(`Could not generate the ORCID publication and CV files. ${error.message}`);
   Deno.exit(1);
 }

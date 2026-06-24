@@ -32,7 +32,13 @@
 \newunicodechar{≈}{\ensuremath{\approx}}
 
 \newcommand{\cvlink}[4]{%
-  \mbox{\href{#1}{\textcolor{#2}{#3}\hspace{0.28em}\textcolor{cvtext}{#4}}}%
+  \mbox{%
+    \href{#1}{%
+      \makebox[1.35em][c]{\textcolor{#2}{#3}}%
+      \hspace{0.28em}%
+      \textcolor{cvtext}{#4}%
+    }%
+  }%
 }
 
 \titleformat{\section}

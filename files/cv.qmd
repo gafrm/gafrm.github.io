@@ -1,41 +1,71 @@
 ---
+
 lang: en-CA
 format:
-  pdf:
-    pdf-engine: xelatex
-    documentclass: article
-    papersize: letter
-    fontsize: 10pt
-    geometry:
-      - top=0.58in
-      - bottom=0.62in
-      - left=0.70in
-      - right=0.70in
-    include-in-header: cv-header.tex
-    number-sections: false
-    toc: false
-    keep-tex: false
+pdf:
+pdf-engine: xelatex
+documentclass: article
+papersize: letter
+fontsize: 10pt
+geometry:
+- top=0.58in
+- bottom=0.62in
+- left=0.70in
+- right=0.70in
+include-in-header: cv-header.tex
+number-sections: false
+toc: false
+keep-tex: false
 output-file: cv.pdf
----
+-------------------
 
 ```{=latex}
 \begin{center}
-  {\fontsize{24}{27}\selectfont\bfseries\color{cvnavy} Gabriel Frazer-McKee}\\[0.55em]
+  {\fontsize{24}{27}\selectfont\bfseries\color{cvnavy} Gabriel Frazer-McKee}\\[0.65em]
+
   \small
-  \cvlink{https://gafrm.github.io}{webblue}{\faGlobe}{Website}
-  \quad
-  \cvlink{mailto:gabriel.frazer.mckee@gmail.com}{emailred}{\faEnvelope}{Email}
-  \quad
-  \cvlink{https://orcid.org/0000-0002-0860-6192}{orcidgreen}{\faOrcid}{ORCID}
-  \quad
-  \cvlink{https://scholar.google.com/citations?user=MWAQth4AAAAJ}{scholarblue}{\faGraduationCap}{Google Scholar}\\[0.35em]
-  \cvlink{https://github.com/gafrm}{githubblack}{\faGithub}{GitHub}
-  \quad
-  \cvlink{https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/}{linkedinblue}{\faLinkedinIn}{LinkedIn}
-  \quad
-  \cvlink{https://www.researchgate.net/profile/Gabriel-Frazer-Mckee}{researchgateteal}{\faResearchgate}{ResearchGate}
+  \begin{tabular}{@{}l@{}}
+    \cvlink{https://gafrm.github.io}{black}{\faGlobe}{gafrm.github.io}\\[0.16em]
+    \cvlink{mailto:gabriel.frazer.mckee@gmail.com}{black}{\faEnvelope}{gabriel.frazer.mckee@gmail.com}\\[0.16em]
+    \cvlink{https://orcid.org/0000-0002-0860-6192}{black}{\faOrcid}{0000-0002-0860-6192}\\[0.16em]
+    \cvlink{https://scholar.google.com/citations?user=MWAQth4AAAAJ}{black}{\faGraduationCap}{Google Scholar}\\[0.16em]
+    \cvlink{https://github.com/gafrm}{black}{\faGithub}{github.com/gafrm}\\[0.16em]
+    \cvlink{https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/}{black}{\faLinkedinIn}{LinkedIn}\\[0.16em]
+    \cvlink{https://www.researchgate.net/profile/Gabriel-Frazer-Mckee}{black}{\faResearchgate}{ResearchGate}
+  \end{tabular}
 \end{center}
-\vspace{-0.55em}
+\vspace{-0.35em}
 ```
+
+# Education
+
+**PhD in Linguistics**
+Université Laval, Québec City, Canada
+2022–present
+
+Supervisor: Bruno Courbon
+Co-supervisor: Olivier Kraif, Université Grenoble Alpes
+
+**MA in Linguistics**
+Université Laval, Québec City, Canada
+2015–2019
+
+# Teaching Experience
+
+**Lecturer, Université Laval**
+2015–present
+
+* **ANG-1002 — Introduction to Linguistics**, Autumn 2022, Autumn 2023, Autumn 2025
+* **FRN-1110 — Lexicologie**, Winter 2024, Winter 2025
+* **ANG-2515 — Understanding Grammar**, Autumn 2024
+
+<!--
+Add the remaining courses taught using this format:
+
+- **COURSE CODE — Course title**, Fall 2024
+- **COURSE CODE — Course title**, Winter 2023, Winter 2024
+
+Repeated offerings of the same course can be combined on one line.
+-->
 
 {{< include ../_generated/cv-orcid.md >}}
