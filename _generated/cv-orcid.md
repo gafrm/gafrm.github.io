@@ -40,7 +40,9 @@
 
 # Travel Awards
 
-- **Research stay in Grenoble, France**. 2025 · CAD 1,500.
+- **Research stay in Grenoble, France (2027)**. 2027 · CAD 1,500.
+- **Research stay in Grenoble, France (2025)**. 2025 · CAD 1,500.
+- **Research stay in Lisbon, Portugual**. 2025 · CAD 1,000.
 
 # Peer Review
 
