@@ -1,0 +1,45 @@
+{
+  "education": [
+    {
+      "degree": "PhD in Linguistics",
+      "institution": "Université Laval",
+      "location": "Québec City, Canada",
+      "dates": "2022–present",
+      "supervisor": "Bruno Courbon",
+      "coSupervisor": "Olivier Kraif, Université Grenoble Alpes"
+    },
+    {
+      "degree": "MA in Linguistics",
+      "institution": "Université Laval",
+      "location": "Québec City, Canada",
+      "dates": "2015–2019",
+      "supervisor": "Patrick J. Duffley"
+    }
+  ],
+  "courses": [
+    {
+      "code": "ANG-1002",
+      "title": "Introduction to Linguistics",
+      "offerings": [
+        "Autumn 2022",
+        "Autumn 2023",
+        "Autumn 2025"
+      ]
+    },
+    {
+      "code": "FRN-1110",
+      "title": "Lexicologie",
+      "offerings": [
+        "Winter 2024",
+        "Winter 2025"
+      ]
+    },
+    {
+      "code": "ANG-2515",
+      "title": "Understanding Grammar",
+      "offerings": [
+        "Autumn 2024"
+      ]
+    }
+  ]
+}

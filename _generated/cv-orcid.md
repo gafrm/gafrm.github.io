@@ -1,3 +1,14 @@
+# Education
+
+**PhD in Linguistics** · 2022–present
+Université Laval · Québec City, Canada  
+Supervisor: Bruno Courbon  
+Co-supervisor: Olivier Kraif, Université Grenoble Alpes  
+
+**MA in Linguistics** · 2015–2019
+Université Laval · Québec City, Canada  
+Supervisor: Patrick J. Duffley  
+
 # Publications
 
 ## Peer-Reviewed Journal Articles
@@ -47,4 +58,21 @@
 # Peer Review
 
 - *Elsevier Editorial* — Reviewer; 1 review (2026).
+
+# Academic Service
+
+- **Editor-in-chief of JDL 2024-2025 Proceedings**. Journées de Linguistique (2024-2025) · Département de langues, linguistique et traduction · 2024–2026.
+- **Conference organizer**. Journées de Linguistique (2023-2026) · Department of Languages, Linguistics, and Translation · 2022–2026.
+
+# Teaching Experience
+
+**FRN-1110 (Lexicologie) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2024  
+
+**ANG-1002 (Intro. to Linguistics) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2023  
+
+**ANG-2002 (Nominal Forms) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2018  
+
+- **ANG-1002 — Introduction to Linguistics**, Autumn 2022, Autumn 2023, Autumn 2025
+- **FRN-1110 — Lexicologie**, Winter 2024, Winter 2025
+- **ANG-2515 — Understanding Grammar**, Autumn 2024
 

@@ -36,24 +36,17 @@ output-file: cv.pdf
 \vspace{-0.25em}
 ```
 
-
-# Education
-
-**PhD in Linguistics**  
-Université Laval, Québec City, Canada  
-2022–present
-
-**MA in Linguistics**  
-Université Laval, Québec City, Canada  
-2015–2019
-
-# Teaching Experience
-
-**Lecturer, Université Laval**  
-2015–present
-
-- **FRN-1110 — Lexicologie**, Winter 2024, Winter 2025
-- **ANG-1002 — Introduction to Linguistics**, Autumn 2022, Autumn 2023, Autumn 2025
-- **ANG-2515 — Understanding Grammar**, Autumn 2024
-
 {{< include ../_generated/cv-orcid.md >}}
+
+```{=latex}
+\par
+\vspace{0.8em}
+\begin{center}
+  {\scriptsize\color{cvmuted}
+  Publications, funding, peer review, academic service, and employment are
+  populated automatically from my
+  \href{https://orcid.org/0000-0002-0860-6192}{ORCID record}.
+  Education and courses taught are maintained locally.}
+\end{center}
+```
+

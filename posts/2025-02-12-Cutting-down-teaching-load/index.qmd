@@ -1,0 +1,31 @@
+---
+title: "Reducing my teaching load"
+subtitle: "A conscious decision to protect the time needed to complete the dissertation."
+description: "A conscious decision to protect the time needed to complete the dissertation."
+author: "Gabriel Frazer-McKee"
+date: "2025-02-11"
+categories: [PhD, Teaching]
+image: "featured.png"
+#draft: true
+---
+
+I have decided to reduce my teaching load to one course per year rather than two.
+
+This is not an easy decision. Teaching has been a consistent part of my academic life for years, and I value both the work itself and the experience it gives me. It is tempting to accept each new opportunity, particularly when teaching remains an important part of the academic profile I am building.
+
+But teaching a course requires much more than the hours spent in the classroom. There is preparation, grading, communication with students, course administration, and the less visible mental effort involved in moving repeatedly between teaching and research. Even a familiar course can fragment the longer periods of concentration that writing a dissertation requires.
+
+At this stage of the PhD, I need to protect those periods.
+
+My dissertation is composed of several interconnected research projects, each involving substantial data collection, analysis, and writing. Finishing it will require sustained attention rather than whatever time remains after other commitments have been met. Continuing to teach two courses each year would make progress possible, but slower and more difficult than it needs to be.
+
+Teaching one course per year feels like the right balance. It allows me to remain active in the classroom, continue developing my teaching experience, and maintain an important part of my academic identity. At the same time, it creates more room for the work that now has to take priority: completing the research, writing the articles, and finishing the dissertation.
+
+There will always be another course that would be interesting to teach. The PhD, however, needs to be finished.
+
+For now, doing less teaching is part of making that happen.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -12,6 +12,7 @@ const ORCID_API_BASE = `https://pub.orcid.org/v3.0/${ORCID_ID}`;
 const PUBLICATIONS_OUTPUT_FILE = "_generated/publications.md";
 const CV_OUTPUT_FILE = "_generated/cv-orcid.md";
 const OVERRIDES_FILE = "_data/publication-overrides.json";
+const CV_MANUAL_FILE = "_data/cv-manual.json";
 
 const MAX_AUTHORS_BEFORE_TRUNCATION = 12;
 const LEADING_AUTHORS_IN_TRUNCATED_LIST = 5;
@@ -480,6 +481,20 @@ async function loadOverrides() {
   return parsed && typeof parsed === "object" ? parsed : {};
 }
 
+async function loadCvManualData() {
+  if (!await fileExists(CV_MANUAL_FILE)) {
+    return { education: [], courses: [] };
+  }
+
+  const raw = await Deno.readTextFile(CV_MANUAL_FILE);
+  const parsed = JSON.parse(raw);
+
+  return {
+    education: Array.isArray(parsed?.education) ? parsed.education : [],
+    courses: Array.isArray(parsed?.courses) ? parsed.courses : [],
+  };
+}
+
 function applyOverride(work, override) {
   if (!override || typeof override !== "object") return work;
 
@@ -914,6 +929,65 @@ async function enrichPeerReview(summary) {
   };
 }
 
+function organizationName(item, summary) {
+  return (
+    textValue(item?.organization?.name) ||
+    textValue(summary?.organization?.name) ||
+    ""
+  );
+}
+
+function countryName(countryCode) {
+  const code = String(countryCode ?? "").trim().toUpperCase();
+  if (!code) return "";
+
+  try {
+    return new Intl.DisplayNames(["en-CA"], { type: "region" }).of(code) || code;
+  } catch {
+    return code;
+  }
+}
+
+function organizationLocation(item, summary) {
+  const address = item?.organization?.address ?? summary?.organization?.address ?? {};
+  const city = textValue(address?.city);
+  const region = textValue(address?.region);
+  const country = countryName(textValue(address?.country));
+
+  return [city, region, country].filter(Boolean).join(", ");
+}
+
+async function enrichAffiliation(summary, singularEndpoint) {
+  let item = summary;
+
+  try {
+    item = (await fullOrcidItem(singularEndpoint, summary)) ?? summary;
+  } catch (error) {
+    console.warn(
+      `Could not retrieve full ORCID ${singularEndpoint} item ${summary?.["put-code"]}: ${error.message}`
+    );
+  }
+
+  const startDate = item?.["start-date"] ?? summary?.["start-date"];
+  const endDate = item?.["end-date"] ?? summary?.["end-date"];
+
+  return {
+    roleTitle:
+      textValue(item?.["role-title"]) ||
+      textValue(summary?.["role-title"]) ||
+      "Untitled affiliation",
+    departmentName:
+      textValue(item?.["department-name"]) ||
+      textValue(summary?.["department-name"]),
+    organization: organizationName(item, summary),
+    location: organizationLocation(item, summary),
+    startDate,
+    endDate,
+    year: dateYear(startDate) || dateYear(endDate),
+    url: value(item?.url) || value(summary?.url),
+  };
+}
+
 const CV_SECTION_ORDER = [
   "Peer-Reviewed Journal Articles",
   "Editorials in Student Journals",
@@ -1095,6 +1169,116 @@ function roleLabel(role) {
   return labels.get(String(role).toLowerCase()) ?? "Reviewer";
 }
 
+function sortAffiliations(affiliations) {
+  return [...affiliations].sort((a, b) => {
+    const aEnd = dateYear(a.endDate) || 9999;
+    const bEnd = dateYear(b.endDate) || 9999;
+    if (aEnd !== bEnd) return bEnd - aEnd;
+
+    const aStart = dateYear(a.startDate);
+    const bStart = dateYear(b.startDate);
+    if (aStart !== bStart) return bStart - aStart;
+
+    return a.roleTitle.localeCompare(b.roleTitle, "en", { sensitivity: "base" });
+  });
+}
+
+function renderCvEducation(educations) {
+  if (!Array.isArray(educations) || educations.length === 0) return "";
+
+  const output = ["# Education", ""];
+
+  for (const education of educations) {
+    const degree = markdownEscape(education.degree || "Degree");
+    const dates = markdownEscape(education.dates || "");
+    output.push(dates ? `**${degree}** · ${dates}` : `**${degree}**`);
+
+    const affiliation = [
+      education.institution ? markdownEscape(education.institution) : "",
+      education.location ? markdownEscape(education.location) : "",
+    ].filter(Boolean).join(" · ");
+    if (affiliation) output.push(`${affiliation}  `);
+
+    if (education.supervisor) {
+      output.push(`Supervisor: ${markdownEscape(education.supervisor)}  `);
+    }
+
+    if (education.coSupervisor) {
+      output.push(`Co-supervisor: ${markdownEscape(education.coSupervisor)}  `);
+    }
+
+    output.push("");
+  }
+
+  return output.join("\n");
+}
+
+function renderCvServices(services) {
+  if (services.length === 0) return "";
+
+  const output = ["# Academic Service", ""];
+  for (const service of sortAffiliations(services)) {
+    const roleText = markdownEscape(service.roleTitle);
+    const role = service.url ? `[${roleText}](${service.url})` : roleText;
+    const details = [
+      service.organization ? markdownEscape(service.organization) : "",
+      service.departmentName ? markdownEscape(service.departmentName) : "",
+      formatYearRange(service.startDate, service.endDate),
+    ].filter(Boolean);
+
+    output.push(`- **${role}**${details.length ? `. ${details.join(" · ")}.` : "."}`);
+  }
+
+  output.push("");
+  return output.join("\n");
+}
+
+function isTeachingEmployment(employment) {
+  const role = normalizeName(employment?.roleTitle);
+  return [
+    "lecturer",
+    "instructor",
+    "teacher",
+    "teaching",
+    "charge de cours",
+    "chargé de cours",
+  ].some((label) => role.includes(normalizeName(label)));
+}
+
+function renderCvTeaching(employments, courses = []) {
+  const teaching = employments.filter(isTeachingEmployment);
+  if (teaching.length === 0 && courses.length === 0) return "";
+
+  const output = ["# Teaching Experience", ""];
+
+  for (const employment of sortAffiliations(teaching)) {
+    const roleText = markdownEscape(employment.roleTitle);
+    const role = employment.url ? `[${roleText}](${employment.url})` : roleText;
+    const details = [
+      employment.organization ? markdownEscape(employment.organization) : "",
+      employment.departmentName ? markdownEscape(employment.departmentName) : "",
+      formatYearRange(employment.startDate, employment.endDate),
+    ].filter(Boolean);
+
+    output.push(`**${role}**${details.length ? ` · ${details.join(" · ")}` : ""}  `);
+    output.push("");
+  }
+
+  for (const course of courses) {
+    const code = markdownEscape(course.code || "");
+    const title = markdownEscape(course.title || "");
+    const offerings = Array.isArray(course.offerings)
+      ? course.offerings.map(markdownEscape).join(", ")
+      : markdownEscape(course.offerings || "");
+
+    const courseName = [code, title].filter(Boolean).join(" — ");
+    output.push(`- **${courseName}**${offerings ? `, ${offerings}` : ""}`);
+  }
+
+  output.push("");
+  return output.join("\n");
+}
+
 function renderCvPeerReviews(peerReviews) {
   if (peerReviews.length === 0) return "";
 
@@ -1133,11 +1317,16 @@ function renderCvPeerReviews(peerReviews) {
   return output.join("\n");
 }
 
-function renderCvFragment(works, fundings, peerReviews) {
+function renderCvFragment(manualCv, works, fundings, peerReviews, services, employments) {
   const sections = [
+    renderCvEducation(manualCv.education),
     renderCvPublications(works),
     renderCvFunding(fundings),
     renderCvPeerReviews(peerReviews),
+    renderCvServices(services),
+    // Teaching is intentionally last because it is less central than
+    // publications, funding, peer review, and service for this CV.
+    renderCvTeaching(employments, manualCv.courses),
   ].filter(Boolean);
 
   return `${sections.join("\n")}\n`;
@@ -1164,6 +1353,7 @@ async function writeOnlyIfChanged(path, content) {
 
 try {
   const overrides = await loadOverrides();
+  const manualCv = await loadCvManualData();
 
   const response = await fetch(ORCID_URL, {
     redirect: "follow",
@@ -1221,13 +1411,37 @@ try {
     );
   }
 
+  const serviceSummaries = await fetchActivitySummaries(
+    record,
+    "services",
+    "service-summary"
+  );
+  const services = [];
+  for (const summary of serviceSummaries) {
+    services.push(await enrichAffiliation(summary, "service"));
+  }
+
+  const employmentSummaries = await fetchActivitySummaries(
+    record,
+    "employments",
+    "employment-summary"
+  );
+  const employments = [];
+  for (const summary of employmentSummaries) {
+    employments.push(await enrichAffiliation(summary, "employment"));
+  }
+
+  console.log(
+    `Loaded ${manualCv.education.length} manual education record(s) and ${manualCv.courses.length} course record(s); found ${services.length} service record(s) and ${employments.length} employment record(s) in ORCID.`
+  );
+
   await writeOnlyIfChanged(
     PUBLICATIONS_OUTPUT_FILE,
     renderPublicationList(works)
   );
   await writeOnlyIfChanged(
     CV_OUTPUT_FILE,
-    renderCvFragment(works, fundings, peerReviews)
+    renderCvFragment(manualCv, works, fundings, peerReviews, services, employments)
   );
 } catch (error) {
   const hasPublicationCache = await fileExists(PUBLICATIONS_OUTPUT_FILE);

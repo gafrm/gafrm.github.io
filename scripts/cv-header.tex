@@ -32,16 +32,13 @@
 \newunicodechar{≈}{\ensuremath{\approx}}
 
 % Contact row: black fixed-width icon followed by the visible address.
-% Arguments: URL, colour placeholder, icon, visible address.
 \newcommand{\cvlink}[3]{%
   \href{#1}{%
     \makebox[1.45em][c]{\textcolor{black}{#2}}%
-    \hspace{0.30em}%
+    \hspace{0.28em}%
     \textcolor{cvtext}{\nolinkurl{#3}}%
   }%
 }
-```
-
 
 \newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
 \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
@@ -102,6 +99,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[L]{\footnotesize\color{cvmuted} Gabriel Frazer-McKee}
+\fancyfoot[C]{\footnotesize\color{cvmuted} Last updated: \today}
 \fancyfoot[R]{\footnotesize\color{cvmuted} \thepage}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}

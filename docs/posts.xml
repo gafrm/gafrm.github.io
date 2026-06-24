@@ -357,6 +357,43 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2025-07-12-Letter-thanks-donor/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Three weeks in Grenoble</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2025-06-29-Research-stay-Grenoble/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After the ENEOLI Training School in Lisbon, I am spending three weeks in Grenoble for a research and training stay connected with my doctoral project. The visit is especially significant because it is my first opportunity to meet my co-supervisor, Olivier Kraif, in person.</p>
+<p>Although Olivier and I have been working together remotely, meeting in Grenoble makes it possible to discuss the project in greater depth and to work through methodological questions more naturally. Our conversations are helping me clarify several aspects of the scoping review and think more concretely about the computational components of the thesis. They are also opening new directions for our longer-term collaboration.</p>
+<p>The final week of the stay is devoted to an online course offered by Utrecht University on AI-aided systematic reviewing. I am following the course from Grenoble and learning to use ASReview, an open-source tool that combines active learning with human screening decisions to prioritize records during evidence synthesis.</p>
+<p>This training comes at an ideal point in the project. The searches for my scoping review have produced tens of thousands of potentially relevant records, making an efficient and transparent screening strategy essential. Over five intensive days, the course covers the principles behind active learning, the practical use of ASReview and the methodological decisions involved in integrating machine-assisted screening into a review.</p>
+<p>The stay has also provided time to discover Grenoble and its surroundings. Olivier has introduced me not only to colleagues and research environments at Université Grenoble Alpes, but also to places such as the Charmant Som and the oak of Venon. These excursions have made the visit both scientifically productive and personally memorable.</p>
+<p>The three weeks have confirmed the value of spending time in the same place as one’s collaborators. I am leaving Grenoble with a stronger methodological foundation for the review, several new research ideas and a much more concrete sense of the collaboration that Olivier and I are building around the thesis.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>Doctoral research</category>
+  <category>Research stay</category>
+  <category>Training</category>
+  <category>Grenoble</category>
+  <guid>https://gafrm.github.io/posts/2025-06-29-Research-stay-Grenoble/</guid>
+  <pubDate>Sun, 29 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2025-06-29-Research-stay-Grenoble/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Neology Training School</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2025-06-15-Neology-training-school-Lisbon/</link>
@@ -438,6 +475,43 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/</guid>
   <pubDate>Tue, 11 Feb 2025 05:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Reducing my teaching load</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have decided to reduce my teaching load to one course per year rather than two.</p>
+<p>This is not an easy decision. Teaching has been a consistent part of my academic life for years, and I value both the work itself and the experience it gives me. It is tempting to accept each new opportunity, particularly when teaching remains an important part of the academic profile I am building.</p>
+<p>But teaching a course requires much more than the hours spent in the classroom. There is preparation, grading, communication with students, course administration, and the less visible mental effort involved in moving repeatedly between teaching and research. Even a familiar course can fragment the longer periods of concentration that writing a dissertation requires.</p>
+<p>At this stage of the PhD, I need to protect those periods.</p>
+<p>My dissertation is composed of several interconnected research projects, each involving substantial data collection, analysis, and writing. Finishing it will require sustained attention rather than whatever time remains after other commitments have been met. Continuing to teach two courses each year would make progress possible, but slower and more difficult than it needs to be.</p>
+<p>Teaching one course per year feels like the right balance. It allows me to remain active in the classroom, continue developing my teaching experience, and maintain an important part of my academic identity. At the same time, it creates more room for the work that now has to take priority: completing the research, writing the articles, and finishing the dissertation.</p>
+<p>There will always be another course that would be interesting to teach. The PhD, however, needs to be finished.</p>
+<p>For now, doing less teaching is part of making that happen.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>PhD</category>
+  <category>Teaching</category>
+  <guid>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</guid>
+  <pubDate>Tue, 11 Feb 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</title>
