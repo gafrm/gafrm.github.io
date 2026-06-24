@@ -5,7 +5,7 @@ description: "I just received SSHRC funding for a project whose original data-co
 author: "Gabriel Frazer-McKee"
 date: 2023-06-23
 categories: [Research, PhD, Corpus linguistics]
-image: "twitter-api.png"
+image: "featured.png"
 ---
 
 A few weeks ago, I learned that I had received a doctoral fellowship from the Social Sciences and Humanities Research Council of Canada. It is an extraordinary opportunity: four years of funding to pursue my research on the diffusion of officially recommended French terminology.
