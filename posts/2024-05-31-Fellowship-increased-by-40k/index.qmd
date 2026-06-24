@@ -1,0 +1,36 @@
+---
+title: "My doctoral fellowship just increased by $40,000"
+subtitle: "SSHRC Doctoral Fellowships had remained at $20,000 annually for over two decades"
+description: "SSHRC Doctoral Fellowships had remained at $20,000 annually for over two decades"
+author: "Gabriel Frazer-McKee"
+date: 2024-05-31
+categories: [Funding, PhD, SSHRC]
+image: "featured.png"
+---
+When I received a SSHRC doctoral fellowship last year, the award was already transformative. It gave me several years of stable funding and made it possible to concentrate much more fully on my doctoral research.
+
+Today, the federal government confirmed that the annual value of doctoral scholarships will increase to $40,000 beginning September 1, 2024. The increase applies not only to future competitions, but also to people who already hold an award.
+
+In my case, this adds approximately **$40,000 to the total value of my fellowship**.
+
+That is a rather remarkable sentence to be able to write.
+
+The original award was worth $80,000 over four years. It will now provide approximately $120,000 over the same period. Nothing about the research project has changed, and I have not had to submit another application. The financial conditions under which I can complete the project have simply—and substantially—improved.
+
+## What the increase changes
+
+Doctoral funding is not merely recognition attached to a CV. It determines how much time a student can devote to research, how much teaching or outside employment is necessary, and whether conference travel, research visits, equipment, and other professional expenses are financially manageable.
+
+An additional $40,000 therefore does more than increase the nominal value of the award. It gives me considerably more flexibility in organizing the remaining years of the doctorate and reduces some of the financial pressure that accompanies a long research project.
+
+The increase is also overdue. Federal graduate scholarships had remained largely unchanged for many years while tuition, housing, food, and nearly every other expense continued to rise. Raising the value of doctoral awards to $40,000 represents a substantial improvement in the support offered to federally funded researchers.
+
+## Still an unequal system
+
+This announcement does not resolve the broader problem of graduate-student funding. Federal scholarships remain highly competitive, and many doctoral students must conduct their research with much less financial support. Increasing the value of existing awards helps their recipients enormously, but it does not create adequate funding conditions for everyone.
+
+I am nevertheless extremely fortunate to benefit from the change. Receiving the fellowship was already one of the most consequential developments of my doctorate. Learning that its value will increase by approximately $40,000 makes it more consequential still.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

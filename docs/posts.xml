@@ -434,6 +434,48 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2025-06-15-Neology-training-school-Lisbon/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
+  <title>Filming the 2025 Journées de linguistique</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2025-05-15-Filming-JDL-2025/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Organizing a conference involves considerably more than selecting abstracts and preparing a schedule. For the 2025 <em>Journées de linguistique</em>, I also took responsibility for filming six of the presentations and producing the finished videos. This year, I approached the task with something closer to a small professional production set-up than the usual camera-at-the-back-of-the-room arrangement.</p>
+<p>The core of the system consisted of two Sony cameras: an <strong>FX30</strong> and a <strong>ZV-E1</strong>. One provided a stable wide or medium shot of the speaker and presentation area, while the other offered a closer angle. Having two perspectives made it possible to introduce some visual variation during longer presentations and to cut away when someone crossed in front of a camera or a speaker moved outside the expected frame.</p>
+<p>I am interested in learning how to film and edit well for reasons that extend beyond the conference itself. Video is becoming increasingly useful in teaching, whether for producing short explanations, demonstrating concepts, creating asynchronous material, or presenting course content in a more visually engaging form. Recording the <em>Journées de linguistique</em> gave me an opportunity to develop those skills through a real project with real constraints.</p>
+<p>The most important improvement over the previous year was the addition of <strong>Deity TC-1 timecode boxes</strong>. These kept the cameras and the external audio recordings on a shared clock, allowing the files to be synchronized automatically during editing.</p>
+<p>The difference was substantial. The year before, I had recorded presentations using an FX30 and a cellphone. Because the two devices did not share timecode, I had to synchronize every clip individually using the recorded audio. For a single clip, this was manageable. Across several presentations, however, aligning the files one at a time took hours before the actual editing could even begin.</p>
+<p>With synchronized timecode, the clips from both cameras and the corresponding audio could be assembled almost immediately. There were still occasional adjustments to make, but the most repetitive part of the process had largely disappeared. The timecode boxes did not make the finished videos look dramatically different on their own; their value was in making the production workflow far more efficient. Across the six presentations, they saved hours of work.</p>
+<p>Audio remained the most important part of the recordings. Viewers will generally tolerate an imperfect camera angle, but they will not continue watching a presentation they cannot understand. The cameras were therefore only part of the system. The speakers’ microphones and the room audio also had to be captured clearly and incorporated into the synchronized workflow.</p>
+<p>The set-up was probably more ambitious than strictly necessary for a student conference. It also occupied an awkward middle ground. This was not a television crew or a fully staffed professional production, but it was considerably more involved than placing a single camera on a tripod and pressing record. “Semi-professional” seems like the most accurate description: professional equipment and methods, operated on a limited scale by someone who was simultaneously helping to run the event.</p>
+<p>Filming six presentations still generated a considerable volume of footage. Each talk had to be reviewed, edited, titled, and exported. The two-camera set-up nevertheless made the videos easier to shape, while timecode removed one of the most laborious stages of the previous year’s workflow.</p>
+<p>There is also a longer-term value to doing this properly. Conference presentations are often ephemeral: they take place once, in one room, for the people who happen to be present. A clear and carefully edited recording gives the presenters’ work a life beyond the event itself. It also creates a record of the conference and of the research being carried out by students and early-career scholars at this particular moment.</p>
+<p>The <a href="https://www.youtube.com/playlist?list=PLBryqdTsiFPDZH5jNdOQ8vsPhRRjv7Fwq">six completed presentations are available as a YouTube playlist</a>.</p>
+<p>The finished videos required a significant investment of time, but the process was much more efficient than it had been the year before. Just as importantly, it gave me practical experience with a form of communication that I hope to incorporate more deliberately into my teaching.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>Journées de linguistique</category>
+  <category>Academic service</category>
+  <category>Video production</category>
+  <guid>https://gafrm.github.io/posts/2025-05-15-Filming-JDL-2025/</guid>
+  <pubDate>Tue, 20 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2025-05-15-Filming-JDL-2025/featured.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
   <title>Passing my first doctoral examination</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/</link>
@@ -516,7 +558,7 @@ https://quarto.org/docs/authoring/includes.html
 <item>
   <title>The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/</link>
+  <link>https://gafrm.github.io/posts/2024-07-24-Paper-accepted-International-Review-Pragmatics/</link>
   <description><![CDATA[ 
 
 
@@ -552,9 +594,55 @@ https://badge.dimensions.ai/
 
  ]]></description>
   <category>publication</category>
-  <guid>https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/</guid>
+  <guid>https://gafrm.github.io/posts/2024-07-24-Paper-accepted-International-Review-Pragmatics/</guid>
   <pubDate>Wed, 24 Jul 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2024-07-24-paper-accepted-International-Review-Pragmatics/featured.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://gafrm.github.io/posts/2024-07-24-Paper-accepted-International-Review-Pragmatics/featured.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>My doctoral fellowship just increased by $40,000</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2024-05-31-Fellowship-increased-by-40k/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When I received a SSHRC doctoral fellowship last year, the award was already transformative. It gave me several years of stable funding and made it possible to concentrate much more fully on my doctoral research.</p>
+<p>Today, the federal government confirmed that the annual value of doctoral scholarships will increase to $40,000 beginning September 1, 2024. The increase applies not only to future competitions, but also to people who already hold an award.</p>
+<p>In my case, this adds approximately <strong>$40,000 to the total value of my fellowship</strong>.</p>
+<p>That is a rather remarkable sentence to be able to write.</p>
+<p>The original award was worth $80,000 over four years. It will now provide approximately $120,000 over the same period. Nothing about the research project has changed, and I have not had to submit another application. The financial conditions under which I can complete the project have simply—and substantially—improved.</p>
+<section id="what-the-increase-changes" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-increase-changes">What the increase changes</h2>
+<p>Doctoral funding is not merely recognition attached to a CV. It determines how much time a student can devote to research, how much teaching or outside employment is necessary, and whether conference travel, research visits, equipment, and other professional expenses are financially manageable.</p>
+<p>An additional $40,000 therefore does more than increase the nominal value of the award. It gives me considerably more flexibility in organizing the remaining years of the doctorate and reduces some of the financial pressure that accompanies a long research project.</p>
+<p>The increase is also overdue. Federal graduate scholarships had remained largely unchanged for many years while tuition, housing, food, and nearly every other expense continued to rise. Raising the value of doctoral awards to $40,000 represents a substantial improvement in the support offered to federally funded researchers.</p>
+</section>
+<section id="still-an-unequal-system" class="level2">
+<h2 class="anchored" data-anchor-id="still-an-unequal-system">Still an unequal system</h2>
+<p>This announcement does not resolve the broader problem of graduate-student funding. Federal scholarships remain highly competitive, and many doctoral students must conduct their research with much less financial support. Increasing the value of existing awards helps their recipients enormously, but it does not create adequate funding conditions for everyone.</p>
+<p>I am nevertheless extremely fortunate to benefit from the change. Receiving the fellowship was already one of the most consequential developments of my doctorate. Learning that its value will increase by approximately $40,000 makes it more consequential still.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>Funding</category>
+  <category>PhD</category>
+  <category>SSHRC</category>
+  <guid>https://gafrm.github.io/posts/2024-05-31-Fellowship-increased-by-40k/</guid>
+  <pubDate>Fri, 31 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2024-05-31-Fellowship-increased-by-40k/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>TCHÉCALEX 2024</title>
@@ -747,118 +835,6 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2023-01-09-The-Hunt-for-a-coresearch-director/</guid>
   <pubDate>Sun, 15 Jan 2023 05:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2023-01-09-The-Hunt-for-a-coresearch-director/featured.png" medium="image" type="image/png" height="180" width="144"/>
-</item>
-<item>
-  <title>Publication: Students would benefit from guidelines for preparing conference abstracts</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>My colleague Kendall Vogh and I have just published an article on the structure of French-language conference abstracts in <em>Working Papers in Applied Linguistics and Linguistics at York</em>.</p>
-<p>The article, <a href="https://wally.journals.yorku.ca/index.php/default/article/view/19">“Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields”</a>, examines 107 abstracts submitted to the <em>Journées de linguistique</em> at Université Laval.</p>
-<p>Conference abstracts are short, but they must accomplish a great deal. Authors are expected to introduce their topic, establish the purpose of their study, describe their methods, present their results, and explain the significance of those results—often within only a few hundred words.</p>
-<p>Graduate students are nevertheless frequently expected to learn how to write abstracts through observation and trial and error. Submission instructions may specify a word limit and formatting requirements without explaining what information an effective abstract should contain.</p>
-<p>Our study uses rhetorical-move analysis to examine five common components of research abstracts:</p>
-<ol type="1">
-<li>background;</li>
-<li>aims;</li>
-<li>methods;</li>
-<li>results;</li>
-<li>conclusions.</li>
-</ol>
-<p>We found considerable variation in how the abstracts were structured. Some included the principal elements expected in an informative abstract and presented them in a clear sequence. Many others omitted important information or devoted so much space to the background that little room remained for the methods, results, or conclusions.</p>
-<p>These difficulties should not simply be treated as failures on the part of individual students. Writing a conference abstract is a specialized academic task, and many emerging researchers receive little explicit instruction in how to perform it.</p>
-<p>We therefore argue that student conferences—and academic conferences more generally—would benefit from providing clearer guidelines to authors. A short description of the expected components of an abstract could help students communicate their research more effectively and make the submission process more accessible to first-time presenters.</p>
-<p>This project is especially meaningful because of its connection to the <em>Journées de linguistique</em>. Kendall was a good friend of mine during my master’s degree and was involved with the JDL in 2016 and 2017. The conference provided both the corpus for the study and the practical motivation behind it: helping graduate students present their work as clearly and effectively as possible.</p>
-<p><a href="https://wally.journals.yorku.ca/index.php/default/article/view/19">Read the article</a>.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <category>Academic writing</category>
-  <category>Corpus linguistics</category>
-  <guid>https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/</guid>
-  <pubDate>Wed, 02 Nov 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2022-11-02-Publication-Abstract-rhetorical-moves/featured.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Why a blog?</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2022-09-02-Why-a-blog/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This fall, I am beginning a PhD in linguistics at Université Laval.</p>
-<p>It is not quite the path I expected to be taking a few years ago. I have recently been studying computer science, and until fairly recently I was seriously considering applying to a master’s programme in speech recognition at the University of Groningen. The programme appealed to me because it sat directly at the intersection of language, programming, and data—three areas that I increasingly wanted to bring together in my work.</p>
-<p>This is also not my first experience beginning a doctorate. I previously started a PhD in neuroscience, but eventually realized that it was not the right fit for me. Leaving was not an easy decision, but it forced me to think more carefully about the kinds of questions I wanted to spend several years pursuing.</p>
-<p>I kept returning to language.</p>
-<p>More specifically, I wanted to study Quebec French using the computational skills I had been developing.</p>
-<p>From building a corpus to studying neology</p>
-<p>My first idea was to build a large corpus of Quebec French.</p>
-<p>There was a clear motivation for doing so. Researchers interested in Quebec French often work with corpora designed for particular purposes, limited to particular genres, or covering only certain periods. A large and reusable corpus could potentially support many different kinds of linguistic research.</p>
-<p>When I discussed the idea with my supervisor, Bruno Courbon, he cautioned that it was probably too ambitious for a doctoral project. Building a corpus of that scale would require much more than collecting texts. It would also involve questions of representativeness, copyright, metadata, annotation, storage, access, and long-term maintenance.</p>
-<p>Rather than making the construction of a research infrastructure the thesis itself, I needed a more focused linguistic problem that would allow me to work with large collections of textual data.</p>
-<p>Bruno suggested that I turn toward neology: the study of new words and new meanings.</p>
-<p>The suggestion was especially timely. He knew that ENEOLI, a European network devoted to lexical innovation, was preparing an application to become a COST Action. A project on neology would allow me to connect my interests in Quebec French, corpus linguistics, computation, and language planning while becoming involved in a broader international research community.</p>
-<p>The more I read, the more the topic began to make sense.</p>
-<p>Why do some new words spread?</p>
-<p>The question at the centre of the project is relatively simple to formulate:</p>
-<p>Why do some new words spread while others do not?</p>
-<p>Like all living languages, Quebec French is continually enriched by new words. Some emerge spontaneously among speakers. Others are proposed deliberately, particularly by the Office québécois de la langue française, which regularly recommends French alternatives to English terms.</p>
-<p>Some of these innovations become widely used. Others remain marginal, disappear, or coexist with competing forms.</p>
-<p>A new word’s trajectory may depend on its linguistic characteristics: its length, structure, transparency, similarity to existing words, or compatibility with the language. Its diffusion may also depend on extralinguistic factors, including speakers’ attitudes, social networks, age, geographic mobility, the prestige of the people who use it, or the kinds of texts in which it appears.</p>
-<p>Many such explanations have been proposed, but they are dispersed across several fields, including lexicology, terminology, sociolinguistics, psychology, and computer science. They have also rarely been evaluated together using very large collections of naturally occurring language data.</p>
-<p>My doctoral project will examine the linguistic and extralinguistic factors associated with the diffusion—or non-diffusion—of institutional and non-institutional neologisms in Quebec French.</p>
-<p>Three studies</p>
-<p>The thesis is currently organized around three complementary studies.</p>
-<p>The first will be a scoping review of the factors that researchers have associated with neological diffusion. Its purpose will be to gather ideas and evidence distributed across several disciplines and create a structured inventory of the variables that may influence whether a new word succeeds.</p>
-<p>This review will provide the conceptual foundation for the two empirical studies that follow.</p>
-<p>The second study will examine neologisms proposed by the OQLF as alternatives to English terms. I plan to compare the use of the recommended French forms with that of their English competitors in Quebec social-media and newspaper data.</p>
-<p>For example, why might one institutional recommendation become common while another is rarely used outside official contexts? Do the recommendations circulate differently in journalism and on Twitter? Which linguistic and social factors appear to influence their uptake?</p>
-<p>The third study will turn to non-institutional neologisms: words that emerge without being proposed through an official language-planning process. Using large corpora of Quebec newspapers and Twitter posts, I hope to identify new forms, trace their circulation, and examine the factors associated with their spread.</p>
-<p>Together, the three studies should make it possible to compare institutional and spontaneous lexical innovation across two very different communicative settings.</p>
-<p>Bringing linguistics and computation together</p>
-<p>One of the things that excites me most about this project is the opportunity to combine linguistic questions with computational methods.</p>
-<p>The studies will require the collection and management of large quantities of textual data, text mining, statistical modelling, and possibly machine-learning methods. My recent studies in computer science therefore do not represent a departure from linguistics. Instead, they have given me a new set of tools with which to approach linguistic problems.</p>
-<p>At the same time, the project remains fundamentally about language: how new words are created, how they circulate, how speakers respond to them, and how deliberate language planning interacts with actual usage.</p>
-<p>The current plan is ambitious. It involves three studies, several large datasets, and methods that I will continue learning throughout the doctorate. The proposal I submitted for admission includes a detailed schedule leading to a thesis submission in 2025 and a defence in 2026.</p>
-<p>I am aware that doctoral projects evolve. Some questions will probably become more precise, some methods may change, and some parts of the plan may prove more difficult than they currently appear.</p>
-<p>For now, however, I have a question that I want to answer, a project that brings together several of my interests, and a place from which to begin.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>event</category>
-  <category>PhD</category>
-  <guid>https://gafrm.github.io/posts/2022-09-02-Why-a-blog/</guid>
-  <pubDate>Sun, 04 Sep 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2022-09-02-Why-a-blog/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

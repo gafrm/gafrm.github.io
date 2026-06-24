@@ -1,0 +1,37 @@
+---
+title: "Filming the 2025 Journées de linguistique"
+subtitle: "What a semi-professional set-up changed"
+description: "How two Sony cameras and synchronized timecode made filming and editing six presentations from the 2025 Journées de linguistique considerably more efficient."
+author: "Gabriel Frazer-McKee"
+date: 2025-05-20
+categories: [Journées de linguistique, Academic service, Video production]
+image: "featured.png"
+---
+
+Organizing a conference involves considerably more than selecting abstracts and preparing a schedule. For the 2025 *Journées de linguistique*, I also took responsibility for filming six of the presentations and producing the finished videos. This year, I approached the task with something closer to a small professional production set-up than the usual camera-at-the-back-of-the-room arrangement.
+
+The core of the system consisted of two Sony cameras: an **FX30** and a **ZV-E1**. One provided a stable wide or medium shot of the speaker and presentation area, while the other offered a closer angle. Having two perspectives made it possible to introduce some visual variation during longer presentations and to cut away when someone crossed in front of a camera or a speaker moved outside the expected frame.
+
+I am interested in learning how to film and edit well for reasons that extend beyond the conference itself. Video is becoming increasingly useful in teaching, whether for producing short explanations, demonstrating concepts, creating asynchronous material, or presenting course content in a more visually engaging form. Recording the *Journées de linguistique* gave me an opportunity to develop those skills through a real project with real constraints.
+
+The most important improvement over the previous year was the addition of **Deity TC-1 timecode boxes**. These kept the cameras and the external audio recordings on a shared clock, allowing the files to be synchronized automatically during editing.
+
+The difference was substantial. The year before, I had recorded presentations using an FX30 and a cellphone. Because the two devices did not share timecode, I had to synchronize every clip individually using the recorded audio. For a single clip, this was manageable. Across several presentations, however, aligning the files one at a time took hours before the actual editing could even begin.
+
+With synchronized timecode, the clips from both cameras and the corresponding audio could be assembled almost immediately. There were still occasional adjustments to make, but the most repetitive part of the process had largely disappeared. The timecode boxes did not make the finished videos look dramatically different on their own; their value was in making the production workflow far more efficient. Across the six presentations, they saved hours of work.
+
+Audio remained the most important part of the recordings. Viewers will generally tolerate an imperfect camera angle, but they will not continue watching a presentation they cannot understand. The cameras were therefore only part of the system. The speakers’ microphones and the room audio also had to be captured clearly and incorporated into the synchronized workflow.
+
+The set-up was probably more ambitious than strictly necessary for a student conference. It also occupied an awkward middle ground. This was not a television crew or a fully staffed professional production, but it was considerably more involved than placing a single camera on a tripod and pressing record. “Semi-professional” seems like the most accurate description: professional equipment and methods, operated on a limited scale by someone who was simultaneously helping to run the event.
+
+Filming six presentations still generated a considerable volume of footage. Each talk had to be reviewed, edited, titled, and exported. The two-camera set-up nevertheless made the videos easier to shape, while timecode removed one of the most laborious stages of the previous year’s workflow.
+
+There is also a longer-term value to doing this properly. Conference presentations are often ephemeral: they take place once, in one room, for the people who happen to be present. A clear and carefully edited recording gives the presenters’ work a life beyond the event itself. It also creates a record of the conference and of the research being carried out by students and early-career scholars at this particular moment.
+
+The [six completed presentations are available as a YouTube playlist](https://www.youtube.com/playlist?list=PLBryqdTsiFPDZH5jNdOQ8vsPhRRjv7Fwq).
+
+The finished videos required a significant investment of time, but the process was much more efficient than it had been the year before. Just as importantly, it gave me practical experience with a form of communication that I hope to incorporate more deliberately into my teaching.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -1,0 +1,56 @@
+---
+
+title: "The JDL 2024 conference proceedings are now complete"
+subtitle: "Publishing conference research on a timeline measured in months, not years"
+description: "Publishing conference research on a timeline measured in months, not years"
+author: "Gabriel Frazer-McKee"
+date: 2025-08-25
+categories: [Journées de linguistique, Conference proceedings, Editorial work, Academic service]
+image: "featured.png"
+---
+
+The publication of the 2024 *Journées de linguistique* conference proceedings is now complete.
+
+Conference proceedings collect written articles developed from presentations given at a conference. In the case of the *Journées de linguistique*, they provide student and early-career researchers with an opportunity to transform a presentation into a formal academic publication and to gain experience with peer review, revision and editorial production.
+
+I served as editor-in-chief of the 2024 proceedings and oversaw the project from the initial submission and evaluation stages through revision, production and publication.
+
+The work continued until August 2025, but the articles were not held back until the entire collection was ready. Instead, we used a rolling publication model: each manuscript was published as soon as it had completed the evaluation, revision and production process.
+
+This allowed six manuscripts to be published before the end of December 2024. By May 2025, nine manuscripts were available, even though the remaining administrative and editorial work on the project continued into August.
+
+## A different timeline for the proceedings
+
+This publication schedule represents a significant departure from the recent history of the *Journées de linguistique* proceedings.
+
+Across the previous twelve years, the average interval between the conference and the publication of its proceedings has been approximately five years. Some volumes appeared more quickly, while others required considerably longer.
+
+These delays are especially consequential for a student conference. A proceedings article may be an author’s first academic publication. When it appears several years after the original presentation, the author may already have completed their degree, moved to another project or left academia.
+
+The goal was therefore not simply to complete the collection more quickly. It was to make each article available while the work was still current and while the publication could still contribute meaningfully to the author’s academic development.
+
+## Publishing manuscripts as they become ready
+
+A proceedings collection can easily become dependent on its slowest manuscript. Under a traditional volume-based model, an article that is completely ready may remain unpublished until every other contribution has completed peer review, revision, copy-editing and production.
+
+Rolling publication avoids that bottleneck.
+
+The manuscripts in the 2024 proceedings did not all progress at the same pace. Some authors completed their revisions rapidly, while other texts required additional rounds of work. Publishing articles individually meant that these differences did not delay the entire collection.
+
+By the end of 2024, six manuscripts had already been published. Three more followed by May 2025. The broader editorial project was then formally completed in August.
+
+## A collective editorial project
+
+Although I coordinated the proceedings as editor-in-chief, the project depended on the work of many people: authors who revised their texts, reviewers who provided evaluations and members of the editorial team who helped manage the manuscripts through the publication process.
+
+I am particularly grateful to my coeditors, Nicolas Gignac and Linda Wong, for their help throughout the project. Their contributions were essential to keeping the editorial process moving and bringing the proceedings to completion.
+
+Conference proceedings involve a great deal of work that remains largely invisible once the articles appear online. Manuscripts must be assigned, evaluations tracked, decisions communicated, revisions checked and final files prepared, often while everyone involved is also managing research, teaching and other academic responsibilities.
+
+Completing the project in August 2025—after publishing six manuscripts in 2024 and nine by May 2025—shows that the *Journées de linguistique* proceedings can operate on a timeline measured in months rather than years.
+
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
