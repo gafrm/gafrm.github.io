@@ -9,9 +9,6 @@ image: "featured.png"
 
 ---
 
-<!--Include academic icons or bottons-->
-
-{{< include /files/includes/_academic.qmd >}}
 
 
 ## Abstract
@@ -29,3 +26,6 @@ Published [paper](https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777)
 
 <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 ```
+<!--Include academic icons or bottons-->
+
+{{< include /files/includes/_academic.qmd >}}

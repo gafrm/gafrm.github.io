@@ -1,5 +1,4 @@
 ---
-
 title: "The JDL 2024 conference proceedings are now complete"
 subtitle: "Publishing conference research on a timeline measured in months, not years"
 description: "Publishing conference research on a timeline measured in months, not years"
@@ -48,7 +47,6 @@ I am particularly grateful to my coeditors, Nicolas Gignac and Linda Wong, for t
 Conference proceedings involve a great deal of work that remains largely invisible once the articles appear online. Manuscripts must be assigned, evaluations tracked, decisions communicated, revisions checked and final files prepared, often while everyone involved is also managing research, teaching and other academic responsibilities.
 
 Completing the project in August 2025—after publishing six manuscripts in 2024 and nine by May 2025—shows that the *Journées de linguistique* proceedings can operate on a timeline measured in months rather than years.
-
 
 
 <!--Include social share buttons-->
