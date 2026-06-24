@@ -807,6 +807,7 @@ async function enrichPeerReview(summary) {
 
 const CV_SECTION_ORDER = [
   "Peer-Reviewed Journal Articles",
+  "Editorials in Student Journals",
   "Book Chapters",
   "Books and Edited Volumes",
   "Conference Proceedings",
@@ -820,6 +821,32 @@ const CV_SECTION_ORDER = [
 
 function cvSectionForWork(work) {
   if (work.cvSection) return String(work.cvSection);
+
+  // ORCID and DOI registries sometimes label editorials and working papers as
+  // journal articles. Correct the known cases here using stable title matches.
+  const titleKey = normalizeTitle(work.title);
+  const specialSections = new Map([
+    [
+      normalizeTitle(
+        "Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque"
+      ),
+      "Editorials in Student Journals",
+    ],
+    [
+      normalizeTitle(
+        "Publier ses actes de colloque en ≈ 12 mois : guide à l’intention des éditeur·trice·s étudiant·e·s"
+      ),
+      "Editorials in Student Journals",
+    ],
+    [
+      normalizeTitle(
+        "Graduate students would benefit from guidelines for preparing conference abstracts"
+      ),
+      "Working Papers",
+    ],
+  ]);
+
+  if (specialSections.has(titleKey)) return specialSections.get(titleKey);
 
   const sections = new Map([
     ["journal-article", "Peer-Reviewed Journal Articles"],

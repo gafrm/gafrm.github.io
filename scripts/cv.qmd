@@ -1,0 +1,55 @@
+---
+lang: en-CA
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    papersize: letter
+    fontsize: 10pt
+    geometry:
+      - top=0.58in
+      - bottom=0.62in
+      - left=0.70in
+      - right=0.70in
+    include-in-header: cv-header.tex
+    number-sections: false
+    toc: false
+    keep-tex: false
+output-file: cv.pdf
+---
+
+```{=latex}
+\begin{center}
+  {\fontsize{24}{27}\selectfont\bfseries\color{cvnavy} Gabriel Frazer-McKee}\\[0.65em]
+  \small
+  \begin{tabular}{@{}l@{}}
+    \cvlink{https://gafrm.github.io}{black}{\faGlobe}{gafrm.github.io}\\[0.16em]
+    \cvlink{mailto:gabriel.frazer.mckee@gmail.com}{black}{\faEnvelope}{gabriel.frazer.mckee@gmail.com}\\[0.16em]
+    \cvlink{https://orcid.org/0000-0002-0860-6192}{black}{\faOrcid}{0000-0002-0860-6192}\\[0.16em]
+    \cvlink{https://scholar.google.com/citations?user=MWAQth4AAAAJ}{black}{\faGraduationCap}{scholar.google.com/citations?user=MWAQth4AAAAJ}\\[0.16em]
+    \cvlink{https://github.com/gafrm}{black}{\faGithub}{github.com/gafrm}\\[0.16em]
+    \cvlink{https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/}{black}{\faLinkedinIn}{linkedin.com/in/gabriel-frazer-mckee-401586220}\\[0.16em]
+    \cvlink{https://www.researchgate.net/profile/Gabriel-Frazer-Mckee}{black}{\faResearchgate}{researchgate.net/profile/Gabriel-Frazer-Mckee}
+  \end{tabular}
+\end{center}
+\vspace{-0.35em}
+```
+
+# Education
+
+**PhD in Linguistics**  
+Université Laval, Québec City, Canada  
+2022–present
+
+**MA in Linguistics**  
+Université Laval, Québec City, Canada  
+2015–2019
+
+# Teaching Experience
+
+**Lecturer, Université Laval**  
+2015–present
+
+- **FRN-1110 — Lexicologie**, Winter 2025
+
+{{< include ../_generated/cv-orcid.md >}}

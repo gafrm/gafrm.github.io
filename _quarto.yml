@@ -3,7 +3,7 @@ project:
   output-dir: docs
   pre-render:  # This can be deleted if you are using the manually curated list of publications in publications.qmd
     - scripts/fetch-orcid.ts  # Automatically generate publications.yml from ORCID publications
-    - scripts/fetch-cv.ts
+    #- scripts/fetch-cv.ts
 
 # Meta
 description-meta: "Quarto Academic Website Template adapted from a template by Dr. Gang He"
