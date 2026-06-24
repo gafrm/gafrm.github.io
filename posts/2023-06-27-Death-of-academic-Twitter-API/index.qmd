@@ -1,0 +1,38 @@
+---
+title: "When Twitter changes the research plan"
+subtitle: "I just received SSHRC funding for a project whose original data-collection strategy is no longer viable."
+description: "I just received SSHRC funding for a project whose original data-collection strategy is no longer viable."
+author: "Gabriel Frazer-McKee"
+date: 2023-06-23
+categories: [Research, PhD, Corpus linguistics]
+image: "twitter-api.png"
+---
+
+A few weeks ago, I learned that I had received a doctoral fellowship from the Social Sciences and Humanities Research Council of Canada. It is an extraordinary opportunity: four years of funding to pursue my research on the diffusion of officially recommended French terminology.
+
+There is, however, now an uncomfortable complication. The project I proposed can no longer be carried out as planned.
+
+In February, Twitter announced the end of free access to its API. After several months of uncertainty, access through the Academic Research product track has now also disappeared. For researchers who rely on Twitter data, this is not a minor technical change. It fundamentally alters which projects remain feasible.
+
+It also removes the infrastructure on which my original doctoral project depended.
+
+My plan was extremely ambitious. I intended to use the Twitter Academic Research API to search for essentially every French term recorded in the *Grand dictionnaire terminologique* and then examine which of these terms had—or had not—circulated on the platform. The API offered full-archive search and access to volumes of data that made such a large-scale approach appear technically possible.
+
+The plan was also rather naïve. The *Grand dictionnaire terminologique* contains tens of thousands of entries. Even with generous access to Twitter data, collecting, cleaning and analysing observations for so many terms would have created an enormous and probably unmanageable dataset. Technical possibility is not the same thing as a coherent research design.
+
+Still, it is disorienting to receive funding for a project at almost exactly the moment when its original method becomes impossible. The proposal was evaluated and funded on the basis of a research plan that depended on access that no longer exists. The new paid options are far beyond the means of an individual doctoral project, particularly for the volume of historical data that my initial approach would require.
+
+I therefore have to rethink the project almost as soon as it begins.
+
+Rather than searching for every term in the terminology bank, I will need to identify a smaller number of theoretically informative cases: recommended terms and their competing forms, selected because they can illuminate the linguistic and extralinguistic factors associated with diffusion. This narrower approach should allow me to examine individual trajectories more carefully and compare innovations that circulate under similar conditions but achieve very different outcomes.
+
+The change is frustrating, but it may ultimately lead to a stronger study. A smaller and more deliberate sample will make it possible to formulate clearer comparisons, inspect the data more closely and connect the empirical analysis more directly to the research questions.
+
+Receiving the SSHRC fellowship confirms that the broader research problem is worth pursuing. It does not guarantee that the method described in the original proposal will survive contact with reality—or with the commercial decisions of a private platform.
+
+For now, the challenge is to preserve the central question while rebuilding the project around data that I can still obtain. The funding remains transformative. The project remains viable. But it will not be the project I originally imagined.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

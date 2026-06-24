@@ -1,0 +1,39 @@
+---
+title: "My PhD is now funded!"
+subtitle: "The same project ranks near-perfectly at SSHRC—and last at the FRQSC."
+description: "The same project ranks near-perfectly at SSHRC—and last at the FRQSC."
+author: "Gabriel Frazer-McKee"
+date: 2023-05-01
+categories: [Funding, PhD, Research]
+image: "featured.png"
+---
+
+This week, I learned that I have received a doctoral fellowship from the Social Sciences and Humanities Research Council of Canada.
+
+SSHRC awarded my application an overall score of **11.23 out of 12**. The fellowship will support my doctoral research on the diffusion of officially recommended French terminology: why some proposed terms enter common usage while others fail to circulate, and which linguistic and extralinguistic factors might explain these different outcomes.
+
+The result is both exciting and difficult to fully absorb. A doctoral research proposal is necessarily provisional. It presents questions, hypotheses and methods before the project has had the chance to encounter all the complications that will shape it. Having the proposal evaluated and supported at the national level feels like an important vote of confidence in the project and in my ability to carry it out.
+
+The funding will also substantially change the conditions under which I can complete the doctorate. It provides several years of financial support and, with them, the time required to assemble corpora, refine the methodological framework, present the research and write the dissertation.
+
+The result is particularly striking because it arrived almost simultaneously with a radically different assessment of the same project.
+
+My application to the Fonds de recherche du Québec – Société et culture was ranked **15th out of the 15 applications evaluated by the committee**. In other words, essentially the same research project received an almost perfect score in one national competition and finished dead last in another.
+
+There are differences between the two applications, of course, as well as between the evaluation criteria and committee structures. Still, it is difficult to imagine a clearer illustration of the contingency involved in peer review. A funding decision is not a definitive measurement of the quality of a project. It is the outcome of a particular application being read by a particular committee within a particular competition.
+
+This is easier to appreciate when one of the two decisions is positive. Had I received only the FRQSC result, it would have been tempting to interpret the ranking as evidence that the project itself was weak. The SSHRC score makes that interpretation impossible to sustain.
+
+At the same time, receiving the fellowship does not mean that the project can proceed exactly as proposed. My original research design relies heavily on Twitter’s Academic Research API, which provides access to the platform’s historical data. In February, Twitter announced major changes to API access, and it remains unclear whether the academic access on which the proposed data collection depends will continue to exist.
+
+I may therefore have received funding for a project whose original data-collection strategy already needs to be reconsidered.
+
+That uncertainty does not diminish the importance of the fellowship. SSHRC has supported the broader research problem, not an immutable sequence of methodological decisions. The central question—why some officially recommended terms diffuse while others do not—remains worth pursuing even if the corpus, sample or collection strategy must change.
+
+For now, I am allowing myself to appreciate the result. Preparing the application required me to articulate the project more clearly than I had before: to explain why neological diffusion matters, how it can be investigated empirically and what the research might contribute to neology, terminology and corpus linguistics.
+
+Now comes the harder part: turning a highly rated proposal into a workable doctoral project.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
