@@ -8,6 +8,7 @@
 
 const ORCID_ID = "0000-0002-0860-6192";
 const ORCID_URL = `https://orcid.org/${ORCID_ID}`;
+const ORCID_API_BASE = `https://pub.orcid.org/v3.0/${ORCID_ID}`;
 const PUBLICATIONS_OUTPUT_FILE = "_generated/publications.md";
 const CV_OUTPUT_FILE = "_generated/cv-orcid.md";
 const OVERRIDES_FILE = "_data/publication-overrides.json";
@@ -273,34 +274,45 @@ function authorsFromFullOrcidWork(work) {
   return deduplicateAuthors(selected.map(orcidContributorName).filter(Boolean));
 }
 
-async function fullOrcidItem(endpoint, summary) {
+function orcidApiHeaders() {
   const token = Deno.env.get("ORCID_ACCESS_TOKEN");
   if (!token) return null;
 
-  const putCode = summary?.["put-code"];
-  if (!putCode) return null;
+  return {
+    Accept: "application/vnd.orcid+json",
+    Authorization: `Bearer ${token}`,
+  };
+}
 
-  const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/${endpoint}/${putCode}`;
+async function fetchOrcidApiJson(endpoint) {
+  const headers = orcidApiHeaders();
+  if (!headers) return null;
+
+  const cleanEndpoint = String(endpoint ?? "").replace(/^\/+/, "");
+  const url = `${ORCID_API_BASE}/${cleanEndpoint}`;
   const response = await fetch(url, {
     redirect: "follow",
-    headers: {
-      Accept: "application/vnd.orcid+json",
-      Authorization: `Bearer ${token}`,
-    },
+    headers,
   });
 
   if (!response.ok) {
-    throw new Error(`full ORCID ${endpoint} request failed (${response.status})`);
+    throw new Error(`ORCID API ${cleanEndpoint} request failed (${response.status})`);
   }
 
   const contentType = response.headers.get("content-type") ?? "";
   if (!contentType.includes("json")) {
     throw new Error(
-      `full ORCID ${endpoint} request returned ${contentType || "non-JSON content"}`
+      `ORCID API ${cleanEndpoint} request returned ${contentType || "non-JSON content"}`
     );
   }
 
   return await response.json();
+}
+
+async function fullOrcidItem(endpoint, summary) {
+  const putCode = summary?.["put-code"];
+  if (!putCode) return null;
+  return await fetchOrcidApiJson(`${endpoint}/${putCode}`);
 }
 
 async function fullOrcidWork(summary) {
@@ -680,8 +692,13 @@ function joinAuthorsMarkdown(rawAuthors) {
   return `${firstAuthors.join(", ")}, …, & ${finalAuthor}`;
 }
 
-function preferredActivitySummary(group, summaryKey) {
-  const summaries = group?.[summaryKey] ?? [];
+function asArray(input) {
+  if (Array.isArray(input)) return input;
+  return input == null ? [] : [input];
+}
+
+function preferredSummaryFromList(rawSummaries) {
+  const summaries = asArray(rawSummaries).filter(Boolean);
 
   return summaries.reduce((preferred, candidate) => {
     if (!preferred) return candidate;
@@ -691,9 +708,83 @@ function preferredActivitySummary(group, summaryKey) {
   }, null);
 }
 
+function nestedActivitySummaries(node, summaryKey) {
+  if (node == null) return [];
+
+  if (Array.isArray(node)) {
+    return node.flatMap((item) => nestedActivitySummaries(item, summaryKey));
+  }
+
+  if (typeof node !== "object") return [];
+
+  // Some ORCID sections are flat:
+  //   group -> funding-summary
+  //
+  // Peer review is nested:
+  //   group -> peer-review-group -> peer-review-summary
+  //
+  // Whenever a container directly owns the requested summary key, choose the
+  // preferred source within that container. Otherwise continue descending.
+  if (Object.prototype.hasOwnProperty.call(node, summaryKey)) {
+    const preferred = preferredSummaryFromList(node[summaryKey]);
+    return preferred ? [preferred] : [];
+  }
+
+  return Object.values(node).flatMap((child) =>
+    nestedActivitySummaries(child, summaryKey)
+  );
+}
+
+function deduplicateActivitySummaries(summaries) {
+  const seen = new Set();
+
+  return summaries.filter((summary) => {
+    const putCode = String(summary?.["put-code"] ?? "").trim();
+    const path = String(summary?.path ?? "").trim();
+    const key = putCode || path || JSON.stringify(summary);
+
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function activitySummaries(record, sectionKey, summaryKey) {
-  const groups = record?.["activities-summary"]?.[sectionKey]?.group ?? [];
-  return groups.map((group) => preferredActivitySummary(group, summaryKey)).filter(Boolean);
+  const section = record?.["activities-summary"]?.[sectionKey];
+  return deduplicateActivitySummaries(
+    nestedActivitySummaries(section, summaryKey)
+  );
+}
+
+function sectionSummaries(section, summaryKey) {
+  const groups = asArray(section?.group);
+  const summaries = deduplicateActivitySummaries(
+    groups.flatMap((group) => nestedActivitySummaries(group, summaryKey))
+  );
+
+  if (groups.length > 0 && summaries.length === 0) {
+    const keys = [...new Set(groups.flatMap((group) => Object.keys(group ?? {})))];
+    console.warn(
+      `ORCID returned ${groups.length} activity group(s), but no ${summaryKey} entries were parsed. Group keys: ${keys.join(", ")}`
+    );
+  }
+
+  return summaries;
+}
+
+async function fetchActivitySummaries(record, sectionKey, summaryKey) {
+  // Prefer the dedicated ORCID API section endpoint. The public record JSON
+  // served by orcid.org can omit activity sections even when they are visible
+  // on the ORCID profile page.
+  try {
+    const section = await fetchOrcidApiJson(sectionKey);
+    const direct = sectionSummaries(section, summaryKey);
+    if (direct.length > 0) return direct;
+  } catch (error) {
+    console.warn(`Could not retrieve ORCID ${sectionKey}: ${error.message}`);
+  }
+
+  return activitySummaries(record, sectionKey, summaryKey);
 }
 
 function datePart(date, part) {
@@ -1055,20 +1146,32 @@ try {
     works.push(await enrichWork(summary, overrides));
   }
 
-  const fundingSummaries = activitySummaries(record, "fundings", "funding-summary");
+  const fundingSummaries = await fetchActivitySummaries(
+    record,
+    "fundings",
+    "funding-summary"
+  );
   const fundings = [];
   for (const summary of fundingSummaries) {
     fundings.push(await enrichFunding(summary));
   }
 
-  const peerReviewSummaries = activitySummaries(
+  const peerReviewSummaries = await fetchActivitySummaries(
     record,
     "peer-reviews",
     "peer-review-summary"
   );
+  console.log(`Found ${peerReviewSummaries.length} public ORCID peer-review record(s).`);
+
   const peerReviews = [];
   for (const summary of peerReviewSummaries) {
     peerReviews.push(await enrichPeerReview(summary));
+  }
+
+  if (peerReviews.length === 0) {
+    console.warn(
+      "No public ORCID peer-review records were returned. Check that the review's visibility is set to Everyone in ORCID."
+    );
   }
 
   await writeOnlyIfChanged(
