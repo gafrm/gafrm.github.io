@@ -1,0 +1,31 @@
+---
+title: "The hunt for a co-supervisor for my PhD"
+subtitle: "Seeking one computationally minded lexicalist—preferably a nice one"
+description: "Seeking one computationally minded lexicalist—preferably a nice one"
+author: "Gabriel Frazer-McKee"
+date: 2023-01-15
+categories: [PhD, Research, Supervision]
+image: "featured.png"
+---
+
+One of the first decisions I need to make at the beginning of the PhD is the choice of a co-supervisor.
+
+From my perspective, the priority is clear: I want someone with a computational background. My project is anchored in questions about the lexicon and neology, but I also know from the outset that I want to work with corpus data and computational methods. If I am going to develop the project in the direction I have in mind, I need someone who can help me think through that side of the research in a serious way.
+
+Bruno has his own criteria as well. He wants the person to be someone from his extended academic network, and someone whose work is situated at the lexical level. That makes sense to me. The co-supervisor should bring something new to the project, but there also needs to be enough common ground for the collaboration to be coherent.
+
+So the search is really about finding the right overlap: someone computationally minded, connected closely enough to Bruno’s world, and working on lexical questions.
+
+We have been looking at a few possibilities, and one candidate seems especially promising.
+
+There was also, I should admit, one slightly less scientific moment in the discussion. When Bruno first saw this person’s picture, he said, “Well he looks the nicest out of all of them.”
+
+That may not have been a fully neutral assessment.
+
+I later learned that Bruno had in fact already met him during a sabbatical visit, which perhaps explains the confidence behind that first impression.
+
+In any case, I am hopeful. If this works out, I think the project will benefit enormously from having a co-supervisor who can complement Bruno’s guidance and help me develop the computational dimension of the research properly.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
