@@ -3,7 +3,7 @@ title: "A change of plans"
 subtitle: "Our return to France will have to wait."
 description: "The premature arrival of our son, Georges, has changed our plans for the beginning of 2026."
 author: "Gabriel Frazer-McKee"
-date: 2026-09-12
+date: 2025-09-12
 categories: [Personal, Family, France, PhD]
 image: "featured.png"
 ---
