@@ -842,12 +842,16 @@ async function enrichFunding(summary) {
   const organization = value(item?.organization?.name) || value(summary?.organization?.name);
   const amount = amountText(item?.amount ?? summary?.amount);
   const url = value(item?.url) || value(summary?.url);
+  const subtype =
+    value(item?.["organization-defined-type"]) ||
+    value(summary?.["organization-defined-type"]);
 
   return {
     title: titleFromNode(titleNode, "Untitled funding award"),
     organization,
     amount,
     type: String(item?.type ?? summary?.type ?? "funding").trim(),
+    subtype,
     startDate,
     endDate,
     year: dateYear(startDate) || dateYear(endDate),
@@ -1012,18 +1016,22 @@ function renderCvPublications(works) {
   return output.join("\n");
 }
 
-function renderCvFunding(fundings) {
+function isTravelAward(funding) {
+  return normalizeName(funding?.subtype) === "travel award";
+}
+
+function renderFundingSection(titleText, fundings) {
   if (fundings.length === 0) return "";
 
-  const output = ["# Major Grants and Awards", ""];
+  const output = [`# ${titleText}`, ""];
   const sorted = [...fundings].sort((a, b) => {
     if (a.year !== b.year) return (b.year || 0) - (a.year || 0);
     return a.title.localeCompare(b.title, "en", { sensitivity: "base" });
   });
 
   for (const funding of sorted) {
-    const titleText = markdownEscape(funding.title);
-    const title = funding.url ? `[${titleText}](${funding.url})` : titleText;
+    const escapedTitle = markdownEscape(funding.title);
+    const title = funding.url ? `[${escapedTitle}](${funding.url})` : escapedTitle;
     const details = [
       funding.organization ? markdownEscape(funding.organization) : "",
       formatYearRange(funding.startDate, funding.endDate),
@@ -1035,6 +1043,18 @@ function renderCvFunding(fundings) {
 
   output.push("");
   return output.join("\n");
+}
+
+function renderCvFunding(fundings) {
+  if (fundings.length === 0) return "";
+
+  const travelAwards = fundings.filter(isTravelAward);
+  const majorFunding = fundings.filter((funding) => !isTravelAward(funding));
+
+  return [
+    renderFundingSection("Major Grants and Awards", majorFunding),
+    renderFundingSection("Travel Awards", travelAwards),
+  ].filter(Boolean).join("\n");
 }
 
 function roleLabel(role) {
