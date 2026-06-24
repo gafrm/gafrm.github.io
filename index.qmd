@@ -34,8 +34,7 @@ listing:
 [{{< fa solid envelope >}}](mailto:gabriel.frazer.mckee@gmail.com)
 :::
 
-I study neology, lexical diffusion, corpus linguistics, lexicography, and methods for synthesizing linguistic evidence. My doctoral work examines the linguistic and extralinguistic factors associated with the diffusion and non-diffusion of new words.
-
+I use corpus-based and computational methods to study how new words spread, how academic writing works, and how linguistic research can be synthesized systematically.
 [Learn more about me →](about.qmd){.learn-more}
 
 :::

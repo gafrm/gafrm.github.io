@@ -1,5 +1,5 @@
 ---
-title: "My first peer review experience"
+title: "My first experience as a peer reviewer"
 subtitle: "A valuable lesson in what professionnal peer review involves"
 description: "A valuable lesson in what professionnal peer review involves"
 author: "Gabriel Frazer-McKee"

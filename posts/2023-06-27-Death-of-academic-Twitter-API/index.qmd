@@ -1,5 +1,5 @@
 ---
-title: "When Twitter changes the research plan"
+title: "Death of Academic Twitter"
 subtitle: "I just received SSHRC funding for a project whose original data-collection strategy is no longer viable."
 description: "I just received SSHRC funding for a project whose original data-collection strategy is no longer viable."
 author: "Gabriel Frazer-McKee"

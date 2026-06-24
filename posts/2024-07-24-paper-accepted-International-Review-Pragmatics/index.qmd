@@ -1,10 +1,10 @@
 ---
 title: "The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction"
 subtitle: "A publication stemming from my MA thesis"
-author: 
-  - name: Gabriel Frazer-McKee
+description: "A publication stemming from my MA thesis"
+author: "Gabriel Frazer-McKee"
 date: "2024-07-24"
-categories: [paper]
+categories: [publication]
 image: "featured.png"
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "My first invited conference presentation"
-subtitle: "Presenting the scoping review protocol and meeting potential allies for the next stage."
-description: "the most important part of a conference presentation may happen after the final slide"
+subtitle: "The most important part of a conference presentation may happen after the final slide"
+description: "The most important part of a conference presentation may happen after the final slide"
 author: "Gabriel Frazer-McKee"
 date: 2026-06-16
 categories: [Conferences, PhD, Scoping review]
