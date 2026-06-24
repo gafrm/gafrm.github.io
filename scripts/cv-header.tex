@@ -33,13 +33,15 @@
 
 % Contact row: black fixed-width icon followed by the visible address.
 % Arguments: URL, colour placeholder, icon, visible address.
-\newcommand{\cvlink}[4]{%
+\newcommand{\cvlink}[3]{%
   \href{#1}{%
-    \makebox[1.45em][c]{\textcolor{black}{#3}}%
-    \hspace{0.28em}%
-    \textcolor{cvtext}{\nolinkurl{#4}}%
+    \makebox[1.45em][c]{\textcolor{black}{#2}}%
+    \hspace{0.30em}%
+    \textcolor{cvtext}{\nolinkurl{#3}}%
   }%
 }
+```
+
 
 \newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
 \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
