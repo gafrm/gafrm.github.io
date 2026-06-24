@@ -1,0 +1,468 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  canadian,
+  10pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage[top=0.58in,bottom=0.62in,left=0.70in,right=0.70in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{newunicodechar}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+
+\definecolor{cvnavy}{HTML}{17324D}
+\definecolor{cvtext}{HTML}{253342}
+\definecolor{cvmuted}{HTML}{657382}
+\definecolor{cvline}{HTML}{D9E1E8}
+
+% Quarto can add its own hyperlink setup after the header include. Applying
+% this again at the beginning of the document prevents bright-blue links.
+\AtBeginDocument{%
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=cvnavy,
+    urlcolor=cvnavy,
+    citecolor=cvnavy,
+    pdfborder={0 0 0}
+  }%
+}
+\urlstyle{same}
+\newunicodechar{≈}{\ensuremath{\approx}}
+
+% Contact row: black fixed-width icon followed by the visible address.
+% Arguments: URL, colour placeholder, icon, visible address.
+\newcommand{\cvlink}[3]{%
+  \href{#1}{%
+    \makebox[1.45em][c]{\textcolor{black}{#2}}%
+    \hspace{0.30em}%
+    \textcolor{cvtext}{\nolinkurl{#3}}%
+  }%
+}
+```
+
+
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+
+% Degree and position entries with dates aligned consistently on the right.
+\newcommand{\cventry}[4]{%
+  \Needspace{4\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.23\textwidth}@{}}
+    \textbf{#1} & \textcolor{cvmuted}{#2}\\[-0.05em]
+    \textcolor{cvmuted}{#3} &
+  \end{tabularx}%
+  \ifstrempty{#4}{}{%
+    \par\vspace{-0.08em}{\small\textcolor{cvmuted}{#4}}%
+  }%
+  \par\vspace{0.48em}%
+}
+
+\newcommand{\cvrole}[3]{%
+  \Needspace{3\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.23\textwidth}@{}}
+    \textbf{#1} & \textcolor{cvmuted}{#2}\\[-0.05em]
+    \textcolor{cvmuted}{#3} &
+  \end{tabularx}%
+  \par\vspace{0.35em}%
+}
+
+\newcommand{\cvcourse}[3]{%
+  \Needspace{2\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}L R{0.43\textwidth}@{}}
+    \textbf{#1} --- #2 & \textcolor{cvmuted}{#3}
+  \end{tabularx}%
+  \par\vspace{0.10em}%
+}
+
+\titleformat{\section}
+  {\fontsize{15}{18}\selectfont\bfseries\color{cvnavy}}
+  {}{0pt}{}
+  [\vspace{0.13em}\color{cvline}\titlerule]
+\titlespacing*{\section}{0pt}{1.05em}{0.48em}
+
+\titleformat{\subsection}
+  {\fontsize{11.2}{13.4}\selectfont\bfseries\color{cvnavy}}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.82em}{0.28em}
+
+\pretocmd{\section}{\Needspace{6\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.30em}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.12em,topsep=0.18em}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.18em,topsep=0.18em}
+\emergencystretch=2em
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\footnotesize\color{cvmuted} Gabriel Frazer-McKee}
+\fancyfoot[R]{\footnotesize\color{cvmuted} \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdfauthor={Dr.~Gang He},
+  pdflang={en-CA},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\begin{center}
+  {\fontsize{22}{25}\selectfont\bfseries\color{cvnavy} Gabriel Frazer-McKee}\\[0.55em]
+
+  \small
+  \begin{tabular}{@{}l@{}}
+    \cvlink{https://gafrm.github.io}{\faGlobe}{gafrm.github.io}\\[0.14em]
+    \cvlink{mailto:gabriel.frazer.mckee@gmail.com}{\faEnvelope}{gabriel.frazer.mckee@gmail.com}\\[0.14em]
+    \cvlink{https://orcid.org/0000-0002-0860-6192}{\faOrcid}{orcid.org/0000-0002-0860-6192}\\[0.14em]
+    \cvlink{https://scholar.google.com/citations?user=MWAQth4AAAAJ}{\faGraduationCap}{scholar.google.com/citations?user=MWAQth4AAAAJ}\\[0.14em]
+    \cvlink{https://github.com/gafrm}{\faGithub}{github.com/gafrm}\\[0.14em]
+    \cvlink{https://www.linkedin.com/in/gabriel-frazer-mckee-401586220/}{\faLinkedinIn}{linkedin.com/in/gabriel-frazer-mckee-401586220}\\[0.14em]
+    \cvlink{https://www.researchgate.net/profile/Gabriel-Frazer-Mckee}{\faResearchgate}{researchgate.net/profile/Gabriel-Frazer-Mckee}
+  \end{tabular}
+\end{center}
+\vspace{-0.25em}
+
+````
+
+\section{Education}\label{education}
+
+\textbf{PhD in Linguistics}\\
+Université Laval, Québec City, Canada\\
+2022--present
+
+\textbf{MA in Linguistics}\\
+Université Laval, Québec City, Canada\\
+2015--2019
+
+\section{Teaching Experience}\label{teaching-experience}
+
+\textbf{Lecturer, Université Laval}\\
+2015--present
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{FRN-1110 --- Lexicologie}, Winter 2025
+\end{itemize}
+
+\section{Publications}\label{publications}
+
+\subsection{Peer-Reviewed Journal
+Articles}\label{peer-reviewed-journal-articles}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee}, Emmanuelle Paquette Raynard, Nicolas
+  Gignac, Davie Dulude, \& Bruno Courbon. (2026).
+  \href{https://f1000research.com/articles/15-984}{Linguistic and
+  extralinguistic factors associated with neological (non-)diffusion: A
+  protocol for a scoping review of the English- and French-language
+  literatures (1952--2026)}. \emph{F1000Research}, 15, 984,
+  \href{https://doi.org/10.12688/f1000research.180485.1}{doi:10.12688/f1000research.180485.1}.
+\item
+  \textbf{Gabriel Frazer-McKee} \& Patrick J. Duffley. (2024).
+  \href{https://doi.org/10.1163/18773109-01602002}{The cognitive
+  mechanisms involved in the ``DEGREE ADVERB + PROPER NAME''
+  construction}. \emph{International Review of Pragmatics}, 16(2),
+  188-231,
+  \href{https://doi.org/10.1163/18773109-01602002}{doi:10.1163/18773109-01602002}.
+\item
+  Stefano Coretta, Joseph V. Casillas, Simon Roessig, Michael Franke,
+  Byron Ahn, \ldots, \textbf{Gabriel Frazer-McKee}, \ldots, \& Timo B.
+  Roettger. (2023).
+  \href{https://doi.org/10.1177/25152459231162567}{Multidimensional
+  Signals and Analytic Flexibility: Estimating Degrees of Freedom in
+  Human-Speech Analyses}. \emph{Advances in Methods and Practices in
+  Psychological Science}, 6(3), 25152459231162567,
+  \href{https://doi.org/10.1177/25152459231162567}{doi:10.1177/25152459231162567}.
+\item
+  \textbf{Gabriel Frazer-McKee} \& Bruno Courbon. (2022).
+  \href{https://revues.polen.uca.fr/index.php/Signifiances/article/view/314}{Relationship
+  with a semioreferential object as a predictor variable}.
+  \emph{Signifying}.
+\end{itemize}
+
+\subsection{Editorials in Student
+Journals}\label{editorials-in-student-journals}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee}. (2026).
+  \href{https://doi.org/10.70637/xkt9v194}{Préparer un résumé
+  scientifique informatif et bien structuré : un facteur clé pour être
+  accepté·e en colloque}. \emph{Actes des Journées de linguistique}, 2,
+  1-8, \href{https://doi.org/10.70637/xkt9v194}{doi:10.70637/xkt9v194}.
+\item
+  \textbf{Gabriel Frazer-McKee}, Nicolas Gignac, \& Linda Wong. (2025).
+  \href{https://doi.org/10.70637/m5z63833}{Publier ses actes de colloque
+  en ≈ 12 mois : guide à l'intention des éditeur·trice·s étudiant·e·s}.
+  \emph{Actes des Journées de linguistique}, 1, vi-xxv,
+  \href{https://doi.org/10.70637/m5z63833}{doi:10.70637/m5z63833}.
+\end{itemize}
+
+\subsection{Book Chapters}\label{book-chapters}
+
+\begin{itemize}
+\tightlist
+\item
+  Bruno Courbon \& \textbf{Gabriel Frazer-McKee}. (2026).
+  Représentations associées à trois métropoles occidentales : : étude
+  sémantique des constructions \textless très + \{Montréal, New York,
+  Paris\}\textgreater{} et \textless very + \{Montreal, New York,
+  Paris\}\textgreater. \emph{Représentations de l'espace dans le
+  lexique}.
+\end{itemize}
+
+\subsection{Conference Proceedings}\label{conference-proceedings}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee}, Joël Macoir, Lydia Gagnon, \& Pascale
+  Tremblay. (2020).
+  \href{https://aclanthology.org/2020.law-1.15/}{Towards a standardized,
+  fine-grained manual annotation protocol for verbal fluency data}.
+  \emph{Proceedings of the 14th Linguistic Annotation Workshop},
+  160--166.
+\end{itemize}
+
+\subsection{Working Papers}\label{working-papers}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee} \& Kendall Vogh. (2022).
+  \href{https://wally.journals.yorku.ca/index.php/default/article/view/19}{Graduate
+  students would benefit from guidelines for preparing conference
+  abstracts}. \emph{Working papers in Applied Linguistics and
+  Linguistics at York}.
+\end{itemize}
+
+\subsection{Theses}\label{theses}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee}. (2020).
+  \href{https://doi.org/10.13140/rg.2.2.28317.23523}{The semantics and
+  pragmatics of proper names in adverbial degree constructions in
+  English: A corpus-driven contribution}. \emph{Unpublished},
+  \href{https://doi.org/10.13140/rg.2.2.28317.23523}{doi:10.13140/rg.2.2.28317.23523}.
+\end{itemize}
+
+\subsection{Editorial and Reference
+Work}\label{editorial-and-reference-work}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Gabriel Frazer-McKee}, Maggie Bertolacci, Emmanuel Blaise
+  Tapon, \& Linda Wong. (2026).
+  \href{https://doi.org/10.70637/kqamk124}{Vol. 2: Actes des JDL 2025}.
+  \emph{Actes des Journées de linguistique}, 2,
+  \href{https://doi.org/10.70637/kqamk124}{doi:10.70637/kqamk124}.
+\item
+  \textbf{Gabriel Frazer-McKee}, Nicolas Gignac, \& Linda Wong. (2024).
+  \href{https://doi.org/10.70637/5p9znc31}{Vol. 1: Actes des JDL 2024}.
+  \emph{Actes des Journées de linguistique}, 1,
+  \href{https://doi.org/10.70637/5p9znc31}{doi:10.70637/5p9znc31}.
+\end{itemize}
+
+\section{Major Grants and Awards}\label{major-grants-and-awards}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\href{http://www.eneoli.eu}{European Network On Lexical
+  Innovation (ENEOLI)}}. 2023--2027 · EUR 450,000.
+\item
+  \textbf{Les facteurs linguistiques et extralinguistiques associés à la
+  (non-) diffusion de néologismes dans le français québécois au début du
+  21e siècle : Une approche par les mégadonnées}. 2023--2026 · CAD
+  80,000.
+\end{itemize}
+
+
+
+
+\end{document}
