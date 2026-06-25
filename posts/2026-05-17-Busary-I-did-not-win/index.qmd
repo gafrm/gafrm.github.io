@@ -1,53 +1,52 @@
 ---
-title: "An unsuccessful Bourse Personnalité application"
-subtitle: "Why a realistic chance is usually enough reason to apply"
-description: "A reflection on an unsuccessful Bourse Personnalité application, the relative invisibility of editorial work, and what previous winners can reveal about a competition’s priorities."
+title: "On not being shortlisted for an Oustanding Individual award"
+subtitle: "The criteria tell you who is eligible. Previous winners can tell you who is likely to win."
+description: "The criteria tell you who is eligible. Previous winners can tell you who is likely to win."
 author: "Gabriel Frazer-McKee"
-date: "2026-04-01"
-categories: [academic life, funding]
+date: "2026-05-17"
+categories: [academic life, funding, editorial work, unsuccesful application]
 image: "featured.png"
 ---
 
+I recently applied for Université Laval’s *Bourse Personnalité* (Outstanding Individual award). I was not selected—or even shortlisted.
 
-I recently applied for Université Laval’s *Bourse Personnalité*. I was not selected.
+Congratulations are due to the students whose candidacies were recognized. Their projects clearly made a strong impression, and being selected in a university-wide competition is a significant achievement.
 
-The result is disappointing, but I do not regret applying. My candidacy was built around several years of involvement in student scholarly publishing, particularly my work as editor-in-chief of the *Actes des Journées de linguistique* in 2024 and 2025. The project was substantial enough that I believed I had a realistic chance.
-
-That, in itself, was a sufficient reason to submit an application.
+The result may not be the one I had hoped for, but I do not regret applying. My candidacy was built around several years of involvement in student scholarly publishing, particularly my work as editor-in-chief of the *Actes des Journées de linguistique* in 2024 and 2025. The project was substantial enough that I believed I had a realistic chance. That, in itself, was a sufficient reason to submit an application.
 
 ## Editorial work as student involvement
 
-My application focused on the work required to improve the production of the JDL conference proceedings.
+My application focused on the work required to improve the production of the JDL conference proceedings: coordinating authors and editors, carrying out developmental editing, managing the publication platform, and trying to make the process faster and more predictable. For the 2024 proceedings, six articles were published before the end of the conference year, and the nine-manuscript volume was completed by May 2025. I then returned as editor-in-chief for the 2025 volume.
 
-This has included coordinating authors and editors, carrying out developmental editing, managing the publication platform, clarifying editorial procedures, and trying to make the process faster and more predictable. For the 2024 proceedings, six articles were published before the end of the conference year, and the nine-manuscript volume was completed by May 2025. I then returned as editor-in-chief for the 2025 volume.
+Editorial work often succeeds by disappearing into the final product. When an edited volume is published, readers see the finished articles. They do not see the exchanges with authors, the restructuring of manuscripts, the technical problems, or the many small decisions required to keep a volunteer publication project moving.
 
-The results are tangible, but the work behind them is not especially visible. When an edited volume is published, readers see the finished articles. They do not see the repeated exchanges with authors, the restructuring of manuscripts, the technical problems, the tracking documents, or the many small decisions required to keep a volunteer publication project moving.
-
-Editorial work often succeeds by disappearing into the final product.
-
-## Looking more closely at previous winners
+## Looking more closely at previous recipients
 
 One lesson from the application is that the formal eligibility criteria do not necessarily reveal which kinds of candidacies are most competitive.
 
-A closer look at previous recipients may provide a better indication. When recent winners tend to have led highly visible initiatives with an immediate and easily communicated social impact, that pattern says something about how achievement is recognized within the competition.
+Competitions develop their own culture over time. The [students recognized in the Personnalité category at the 2025 Gala de la vie étudiante](https://www.lesoleil.com/la-vitrine/2025/04/25/laureates-et-laureats-du-gala-de-la-vie-etudiante-2025-5V36SDTBGZAAXDGLGMBJWLPVBY/) provide a useful illustration.
 
-The type of developmental editorial work I conducted has an impact, but it is indirect. It improves manuscripts, supports student authors, preserves conference research, and strengthens part of the university’s scholarly infrastructure. Those contributions are distributed across many people and often become visible only over time.
+Their involvement included establishing shared refrigerators on campus, relaunching an association supporting sexual and gender diversity, creating free clothing assistance, representing international students, organizing interprogram activities and charitable fundraising, offering public-speaking courses, and founding a radio program devoted to legal and cultural issues.
 
-That may make them less compelling in a competition where projects with a recognizable public presence and a clear social narrative are easier to evaluate and celebrate.
+These are varied and clearly worthwhile forms of involvement. They also share qualities that make their effects comparatively easy to see and communicate: identifiable communities, public activities, concrete services, and an immediate social dimension.
 
-This does not mean that the selection was unreasonable, or that an editorial candidacy could never succeed. It does suggest that applicants should examine not only the stated criteria but also the profiles of those who have previously been selected.
+The contributions of editorial work are distributed and slow to surface. They improve manuscripts, support student authors, preserve student research, and strengthen part of the university’s scholarly infrastructure. That kind of impact is genuine, but it may not be the easiest to evaluate in a competition where a clear social narrative helps a candidacy land.
 
-## Apply when the chance is real
+This does not indicate a flaw in the selection process. It does, however, reveal something useful about the culture of the competition and the kinds of achievement it has tended to recognize.
+
+Understanding that distinction is not a reason to be discouraged. It is a reason to go in with accurate expectations.
+
+## Apply—but be strategic with your time
 
 None of this changes my view that the application was worth making.
 
-It is easy to disqualify oneself in advance, particularly when a competition is selective or when one’s work does not resemble the most visible examples of student involvement. But an applicant does not need to know that they will win. They need only have a credible case and a realistic possibility of being selected.
+It is easy to disqualify oneself in advance, particularly when a competition is selective or when one’s work does not resemble the most visible examples of student involvement. An applicant does not need to know that they will win. They need only have a credible case and a realistic possibility of being selected.
 
-Applications also force us to articulate the value of work that we may otherwise treat as routine. Preparing this one required me to describe the JDL proceedings not merely as a sequence of editorial tasks, but as a sustained effort to support student publishing and improve an academic institution.
+At the same time, applications require time, and academic work already involves constant decisions about where that time is best spent. The profiles of previous recipients can help with that decision. They reveal not only who has succeeded, but also which forms of involvement a competition is especially well suited to recognize.
 
-The candidacy was unsuccessful. It was not frivolous.
+That kind of research is worth doing before you commit to an application—not to talk yourself out of applying, but to go in with accurate expectations and to make an informed decision about whether the opportunity is well matched to your work.
 
-The practical lesson is therefore twofold: apply when you believe you have a realistic chance, but look carefully at what a competition has historically rewarded. The criteria tell you who is eligible. Previous winners may tell you who is likely to win.
+The criteria tell you whether you are eligible. Previous recipients' profiles help you judge whether preparing the application is a smart use of your time.
 
 
 <!--Include social share buttons-->
