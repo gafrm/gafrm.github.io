@@ -5,7 +5,7 @@ description: "A publication stemming from my MA thesis"
 author: "Gabriel Frazer-McKee"
 date: "2024-07-24"
 categories: [publication]
-image: "featured.png"
+image: "featured1.png"
 ---
 
 ## Abstract
