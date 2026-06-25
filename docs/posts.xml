@@ -87,6 +87,47 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2026-06-19-Attending-GTallarico-talk/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
+  <title>The JDL 2025 proceedings are now available</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2026-06-17-JDL-2025-published/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>As editor-in-chief, I am pleased to announce that the <a href="https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/issue/view/220">proceedings of the <strong>38th Journées de linguistique</strong></a>, held at Université Laval on March 5 and 6, 2025, are now available online.</p>
+<p>Of the nine manuscripts submitted after the conference, five completed the editorial process and are included in the volume. They reflect the diversity of the work presented at the JDL, with contributions addressing different languages, theoretical questions, empirical materials, and methodological approaches. As always, the proceedings provide students and early-career researchers with an opportunity to develop a conference presentation into a complete scholarly publication.</p>
+<p>The volume also includes my editorial, <a href="https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/article/view/55141">“Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque”</a>. Abstracts are often treated as a minor preliminary exercise, but they play a decisive role in how a proposal is evaluated and in whether readers can understand the purpose, methods, and contribution of the research. The editorial draws on recurring issues encountered when evaluating and editing student submissions.</p>
+<section id="developmental-editing" class="level2">
+<h2 class="anchored" data-anchor-id="developmental-editing">Developmental editing</h2>
+<p>Producing the proceedings involved much more than receiving manuscripts and correcting their formatting. As editor-in-chief, I coordinated a process of <strong>developmental editing</strong>, with substantial feedback intended to help the authors strengthen their argumentation, organization, methodology, and presentation.</p>
+<p>This approach requires considerable work from both the editorial team and the authors. It also reflects the pedagogical purpose of the JDL proceedings: the objective is not simply to reproduce conference papers, but to accompany emerging researchers through the process of preparing a publishable article.</p>
+<p>For this edition, we have also published the project timeline. Editorial timelines are rarely visible to readers, even though they shape the experience of authors and determine whether conference proceedings appear while the research remains current. Making the timeline public is one way of documenting the work involved and establishing clearer expectations for future volumes.</p>
+<p>I am very pleased to see the project completed and the authors’ work made available. The publication of the proceedings marks the final stage of the 2025 Journées de linguistique and the result of a sustained collective effort extending well beyond the two days of the conference.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>Journées de linguistique</category>
+  <category>Publications</category>
+  <category>Editorial work</category>
+  <category>Conferences</category>
+  <guid>https://gafrm.github.io/posts/2026-06-17-JDL-2025-published/</guid>
+  <pubDate>Wed, 17 Jun 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2026-06-17-JDL-2025-published/featured.png" medium="image" type="image/png" height="87" width="144"/>
+</item>
+<item>
   <title>My first invited conference presentation</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2026-06-16-First-invited-presentation/</link>
@@ -320,7 +361,7 @@ https://quarto.org/docs/authoring/includes.html
 <item>
   <title>The JDL 2024 conference proceedings are now complete</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2025-08-30-JDL-2025-proceedings-published/</link>
+  <link>https://gafrm.github.io/posts/2025-08-30-JDL-2024-proceedings-published/</link>
   <description><![CDATA[ 
 
 
@@ -370,9 +411,9 @@ https://quarto.org/docs/authoring/includes.html
   <category>Conference proceedings</category>
   <category>Editorial work</category>
   <category>Academic service</category>
-  <guid>https://gafrm.github.io/posts/2025-08-30-JDL-2025-proceedings-published/</guid>
+  <guid>https://gafrm.github.io/posts/2025-08-30-JDL-2024-proceedings-published/</guid>
   <pubDate>Mon, 25 Aug 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2025-08-30-JDL-2025-proceedings-published/featured.png" medium="image" type="image/png" height="86" width="144"/>
+  <media:content url="https://gafrm.github.io/posts/2025-08-30-JDL-2024-proceedings-published/featured.png" medium="image" type="image/png" height="88" width="144"/>
 </item>
 <item>
   <title>Letter of thanks for a short-term research stay in Grenoble, France</title>
@@ -628,9 +669,6 @@ https://quarto.org/docs/authoring/includes.html
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
 <p>Published <a href="https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777">paper</a></p>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
-
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <!--Include academic icons or bottons-->
 <!-- 
 Load Academicons v1: https://jpswalsh.github.io/academicons/
@@ -810,49 +848,6 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2023-05-05-Olivier-accepts-to-cosupervise/</guid>
   <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2023-05-05-Olivier-accepts-to-cosupervise/featured.png" medium="image" type="image/png" height="108" width="144"/>
-</item>
-<item>
-  <title>My PhD is now funded!</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2023-05-01-SSHRC-funding/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This week, I learned that I have received a doctoral fellowship from the Social Sciences and Humanities Research Council of Canada.</p>
-<p>SSHRC awarded my application an overall score of <strong>11.23 out of 12</strong>. The fellowship will support my doctoral research on the diffusion of officially recommended French terminology: why some proposed terms enter common usage while others fail to circulate, and which linguistic and extralinguistic factors might explain these different outcomes.</p>
-<p>The result is both exciting and difficult to fully absorb. A doctoral research proposal is necessarily provisional. It presents questions, hypotheses and methods before the project has had the chance to encounter all the complications that will shape it. Having the proposal evaluated and supported at the national level feels like an important vote of confidence in the project and in my ability to carry it out.</p>
-<p>The funding will also substantially change the conditions under which I can complete the doctorate. It provides several years of financial support and, with them, the time required to assemble corpora, refine the methodological framework, present the research and write the dissertation.</p>
-<p>The result is particularly striking because it arrived almost simultaneously with a radically different assessment of the same project.</p>
-<p>My application to the Fonds de recherche du Québec – Société et culture was ranked <strong>15th out of the 15 applications evaluated by the committee</strong>. In other words, essentially the same research project received an almost perfect score in one national competition and finished dead last in another.</p>
-<p>There are differences between the two applications, of course, as well as between the evaluation criteria and committee structures. Still, it is difficult to imagine a clearer illustration of the contingency involved in peer review. A funding decision is not a definitive measurement of the quality of a project. It is the outcome of a particular application being read by a particular committee within a particular competition.</p>
-<p>This is easier to appreciate when one of the two decisions is positive. Had I received only the FRQSC result, it would have been tempting to interpret the ranking as evidence that the project itself was weak. The SSHRC score makes that interpretation impossible to sustain.</p>
-<p>At the same time, receiving the fellowship does not mean that the project can proceed exactly as proposed. My original research design relies heavily on Twitter’s Academic Research API, which provides access to the platform’s historical data. In February, Twitter announced major changes to API access, and it remains unclear whether the academic access on which the proposed data collection depends will continue to exist.</p>
-<p>I may therefore have received funding for a project whose original data-collection strategy already needs to be reconsidered.</p>
-<p>That uncertainty does not diminish the importance of the fellowship. SSHRC has supported the broader research problem, not an immutable sequence of methodological decisions. The central question—why some officially recommended terms diffuse while others do not—remains worth pursuing even if the corpus, sample or collection strategy must change.</p>
-<p>For now, I am allowing myself to appreciate the result. Preparing the application required me to articulate the project more clearly than I had before: to explain why neological diffusion matters, how it can be investigated empirically and what the research might contribute to neology, terminology and corpus linguistics.</p>
-<p>Now comes the harder part: turning a highly rated proposal into a workable doctoral project.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>Funding</category>
-  <category>PhD</category>
-  <category>Research</category>
-  <guid>https://gafrm.github.io/posts/2023-05-01-SSHRC-funding/</guid>
-  <pubDate>Mon, 01 May 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2023-05-01-SSHRC-funding/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

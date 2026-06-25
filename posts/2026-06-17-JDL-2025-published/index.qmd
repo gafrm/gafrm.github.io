@@ -1,0 +1,31 @@
+---
+title: "The JDL 2025 proceedings are now available"
+subtitle: "Completing a second proceedings volume as editor-in-chief"
+description: "Completing a second proceedings volume as editor-in-chief"
+author: "Gabriel Frazer-McKee"
+date: 2026-06-17
+categories: [Journées de linguistique, Publications, Editorial work, Conferences]
+image: "featured.png"
+---
+
+As editor-in-chief, I am pleased to announce that the [proceedings of the **38th Journées de linguistique**](https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/issue/view/220), held at Université Laval on March 5 and 6, 2025, are now available online.
+
+Of the nine manuscripts submitted after the conference, five completed the editorial process and are included in the volume. They reflect the diversity of the work presented at the JDL, with contributions addressing different languages, theoretical questions, empirical materials, and methodological approaches. As always, the proceedings provide students and early-career researchers with an opportunity to develop a conference presentation into a complete scholarly publication.
+
+The volume also includes my editorial, [“Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque”](https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/article/view/55141). Abstracts are often treated as a minor preliminary exercise, but they play a decisive role in how a proposal is evaluated and in whether readers can understand the purpose, methods, and contribution of the research. The editorial draws on recurring issues encountered when evaluating and editing student submissions.
+
+## Developmental editing
+
+Producing the proceedings involved much more than receiving manuscripts and correcting their formatting. As editor-in-chief, I coordinated a process of **developmental editing**, with substantial feedback intended to help the authors strengthen their argumentation, organization, methodology, and presentation.
+
+This approach requires considerable work from both the editorial team and the authors. It also reflects the pedagogical purpose of the JDL proceedings: the objective is not simply to reproduce conference papers, but to accompany emerging researchers through the process of preparing a publishable article.
+
+For this edition, we have also published the project timeline. Editorial timelines are rarely visible to readers, even though they shape the experience of authors and determine whether conference proceedings appear while the research remains current. Making the timeline public is one way of documenting the work involved and establishing clearer expectations for future volumes.
+
+I am very pleased to see the project completed and the authors’ work made available. The publication of the proceedings marks the final stage of the 2025 Journées de linguistique and the result of a sustained collective effort extending well beyond the two days of the conference.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+
