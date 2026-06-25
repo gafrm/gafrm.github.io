@@ -1,0 +1,27 @@
+---
+title: "Olivier Kraif agrees to cosupervise my PhD"
+subtitle: "But he's popular, and we're now on a waiting list"
+description: "But he's popular, and we're now on a waiting list"
+author: "Gabriel Frazer-McKee"
+date: 2023-05-05
+categories: [PhD, Supervision, Collaboration]
+image: "featured.png"
+---
+
+The search for a co-supervisor has reached a promising conclusion: **Olivier Kraif has agreed to co-supervise my PhD**.
+
+Olivier is a professor at Université Grenoble Alpes and a member of the LIDILEM research laboratory. His work combines lexical research with corpus-based and computational approaches, making him a particularly strong complement to the project. I had been looking for someone with a more computational background, while Bruno wanted someone who remained firmly anchored at the lexical level. Olivier brings those two dimensions together.
+
+There is, however, a small complication.
+
+Olivier is already supervising the maximum number of doctoral students he is permitted to take on. Although he has agreed to join the project, the co-supervision cannot yet be formalized. For the moment, we are effectively in a queue, waiting for one of his current doctoral students to graduate and free up a place.
+
+It is an unusual position to be in: the search is over, the person has agreed, and the intellectual fit is clear—but the administrative arrangement has to remain unofficial for now.
+
+Still, this feels substantially different from continuing to search. The uncertainty is no longer about whether we will find the right person or whether Olivier is interested in the project. It is simply a question of timing.
+
+So, for now, we wait.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
