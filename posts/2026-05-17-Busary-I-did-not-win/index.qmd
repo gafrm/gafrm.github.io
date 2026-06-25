@@ -1,0 +1,55 @@
+---
+title: "An unsuccessful Bourse Personnalité application"
+subtitle: "Why a realistic chance is usually enough reason to apply"
+description: "A reflection on an unsuccessful Bourse Personnalité application, the relative invisibility of editorial work, and what previous winners can reveal about a competition’s priorities."
+author: "Gabriel Frazer-McKee"
+date: "2026-04-01"
+categories: [academic life, funding]
+image: "featured.png"
+---
+
+
+I recently applied for Université Laval’s *Bourse Personnalité*. I was not selected.
+
+The result is disappointing, but I do not regret applying. My candidacy was built around several years of involvement in student scholarly publishing, particularly my work as editor-in-chief of the *Actes des Journées de linguistique* in 2024 and 2025. The project was substantial enough that I believed I had a realistic chance.
+
+That, in itself, was a sufficient reason to submit an application.
+
+## Editorial work as student involvement
+
+My application focused on the work required to improve the production of the JDL conference proceedings.
+
+This has included coordinating authors and editors, carrying out developmental editing, managing the publication platform, clarifying editorial procedures, and trying to make the process faster and more predictable. For the 2024 proceedings, six articles were published before the end of the conference year, and the nine-manuscript volume was completed by May 2025. I then returned as editor-in-chief for the 2025 volume.
+
+The results are tangible, but the work behind them is not especially visible. When an edited volume is published, readers see the finished articles. They do not see the repeated exchanges with authors, the restructuring of manuscripts, the technical problems, the tracking documents, or the many small decisions required to keep a volunteer publication project moving.
+
+Editorial work often succeeds by disappearing into the final product.
+
+## Looking more closely at previous winners
+
+One lesson from the application is that the formal eligibility criteria do not necessarily reveal which kinds of candidacies are most competitive.
+
+A closer look at previous recipients may provide a better indication. When recent winners tend to have led highly visible initiatives with an immediate and easily communicated social impact, that pattern says something about how achievement is recognized within the competition.
+
+The type of developmental editorial work I conducted has an impact, but it is indirect. It improves manuscripts, supports student authors, preserves conference research, and strengthens part of the university’s scholarly infrastructure. Those contributions are distributed across many people and often become visible only over time.
+
+That may make them less compelling in a competition where projects with a recognizable public presence and a clear social narrative are easier to evaluate and celebrate.
+
+This does not mean that the selection was unreasonable, or that an editorial candidacy could never succeed. It does suggest that applicants should examine not only the stated criteria but also the profiles of those who have previously been selected.
+
+## Apply when the chance is real
+
+None of this changes my view that the application was worth making.
+
+It is easy to disqualify oneself in advance, particularly when a competition is selective or when one’s work does not resemble the most visible examples of student involvement. But an applicant does not need to know that they will win. They need only have a credible case and a realistic possibility of being selected.
+
+Applications also force us to articulate the value of work that we may otherwise treat as routine. Preparing this one required me to describe the JDL proceedings not merely as a sequence of editorial tasks, but as a sustained effort to support student publishing and improve an academic institution.
+
+The candidacy was unsuccessful. It was not frivolous.
+
+The practical lesson is therefore twofold: apply when you believe you have a realistic chance, but look carefully at what a competition has historically rewarded. The criteria tell you who is eligible. Previous winners may tell you who is likely to win.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -66,6 +66,8 @@ Supervisor: Patrick J. Duffley
 
 # Teaching Experience
 
+**ANG-2502 - Understanding Grammar - Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2024  
+
 **FRN-1110 (Lexicologie) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2024  
 
 **ANG-1002 (Intro. to Linguistics) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2023  
