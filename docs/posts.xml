@@ -813,27 +813,21 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2023-06-27-Death-of-academic-Twitter-API/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>ENEOLI receives COST funding</title>
+  <title>Olivier Kraif agrees to cosupervise my PhD</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2023-05-05-ENEOLI-funded/</link>
+  <link>https://gafrm.github.io/posts/2023-05-05-Olivier-accepts-to-cosupervise/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>The European Network on Lexical Innovation (ENEOLI) has been approved as <strong>COST Action CA22126</strong>. I am very pleased to be part of this new international network devoted to the study of neology: how new words and meanings emerge, circulate, and become established across languages and communities.</p>
-<p>COST Actions differ somewhat from conventional research grants. Rather than financing a single research project or providing individual researchers with their own research budgets, COST supports the infrastructure required for international collaboration. This can include meetings, workshops, training schools, conference participation, short-term research visits, and communication activities.</p>
-<p>That model is particularly well suited to neology. Researchers working on lexical innovation draw on different theoretical traditions, terminologies, datasets, and methods. These differences become especially visible when research conducted in different languages and national contexts is brought together. ENEOLI will provide a framework for comparing those approaches and developing shared resources.</p>
-<p>The Action will run for four years and is organized around four main areas:</p>
-<ol type="1">
-<li>developing a multilingual glossary of neology;</li>
-<li>examining methodologies, digital resources, and tools for studying lexical innovation;</li>
-<li>conducting comparative diachronic and synchronic studies of neology; and</li>
-<li>developing training in neology for researchers and language professionals.</li>
-</ol>
-<p>I will participate in the working groups devoted to <strong>methodologies, digital resources, and tools</strong> and to <strong>comparative studies of neology</strong>. Both connect directly with my doctoral research on the linguistic and extralinguistic factors associated with the diffusion—and non-diffusion—of new words, as well as with my broader interest in corpus-based and computational approaches to language.</p>
-<p>Being associated with a funded COST Action does not mean that I have personally received research funding through ENEOLI. It does, however, create opportunities to develop collaborations, participate in scientific activities, and potentially apply for support for specific networking and mobility initiatives.</p>
-<p>Most importantly, it places my doctoral work within a much broader international community of researchers confronting many of the same conceptual and methodological problems. I am looking forward to seeing what those connections make possible as the network takes shape.</p>
+<p>The search for a co-supervisor has reached a promising conclusion: <strong>Olivier Kraif has agreed to co-supervise my PhD</strong>.</p>
+<p>Olivier is a professor at Université Grenoble Alpes and a member of the LIDILEM research laboratory. His work combines lexical research with corpus-based and computational approaches, making him a particularly strong complement to the project. I had been looking for someone with a more computational background, while Bruno wanted someone who remained firmly anchored at the lexical level. Olivier brings those two dimensions together.</p>
+<p>There is, however, a small complication.</p>
+<p>Olivier is already supervising the maximum number of doctoral students he is permitted to take on. Although he has agreed to join the project, the co-supervision cannot yet be formalized. For the moment, we are effectively in a queue, waiting for one of his current doctoral students to graduate and free up a place.</p>
+<p>It is an unusual position to be in: the search is over, the person has agreed, and the intellectual fit is clear—but the administrative arrangement has to remain unofficial for now.</p>
+<p>Still, this feels substantially different from continuing to search. The uncertainty is no longer about whether we will find the right person or whether Olivier is interested in the project. It is simply a question of timing.</p>
+<p>So, for now, we wait.</p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -848,13 +842,12 @@ https://quarto.org/docs/authoring/includes.html
 
 
  ]]></description>
-  <category>research network</category>
-  <category>ENEOLI</category>
-  <category>funding</category>
-  <category>neology</category>
-  <guid>https://gafrm.github.io/posts/2023-05-05-ENEOLI-funded/</guid>
-  <pubDate>Fri, 12 May 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2023-05-05-ENEOLI-funded/featured.png" medium="image" type="image/png"/>
+  <category>PhD</category>
+  <category>Supervision</category>
+  <category>Collaboration</category>
+  <guid>https://gafrm.github.io/posts/2023-05-05-Olivier-accepts-to-cosupervise/</guid>
+  <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2023-05-05-Olivier-accepts-to-cosupervise/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>
