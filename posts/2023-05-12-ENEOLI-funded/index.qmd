@@ -1,10 +1,10 @@
 ---
-title: "Olivier Kraif agrees to cosupervise my PhD"
-subtitle: "But he's popular, and we're now on a waiting list"
-description: "But he's popular, and we're now on a waiting list"
+title: "ENEOLI receives COST funding"
+subtitle: "Joining a four-year international network on lexical innovation"
+description: "The European Network on Lexical Innovation has been approved as COST Action CA22126."
 author: "Gabriel Frazer-McKee"
-date: 2023-05-05
-categories: [PhD, Supervision, Collaboration]
+date: "2023-05-12"
+categories: [research, funding, neology]
 image: "featured.png"
 ---
 
@@ -26,6 +26,7 @@ I will participate in the working groups devoted to **methodologies, digital res
 Being associated with a funded COST Action does not mean that I have personally received research funding through ENEOLI. It does, however, create opportunities to develop collaborations, participate in scientific activities, and potentially apply for support for specific networking and mobility initiatives.
 
 Most importantly, it places my doctoral work within a much broader international community of researchers confronting many of the same conceptual and methodological problems. I am looking forward to seeing what those connections make possible as the network takes shape.
+
 
 <!--Include social share buttons-->
 
