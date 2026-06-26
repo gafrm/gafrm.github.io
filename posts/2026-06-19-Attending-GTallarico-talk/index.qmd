@@ -1,7 +1,7 @@
 ---
 title: "Neologisms in Tourism"
-subtitle: "Notes from Giovanni Tallarico’s Presentation"
-description: "Notes from Giovanni Tallarico’s Presentation"
+subtitle: "Notes from Giovanni Tallarico’s presentation"
+description: "Notes from Giovanni Tallarico’s presentation"
 author: "Gabriel Frazer-McKee"
 date: "2026-06-19"
 categories: [visiting scholar, academic talk]

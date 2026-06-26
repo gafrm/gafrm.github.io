@@ -1,20 +1,20 @@
 ---
-title: "A change of plans"
-subtitle: "Our return to France will have to wait."
-description: "The premature arrival of our son, Georges, has changed our plans for the beginning of 2026."
+title: "Return to France postponed"
+subtitle: "Our son, Georges, was born 2.5 months premature"
+description: "Our son, Georges, was born 2.5 months premature"
 author: "Gabriel Frazer-McKee"
 date: 2025-09-12
 categories: [Personal, Family, France, PhD]
 image: "featured.png"
 ---
 
-I had planned to return to France in January 2026 to continue my doctoral work at the Université Grenoble Alpes. Instead, that return will have to wait.
+I had planned to return to France in January 2026 to continue my doctoral work at the Université Grenoble Alpes with Olivier Kraif, my co-research supervisor. Instead, that return will have to wait.
 
-Our son, **Georges Auguste Dulude-McKee**, arrived much earlier than expected. His premature birth has reshaped the past several months—and, unsurprisingly, our plans for the beginning of 2026.
+Our son, **Georges Auguste Dulude-McKee**, arrived much earlier than expected - 2.5 months, to be exact. (He's doing okay, but he won't be released from hospital untill around his original due date) His premature birth has reshaped the past several months—and, unsurprisingly, our plans for the beginning of 2026.
 
-A research stay abroad always requires a certain amount of coordination. Travelling with a very young baby requires considerably more. Travelling with a baby who arrived prematurely, and whose first months have involved additional medical care and follow-up, is another matter altogether. Returning to France in January is therefore neither realistic nor desirable for us.
+Postponing the trip was not a difficult decision.  A research stay abroad always requires a certain amount of coordination. Travelling with a very young baby requires considerably more. Travelling with a baby who arrived prematurely, and whose first months have involved additional medical care and follow-up, is another matter altogether. Returning to France in January is therefore neither realistic nor desirable for us.
 
-Postponing the trip was not a difficult decision. My doctoral work remains important, and I still intend to spend time in Grenoble as part of my co-supervision. But the timetable must now accommodate the needs of our family rather than the other way around.
+My doctoral work remains important, and I still intend to spend time in Grenoble as part of my co-supervision. But the timetable must now accommodate the needs of our family rather than the other way around.
 
 For the moment, that means remaining in Québec, adjusting to life as a family of three, and giving Georges the time he needs to grow stronger.
 

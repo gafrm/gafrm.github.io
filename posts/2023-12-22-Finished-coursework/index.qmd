@@ -2,7 +2,7 @@
 ---
 title: "Finishing my doctoral coursework"
 subtitle: "One course at a time—and one course twice"
-subtitle: "One course at a time—and one course twice"
+description: "One course at a time—and one course twice"
 author: "Gabriel Frazer-McKee"
 date: "2023-12-22"
 categories: [PhD, milestone, methods, natural language processing]

@@ -1,7 +1,7 @@
 ---
 title: "My first experience as a peer reviewer"
-subtitle: "A valuable lesson in what professionnal peer review involves"
-description: "A valuable lesson in what professionnal peer review involves"
+subtitle: "A valuable lesson in what professional peer review involves"
+description: "A valuable lesson in what professional peer review involves"
 author: "Gabriel Frazer-McKee"
 date: "2026-06-11"
 categories: [peer review]
@@ -11,7 +11,7 @@ image: "featured.png"
 
 # My first peer review
 
-I recently completed my first peer review for an academic journal.
+I recently completed my first peer review for an academic journal (Lingua, to be precise).
 
 When the invitation arrived, my first reaction was hesitation. The manuscript dealt with a subject adjacent to my own research, but not one in which I would describe myself as a specialist. I knew some of the relevant literature and was comfortable with the broader theoretical questions, yet I worried that this was not enough. Was I really the right person to evaluate the work of another researcher?
 
