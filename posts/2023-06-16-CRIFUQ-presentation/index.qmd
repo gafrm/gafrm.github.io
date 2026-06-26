@@ -1,0 +1,31 @@
+
+---
+title: "Presenting the first version of my PhD project"
+subtitle: "Presented at the fifth CRIFUQ Student Day"
+subtitle: "Presented at the fifth CRIFUQ Student Day"
+author: "Gabriel Frazer-McKee"
+date: "2023-06-15"
+categories: [conference, PhD, neology]
+image: "featured.png"
+---
+
+Today, I presented a preliminary version of my doctoral project at the [fifth edition of the CRIFUQ Student Day](https://www.usherbrooke.ca/crifuq/recherche/activites/journees-etudiantes), held at Université Laval.
+
+My presentation was titled *La (non-)diffusion des néologismes institutionnels dans le français québécois au début du 21e siècle : une approche par les mégadonnées*. The project examines why some of the French terms proposed or promoted by language-planning institutions become established in Quebec usage, while others remain marginal or disappear.
+
+One useful clarification emerged from the discussion. I had used the competition between *égoportrait* and *selfie* to illustrate the type of linguistic variation that the thesis will examine. Some members of the audience interpreted this example as a criticism of the Office québécois de la langue française and, more broadly, of its language-planning mission. That was not the argument I intended to make.
+
+The distinction is important. The project does not seek to determine whether the OQLF’s recommendations are worthwhile, legitimate, or successful in any general sense. Nor does limited uptake necessarily mean that a proposed term serves no useful purpose. The project asks a narrower, empirical question: under what linguistic and extralinguistic conditions do recommended terms such as *égoportrait* spread, remain marginal, or coexist with competing forms such as *selfie*?
+
+The exchange showed me that this distinction between evaluating language policy and describing the diffusion of particular terms will need to be stated clearly throughout the project.
+
+At this stage, the thesis is still taking shape. The presentation therefore focused on the broader research problem and the methodological possibilities offered by large collections of digital language data. By tracing competing words across sources and over time, I hope to identify some of the linguistic and extralinguistic factors associated with their diffusion—or their failure to diffuse.
+
+Presenting the project at this early stage required me to articulate its central questions before all its components had been settled. It also provided an opportunity to identify where its framing could be misunderstood and where greater precision will be needed.
+
+This is an initial version of the research programme rather than a definitive thesis plan. The questions, datasets, and analytical framework will continue to evolve, but the central problem is now established: understanding how newly proposed words enter—or fail to enter—the usage of a linguistic community.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

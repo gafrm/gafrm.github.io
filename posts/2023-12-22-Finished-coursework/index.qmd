@@ -1,0 +1,65 @@
+
+---
+title: "Finishing my doctoral coursework"
+subtitle: "One course at a time—and one course twice"
+subtitle: "One course at a time—and one course twice"
+author: "Gabriel Frazer-McKee"
+date: "2023-12-22"
+categories: [PhD, milestone, methods, natural language processing]
+image: "featured.png"
+---
+
+With the end of this semester, I have completed the coursework required for my doctorate.
+
+I generally followed a simple approach: **one course per semester**. This allowed me to give each course sustained attention while continuing to teach, develop the doctoral project, and take on other academic responsibilities.
+
+The resulting sequence was also fairly coherent. The courses covered manual linguistic annotation, artificial intelligence, natural language processing, and the literature on neology—the principal methodological and theoretical components on which my doctoral research is being built.
+
+## Learning from a large annotation project
+
+For **LNG-7056**, a directed project supervised by **Patrick J. Duffley**, I led a team responsible for manually annotating a large and complex dataset of occurrences of *very + Montreal*.
+
+The examples were coded for a range of semantic, syntactic, and pragmatic features. The project provided practical experience in translating theoretical distinctions into categories that several annotators could apply consistently.
+
+It also demonstrated the importance of developing precise annotation guidelines, testing them against difficult cases, documenting decisions, and establishing procedures for resolving disagreement. Categories that initially appear straightforward can become considerably less stable when applied to authentic language data.
+
+Coordinating the project therefore involved more than dividing up the dataset. It required maintaining consistency across annotators while refining the analytical framework as new problems emerged. Those lessons are directly relevant to the annotation and data-extraction work involved in my doctorate.
+
+## Artificial intelligence and textual data
+
+I also completed **SCI6203 – Intelligence artificielle et données textuelles** at the Université de Montréal with **Dominic Forest**.
+
+The course introduced approaches for using artificial intelligence to analyse textual data. It helped situate computational text analysis within a broader methodological landscape and provided experience thinking about how research questions involving language can be translated into computational tasks.
+
+Taking the course outside my home department was particularly useful. It exposed me to methods and research practices developed at the intersection of information science, artificial intelligence, and text mining.
+
+## Natural language processing in Python
+
+In **IFT-7022 – Traitement automatique de la langue naturelle**, taught by **Luc Lamontagne**, I learned the foundations of modern graduate-level natural language processing using Python.
+
+The course covered the principal stages of an NLP workflow, including the preparation and computational representation of textual data, the development of models, and the evaluation of their performance.
+
+For a project involving large corpora and patterns of lexical diffusion, these skills are not peripheral. They broaden the range of questions that can realistically be investigated and make it possible to move beyond analyses that depend entirely on manual processing.
+
+## Finishing the course I started first
+
+The remaining course, **LNG-7055**, was an individualized reading course devoted to neology.
+
+It involved preparing reading summaries and a synthesis of approximately 3,000 words. The readings gave me an opportunity to work systematically through literature drawn from several partially overlapping traditions, including lexicology, terminology, sociolinguistics, corpus linguistics, and language planning.
+
+This course did not follow quite as orderly a trajectory as the others. I took too long to complete the work during my initial registration and consequently had to register for the course a second time—an avoidable complication, but also a useful lesson in the importance of placing clear limits and deadlines around an open-ended reading project.
+
+The second registration allowed me to complete the work and close the final outstanding portion of my doctoral coursework. The resulting synthesis also helped clarify several of the concepts that would later structure my doctoral project.
+
+## Moving fully into the doctoral project
+
+Together, the courses have provided complementary forms of preparation.
+
+The directed project developed my experience with annotation design and team-based data production. The courses in artificial intelligence and natural language processing strengthened the computational dimension of my research. The reading course consolidated the theoretical foundation of the project—even if completing it required a second attempt.
+
+Finishing the coursework is a relatively quiet doctoral milestone, but an important one. The structured course component of the program is now complete. The next stages will focus increasingly on the doctoral examinations, research protocol, data collection, and articles that will make up the thesis.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
