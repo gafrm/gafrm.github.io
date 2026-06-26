@@ -1,21 +1,51 @@
----
-title: "TCHÉCALEX 2024"
-subtitle: "My first international conference presentation experience"
-description: "My first international conference presentation experience"
-author: "Event"
-date: "2024-05-26"
-categories: [event, presentation]
-image: "featured.JPG"
-format:
-  html:
-    css: newspaper.css
-#css: /custom.css
-#draft: true
----
 
-Just got back from **Tchécalex 2024**, held at the **Faculty of Arts of the University of West Bohemia** in **Plzeň** — also known in English as **Pilsen** — in Czechia.
+---
+title: "Teaching lexicology for the first time"
+subtitle: "My first linguistics course taught in French"
+description: "Reflections on teaching lexicology in French for the first time—and on the course design choices that helped students produce strong research projects."
+author: "Gabriel Frazer-McKee"
+date: "2024-05-01"
+categories: [teaching, lexicology, academic life]
+image: "featured.png"
+---------------------
 
-Bruno (Courbon) and I presented work on French-English comparisons of the **degree adverb + Place** construction on Twitter/X, with examples such as *Hockey is very Montréal*. A publication stemming from this preliminary work is planned for the conference proceedings.
+This semester, I taught **FRN-1110 – Lexicologie** for the first time.
+
+It was a double first: my first time teaching this particular course and my first time teaching a linguistics course in French. I have taught at the university level for several years, but moving into a new course, a new disciplinary context, and a different language of instruction inevitably required some adjustment.
+
+## Building the course
+
+Teaching a subject is different from knowing it as a researcher.
+
+Preparing the course required me to decide which concepts were essential, how they should be ordered, and how much theoretical detail students needed before they could begin analysing real lexical data. It also meant developing explanations, examples, activities, and assessments in French rather than simply translating material I might otherwise have presented in English.
+
+Not every part of a new course works exactly as planned. Some explanations need more time. Some activities reveal assumptions that seemed obvious during preparation but are less obvious in the classroom. Assessment instructions that appear precise can still be interpreted in unexpected ways.
+
+That is part of teaching a course for the first time. The initial version provides a basis that can be revised and improved.
+
+## Structuring the research process
+
+One element that worked particularly well was the structure provided for the students’ research projects.
+
+Rather than giving them only a broad assignment and asking for a finished paper, I developed a template that divided the research process into its principal components. Students had to formulate a question, define the lexical phenomenon under investigation, describe their data, explain their analytical procedure, present their observations, and connect those observations to the concepts covered in the course.
+
+The purpose was not to make every project identical. It was to ensure that students had a clear framework within which to develop their own analysis.
+
+That structure appears to have helped. Several students produced very strong projects, combining careful observation with thoughtful lexical analysis. The best work did more than repeat material from the course: it used the concepts introduced during the semester to investigate a specific problem in a systematic way.
+
+For a first iteration of the course, that was encouraging. It showed that a sufficiently detailed scaffold can support ambitious student work without determining its conclusions in advance.
+
+## What I will change next time
+
+The course will not remain unchanged.
+
+I now have a much clearer sense of which topics require additional explanation, where the pacing can be improved, and which instructions need to be made more explicit. I also have a collection of examples drawn from the students’ work that can help make future versions of the course more concrete.
+
+At the same time, the research-project template is something I intend to retain. It offered students a transparent path through a complex assignment and produced some of the strongest work of the semester.
+
+Teaching lexicology for the first time involved the adjustments one would expect from any new course—especially one taught in a new language and disciplinary setting. It also provided evidence that some of the central design choices were sound.
+
+The next version will be better because of what I learned from this one.
 
 
 <!--Include social share buttons-->

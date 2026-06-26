@@ -242,7 +242,7 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2026-06-11-First-peer-review-experience/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
-  <title>On not being shortlisted for an Oustanding Individual Award</title>
+  <title>What I learned from not being shortlisted for an Outstanding Individual Award</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2026-05-17-Busary-I-did-not-win/</link>
   <description><![CDATA[ 
@@ -799,37 +799,6 @@ https://quarto.org/docs/authoring/includes.html
 <item>
   <title>TCHÉCALEX 2024</title>
   <dc:creator>Event </dc:creator>
-  <link>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Just got back from <strong>Tchécalex 2024</strong>, held at the <strong>Faculty of Arts of the University of West Bohemia</strong> in <strong>Plzeň</strong> — also known in English as <strong>Pilsen</strong> — in Czechia.</p>
-<p>Bruno (Courbon) and I presented work on French-English comparisons of the <strong>degree adverb + Place</strong> construction on Twitter/X, with examples such as <em>Hockey is very Montréal</em>. A publication stemming from this preliminary work is planned for the conference proceedings.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>event</category>
-  <category>presentation</category>
-  <guid>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</guid>
-  <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/featured.JPG" medium="image"/>
-</item>
-<item>
-  <title>TCHÉCALEX 2024</title>
-  <dc:creator>Event </dc:creator>
   <link>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</link>
   <description><![CDATA[ 
 
@@ -857,6 +826,72 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</guid>
   <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
+</item>
+<item>
+  <title>Finishing my doctoral coursework</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2023-12-22-Finished-coursework/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>With the end of this semester, I have completed the coursework required for my doctorate.</p>
+<p>I generally followed a simple approach: <strong>one course per semester</strong>. This allowed me to give each course sustained attention while continuing to teach, develop the doctoral project, and take on other academic responsibilities.</p>
+<p>The resulting sequence was also fairly coherent. The courses covered manual linguistic annotation, artificial intelligence, natural language processing, and the literature on neology—the principal methodological and theoretical components on which my doctoral research is being built.</p>
+<section id="learning-from-a-large-annotation-project" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-a-large-annotation-project">Learning from a large annotation project</h2>
+<p>For <strong>LNG-7056</strong>, a directed project supervised by <strong>Patrick J. Duffley</strong>, I led a team responsible for manually annotating a large and complex dataset of occurrences of <em>very + Montreal</em>.</p>
+<p>The examples were coded for a range of semantic, syntactic, and pragmatic features. The project provided practical experience in translating theoretical distinctions into categories that several annotators could apply consistently.</p>
+<p>It also demonstrated the importance of developing precise annotation guidelines, testing them against difficult cases, documenting decisions, and establishing procedures for resolving disagreement. Categories that initially appear straightforward can become considerably less stable when applied to authentic language data.</p>
+<p>Coordinating the project therefore involved more than dividing up the dataset. It required maintaining consistency across annotators while refining the analytical framework as new problems emerged. Those lessons are directly relevant to the annotation and data-extraction work involved in my doctorate.</p>
+</section>
+<section id="artificial-intelligence-and-textual-data" class="level2">
+<h2 class="anchored" data-anchor-id="artificial-intelligence-and-textual-data">Artificial intelligence and textual data</h2>
+<p>I also completed <strong>SCI6203 – Intelligence artificielle et données textuelles</strong> at the Université de Montréal with <strong>Dominic Forest</strong>.</p>
+<p>The course introduced approaches for using artificial intelligence to analyse textual data. It helped situate computational text analysis within a broader methodological landscape and provided experience thinking about how research questions involving language can be translated into computational tasks.</p>
+<p>Taking the course outside my home department was particularly useful. It exposed me to methods and research practices developed at the intersection of information science, artificial intelligence, and text mining.</p>
+</section>
+<section id="natural-language-processing-in-python" class="level2">
+<h2 class="anchored" data-anchor-id="natural-language-processing-in-python">Natural language processing in Python</h2>
+<p>In <strong>IFT-7022 – Traitement automatique de la langue naturelle</strong>, taught by <strong>Luc Lamontagne</strong>, I learned the foundations of modern graduate-level natural language processing using Python.</p>
+<p>The course covered the principal stages of an NLP workflow, including the preparation and computational representation of textual data, the development of models, and the evaluation of their performance.</p>
+<p>For a project involving large corpora and patterns of lexical diffusion, these skills are not peripheral. They broaden the range of questions that can realistically be investigated and make it possible to move beyond analyses that depend entirely on manual processing.</p>
+</section>
+<section id="finishing-the-course-i-started-first" class="level2">
+<h2 class="anchored" data-anchor-id="finishing-the-course-i-started-first">Finishing the course I started first</h2>
+<p>The remaining course, <strong>LNG-7055</strong>, was an individualized reading course devoted to neology.</p>
+<p>It involved preparing reading summaries and a synthesis of approximately 3,000 words. The readings gave me an opportunity to work systematically through literature drawn from several partially overlapping traditions, including lexicology, terminology, sociolinguistics, corpus linguistics, and language planning.</p>
+<p>This course did not follow quite as orderly a trajectory as the others. I took too long to complete the work during my initial registration and consequently had to register for the course a second time—an avoidable complication, but also a useful lesson in the importance of placing clear limits and deadlines around an open-ended reading project.</p>
+<p>The second registration allowed me to complete the work and close the final outstanding portion of my doctoral coursework. The resulting synthesis also helped clarify several of the concepts that would later structure my doctoral project.</p>
+</section>
+<section id="moving-fully-into-the-doctoral-project" class="level2">
+<h2 class="anchored" data-anchor-id="moving-fully-into-the-doctoral-project">Moving fully into the doctoral project</h2>
+<p>Together, the courses have provided complementary forms of preparation.</p>
+<p>The directed project developed my experience with annotation design and team-based data production. The courses in artificial intelligence and natural language processing strengthened the computational dimension of my research. The reading course consolidated the theoretical foundation of the project—even if completing it required a second attempt.</p>
+<p>Finishing the coursework is a relatively quiet doctoral milestone, but an important one. The structured course component of the program is now complete. The next stages will focus increasingly on the doctoral examinations, research protocol, data collection, and articles that will make up the thesis.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>PhD</category>
+  <category>milestone</category>
+  <category>methods</category>
+  <category>natural language processing</category>
+  <guid>https://gafrm.github.io/posts/2023-12-22-Finished-coursework/</guid>
+  <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2023-12-22-Finished-coursework/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
