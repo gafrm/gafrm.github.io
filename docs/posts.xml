@@ -828,48 +828,38 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
 </item>
 <item>
-  <title>Finishing my doctoral coursework</title>
+  <title>Teaching lexicology for the first time</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2023-12-22-Finished-coursework/</link>
+  <link>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>With the end of this semester, I have completed the coursework required for my doctorate.</p>
-<p>I generally followed a simple approach: <strong>one course per semester</strong>. This allowed me to give each course sustained attention while continuing to teach, develop the doctoral project, and take on other academic responsibilities.</p>
-<p>The resulting sequence was also fairly coherent. The courses covered manual linguistic annotation, artificial intelligence, natural language processing, and the literature on neology—the principal methodological and theoretical components on which my doctoral research is being built.</p>
-<section id="learning-from-a-large-annotation-project" class="level2">
-<h2 class="anchored" data-anchor-id="learning-from-a-large-annotation-project">Learning from a large annotation project</h2>
-<p>For <strong>LNG-7056</strong>, a directed project supervised by <strong>Patrick J. Duffley</strong>, I led a team responsible for manually annotating a large and complex dataset of occurrences of <em>very + Montreal</em>.</p>
-<p>The examples were coded for a range of semantic, syntactic, and pragmatic features. The project provided practical experience in translating theoretical distinctions into categories that several annotators could apply consistently.</p>
-<p>It also demonstrated the importance of developing precise annotation guidelines, testing them against difficult cases, documenting decisions, and establishing procedures for resolving disagreement. Categories that initially appear straightforward can become considerably less stable when applied to authentic language data.</p>
-<p>Coordinating the project therefore involved more than dividing up the dataset. It required maintaining consistency across annotators while refining the analytical framework as new problems emerged. Those lessons are directly relevant to the annotation and data-extraction work involved in my doctorate.</p>
+<p>This semester, I taught <strong>FRN-1110 – Lexicologie</strong> for the first time.</p>
+<p>It was a double first: my first time teaching this particular course and my first time teaching a linguistics course in French. I have taught at the university level for several years, but moving into a new course, a new disciplinary context, and a different language of instruction inevitably required some adjustment.</p>
+<section id="building-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="building-the-course">Building the course</h2>
+<p>Teaching a subject is different from knowing it as a researcher.</p>
+<p>Preparing the course required me to decide which concepts were essential, how they should be ordered, and how much theoretical detail students needed before they could begin analysing real lexical data. It also meant developing explanations, examples, activities, and assessments in French rather than simply translating material I might otherwise have presented in English.</p>
+<p>Not every part of a new course works exactly as planned. Some explanations need more time. Some activities reveal assumptions that seemed obvious during preparation but are less obvious in the classroom. Assessment instructions that appear precise can still be interpreted in unexpected ways.</p>
+<p>That is part of teaching a course for the first time. The initial version provides a basis that can be revised and improved.</p>
 </section>
-<section id="artificial-intelligence-and-textual-data" class="level2">
-<h2 class="anchored" data-anchor-id="artificial-intelligence-and-textual-data">Artificial intelligence and textual data</h2>
-<p>I also completed <strong>SCI6203 – Intelligence artificielle et données textuelles</strong> at the Université de Montréal with <strong>Dominic Forest</strong>.</p>
-<p>The course introduced approaches for using artificial intelligence to analyse textual data. It helped situate computational text analysis within a broader methodological landscape and provided experience thinking about how research questions involving language can be translated into computational tasks.</p>
-<p>Taking the course outside my home department was particularly useful. It exposed me to methods and research practices developed at the intersection of information science, artificial intelligence, and text mining.</p>
+<section id="structuring-the-research-process" class="level2">
+<h2 class="anchored" data-anchor-id="structuring-the-research-process">Structuring the research process</h2>
+<p>One element that worked particularly well was the structure provided for the students’ research projects.</p>
+<p>Rather than giving them only a broad assignment and asking for a finished paper, I developed a template that divided the research process into its principal components. Students had to formulate a question, define the lexical phenomenon under investigation, describe their data, explain their analytical procedure, present their observations, and connect those observations to the concepts covered in the course.</p>
+<p>The purpose was not to make every project identical. It was to ensure that students had a clear framework within which to develop their own analysis.</p>
+<p>That structure appears to have helped. Several students produced very strong projects, combining careful observation with thoughtful lexical analysis. The best work did more than repeat material from the course: it used the concepts introduced during the semester to investigate a specific problem in a systematic way.</p>
+<p>For a first iteration of the course, that was encouraging. It showed that a sufficiently detailed scaffold can support ambitious student work without determining its conclusions in advance.</p>
 </section>
-<section id="natural-language-processing-in-python" class="level2">
-<h2 class="anchored" data-anchor-id="natural-language-processing-in-python">Natural language processing in Python</h2>
-<p>In <strong>IFT-7022 – Traitement automatique de la langue naturelle</strong>, taught by <strong>Luc Lamontagne</strong>, I learned the foundations of modern graduate-level natural language processing using Python.</p>
-<p>The course covered the principal stages of an NLP workflow, including the preparation and computational representation of textual data, the development of models, and the evaluation of their performance.</p>
-<p>For a project involving large corpora and patterns of lexical diffusion, these skills are not peripheral. They broaden the range of questions that can realistically be investigated and make it possible to move beyond analyses that depend entirely on manual processing.</p>
-</section>
-<section id="finishing-the-course-i-started-first" class="level2">
-<h2 class="anchored" data-anchor-id="finishing-the-course-i-started-first">Finishing the course I started first</h2>
-<p>The remaining course, <strong>LNG-7055</strong>, was an individualized reading course devoted to neology.</p>
-<p>It involved preparing reading summaries and a synthesis of approximately 3,000 words. The readings gave me an opportunity to work systematically through literature drawn from several partially overlapping traditions, including lexicology, terminology, sociolinguistics, corpus linguistics, and language planning.</p>
-<p>This course did not follow quite as orderly a trajectory as the others. I took too long to complete the work during my initial registration and consequently had to register for the course a second time—an avoidable complication, but also a useful lesson in the importance of placing clear limits and deadlines around an open-ended reading project.</p>
-<p>The second registration allowed me to complete the work and close the final outstanding portion of my doctoral coursework. The resulting synthesis also helped clarify several of the concepts that would later structure my doctoral project.</p>
-</section>
-<section id="moving-fully-into-the-doctoral-project" class="level2">
-<h2 class="anchored" data-anchor-id="moving-fully-into-the-doctoral-project">Moving fully into the doctoral project</h2>
-<p>Together, the courses have provided complementary forms of preparation.</p>
-<p>The directed project developed my experience with annotation design and team-based data production. The courses in artificial intelligence and natural language processing strengthened the computational dimension of my research. The reading course consolidated the theoretical foundation of the project—even if completing it required a second attempt.</p>
-<p>Finishing the coursework is a relatively quiet doctoral milestone, but an important one. The structured course component of the program is now complete. The next stages will focus increasingly on the doctoral examinations, research protocol, data collection, and articles that will make up the thesis.</p>
+<section id="what-i-will-change-next-time" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-will-change-next-time">What I will change next time</h2>
+<p>The course will not remain unchanged.</p>
+<p>I now have a much clearer sense of which topics require additional explanation, where the pacing can be improved, and which instructions need to be made more explicit. I also have a collection of examples drawn from the students’ work that can help make future versions of the course more concrete.</p>
+<p>At the same time, the research-project template is something I intend to retain. It offered students a transparent path through a complex assignment and produced some of the strongest work of the semester.</p>
+<p>Teaching lexicology for the first time involved the adjustments one would expect from any new course—especially one taught in a new language and disciplinary setting. It also provided evidence that some of the central design choices were sound.</p>
+<p>The next version will be better because of what I learned from this one.</p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -885,13 +875,12 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <category>PhD</category>
-  <category>milestone</category>
-  <category>methods</category>
-  <category>natural language processing</category>
-  <guid>https://gafrm.github.io/posts/2023-12-22-Finished-coursework/</guid>
-  <pubDate>Fri, 22 Dec 2023 05:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2023-12-22-Finished-coursework/featured.png" medium="image" type="image/png" height="81" width="144"/>
+  <category>teaching</category>
+  <category>lexicology</category>
+  <category>academic life</category>
+  <guid>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</guid>
+  <pubDate>Tue, 14 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>

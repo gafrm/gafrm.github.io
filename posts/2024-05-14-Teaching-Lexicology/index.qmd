@@ -2,12 +2,12 @@
 ---
 title: "Teaching lexicology for the first time"
 subtitle: "My first linguistics course taught in French"
-description: "Reflections on teaching lexicology in French for the first time—and on the course design choices that helped students produce strong research projects."
+subtitle: "My first linguistics course taught in French"
 author: "Gabriel Frazer-McKee"
-date: "2024-05-01"
+date: "2024-05-14"
 categories: [teaching, lexicology, academic life]
 image: "featured.png"
----------------------
+---
 
 This semester, I taught **FRN-1110 – Lexicologie** for the first time.
 
