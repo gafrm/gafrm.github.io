@@ -1,0 +1,23 @@
+---
+title: "TCHÉCALEX 2024"
+subtitle: "My first international conference presentation experience"
+description: "My first international conference presentation experience"
+author: "Event"
+date: "2024-05-26"
+categories: [event, presentation]
+image: "featured.JPG"
+format:
+  html:
+    css: newspaper.css
+#css: /custom.css
+#draft: true
+---
+
+Just got back from **Tchécalex 2024**, held at the **Faculty of Arts of the University of West Bohemia** in **Plzeň** — also known in English as **Pilsen** — in Czechia.
+
+Bruno (Courbon) and I presented work on French-English comparisons of the **degree adverb + Place** construction on Twitter/X, with examples such as *Hockey is very Montréal*. A publication stemming from this preliminary work is planned for the conference proceedings.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
