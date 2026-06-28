@@ -6,9 +6,6 @@ body-class: teaching-page
 
 ::: {.teaching-page-wrap}
 
-::: {.teaching-intro}
-I have over a decade of teaching experience in linguistics and French-language studies, including recent courses taught as instructor of record at Université Laval.
-:::
 
 ::: {.teaching-stats}
 

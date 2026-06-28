@@ -36,7 +36,7 @@ website:
   
   page-footer: 
     left: ""
-    center: "©2022 –<script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
+    center: "© 2022 –<script>document.write(new Date().getFullYear())</script> Gabriel Frazer-McKee · Made with [Quarto](https://quarto.org)"
     right:  
       - text: Contact
         href: contact.qmd
