@@ -9,6 +9,25 @@ title-block-banner: false
 I have over a decade of teaching experience in linguistics and French-language studies, including recent courses taught as instructor of record at Université Laval.
 :::
 
+::: {.teaching-stats}
+
+::: {.teaching-stat}
+<span class="stat-number">10+</span>
+<span class="stat-label">years of teaching</span>
+:::
+
+::: {.teaching-stat}
+<span class="stat-number">3</span>
+<span class="stat-label">recent course areas</span>
+:::
+
+::: {.teaching-stat}
+<span class="stat-number">FR / EN</span>
+<span class="stat-label">teaching contexts</span>
+:::
+
+:::
+
 ## Courses taught recently
 
 ::: {.teaching-course-list}
