@@ -897,6 +897,7 @@ body.home-page #title-block-header {
     grid-template-columns: 1fr;
   }
 }
+
 .teaching-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -928,10 +929,4 @@ body.home-page #title-block-header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0.35rem;
-}
-
-@media (max-width: 950px) {
-  .teaching-stats {
-    grid-template-columns: 1fr;
-  }
 }
