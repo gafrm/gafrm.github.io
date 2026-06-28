@@ -1,62 +1,99 @@
 ---
 title: "Teaching"
 title-block-banner: false
+body-class: teaching-page
 ---
 
-I have over a decade of teaching experience in linguistics and French-language studies. 
-
-Below is a selection of courses I have taught recently as instructor of record.
-
-## Introduction to Linguistics
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+::: {.teaching-intro}
+I have over a decade of teaching experience in linguistics and French-language studies, including recent courses taught as instructor of record at Université Laval.
 :::
 
-::: {.g-col-12 .g-col-md-10}
-**Université Laval**  
-Fall 2025; Fall 2023; Fall 2022  
-Instructor of record
+::: {.teaching-stats}
+
+::: {.teaching-stat}
+<span class="stat-number">10+</span>
+<span class="stat-label">years of teaching</span>
+:::
+
+::: {.teaching-stat}
+<span class="stat-number">3</span>
+<span class="stat-label">recent course areas</span>
+:::
+
+::: {.teaching-stat}
+<span class="stat-number">FR / EN</span>
+<span class="stat-label">teaching contexts</span>
+:::
+
+:::
+
+## Courses taught recently
+
+::: {.course-grid}
+
+::: {.course-card}
+::: {.course-mark}
+LIN
+:::
+
+### Introduction to Linguistics (ANG-1002)
+
+<div class="course-meta">Université Laval · Fall 2025, Fall 2023, Fall 2022</div>
+
+<div class="course-role">Instructor of record</div>
 
 An introductory course covering the main areas of linguistic analysis, including sounds, words, sentences, meaning, language variation, and the structure of human language.
+
+::: {.course-tags}
+<span>phonetics</span>
+<span>syntax</span>
+<span>semantics</span>
+<span>variation</span>
+:::
 :::
 
+::: {.course-card}
+::: {.course-mark}
+LEX
 :::
 
-## Lexicology
+### Lexicology (FRN-1110)
 
-::: {.grid}
+<div class="course-meta">Université Laval · Winter 2025, Winter 2024</div>
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
+<div class="course-role">Instructor of record</div>
+
+A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and standard methods used to investigate these objects.
+
+::: {.course-tags}
+<span>lexicon</span>
+<span>neology</span>
+<span>dictionaries</span>
+<span>word formation</span>
+:::
 :::
 
-::: {.g-col-12 .g-col-md-10}
-**Université Laval**  
-Winter 2025; Winter 2024  
-Instructor of record
-
-A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and standard methods used to investigate these objects. 
+::: {.course-card}
+::: {.course-mark}
+GRM
 :::
 
-:::
+### Understanding Grammar (ANG-2502)
 
-## Understanding Grammar
+<div class="course-meta">Université Laval · Fall 2024</div>
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
-:::
-
-::: {.g-col-12 .g-col-md-10}
-**Université Laval**  
-[Fall 2024](https://web.archive.org/web/20240731222708/https://www.ulaval.ca/etudes/cours/ang-2502-understanding-grammar)    
-Instructor of record
+<div class="course-role">Instructor of record</div>
 
 A course focused on grammatical analysis and the tools used to describe language structure, with attention to how grammar works in actual language use.
+
+[Course archive](https://web.archive.org/web/20240731222708/https://www.ulaval.ca/etudes/cours/ang-2502-understanding-grammar){.course-link}
+
+::: {.course-tags}
+<span>grammar</span>
+<span>analysis</span>
+<span>usage</span>
+<span>structure</span>
+:::
 :::
 
 :::
