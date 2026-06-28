@@ -774,122 +774,72 @@ body.home-page #title-block-header {
 
 /* ---------- Teaching page ---------- */
 
-body.teaching-page main.content {
+.teaching-page-wrap {
   max-width: 1120px;
   margin: 0 auto;
   padding-bottom: 5rem;
 }
 
-body.teaching-page #title-block-header {
-  margin-bottom: 1.25rem;
-}
-
-body.teaching-page #title-block-header .title {
-  font-family: "Libre Baskerville", Georgia, serif;
-  color: var(--navy);
-  font-size: clamp(2.8rem, 6vw, 4.4rem);
-  line-height: 1.05;
-  letter-spacing: -0.035em;
-  margin-bottom: 0.75rem;
-}
-
-.teaching-intro {
+.teaching-page-wrap .teaching-intro {
   max-width: 760px;
+  margin: 0 0 3rem 0;
   color: var(--muted);
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
-  margin: 0 0 2rem 0;
 }
 
-.teaching-stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 2rem 0 3.25rem 0;
-}
-
-.teaching-stat {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 1.25rem 1.4rem;
-  box-shadow: 0 8px 24px rgba(7, 48, 74, 0.06);
-}
-
-.stat-number {
-  display: block;
-  color: var(--rust);
-  font-size: 1.65rem;
-  font-weight: 800;
-  line-height: 1.1;
-}
-
-.stat-label {
-  display: block;
-  color: var(--muted);
-  font-size: 0.92rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-top: 0.35rem;
-}
-
-body.teaching-page main.content h2 {
-  font-family: "Libre Baskerville", Georgia, serif;
-  color: var(--navy);
-  font-size: 2rem;
+.teaching-page-wrap h2 {
   margin: 0 0 1.5rem 0;
+  color: var(--navy);
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 2rem;
 }
 
-.course-grid {
+.teaching-course-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.4rem;
-  align-items: stretch;
 }
 
-.course-card {
-  position: relative;
+.teaching-course-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 22px;
-  padding: 1.65rem;
+  padding: 1.6rem;
   box-shadow: 0 10px 28px rgba(7, 48, 74, 0.08);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
-.course-card:hover {
-  transform: translateY(-5px);
+.teaching-course-card:hover {
+  transform: translateY(-4px);
   border-color: var(--rust);
   box-shadow: 0 18px 42px rgba(7, 48, 74, 0.14);
 }
 
-.course-mark {
-  width: 3.1rem;
-  height: 3.1rem;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(166, 70, 19, 0.10);
-  border: 2px solid rgba(166, 70, 19, 0.35);
+.course-code {
+  display: inline-block;
+  margin-bottom: 1rem;
   color: var(--rust);
+  background: rgba(166, 70, 19, 0.09);
+  border: 1px solid rgba(166, 70, 19, 0.24);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
-  margin-bottom: 1.2rem;
+  letter-spacing: 0.08em;
 }
 
-.course-card h3 {
-  font-family: "Libre Baskerville", Georgia, serif;
+.teaching-course-card h3 {
+  margin: 0 0 0.8rem 0;
   color: var(--navy);
+  font-family: "Libre Baskerville", Georgia, serif;
   font-size: 1.45rem;
   line-height: 1.2;
-  margin: 0 0 0.75rem 0;
 }
 
 .course-meta {
   color: var(--muted);
-  font-size: 0.98rem;
+  font-size: 0.96rem;
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: 0.35rem;
@@ -897,17 +847,17 @@ body.teaching-page main.content h2 {
 
 .course-role {
   color: var(--rust);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1rem;
 }
 
-.course-card p,
-.course-card {
+.teaching-course-card p,
+.teaching-course-card {
   color: #243746;
-  font-size: 1.03rem;
+  font-size: 1.02rem;
   line-height: 1.58;
 }
 
@@ -915,7 +865,7 @@ body.teaching-page main.content h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  margin-top: 1.35rem;
+  margin-top: 1.25rem;
 }
 
 .course-tags span {
@@ -924,8 +874,8 @@ body.teaching-page main.content h2 {
   background: rgba(7, 48, 74, 0.06);
   border: 1px solid rgba(7, 48, 74, 0.10);
   border-radius: 999px;
-  padding: 0.28rem 0.65rem;
-  font-size: 0.78rem;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.76rem;
   font-weight: 700;
 }
 
@@ -933,7 +883,7 @@ body.teaching-page main.content h2 {
   display: inline-block;
   color: var(--rust);
   font-weight: 800;
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.2em;
 }
@@ -943,22 +893,7 @@ body.teaching-page main.content h2 {
 }
 
 @media (max-width: 950px) {
-  .course-grid {
+  .teaching-course-list {
     grid-template-columns: 1fr;
-  }
-
-  .teaching-stats {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 700px) {
-  body.teaching-page main.content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .course-card {
-    padding: 1.35rem;
   }
 }

@@ -1,42 +1,22 @@
 ---
 title: "Teaching"
 title-block-banner: false
-body-class: teaching-page
 ---
+
+::: {.teaching-page-wrap}
 
 ::: {.teaching-intro}
 I have over a decade of teaching experience in linguistics and French-language studies, including recent courses taught as instructor of record at Université Laval.
 :::
 
-::: {.teaching-stats}
-
-::: {.teaching-stat}
-<span class="stat-number">10+</span>
-<span class="stat-label">years of teaching</span>
-:::
-
-::: {.teaching-stat}
-<span class="stat-number">3</span>
-<span class="stat-label">recent course areas</span>
-:::
-
-::: {.teaching-stat}
-<span class="stat-number">FR / EN</span>
-<span class="stat-label">teaching contexts</span>
-:::
-
-:::
-
 ## Courses taught recently
 
-::: {.course-grid}
+::: {.teaching-course-list}
 
-::: {.course-card}
-::: {.course-mark}
-LIN
-:::
+::: {.teaching-course-card}
+<div class="course-code">ANG-1002</div>
 
-### Introduction to Linguistics (ANG-1002)
+### Introduction to Linguistics
 
 <div class="course-meta">Université Laval · Fall 2025, Fall 2023, Fall 2022</div>
 
@@ -44,20 +24,18 @@ LIN
 
 An introductory course covering the main areas of linguistic analysis, including sounds, words, sentences, meaning, language variation, and the structure of human language.
 
-::: {.course-tags}
+<div class="course-tags">
 <span>phonetics</span>
 <span>syntax</span>
 <span>semantics</span>
 <span>variation</span>
-:::
-:::
-
-::: {.course-card}
-::: {.course-mark}
-LEX
+</div>
 :::
 
-### Lexicology (FRN-1110)
+::: {.teaching-course-card}
+<div class="course-code">FRN-1110</div>
+
+### Lexicology
 
 <div class="course-meta">Université Laval · Winter 2025, Winter 2024</div>
 
@@ -65,20 +43,18 @@ LEX
 
 A course on the study of the lexicon, with attention to word formation, lexical meaning, lexical relations, neology, dictionaries, and standard methods used to investigate these objects.
 
-::: {.course-tags}
+<div class="course-tags">
 <span>lexicon</span>
 <span>neology</span>
 <span>dictionaries</span>
 <span>word formation</span>
-:::
-:::
-
-::: {.course-card}
-::: {.course-mark}
-GRM
+</div>
 :::
 
-### Understanding Grammar (ANG-2502)
+::: {.teaching-course-card}
+<div class="course-code">ANG-2502</div>
+
+### Understanding Grammar
 
 <div class="course-meta">Université Laval · Fall 2024</div>
 
@@ -88,12 +64,14 @@ A course focused on grammatical analysis and the tools used to describe language
 
 [Course archive](https://web.archive.org/web/20240731222708/https://www.ulaval.ca/etudes/cours/ang-2502-understanding-grammar){.course-link}
 
-::: {.course-tags}
+<div class="course-tags">
 <span>grammar</span>
 <span>analysis</span>
 <span>usage</span>
 <span>structure</span>
+</div>
 :::
+
 :::
 
 :::
