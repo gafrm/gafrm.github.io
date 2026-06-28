@@ -930,3 +930,40 @@ body.home-page #title-block-header {
   text-transform: uppercase;
   margin-top: 0.35rem;
 }
+@media (max-width: 950px) {
+  .teaching-course-list,
+  .teaching-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Teaching page refinements ---------- */
+
+/* Make the page title clearly larger than the section heading */
+body.teaching-page #title-block-header .title {
+  color: var(--navy);
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(3.4rem, 7vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.25rem;
+}
+
+/* Keep "Courses taught recently" smaller than the main page title */
+body.teaching-page .teaching-page-wrap h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* Give the grey tag pills more vertical breathing room */
+body.teaching-page .course-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+  row-gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+body.teaching-page .course-tags span {
+  line-height: 1.2;
+}

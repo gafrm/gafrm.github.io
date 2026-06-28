@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 title-block-banner: false
+body-class: teaching-page
 ---
 
 ::: {.teaching-page-wrap}
