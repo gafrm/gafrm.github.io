@@ -1,35 +1,88 @@
 ---
 title: "Projects"
-subtitle: "Funded projects"
-page-layout: full
-listing: 
-- id: projects
-  sort: "started desc"
-  type: table
-  fields: [image, title, author, subtitle, description, funding, started, ended]
-  grid-item-align: left
-  grid-columns: 3
-  image-height: 30px
-  field-display-names: 
-      title: "Title"
-      author: "Team"
-      subtitle: "Funder"
-      started: "Start"
-      ended: "End"
-      funding: "Funding"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
+title-block-banner: false
+page-layout: article
+body-class: projects-page
 ---
 
-
-:::{#projects}
+:::{.project-stats}
+:::{.project-stat}
+3 project areas
 :::
 
+:::{.project-stat}
+PhD by articles
+:::
 
-<!--Include social share buttons-->
+:::{.project-stat}
+Research + academic tools
+:::
+:::
 
-{{< include /files/includes/_socialshare.qmd >}}
+## Current and past projects
+
+:::{.project-card}
+:::{.project-kicker}
+Doctoral research
+:::
+
+### Neological diffusion and term competition
+
+**PhD by articles · Université Laval**
+
+My doctoral research examines why some neologisms spread while others remain marginal. The project focuses on linguistic and extralinguistic factors associated with neological diffusion, with attention to competing forms, corpus evidence, social circulation, and institutional language-planning contexts.
+
+The thesis is being developed by articles, combining a scoping review with empirical studies of term competition and diffusion across different types of data.
+
+:::{.project-tags}
+<span class="project-tag">neology</span>
+<span class="project-tag">diffusion</span>
+<span class="project-tag">corpus linguistics</span>
+<span class="project-tag">language planning</span>
+<span class="project-tag">thesis by articles</span>
+:::
+:::
+
+:::{.project-card}
+:::{.project-kicker}
+Post MA thesis project
+:::
+
+### Degree adverbs and proper names
+
+**The “very + proper name” construction**
+
+This project stems from my MA thesis and examines constructions such as *very Obama*, *so Montréal*, or *très Paris*. It investigates how proper names can be used predicatively and how degree adverbs interact with the semantic and cognitive mechanisms that allow names to evoke bundles of salient properties.
+
+The project connects construction grammar, semantics, cognitive linguistics, and corpus-based analysis.
+
+:::{.project-tags}
+<span class="project-tag">proper names</span>
+<span class="project-tag">degree adverbs</span>
+<span class="project-tag">semantics</span>
+<span class="project-tag">construction grammar</span>
+<span class="project-tag">MA thesis</span>
+:::
+:::
+
+:::{.project-card}
+:::{.project-kicker}
+Editorial and pedagogical tools
+:::
+
+### Tools for the Journées de linguistique
+
+**Evaluation, abstract writing, and editorial project management**
+
+This project brings together tools developed through my work with the *Journées de linguistique*: an evaluation rubric for submissions, guidance on writing informative conference abstracts, and workflows for managing student-led editorial projects.
+
+The goal is to make academic evaluation and publication processes more explicit, transparent, and useful for students and early-career researchers.
+
+:::{.project-tags}
+<span class="project-tag">JDL</span>
+<span class="project-tag">evaluation rubric</span>
+<span class="project-tag">abstract writing</span>
+<span class="project-tag">editorial work</span>
+<span class="project-tag">project management</span>
+:::
+:::
