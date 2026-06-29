@@ -88,3 +88,54 @@ body.blog-post main.content p,
   color: var(--text) !important;
   border-color: var(--border) !important;
 }
+
+/* ---------- Blog dark mode fixes ---------- */
+
+.blog-page .quarto-title h1.title,
+.apero-blog-card-title,
+body.blog-post #title-block-header .quarto-title h1.title {
+  color: var(--navy) !important;
+}
+
+.blog-page .quarto-title .subtitle,
+.apero-blog-card-description,
+body.blog-post #title-block-header .quarto-title .subtitle,
+body.blog-post #title-block-header .quarto-title-meta,
+body.blog-post #title-block-header .quarto-title-meta-contents,
+body.blog-post #title-block-header .quarto-title-meta-contents p,
+body.blog-post #title-block-header .quarto-title-meta-contents a,
+.apero-blog-card-date {
+  color: var(--muted) !important;
+}
+
+.apero-blog-card {
+  background: var(--card) !important;
+  border-color: var(--border) !important;
+  box-shadow: 0 1.2rem 2.5rem rgba(0, 0, 0, 0.32);
+}
+
+.apero-blog-card:hover {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.45);
+}
+
+.apero-blog-card-image-wrap {
+  background: #252525 !important;
+}
+
+.blog-page .quarto-title::after,
+body.blog-post #title-block-header {
+  border-color: var(--border) !important;
+}
+
+body.blog-post main.content p {
+  color: var(--muted) !important;
+}
+
+body.blog-post main.content h2,
+body.blog-post main.content h3 {
+  color: var(--navy) !important;
+}
+
+body.blog-post main.content img {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
