@@ -1181,3 +1181,38 @@ body.projects-page main.content h2 {
     margin-top: 0.55rem;
   }
 }
+
+/* ---------- Fix Quarto-generated pill spacing ---------- */
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 0.7rem;
+  align-items: flex-start;
+}
+
+.project-tag,
+.output-label {
+  display: inline-flex !important;
+  align-items: center;
+  width: fit-content;
+  min-height: 0;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.project-tag {
+  padding: 0.32rem 0.72rem;
+}
+
+.output-label {
+  padding: 0.42rem 0.78rem;
+}
+
+.project-tag p,
+.output-label p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.1;
+}
+
