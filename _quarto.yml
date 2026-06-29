@@ -48,7 +48,7 @@ website:
     location: navbar
     type: overlay
   
-  reader-mode: true
+  reader-mode: false
 
   draft-mode: unlinked
   

@@ -40,7 +40,7 @@ I use corpus-based and computational methods to study how new words spread, how 
 :::
 
 ::: {.hero-graphic}
-![](files/images/frontpage-portrait.png){.hero-image}
+![](files/images/Hero.png){.hero-image}
 :::
 
 :::
