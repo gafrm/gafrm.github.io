@@ -46,7 +46,6 @@ Supervisor: Patrick J. Duffley
 
 # Major Grants and Awards
 
-- **[European Network On Lexical Innovation (ENEOLI)](http://www.eneoli.eu)**. European Cooperation in Science and Technology · 2023–2027 · EUR 450,000.
 - **Les facteurs linguistiques et extralinguistiques associés à la (non-) diffusion de néologismes dans le français québécois au début du 21e siècle : Une approche par les mégadonnées**. Social Sciences and Humanities Research Council · 2023–2028 · CAD 120,000.
 
 # Competitive Travel Awards

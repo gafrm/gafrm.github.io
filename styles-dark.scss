@@ -139,3 +139,36 @@ body.blog-post main.content h3 {
 body.blog-post main.content img {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
+
+/* -----------------------------
+   Teaching cards: dark mode fix
+   ----------------------------- */
+
+body.quarto-dark .teaching-course-card p {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+body.quarto-dark .teaching-course-card .course-meta {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+body.quarto-dark .teaching-course-card .course-role {
+  color: #f0b35f !important;
+}
+
+body.quarto-dark .teaching-course-card a {
+  color: #f0b35f;
+}
+
+body.quarto-dark .teaching-course-card a:hover {
+  color: #ffd08a;
+}
+
+/* Pills / tags */
+body.quarto-dark .teaching-course-card .course-tag,
+body.quarto-dark .teaching-course-card .tag,
+body.quarto-dark .teaching-course-card .pill {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
