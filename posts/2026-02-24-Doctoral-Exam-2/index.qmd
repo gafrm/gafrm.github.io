@@ -1,5 +1,6 @@
 ---
 title: "Passing my second doctoral examination"
+subtitle: "A PhD milestone before parental leave."
 description: "A PhD milestone before parental leave."
 author: "Gabriel Frazer-McKee"
 date: "2026-02-24"

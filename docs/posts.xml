@@ -631,6 +631,43 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://gafrm.github.io/posts/2025-05-15-Filming-JDL-2025/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
+  <title>Reducing my teaching load</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have decided to reduce my teaching load to one course per year rather than two.</p>
+<p>This is not an easy decision. Teaching has been a consistent part of my academic life for years, and I value both the work itself and the experience it gives me. It is tempting to accept each new opportunity, particularly when teaching remains an important part of the academic profile I am building.</p>
+<p>But teaching a course requires much more than the hours spent in the classroom. There is preparation, grading, communication with students, course administration, and the less visible mental effort involved in moving repeatedly between teaching and research. Even a familiar course can fragment the longer periods of concentration that writing a dissertation requires.</p>
+<p>At this stage of the PhD, I need to protect those periods.</p>
+<p>My dissertation is composed of several interconnected research projects, each involving substantial data collection, analysis, and writing. Finishing it will require sustained attention rather than whatever time remains after other commitments have been met. Continuing to teach two courses each year would make progress possible, but slower and more difficult than it needs to be.</p>
+<p>Teaching one course per year feels like the right balance. It allows me to remain active in the classroom, continue developing my teaching experience, and maintain an important part of my academic identity. At the same time, it creates more room for the work that now has to take priority: completing the research, writing the articles, and finishing the dissertation.</p>
+<p>There will always be another course that would be interesting to teach. The PhD, however, needs to be finished.</p>
+<p>For now, doing less teaching is part of making that happen.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>PhD</category>
+  <category>Teaching</category>
+  <guid>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</guid>
+  <pubDate>Tue, 11 Feb 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
   <title>Passing my first doctoral examination</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
   <link>https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/</link>
@@ -670,45 +707,8 @@ https://quarto.org/docs/authoring/includes.html
   <category>phd</category>
   <category>milestone</category>
   <guid>https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/</guid>
-  <pubDate>Tue, 11 Feb 2025 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 30 Jan 2025 05:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2025-02-11-Doctoral-Exam-1/featured.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Reducing my teaching load</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I have decided to reduce my teaching load to one course per year rather than two.</p>
-<p>This is not an easy decision. Teaching has been a consistent part of my academic life for years, and I value both the work itself and the experience it gives me. It is tempting to accept each new opportunity, particularly when teaching remains an important part of the academic profile I am building.</p>
-<p>But teaching a course requires much more than the hours spent in the classroom. There is preparation, grading, communication with students, course administration, and the less visible mental effort involved in moving repeatedly between teaching and research. Even a familiar course can fragment the longer periods of concentration that writing a dissertation requires.</p>
-<p>At this stage of the PhD, I need to protect those periods.</p>
-<p>My dissertation is composed of several interconnected research projects, each involving substantial data collection, analysis, and writing. Finishing it will require sustained attention rather than whatever time remains after other commitments have been met. Continuing to teach two courses each year would make progress possible, but slower and more difficult than it needs to be.</p>
-<p>Teaching one course per year feels like the right balance. It allows me to remain active in the classroom, continue developing my teaching experience, and maintain an important part of my academic identity. At the same time, it creates more room for the work that now has to take priority: completing the research, writing the articles, and finishing the dissertation.</p>
-<p>There will always be another course that would be interesting to teach. The PhD, however, needs to be finished.</p>
-<p>For now, doing less teaching is part of making that happen.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>PhD</category>
-  <category>Teaching</category>
-  <guid>https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/</guid>
-  <pubDate>Tue, 11 Feb 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2025-02-12-Cutting-down-teaching-load/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction</title>

@@ -2,7 +2,7 @@
 title: "Passing my first doctoral examination"
 description: "Three questions, six weeks, and a finish that came later than planned."
 author: "Gabriel Frazer-McKee"
-date: "2025-02-11"
+date: "2025-01-30"
 categories: [phd, milestone]
 image: "featured.png"
 #draft: true

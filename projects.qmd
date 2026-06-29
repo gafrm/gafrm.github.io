@@ -35,29 +35,47 @@ My doctoral research examines why some neologisms spread while others remain mar
 The thesis is being developed by articles, combining a scoping review with empirical studies of term competition and diffusion across different types of data.
 
 :::{.project-tags}
-<span class="project-tag">neology</span>
-<span class="project-tag">diffusion</span>
-<span class="project-tag">corpus linguistics</span>
-<span class="project-tag">language planning</span>
-<span class="project-tag">thesis by articles</span>
+:::{.project-tag}
+neology
+:::
+
+:::{.project-tag}
+diffusion
+:::
+
+:::{.project-tag}
+corpus linguistics
+:::
+
+:::{.project-tag}
+language planning
+:::
+
+:::{.project-tag}
+thesis by articles
+:::
 :::
 
 :::{.project-outputs}
 **Related outputs**
 
-<div class="output-grid">
+:::{.output-grid}
+:::{.output-item tabindex="0"}
+:::{.output-label}
+F1000Research protocol
+:::
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">F1000Research protocol</span>
-  <div class="output-card">
-    <p><strong>Frazer-McKee, G., Paquette Raynard, E., Gignac, N., Dulude, D., & Courbon, B. (2026).</strong></p>
-    <p>Linguistic and extralinguistic factors associated with neological (non-)diffusion: A protocol for a scoping review of the English- and French-language literatures (1952–2026).</p>
-    <p><em>F1000Research</em>, <em>15</em>, 984.</p>
-    <p><a href="https://doi.org/10.12688/f1000research.180485.1">https://doi.org/10.12688/f1000research.180485.1</a></p>
-  </div>
-</div>
+:::{.output-card}
+**Frazer-McKee, G., Paquette Raynard, E., Gignac, N., Dulude, D., & Courbon, B. (2026).**
 
-</div>
+Linguistic and extralinguistic factors associated with neological (non-)diffusion: A protocol for a scoping review of the English- and French-language literatures (1952–2026).
+
+*F1000Research*, *15*, 984.
+
+[DOI](https://doi.org/10.12688/f1000research.180485.1)
+:::
+:::
+:::
 :::
 :::
 
@@ -73,41 +91,64 @@ Post-MA thesis projects
 
 This project stems from my MA thesis and examines constructions such as *very Kurt Cobain*, *so Montréal*, or *très Paris*. It investigates how proper names can be used predicatively and how degree adverbs interact with the semantic and cognitive mechanisms that allow names to evoke bundles of salient properties.
 
-The project connects pragmatics, semantics, cognitive linguistics, and corpus-based analysis.
+The project connects construction grammar, semantics, cognitive linguistics, and corpus-based analysis.
 
 :::{.project-tags}
-<span class="project-tag">proper names</span>
-<span class="project-tag">degree adverbs</span>
-<span class="project-tag">semantics</span>
-<span class="project-tag">construction grammar</span>
-<span class="project-tag">MA thesis</span>
+:::{.project-tag}
+proper names
+:::
+
+:::{.project-tag}
+degree adverbs
+:::
+
+:::{.project-tag}
+semantics
+:::
+
+:::{.project-tag}
+construction grammar
+:::
+
+:::{.project-tag}
+MA thesis
+:::
 :::
 
 :::{.project-outputs}
 **Related outputs**
 
-<div class="output-grid">
+:::{.output-grid}
+:::{.output-item tabindex="0"}
+:::{.output-label}
+IRP journal article
+:::
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">IRP journal article</span>
-  <div class="output-card">
-    <p><strong>Frazer-McKee, G., & Duffley, P. J. (2024).</strong></p>
-    <p>The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction: Evaluating proposals from Construction Grammar and Formal Semantics.</p>
-    <p><em>International Review of Pragmatics</em>, <em>16</em>(2), 188–231.</p>
-    <p><a href="https://doi.org/10.1163/18773109-01602002">https://doi.org/10.1163/18773109-01602002</a></p>
-  </div>
-</div>
+:::{.output-card}
+**Frazer-McKee, G., & Duffley, P. J. (2024).**
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">Book chapter</span>
-  <div class="output-card">
-    <p><strong>Courbon, B., & Frazer-McKee, G. (forthcoming).</strong></p>
-    <p>Représentations associées à trois métropoles occidentales : étude sémantique des constructions &lt;très + {Montréal, New York, Paris}&gt; et &lt;very + {Montreal, New York, Paris}&gt;.</p>
-    <p>In <em>Représentations de l’espace dans le lexique</em>.</p>
-  </div>
-</div>
+The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction: Evaluating proposals from Construction Grammar and Formal Semantics.
 
-</div>
+*International Review of Pragmatics*, *16*(2), 188–231.
+
+[DOI](https://doi.org/10.1163/18773109-01602002)
+:::
+:::
+
+:::{.output-item tabindex="0"}
+:::{.output-label}
+Book chapter
+:::
+
+:::{.output-card}
+**Courbon, B., & Frazer-McKee, G. (forthcoming).**
+
+Représentations associées à trois métropoles occidentales : étude sémantique des constructions très + {Montréal, New York, Paris} et very + {Montreal, New York, Paris}.
+
+In *Représentations de l’espace dans le lexique*.
+:::
+:::
+:::
 :::
 :::
 
@@ -126,49 +167,79 @@ This project brings together tools developed through my work with the *Journées
 The goal is to make academic evaluation and publication processes more explicit, transparent, and useful for students and early-career researchers.
 
 :::{.project-tags}
-<span class="project-tag">JDL</span>
-<span class="project-tag">evaluation rubric</span>
-<span class="project-tag">abstract writing</span>
-<span class="project-tag">editorial work</span>
-<span class="project-tag">project management</span>
+:::{.project-tag}
+JDL
+:::
+
+:::{.project-tag}
+evaluation rubric
+:::
+
+:::{.project-tag}
+abstract writing
+:::
+
+:::{.project-tag}
+editorial work
+:::
+
+:::{.project-tag}
+project management
+:::
 :::
 
 :::{.project-outputs}
 **Related outputs**
 
-<div class="output-grid">
+:::{.output-grid}
+:::{.output-item tabindex="0"}
+:::{.output-label}
+Conference abstract guidelines
+:::
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">Conference abstract guidelines</span>
-  <div class="output-card">
-    <p><strong>Frazer-McKee, G., & Vogh, K. (2022).</strong></p>
-    <p>Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields.</p>
-    <p><em>WALLY: Working Papers in Applied Linguistics and Linguistics at York</em>, <em>2</em>(1), 89–111.</p>
-    <p><a href="https://doi.org/10.25071/2564-2855.19">https://doi.org/10.25071/2564-2855.19</a></p>
-  </div>
-</div>
+:::{.output-card}
+**Frazer-McKee, G., & Vogh, K. (2022).**
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">Proceedings guide</span>
-  <div class="output-card">
-    <p><strong>Frazer-McKee, G., Gignac, N., & Wong, L. (2025).</strong></p>
-    <p>Publier ses actes de colloque en ≈ 12 mois : guide à l’intention des éditeur·trice·s étudiant·e·s.</p>
-    <p><em>Actes des Journées de linguistique</em>, <em>1</em>, vi–xxv.</p>
-    <p><a href="https://doi.org/10.70637/m5z63833">https://doi.org/10.70637/m5z63833</a></p>
-  </div>
-</div>
+Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields.
 
-<div class="output-item" tabindex="0">
-  <span class="output-label">Abstract-writing article</span>
-  <div class="output-card">
-    <p><strong>Frazer-McKee, G. (2026).</strong></p>
-    <p>Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque.</p>
-    <p><em>Actes des Journées de linguistique</em>, <em>2</em>, 1–8.</p>
-    <p><a href="https://doi.org/10.70637/xkt9v194">https://doi.org/10.70637/xkt9v194</a></p>
-  </div>
-</div>
+*WALLY: Working Papers in Applied Linguistics and Linguistics at York*, *2*(1), 89–111.
 
-</div>
+[DOI](https://doi.org/10.25071/2564-2855.19)
+:::
+:::
+
+:::{.output-item tabindex="0"}
+:::{.output-label}
+Proceedings guide
+:::
+
+:::{.output-card}
+**Frazer-McKee, G., Gignac, N., & Wong, L. (2025).**
+
+Publier ses actes de colloque en ≈ 12 mois : guide à l’intention des éditeur·trice·s étudiant·e·s.
+
+*Actes des Journées de linguistique*, *1*, vi–xxv.
+
+[DOI](https://doi.org/10.70637/m5z63833)
+:::
+:::
+
+:::{.output-item tabindex="0"}
+:::{.output-label}
+Abstract-writing article
+:::
+
+:::{.output-card}
+**Frazer-McKee, G. (2026).**
+
+Préparer un résumé scientifique informatif et bien structuré : un facteur clé pour être accepté·e en colloque.
+
+*Actes des Journées de linguistique*, *2*, 1–8.
+
+[DOI](https://doi.org/10.70637/xkt9v194)
+:::
+:::
+:::
 
 :::
 :::
