@@ -1069,3 +1069,115 @@ body.projects-page main.content h2 {
     padding: 1.4rem 1.25rem;
   }
 }
+
+/* ---------- Fix project output hover cards ---------- */
+
+.project-card,
+.project-outputs,
+.output-grid,
+.output-item {
+  overflow: visible !important;
+}
+
+.project-card {
+  position: relative;
+  z-index: 1;
+}
+
+.project-card:hover {
+  z-index: 20;
+}
+
+.output-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.output-item {
+  position: relative;
+  display: inline-block;
+}
+
+.output-label {
+  display: inline-block;
+  cursor: pointer;
+  background: rgba(7, 48, 74, 0.06);
+  border: 1px solid rgba(7, 48, 74, 0.14);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.1;
+  padding: 0.42rem 0.78rem;
+}
+
+.output-card {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 9999;
+  width: min(520px, 82vw);
+  margin-top: 0.25rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(7, 48, 74, 0.18);
+  padding: 1rem 1.15rem;
+  transition: opacity 0.12s ease;
+}
+
+.output-card p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+
+.output-card p:last-child {
+  margin-bottom: 0;
+}
+
+.output-card strong {
+  color: var(--navy);
+}
+
+.output-card a {
+  color: var(--rust);
+  overflow-wrap: anywhere;
+}
+
+.output-item:hover .output-card,
+.output-item:focus-within .output-card {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.output-item:hover .output-label,
+.output-item:focus-within .output-label {
+  background: rgba(166, 70, 19, 0.09);
+  border-color: rgba(166, 70, 19, 0.2);
+  color: var(--rust);
+}
+
+@media (max-width: 760px) {
+  .output-item {
+    display: block;
+    width: 100%;
+  }
+
+  .output-label {
+    width: 100%;
+  }
+
+  .output-card {
+    position: static;
+    width: 100%;
+    margin-top: 0.55rem;
+  }
+}
