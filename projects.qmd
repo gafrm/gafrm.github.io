@@ -71,9 +71,9 @@ Post-MA thesis projects
 
 **The “degree adverb + proper name” construction**
 
-This project stems from my MA thesis and examines constructions such as *very Obama*, *so Montréal*, or *très Paris*. It investigates how proper names can be used predicatively and how degree adverbs interact with the semantic and cognitive mechanisms that allow names to evoke bundles of salient properties.
+This project stems from my MA thesis and examines constructions such as *very Kurt Cobain*, *so Montréal*, or *très Paris*. It investigates how proper names can be used predicatively and how degree adverbs interact with the semantic and cognitive mechanisms that allow names to evoke bundles of salient properties.
 
-The project connects construction grammar, semantics, cognitive linguistics, and corpus-based analysis.
+The project connects pragmatics, semantics, cognitive linguistics, and corpus-based analysis.
 
 :::{.project-tags}
 <span class="project-tag">proper names</span>
@@ -170,9 +170,5 @@ The goal is to make academic evaluation and publication processes more explicit,
 
 </div>
 
-**In development**
-
-- Submission evaluation rubric.
-- Editorial project-management workflow for student-led proceedings.
 :::
 :::
