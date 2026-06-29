@@ -1242,3 +1242,42 @@ body {
 .nav-footer {
   flex-shrink: 0;
 }
+
+/* --------------------------------------------------
+   Normalize page titles across regular + listing pages
+   -------------------------------------------------- */
+
+/* Same vertical position for all Quarto page title blocks */
+#title-block-header.quarto-title-block.default {
+  margin-top: 0;
+  margin-bottom: 2.25rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Same title size everywhere, including Blog */
+#title-block-header .quarto-title h1.title,
+main.content > h1:first-child {
+  font-size: clamp(2.6rem, 6vw, 4.25rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+}
+
+/* Same subtitle/description position */
+#title-block-header .description,
+#title-block-header .subtitle {
+  font-size: 1.05rem;
+  line-height: 1.45;
+  max-width: 760px;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+/* Blog/listing pages often add extra space after the title block */
+.quarto-listing-container-default,
+.quarto-listing {
+  margin-top: 0;
+}
