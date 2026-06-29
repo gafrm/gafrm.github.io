@@ -1216,3 +1216,21 @@ body.projects-page main.content h2 {
   line-height: 1.1;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#quarto-content {
+  flex: 1 0 auto;
+}
+
+.nav-footer {
+  flex-shrink: 0;
+}
