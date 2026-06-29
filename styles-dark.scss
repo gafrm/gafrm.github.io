@@ -1,0 +1,90 @@
+/*-- scss:defaults --*/
+
+$body-bg: #111111;
+$body-color: #f4f1ea;
+$link-color: #e0b46a;
+
+/*-- scss:rules --*/
+
+:root {
+  --cream: #111111;
+  --navy: #f4f1ea;
+  --rust: #e0b46a;
+  --rust-dark: #f0c987;
+  --soft-rust: #6f4a2e;
+  --text: #f4f1ea;
+  --muted: #c9c3b8;
+  --card: #181818;
+  --border: rgba(255, 255, 255, 0.14);
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+}
+
+.navbar,
+.page-footer,
+.nav-footer {
+  background: var(--cream) !important;
+  color: var(--muted);
+}
+
+.card,
+.quarto-grid-item,
+.listing-card,
+.apero-blog-card,
+.teaching-course-card,
+.project-card,
+.project-stat,
+.teaching-stat,
+.output-card {
+  background: var(--card);
+  border-color: var(--border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.hero-text h1,
+.hero-text h2,
+.news-bottom h2,
+.blog-page .quarto-title h1.title,
+body.blog-post #title-block-header .quarto-title h1.title,
+body.projects-page #title-block-header .quarto-title h1.title,
+body.projects-page main.content h2,
+.teaching-page-wrap h2,
+.teaching-course-card h3,
+.project-card h3,
+.output-card strong {
+  color: var(--navy);
+}
+
+.hero-text p,
+.card p,
+.quarto-grid-item p,
+body.blog-post main.content p,
+.project-card p,
+.output-card p,
+.course-meta,
+.stat-label {
+  color: var(--muted);
+}
+
+.news-bottom .quarto-grid-item:hover,
+.blog-page .quarto-grid-item:hover,
+.news-bottom .card:hover,
+.blog-page .card:hover {
+  background: #202020;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+}
+
+.aa-DetachedOverlay {
+  background: rgba(17, 17, 17, 0.65) !important;
+}
+
+.aa-DetachedContainer,
+.aa-DetachedContainer .aa-Form,
+.aa-DetachedContainer .aa-Panel {
+  background: var(--card) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
