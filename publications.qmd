@@ -1,8 +1,14 @@
 ---
 title: "Publications"
 description: "Research publications and scholarly outputs."
-body-classes: publications-page
+body-classes: publications-page top-level-page
 css: publications.css
+title-block-banner: false
+toc: false
 ---
+
+::: {.page-heading}
+# Publications
+:::
 
 {{< include _generated/publications.md >}}

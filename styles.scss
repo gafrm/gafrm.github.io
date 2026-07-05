@@ -1281,3 +1281,35 @@ main.content > h1:first-child {
 .quarto-listing {
   margin-top: 0;
 }
+
+
+/* Consistent title position/size for main section pages */
+
+body.top-level-page header#title-block-header {
+  display: none;
+}
+
+body.top-level-page main.content {
+  padding-top: 0;
+}
+
+.page-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.page-heading h1 {
+  font-size: clamp(2.75rem, 6vw, 4.5rem);
+  line-height: 0.95;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.page-heading p {
+  margin-top: 0.75rem;
+  max-width: 720px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--bs-secondary-color);
+}

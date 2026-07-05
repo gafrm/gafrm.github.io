@@ -1,25 +1,16 @@
 ---
 title: "Research projects"
 title-block-banner: false
+body-class: top-level-page
 page-layout: article
 body-class: projects-page
 ---
-
-:::{.project-stats}
-:::{.project-stat}
-PhD by articles
+::: {.page-heading}
+# Projects
 :::
 
-:::{.project-stat}
-Post-MA publications
-:::
 
-:::{.project-stat}
-Conference tools
-:::
-:::
-
-## Current and past projects
+## Current projects
 
 :::{.project-card}
 :::{.project-kicker}

@@ -1,8 +1,13 @@
 ---
 title: "Teaching"
 title-block-banner: false
-body-class: teaching-page
+body-class: teaching-page top-level-page
 ---
+
+::: {.page-heading}
+# Courses taught
+:::
+
 <style>
 /* Teaching page-local fixes */
 

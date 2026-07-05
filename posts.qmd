@@ -2,7 +2,7 @@
 title: "Blog"
 subtitle: "Notes on doctoral research, neology, academic life, conferences, funding, and more"
 description-meta: "Posts about papers, events, news, and more"
-
+body-class: top-level-page
 listing: 
   sort: "date desc"
   type: grid
@@ -22,5 +22,9 @@ page-navigation: false
 title-block-banner: false
 ---
 
-:::{#posts}
+::: {.page-heading}
+# Blog
+
+Notes on doctoral research, neology, academic life, conferences, funding, and more
+
 :::
