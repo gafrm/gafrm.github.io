@@ -23,4 +23,5 @@ title-block-banner: false
 
 ::: {.page-heading}
 # Blog
+The work, decisions, and context behind the CV
 :::

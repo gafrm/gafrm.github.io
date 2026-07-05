@@ -1,0 +1,52 @@
+---
+title: "Linguistics Should Use CRediT"
+subtitle: "Why a name in a methods section is not the same thing as a contribution statement"
+description: "Why a name in a methods section is not the same thing as a contribution statement"
+author: "Gabriel Frazer-McKee"
+date: "2026-07-05"
+categories: [research ethics, methodology, authorship, linguistics, CRediT]
+image: "manuscript-markup-credit.jpg"
+---
+
+Linguistics was long a relatively solitary discipline. One researcher developped an argument, analyzed examples, wrote the article, and published it under their name or occasionally with a colleague or two. That model still exists, of course. But it describes only part of the field, and a shrinking part.
+
+Much linguistic research is now collaborative in ways that are not always visible from the author line. This is especially true in subfields that empoy corpus data. A corpus has to be assembled, cleaned, documented, and sometimes shared. Data may need to be annotated by more than one person. Statistical analyses have to be planned, run, and checked. Software pipelines are written, adapted, and maintained. Fieldwork materials are prepared. Experimental designs are discussed. Supervisors, research assistants, programmers, annotators, and colleagues may all contribute something important to the final publication.
+
+Fields where large-scale empirical collaboration became routine earlier — genomics, biomedicine, and increasingly psychology — have already had to confront this. As their research became more computational and more collaborative, informal acknowledgement stopped being adequate, and many journals in those fields now require structured contribution statements as a matter of course. Linguistics is arriving at the same problem for the same reason: its methods have become more technical and more distributed than its authorship conventions assume. We are behind, not because the discipline is unusually careless, but because our norms were built for a smaller, less computational version of the field.
+
+This is why linguistics should make wider use of CRediT.
+
+CRediT, the Contributor Role Taxonomy, is a structured vocabulary for describing contributions to scholarly work. It includes roles such as Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing – original draft, and Writing – review & editing. It does not replace authorship criteria, and it is not meant to decide who qualifies as an author. Its purpose is simpler: to say, more clearly, who did what.
+
+This is not an abstract concern. I have personally seen a non-author name appear in a methods section as the developer of a pipeline, without any contribution statement clarifying what that means: whether the person reviewed that particular use of it, endorsed the analysis it supported, or contributed in a way that amounted to authorship. In a world where CV are just a click away, the name does real work in that context. It lends the pipeline, and by extension the analysis, a kind of credibility. But unless the contribution is specified, readers are left guessing what was actually done, and who stands behind the method as used in that study.
+
+That is a strange position for a contributor to be in: too present to be uninvolved, too undefined to be accountable.
+
+This is not a complaint about being thanked too little, though that is also common. It is a more specific problem: being named in a way that implies validation, without any structure for saying what was and was not validated. A generic acknowledgement at least signals its own vagueness. A name inside a methods section does not. It reads as precise even when it is not.
+
+Consider a corpus-based article more generally. One person may have formulated the research question. Another may have collected the data. A third may have written the code used to extract examples. Someone else may have checked the annotation scheme. In a traditional author statement, these differences disappear. In a CRediT-style contribution statement, they do not have to.
+
+This matters especially in methods sections, because a methods section is supposed to justify a procedure, not borrow credibility for it. A person can write a pipeline, suggest a corpus, or comment on a coding scheme without thereby endorsing every later use of that work. Consultation is not the same thing as co-design. Writing software is not the same thing as validating an analysis built on it. And a name should not be used, even unintentionally, as a substitute for methodological justification. If someone contributed a tool, say what the tool does and who is responsible for its use in this specific study. The method itself still has to carry the weight — not the reputation of whoever is named near it.
+
+CRediT is helpful here because it separates categories that are often bundled together. “Software” is not “Formal analysis.” “Resources” is not “Validation.” “Supervision” is not “Methodology.” These distinctions can look bureaucratic, but they force a kind of precision that vague thanks do not.
+
+They also protect contributors, in both directions. For the person who built the pipeline, a clear “Software” credit means their contribution is visible without implying they vouched for a downstream use they may not have reviewed. For the authors of the study, a clear statement means they are not relying on someone else’s name to make a method look more settled than it is.
+
+There is a practical version of this that linguistics journals could adopt without much difficulty. Submission guidelines could encourage a short CRediT-style statement. Student proceedings could do the same. Research teams could agree on roles early in a project, rather than reconstructing them — or discovering them, after the fact, in someone else’s methods section.
+
+Even without a journal requirement, authors can use the categories informally:
+
+> Gabriel Frazer-McKee: Software.
+> Co-author A: Conceptualization, Methodology, Formal analysis, Writing – original draft.
+> Co-author B: Investigation, Writing – review & editing.
+
+The exact format matters less than the principle: say what each person did, and do not let a name stand in for a sentence.
+
+CRediT will not resolve every authorship dispute, and it will not replace judgment about who qualifies as an author. But it would make one particular bad habit harder to sustain: naming a contributor inside the methods without saying what they actually did, or whether they stood behind how their work was used.
+
+Linguistics has changed. Its methods are now closer to the sciences that solved this problem years ago. Our contribution statements should catch up. A good article should tell readers not only what was found, but how the work was done — and who is responsible for which part of it.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -1243,3 +1243,12 @@ body.top-level-page main.content {
 body.top-level-page #title-block-header {
   display: none !important;
 }
+
+/* Blog listing cards: consistent corners in light and dark mode */
+.quarto-listing .card,
+.quarto-grid-item,
+.card.blog-card,
+.listing-card {
+  border-radius: 1rem;
+  overflow: hidden;
+}

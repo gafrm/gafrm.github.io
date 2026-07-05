@@ -10,7 +10,60 @@
 <atom:link href="https://gafrm.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Academic website of Gabriel Frazer-McKee</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 20 Jun 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Linguistics Should Use CRediT</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://gafrm.github.io/posts/2026-07-05-F1000-protocol-published - Copie/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Linguistics was long a relatively solitary discipline. One researcher developped an argument, analyzed examples, wrote the article, and published it under their name or occasionally with a colleague or two. That model still exists, of course. But it describes only part of the field, and a shrinking part.</p>
+<p>Much linguistic research is now collaborative in ways that are not always visible from the author line. This is especially true in subfields that empoy corpus data. A corpus has to be assembled, cleaned, documented, and sometimes shared. Data may need to be annotated by more than one person. Statistical analyses have to be planned, run, and checked. Software pipelines are written, adapted, and maintained. Fieldwork materials are prepared. Experimental designs are discussed. Supervisors, research assistants, programmers, annotators, and colleagues may all contribute something important to the final publication.</p>
+<p>Fields where large-scale empirical collaboration became routine earlier — genomics, biomedicine, and increasingly psychology — have already had to confront this. As their research became more computational and more collaborative, informal acknowledgement stopped being adequate, and many journals in those fields now require structured contribution statements as a matter of course. Linguistics is arriving at the same problem for the same reason: its methods have become more technical and more distributed than its authorship conventions assume. We are behind, not because the discipline is unusually careless, but because our norms were built for a smaller, less computational version of the field.</p>
+<p>This is why linguistics should make wider use of CRediT.</p>
+<p>CRediT, the Contributor Role Taxonomy, is a structured vocabulary for describing contributions to scholarly work. It includes roles such as Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing – original draft, and Writing – review &amp; editing. It does not replace authorship criteria, and it is not meant to decide who qualifies as an author. Its purpose is simpler: to say, more clearly, who did what.</p>
+<p>This is not an abstract concern. I have personally seen a non-author name appear in a methods section as the developer of a pipeline, without any contribution statement clarifying what that means: whether the person reviewed that particular use of it, endorsed the analysis it supported, or contributed in a way that amounted to authorship. In a world where CV are just a click away, the name does real work in that context. It lends the pipeline, and by extension the analysis, a kind of credibility. But unless the contribution is specified, readers are left guessing what was actually done, and who stands behind the method as used in that study.</p>
+<p>That is a strange position for a contributor to be in: too present to be uninvolved, too undefined to be accountable.</p>
+<p>This is not a complaint about being thanked too little, though that is also common. It is a more specific problem: being named in a way that implies validation, without any structure for saying what was and was not validated. A generic acknowledgement at least signals its own vagueness. A name inside a methods section does not. It reads as precise even when it is not.</p>
+<p>Consider a corpus-based article more generally. One person may have formulated the research question. Another may have collected the data. A third may have written the code used to extract examples. Someone else may have checked the annotation scheme. In a traditional author statement, these differences disappear. In a CRediT-style contribution statement, they do not have to.</p>
+<p>This matters especially in methods sections, because a methods section is supposed to justify a procedure, not borrow credibility for it. A person can write a pipeline, suggest a corpus, or comment on a coding scheme without thereby endorsing every later use of that work. Consultation is not the same thing as co-design. Writing software is not the same thing as validating an analysis built on it. And a name should not be used, even unintentionally, as a substitute for methodological justification. If someone contributed a tool, say what the tool does and who is responsible for its use in this specific study. The method itself still has to carry the weight — not the reputation of whoever is named near it.</p>
+<p>CRediT is helpful here because it separates categories that are often bundled together. “Software” is not “Formal analysis.” “Resources” is not “Validation.” “Supervision” is not “Methodology.” These distinctions can look bureaucratic, but they force a kind of precision that vague thanks do not.</p>
+<p>They also protect contributors, in both directions. For the person who built the pipeline, a clear “Software” credit means their contribution is visible without implying they vouched for a downstream use they may not have reviewed. For the authors of the study, a clear statement means they are not relying on someone else’s name to make a method look more settled than it is.</p>
+<p>There is a practical version of this that linguistics journals could adopt without much difficulty. Submission guidelines could encourage a short CRediT-style statement. Student proceedings could do the same. Research teams could agree on roles early in a project, rather than reconstructing them — or discovering them, after the fact, in someone else’s methods section.</p>
+<p>Even without a journal requirement, authors can use the categories informally:</p>
+<blockquote class="blockquote">
+<p>Gabriel Frazer-McKee: Software. Co-author A: Conceptualization, Methodology, Formal analysis, Writing – original draft. Co-author B: Investigation, Writing – review &amp; editing.</p>
+</blockquote>
+<p>The exact format matters less than the principle: say what each person did, and do not let a name stand in for a sentence.</p>
+<p>CRediT will not resolve every authorship dispute, and it will not replace judgment about who qualifies as an author. But it would make one particular bad habit harder to sustain: naming a contributor inside the methods without saying what they actually did, or whether they stood behind how their work was used.</p>
+<p>Linguistics has changed. Its methods are now closer to the sciences that solved this problem years ago. Our contribution statements should catch up. A good article should tell readers not only what was found, but how the work was done — and who is responsible for which part of it.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>research ethics</category>
+  <category>methodology</category>
+  <category>authorship</category>
+  <category>linguistics</category>
+  <category>CRediT</category>
+  <guid>https://gafrm.github.io/posts/2026-07-05-F1000-protocol-published - Copie/</guid>
+  <pubDate>Sun, 05 Jul 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://gafrm.github.io/posts/2026-07-05-F1000-protocol-published - Copie/manuscript-markup-credit.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>PhD protocol #1 published in F1000Research</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
@@ -845,62 +898,6 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/</guid>
   <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
   <media:content url="https://gafrm.github.io/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
-</item>
-<item>
-  <title>Teaching lexicology for the first time</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This semester, I taught <strong>FRN-1110 – Lexicologie</strong> for the first time.</p>
-<p>It was a double first: my first time teaching this particular course and my first time teaching a linguistics course in French. I have taught at the university level for several years, but moving into a new course, a new disciplinary context, and a different language of instruction inevitably required some adjustment.</p>
-<section id="building-the-course" class="level2">
-<h2 class="anchored" data-anchor-id="building-the-course">Building the course</h2>
-<p>Teaching a subject is different from knowing it as a researcher.</p>
-<p>Preparing the course required me to decide which concepts were essential, how they should be ordered, and how much theoretical detail students needed before they could begin analysing real lexical data. It also meant developing explanations, examples, activities, and assessments in French rather than simply translating material I might otherwise have presented in English.</p>
-<p>Not every part of a new course works exactly as planned. Some explanations need more time. Some activities reveal assumptions that seemed obvious during preparation but are less obvious in the classroom. Assessment instructions that appear precise can still be interpreted in unexpected ways.</p>
-<p>That is part of teaching a course for the first time. The initial version provides a basis that can be revised and improved.</p>
-</section>
-<section id="structuring-the-research-process" class="level2">
-<h2 class="anchored" data-anchor-id="structuring-the-research-process">Structuring the research process</h2>
-<p>One element that worked particularly well was the structure provided for the students’ research projects.</p>
-<p>Rather than giving them only a broad assignment and asking for a finished paper, I developed a template that divided the research process into its principal components. Students had to formulate a question, define the lexical phenomenon under investigation, describe their data, explain their analytical procedure, present their observations, and connect those observations to the concepts covered in the course.</p>
-<p>The purpose was not to make every project identical. It was to ensure that students had a clear framework within which to develop their own analysis.</p>
-<p>That structure appears to have helped. Several students produced very strong projects, combining careful observation with thoughtful lexical analysis. The best work did more than repeat material from the course: it used the concepts introduced during the semester to investigate a specific problem in a systematic way.</p>
-<p>For a first iteration of the course, that was encouraging. It showed that a sufficiently detailed scaffold can support ambitious student work without determining its conclusions in advance.</p>
-</section>
-<section id="what-i-will-change-next-time" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-will-change-next-time">What I will change next time</h2>
-<p>The course will not remain unchanged.</p>
-<p>I now have a much clearer sense of which topics require additional explanation, where the pacing can be improved, and which instructions need to be made more explicit. I also have a collection of examples drawn from the students’ work that can help make future versions of the course more concrete.</p>
-<p>At the same time, the research-project template is something I intend to retain. It offered students a transparent path through a complex assignment and produced some of the strongest work of the semester.</p>
-<p>Teaching lexicology for the first time involved the adjustments one would expect from any new course—especially one taught in a new language and disciplinary setting. It also provided evidence that some of the central design choices were sound.</p>
-<p>The next version will be better because of what I learned from this one.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <category>teaching</category>
-  <category>lexicology</category>
-  <category>academic life</category>
-  <guid>https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/</guid>
-  <pubDate>Tue, 14 May 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://gafrm.github.io/posts/2024-05-14-Teaching-Lexicology/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>
