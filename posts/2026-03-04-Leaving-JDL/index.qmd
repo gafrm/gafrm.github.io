@@ -1,0 +1,39 @@
+---
+title: "Taking a Backseat at JDL 2026"
+subtitle: "Why collective student projects need rotation, not permanent stewardship"
+description: "A reflection on stepping back from a central role in the Journées de linguistique 2026, welcoming Alejandro Fallas Godínez as incoming editor-in-chief, and making space for shared ownership of the event."
+author: "Gabriel Frazer-McKee"
+date: "2026-03-05"
+categories: [JDL, Actes JDL, academic service, graduate studies, collective work, academic life]
+image: "featured.png"
+##draft: true
+---
+
+The Journées de linguistique have been an important part of my academic life at Université Laval. I have helped organize the event, worked on the proceedings twice, reviewed submissions, coordinated editorial work, and spent a great deal of time thinking about how the JDL can be useful to students and early-career researchers.
+
+That work matters. A student conference is not just a line on a CV, and it is not just an annual event that needs to be kept alive. At its best, it is a space where people can try out ideas, receive serious feedback, learn how academic publishing works, and see themselves as part of a research community. That is worth protecting.
+
+But for JDL 2026, I need to take more of a backseat.
+
+Part of the reason is practical. For me, 2026 has to be a year where my newborn son and doctoral work come first. I am at a point in my PhD where I need to be more selective about how I spend my time. My thesis, my articles, my research data, and the next stages of my academic file need more attention. Service work is valuable, but it can expand very easily. It often becomes the kind of work that is urgent, visible, and never quite finished.
+
+There is also a broader reason. I do not think this type of position should be held for too long by the same person.
+
+For the 2026 proceedings, [Alejandro Fallas Godínez](https://alefallas.drr.ac/) will take on the role of incoming editor-in-chief. I am very happy about that. Alejandro brings his own strengths, priorities, and way of working to the project, and that is exactly what the JDL needs. A healthy collective project should not simply reproduce the habits of the person who happened to be most involved in the previous cycle.
+
+When one person remains central to a project like the JDL for too many cycles, even with good intentions, the project can start to reflect that person too strongly. Personal preferences can start to look like institutional norms. What begins as care for the project can slowly become overcontrol. And because you become more efficient, it can also lead to a [ratchet effect](https://en.wikipedia.org/wiki/Ratchet_effect), as we pointed out in our [2025 editorial](https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/article/view/54387).
+
+That is not healthy for the JDL.
+
+The JDL should not depend on one person’s habits, standards, taste, or availability. It is a collective project, one that has been alive since 1987. It should continue to be shaped by different cohorts, different priorities, different styles of organization, and different ideas about what a student conference can be. Continuity matters, but so does renewal.
+
+Taking a backseat does not mean disappearing. I still care about the event, and I still want it to succeed. I am happy to offer advice, share documents, explain past decisions, and help make the transition easier. But I do not want to be the person through whom everything has to pass.
+
+That is better for me, and I think it is better for the JDL.
+
+A collective project has to remain collective. Sometimes that means stepping forward. Sometimes it means stepping back.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
