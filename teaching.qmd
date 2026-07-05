@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 title-block-banner: false
-body-class: teaching-page top-level-page
+body-classes: "teaching-page top-level-page"
 ---
 
 ::: {.page-heading}

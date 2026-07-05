@@ -2,7 +2,7 @@
 title: "About"
 description-meta: "About Gabriel Frazer-McKee"
 page-navigation: false
-body-class: top-level-page
+body-classes: top-level-page
 title-block-banner: false
 toc: false
 ---

@@ -1,9 +1,8 @@
 ---
 title: "Research projects"
 title-block-banner: false
-body-class: top-level-page
+body-classes: "top-level-page projects-page"
 page-layout: article
-body-class: projects-page
 ---
 ::: {.page-heading}
 # Projects

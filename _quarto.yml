@@ -71,7 +71,6 @@ format:
     theme:
       light: [cosmo, styles.scss]
       dark: [darkly, styles-dark.scss]
-    css: styles.css
     toc: false
     footnotes-hover: true
     code-copy: true
