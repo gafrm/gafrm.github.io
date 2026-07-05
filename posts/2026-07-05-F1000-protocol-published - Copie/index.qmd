@@ -5,7 +5,7 @@ description: "Why a name in a methods section is not the same thing as a contrib
 author: "Gabriel Frazer-McKee"
 date: "2026-07-05"
 categories: [research ethics, methodology, authorship, linguistics, CRediT]
-image: "manuscript-markup-credit.jpg"
+image: "featured.png"
 ---
 
 Linguistics was long a relatively solitary discipline. One researcher developped an argument, analyzed examples, wrote the article, and published it under their name or occasionally with a colleague or two. That model still exists, of course. But it describes only part of the field, and a shrinking part.
