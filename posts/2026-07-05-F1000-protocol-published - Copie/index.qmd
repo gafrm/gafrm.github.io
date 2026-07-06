@@ -1,5 +1,5 @@
 ---
-title: "Linguistics Should Use CRediT"
+title: "Linguistics should use CRediT"
 subtitle: "Why a name in a methods section is not the same thing as a contribution statement"
 description: "Why a name in a methods section is not the same thing as a contribution statement"
 author: "Gabriel Frazer-McKee"

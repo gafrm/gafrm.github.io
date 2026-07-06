@@ -1,7 +1,7 @@
 ---
 title: "Taking a Backseat at JDL 2026"
 subtitle: "Why collective student projects need rotation, not permanent stewardship"
-description: "A reflection on stepping back from a central role in the Journées de linguistique 2026, welcoming Alejandro Fallas Godínez as incoming editor-in-chief, and making space for shared ownership of the event."
+description: "Why collective student projects need rotation, not permanent stewardship"
 author: "Gabriel Frazer-McKee"
 date: "2026-03-05"
 categories: [JDL, Actes JDL, academic service, graduate studies, collective work, academic life]
