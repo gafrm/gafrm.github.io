@@ -1,7 +1,7 @@
 
 ---
 title: "Teaching lexicology for the first time"
-subtitle: "My first linguistics course taught in French"
+description: "My first linguistics course taught in French"
 subtitle: "My first linguistics course taught in French"
 author: "Gabriel Frazer-McKee"
 date: "2024-05-14"
