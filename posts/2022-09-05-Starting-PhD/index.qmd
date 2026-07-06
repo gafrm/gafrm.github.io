@@ -1,7 +1,7 @@
 ---
 title: "Starting my PhD"
-subtitle: "How I found my doctoral research topic"
-description: "How I found my doctoral research topic"
+subtitle: "Why I chose to do a PhD in linguistics over an MSc in Speech Technology"
+description: "Why I chose to do a PhD in linguistics over an MSc in Speech Technology"
 author: "Gabriel Frazer-McKee"
 date: "2022-09-04"
 categories: [event, PhD]
