@@ -10,57 +10,7 @@
 <atom:link href="https://www.gabriel-frazer-mckee.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Academic website of Gabriel Frazer-McKee</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 05 Jul 2026 04:00:00 GMT</lastBuildDate>
-<item>
-  <title>Linguistics should use CRediT</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://www.gabriel-frazer-mckee.com/posts/2026-07-05-F1000-protocol-published - Copie/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Linguistics has historically been a relatively solitary discipline: a researcher developed an argument, analyzed examples, wrote the article, and published it alone or with one or two collaborators. That model still exists, but it now represents only part of the field.</p>
-<p>Many areas of linguistics — especially those involving corpus data, computational methods, or experimental work — rely on forms of collaboration that are not visible from the author line. Corpora must be assembled, cleaned, documented, and sometimes shared. Data may require multi‑person annotation. Statistical analyses must be designed, implemented, and checked. Software pipelines are written, adapted, and maintained. Fieldwork materials are prepared. Experimental designs are refined. Across these activities, supervisors, research assistants, programmers, annotators, and colleagues often contribute essential components of the final publication.</p>
-<p>Other empirical fields confronted this shift earlier. As genomics, biomedicine, and psychology became more computational and more collaborative, informal acknowledgements proved insufficient. Many journals in those areas now require structured contribution statements. Linguistics is encountering the same issue for the same reason: our methods have become more technical and more distributed than our authorship conventions assume.</p>
-<p>Some linguistics journals have already recognized this. Venues published by major houses such as Elsevier, Wiley, and Springer have adopted or encouraged CRediT, and several interdisciplinary journals that regularly publish linguistics research require it. But adoption remains uneven across the discipline. Many core theoretical journals still do not mandate structured contribution statements, and authorship norms vary widely between subfields. As a result, contribution clarity is not yet a consistent expectation in linguistics as a whole.</p>
-<p>This is why broader use of CRediT would be beneficial.</p>
-<p>CRediT, the Contributor Role Taxonomy, provides a structured vocabulary for describing contributions to scholarly work. It includes roles such as Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing – original draft, and Writing – review &amp; editing. It does not determine authorship; it simply clarifies who did what.</p>
-<p>This clarity is especially important in methods sections. A methods section is meant to justify a procedure, not rely on the implicit authority of a name. Someone may write a pipeline, suggest a corpus, or comment on a coding scheme without endorsing every later use of that work. Consultation is not co‑design. Software development is not validation. And naming a contributor inside a methods section can unintentionally imply a level of involvement or endorsement that did not occur.</p>
-<p>A structured contribution statement avoids this ambiguity. It distinguishes roles that are often conflated: “Software” is not “Formal analysis.” “Resources” is not “Validation.” “Supervision” is not “Methodology.” These distinctions may appear bureaucratic, but they promote precision that generic acknowledgements cannot provide.</p>
-<p>Clear role descriptions also protect contributors and authors alike. For contributors, a defined role makes their work visible without implying responsibility for downstream uses they did not review. For authors, a contribution statement ensures that methodological justification rests on the method itself, not on the perceived authority of someone named near it.</p>
-<p>Linguistics journals could adopt a simple version of this practice with minimal effort. Submission guidelines could encourage short CRediT‑style statements. Student proceedings could do the same. Research teams could agree on roles early in a project rather than reconstructing them after the fact.</p>
-<p>Even without formal requirements, authors can use the categories informally:</p>
-<p>Co‑author A: Conceptualization, Methodology, Formal analysis, Writing – original draft</p>
-<p>Co‑author B: Investigation, Writing – review &amp; editing</p>
-<p>Contributor C: Software</p>
-<p>The specific format matters less than the principle: state what each person did, and avoid letting a name stand in for a description.</p>
-<p>CRediT will not resolve every authorship question, nor will it replace judgment about who qualifies as an author. But it would reduce one persistent problem: contributors being named in ways that imply endorsement or responsibility without specifying their actual role.</p>
-<p>Linguistics has changed. Its methods now resemble those of fields that adopted contribution statements years ago. Our authorship practices should evolve accordingly. A strong article should tell readers not only what was found, but how the work was done — and who is responsible for each part of it.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>research ethics</category>
-  <category>methodology</category>
-  <category>authorship</category>
-  <category>linguistics</category>
-  <category>CRediT</category>
-  <guid>https://www.gabriel-frazer-mckee.com/posts/2026-07-05-F1000-protocol-published - Copie/</guid>
-  <pubDate>Sun, 05 Jul 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://www.gabriel-frazer-mckee.com/posts/2026-07-05-F1000-protocol-published - Copie/featured.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
+<lastBuildDate>Sat, 20 Jun 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>PhD protocol #1 published in F1000Research</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
@@ -909,6 +859,38 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://www.gabriel-frazer-mckee.com/posts/2024-05-31-Fellowship-increased-by-40k/</guid>
   <pubDate>Fri, 31 May 2024 04:00:00 GMT</pubDate>
   <media:content url="https://www.gabriel-frazer-mckee.com/posts/2024-05-31-Fellowship-increased-by-40k/featured.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>TCHÉCALEX 2024</title>
+  <dc:creator>Event </dc:creator>
+  <link>https://www.gabriel-frazer-mckee.com/posts/2024-05-28-Conference-presentation-Pilsen/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Just got back from <strong>Tchécalex 2024</strong>, held at the <strong>Faculty of Arts of the University of West Bohemia</strong> in <strong>Plzeň</strong> — also known in English as <strong>Pilsen</strong> — in Czechia.</p>
+<p>Bruno (Courbon) and I presented work on French-English comparisons of the <strong>degree adverb + Place</strong> construction on Twitter/X, with examples such as <em>Hockey is very Montréal</em>. A publication stemming from this preliminary work is planned for the conference proceedings.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>event</category>
+  <category>presentation</category>
+  <guid>https://www.gabriel-frazer-mckee.com/posts/2024-05-28-Conference-presentation-Pilsen/</guid>
+  <pubDate>Sun, 26 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://www.gabriel-frazer-mckee.com/posts/2024-05-28-Conference-presentation-Pilsen/featured.JPG" medium="image"/>
 </item>
 </channel>
 </rss>
