@@ -1326,7 +1326,7 @@ function renderCvFragment(manualCv, works, fundings, peerReviews, services, empl
     renderCvServices(services),
     // Teaching is intentionally last because it is less central than
     // publications, funding, peer review, and service for this CV.
-    renderCvTeaching(employments, manualCv.courses),
+    renderCvTeaching(employments),
   ].filter(Boolean);
 
   return `${sections.join("\n")}\n`;
@@ -1432,7 +1432,7 @@ try {
   }
 
   console.log(
-    `Loaded ${manualCv.education.length} manual education record(s) and ${manualCv.courses.length} course record(s); found ${services.length} service record(s) and ${employments.length} employment record(s) in ORCID.`
+    `Loaded ${manualCv.education.length} manual education record(s); found ${services.length} service record(s) and ${employments.length} employment record(s) in ORCID.`
   );
 
   await writeOnlyIfChanged(

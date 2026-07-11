@@ -73,7 +73,4 @@ Supervisor: Patrick J. Duffley
 
 **ANG-2002 (Nominal Forms) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2018  
 
-- **ANG-1002 — Introduction to Linguistics**, Autumn 2022, Autumn 2023, Autumn 2025
-- **FRN-1110 — Lexicologie**, Winter 2024, Winter 2025
-- **ANG-2515 — Understanding Grammar**, Autumn 2024
 
