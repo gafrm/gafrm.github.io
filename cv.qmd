@@ -2,18 +2,15 @@
 title: "Curriculum Vitae"
 description: "Academic curriculum vitae of Gabriel Frazer-McKee."
 toc: false
-page-layout: full
 body-classes: cv-page
 ---
 
 ::: {.cv-intro}
+
 A web version of my academic curriculum vitae, automatically synchronized with my ORCID record.
 
-[Download CV as PDF](files/cv.pdf){.btn .btn-primary download}
+[Download CV as PDF](files/cv.pdf){.btn .btn-primary}
+
 :::
 
 {{< include _generated/cv-orcid.md >}}
-
-::: {.cv-download-bottom}
-[Download CV as PDF](files/cv.pdf){.btn .btn-outline-primary download}
-:::
