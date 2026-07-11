@@ -1252,3 +1252,17 @@ body.top-level-page #title-block-header {
   border-radius: 1rem;
   overflow: hidden;
 }
+
+
+/* have change of line before 'related outputs' (projects) */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-outputs {
+  display: block;
+  width: 100%;
+}
