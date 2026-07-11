@@ -1069,7 +1069,11 @@ function renderCvWork(work) {
   if (work.doi) details.push(`[doi:${work.doi}](${doiUrl(work.doi)})`);
 
   const tail = details.length > 0 ? ` ${details.join(", ")}.` : "";
-  return `- ${authors}. (${year}). ${title}.${tail}`;
+  return [
+  '::: {.cv-publication}',
+  `${authors}. (${year}). ${title}.${tail}`,
+  ':::',
+].join("\n");
 }
 
 function renderCvPublications(works) {
@@ -1087,10 +1091,10 @@ function renderCvPublications(works) {
     .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
 
   const sections = [...CV_SECTION_ORDER, ...extraSections].filter((section) => grouped.has(section));
-  const output = ["# Publications", ""];
+  const output = ["## Publications", ""];
 
   for (const section of sections) {
-    output.push(`## ${section}`, "");
+    output.push(`### ${section}`, "");
 
     const entries = grouped.get(section).sort((a, b) => {
       if (a.year !== b.year) return (b.year || 0) - (a.year || 0);
@@ -1115,7 +1119,7 @@ function renderFundingSection(
 ) {
   if (fundings.length === 0) return "";
 
-  const output = [`# ${titleText}`, ""];
+  const output = [`## ${titleText}`, ""];
   const sorted = [...fundings].sort((a, b) => {
     if (a.year !== b.year) return (b.year || 0) - (a.year || 0);
     return a.title.localeCompare(b.title, "en", { sensitivity: "base" });
@@ -1186,28 +1190,49 @@ function sortAffiliations(affiliations) {
 function renderCvEducation(educations) {
   if (!Array.isArray(educations) || educations.length === 0) return "";
 
-  const output = ["# Education", ""];
+  const output = ["## Education", ""];
 
   for (const education of educations) {
     const degree = markdownEscape(education.degree || "Degree");
     const dates = markdownEscape(education.dates || "");
-    output.push(dates ? `**${degree}** · ${dates}` : `**${degree}**`);
 
     const affiliation = [
       education.institution ? markdownEscape(education.institution) : "",
       education.location ? markdownEscape(education.location) : "",
     ].filter(Boolean).join(" · ");
-    if (affiliation) output.push(`${affiliation}  `);
+
+    output.push(
+      ":::: {.cv-entry}",
+      "::: {.cv-entry-date}",
+      dates,
+      ":::",
+      "",
+      "::: {.cv-entry-body}",
+      `**${degree}**`,
+      ""
+    );
+
+    if (affiliation) {
+      output.push(`${affiliation}  `);
+    }
 
     if (education.supervisor) {
-      output.push(`Supervisor: ${markdownEscape(education.supervisor)}  `);
+      output.push(
+        `Supervisor: ${markdownEscape(education.supervisor)}  `
+      );
     }
 
     if (education.coSupervisor) {
-      output.push(`Co-supervisor: ${markdownEscape(education.coSupervisor)}  `);
+      output.push(
+        `Co-supervisor: ${markdownEscape(education.coSupervisor)}  `
+      );
     }
 
-    output.push("");
+    output.push(
+      ":::",
+      "::::",
+      ""
+    );
   }
 
   return output.join("\n");
@@ -1216,7 +1241,7 @@ function renderCvEducation(educations) {
 function renderCvServices(services) {
   if (services.length === 0) return "";
 
-  const output = ["# Academic Service", ""];
+  const output = ["## Academic Service", ""];
   for (const service of sortAffiliations(services)) {
     const roleText = markdownEscape(service.roleTitle);
     const role = service.url ? `[${roleText}](${service.url})` : roleText;
@@ -1249,7 +1274,7 @@ function renderCvTeaching(employments, courses = []) {
   const teaching = employments.filter(isTeachingEmployment);
   if (teaching.length === 0 && courses.length === 0) return "";
 
-  const output = ["# Teaching Experience", ""];
+  const output = ["## Teaching Experience", ""];
 
   for (const employment of sortAffiliations(teaching)) {
     const roleText = markdownEscape(employment.roleTitle);
@@ -1303,7 +1328,7 @@ function renderCvPeerReviews(peerReviews) {
     a.venue.localeCompare(b.venue, "en", { sensitivity: "base" })
   );
 
-  const output = ["# Peer Review", ""];
+  const output = ["## Peer Review", ""];
   for (const entry of entries) {
     const years = [...entry.years].sort((a, b) => b - a).join(", ");
     const countText = entry.count === 1 ? "1 review" : `${entry.count} reviews`;
@@ -1326,7 +1351,7 @@ function renderCvFragment(manualCv, works, fundings, peerReviews, services, empl
     renderCvServices(services),
     // Teaching is intentionally last because it is less central than
     // publications, funding, peer review, and service for this CV.
-    renderCvTeaching(employments),
+    renderCvTeaching(employments, manualCv.courses),
   ].filter(Boolean);
 
   return `${sections.join("\n")}\n`;

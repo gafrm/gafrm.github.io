@@ -1510,3 +1510,129 @@ body.top-level-page #title-block-header {
     }
   }
 }
+
+/* =========================================================
+   WEB CV
+   ========================================================= */
+
+.cv-page {
+  main.content {
+    max-width: 1080px;
+  }
+
+  .cv-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    margin: 0 0 3.5rem;
+    padding: 0 0 2rem;
+
+    color: var(--bs-secondary-color);
+    font-size: 1.05rem;
+    line-height: 1.65;
+
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+
+  main h2 {
+    margin: 4rem 0 1.5rem;
+    padding-bottom: 0.65rem;
+
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+
+  main h3 {
+    margin: 2.5rem 0 1.15rem;
+
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+
+  .cv-entry {
+    display: grid;
+    grid-template-columns: 9rem minmax(0, 1fr);
+    gap: 1.75rem;
+
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+
+  .cv-entry-date {
+    padding-top: 0.15rem;
+
+    color: var(--bs-secondary-color);
+    font-size: 0.9rem;
+    font-weight: 650;
+    line-height: 1.45;
+  }
+
+  .cv-entry-body {
+    min-width: 0;
+
+    > p:first-child {
+      margin: 0 0 0.35rem;
+
+      font-family: "Libre Baskerville", Georgia, serif;
+      font-size: 1.08rem;
+      line-height: 1.35;
+    }
+
+    p {
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  .cv-publication {
+    margin-bottom: 1.05rem;
+    padding-left: 1.4rem;
+
+    line-height: 1.6;
+    text-indent: -1.4rem;
+  }
+
+  main ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  main li {
+    margin: 0;
+    padding: 0.9rem 0;
+
+    line-height: 1.55;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cv-page {
+    .cv-intro {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .cv-entry {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .cv-entry-date {
+      font-weight: 700;
+    }
+  }
+}

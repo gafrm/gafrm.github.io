@@ -1,20 +1,18 @@
 ---
-title: "Curriculum Vitae"
 description: "A web version of my academic curriculum vitae, automatically synchronized with my ORCID record."
 toc: false
+page-layout: full
 body-classes: "top-level-page cv-page"
 ---
 
 ::: {.page-heading}
-
-# Curriculum Vitae
-
+# Curriculum vitae
 :::
 
 ::: {.cv-intro}
+This web CV is synchronized with my ORCID record and supplemented with manually maintained teaching and service information.
 
-[Download PDF](files/cv.pdf){.btn .btn-primary}
-
+[Download the PDF](files/cv.pdf){.btn .btn-primary}
 :::
 
 {{< include _generated/cv-orcid.md >}}
