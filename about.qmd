@@ -32,4 +32,4 @@ Outside of research and teaching, I am based in Lévis, Québec, where I live wi
 
 ## Contact
 
-You can reach me through the contact page or find my academic profiles through the links in the site navigation.
+You can reach me through the [contact page](contact.qmd) or find my academic profiles through the links in the site navigation.

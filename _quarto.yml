@@ -31,7 +31,7 @@ website:
       - text: Publications
         href: publications.qmd
       - text: CV
-        href: files/cv.pdf
+        href: cv.qmd
   
   page-navigation: true
   
