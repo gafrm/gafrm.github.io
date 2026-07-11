@@ -1,0 +1,14 @@
+---
+title: "Curriculum Vitae"
+toc: true
+body-classes: top-level-page
+title-block-banner: false
+---
+
+# Curriculum Vitae
+
+::: {.cv-actions}
+[Download PDF](files/Gabriel-Frazer-McKee-CV.pdf){.btn .btn-primary}
+:::
+
+{{< include _generated/cv-orcid.md >}}
