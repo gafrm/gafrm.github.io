@@ -172,3 +172,26 @@ body.quarto-dark .teaching-course-card .pill {
   color: rgba(255, 255, 255, 0.94) !important;
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
+
+/* Blog listing cards: consistent corners in light and dark mode */
+.quarto-listing .card,
+.quarto-grid-item,
+.card.blog-card,
+.listing-card {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* contact page */
+
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.18);
+}
+
+.contact-button-secondary {
+  color: $primary !important;
+  border-color: rgba(255, 255, 255, 0.22);
+}

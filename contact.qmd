@@ -1,24 +1,67 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+page-layout: full
 title-block-banner: false
 ---
 
-<center>
+:::{.contact-page}
 
-**Quarto Academic**
+:::{.contact-intro}
 
-School
+## Get in touch
 
-College
+For questions about my research, publications, teaching, or potential collaborations, the best way to reach me is by email.
 
-University
+I am a doctoral researcher in linguistics at Université Laval, working primarily on neology, corpus linguistics, lexical diffusion, and research methodology.
 
-Address: 
+:::{.contact-links}
 
-Phone: 
+[{{< fa envelope >}} Email me](mailto:gabriel-frazer-mckee.1@ulaval.ca){.contact-button}
 
-E-mail: 
+[{{< fa brands orcid >}} ORCID](https://orcid.org/YOUR-ORCID){.contact-button .contact-button-secondary}
 
+:::
 
-</center>
+:::
+
+:::{.contact-card}
+
+### Gabriel Frazer-McKee
+
+**Doctoral researcher in linguistics**  
+Université Laval
+
+:::{.contact-detail}
+{{< fa building-columns >}}
+
+**Affiliation**  
+Département de langues, linguistique et traduction  
+Université Laval
+:::
+
+:::{.contact-detail}
+{{< fa location-dot >}}
+
+**Office**  
+Laboratoire langues et cultures  
+Pavillon Charles-De Koninck, DKN-5152  
+Québec, Canada
+:::
+
+:::{.contact-detail}
+{{< fa envelope >}}
+
+**Email**  
+[Gabriel.Frazer-McKee.1@ulaval.ca](mailto:gabriel-frazer-mckee.1@ulaval.ca)
+:::
+
+:::{.contact-detail}
+{{< fa language >}}
+
+**Languages**  
+English and French
+:::
+
+:::
+
+:::
