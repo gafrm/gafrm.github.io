@@ -1,0 +1,73 @@
+---
+title: "Research projects"
+subtitle: "Neology, lexical diffusion, and the study of language change"
+description: "An overview of my research programme in neology, corpus linguistics, lexical diffusion, and methodological innovation."
+page-layout: article
+body-classes: "top-level-page projects-page"
+---
+
+::: {.page-heading}
+# Research programme statement
+:::
+
+My research examines how linguistic meaning, linguistic forms, and linguistic knowledge become sufficiently stable to be shared. I approach this question at several interconnected levels: how speakers construct meaning from context, how lexical innovations enter circulation and become conventional, and how researchers transform complex linguistic observations into evidence.
+
+This programme brings together work in semantics and pragmatics, corpus linguistics, neology, research methodology, and scholarly communication. Across these areas, I am interested in phenomena that resist simple classification. Meanings vary according to context; new words may circulate without becoming established; linguistic data can support several reasonable analyses; and scholarly conventions influence which findings become visible and reusable.
+
+Rather than treating this variability as noise, my work asks how interpretations and categories are constructed, what allows some of them to stabilize, and how that process can be studied transparently.
+
+## Meaning in context
+
+My earlier research focused on the semantics and pragmatics of proper names, particularly in constructions such as *very Montréal*, *très Paris*, or *so New York*.
+
+In these expressions, a proper name does not merely identify a person or place. It evokes contextually relevant properties, representations, or experiences associated with its referent. Describing something as *very Montréal*, for example, requires speakers to select from a flexible set of possible characteristics and construct an interpretation appropriate to the immediate context.
+
+This work led me to examine the relationship between conventional linguistic meaning, contextual inference, and broader cultural representations. It also raised methodological questions that remain central to my research: how can highly variable interpretations be studied systematically, and how can corpus evidence be used without reducing contextual meaning to a fixed list of properties?
+
+My work on proper-name constructions combines corpus analysis with semantic, pragmatic, and cognitive approaches. More broadly, it contributes to the study of how speakers use linguistic forms creatively while still producing interpretations that others can recognize and negotiate.
+
+## Lexical innovation and conventionalization
+
+My current research extends these questions from contextual interpretation to lexical change.
+
+I study how new words and expressions enter circulation, compete with alternatives, spread across speakers and communicative settings, and sometimes become conventional. I am particularly interested in the difference between visibility and genuine diffusion. A term may become frequent because it is repeatedly used by a small number of institutions or media sources, without spreading broadly among speakers. Conversely, a form may remain relatively infrequent while becoming established across a wide range of users and contexts.
+
+This research therefore treats lexical diffusion as multidimensional. Relevant dimensions include initial uptake, frequency, dispersion across speakers and sources, persistence over time, geographical distribution, competition between variants, and eventual conventionalization.
+
+I also examine the role of institutions in lexical change. Terminology organizations, dictionaries, media outlets, and public institutions can promote, recognize, or discourage particular forms. Their interventions provide an opportunity to investigate the relationship between explicit linguistic recommendations and observable language use.
+
+Although much of my current work concerns French-language neology and institutional terminology, the broader objective is comparative. I aim to understand how linguistic properties, social conditions, communicative environments, and institutional interventions interact across different cases of lexical innovation.
+
+## Constructing linguistic evidence
+
+A second major component of my programme concerns how linguistic evidence is produced.
+
+Linguistic data rarely arrive in categories that are immediately ready for analysis. Researchers must decide what constitutes an observation, how examples should be segmented, which distinctions should be annotated, how disagreements should be resolved, and which analytical models are appropriate. These decisions can substantially affect the resulting claims.
+
+My work on verbal-fluency annotation addressed this problem through the development of a detailed and standardized annotation protocol. My collaborative work on analytic flexibility in speech research examined how multidimensional signals and numerous defensible analytical choices can create substantial researcher degrees of freedom.
+
+The same concern informs my current use of evidence-synthesis methods. Systematic and scoping reviews require explicit decisions about searching, screening, categorizing, extracting, and interpreting research findings. These procedures make it possible to examine not only what previous studies concluded, but also how their evidence was constructed and how comparable their findings actually are.
+
+I am especially interested in workflows that combine computational assistance with human validation. Automated tools and language models can help researchers locate, classify, and extract information from large collections of texts, but their usefulness depends on clearly defined tasks, transparent evaluation, and meaningful human oversight.
+
+Across these projects, my objective is to develop methods that make analytical decisions visible, testable, and reusable.
+
+## Scholarly communication and research infrastructure
+
+My research interests also extend to the forms through which scholarly knowledge is communicated.
+
+Conference abstracts, research articles, reviews, contribution statements, and edited volumes are not merely containers for completed research. Their conventions influence how projects are framed, how evidence is summarized, whose contributions are recognized, and which work enters the scholarly record.
+
+My work on conference abstracts examines the gap between the importance of this genre and the limited explicit guidance often available to students and early-career researchers. My editorial work has similarly led me to document the practical and methodological requirements of publishing student conference proceedings, including editorial planning, peer review, revision, production, and research-credit practices.
+
+I regard this work as an applied extension of my methodological research. Clearer genres, more transparent editorial procedures, and better documentation improve not only the presentation of research but also its accessibility, interpretability, and durability.
+
+## Overall direction
+
+These strands are connected by a shared concern with stabilization under conditions of variability.
+
+In language use, speakers construct recognizable meanings from contextually flexible material. In lexical change, competing innovations may become socially and linguistically conventional. In research, annotation systems and analytical procedures transform complex observations into communicable evidence. In scholarly publishing, genres and editorial practices determine how that evidence is presented and preserved.
+
+My longer-term objective is to investigate these processes together: how meanings and forms become conventional, how institutions participate in that conventionalization, and how research methods shape what can be known about it.
+
+For individual studies and collaborations, see my [research projects](research-projects.qmd). Published and forthcoming work is listed under [publications](research-publications.qmd).

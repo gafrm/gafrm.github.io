@@ -23,13 +23,22 @@ website:
       - text: About
         href: about.qmd
       - text: Research
-        href: projects.qmd
+        menu:
+          - text: "Research programme"
+            href: research-programme.qmd
+          - text: "Projects"
+            href: research-projects.qmd
+          - text: "Publications"
+            href: research-publications.qmd
+          
       - text: Teaching
-        href: teaching.qmd
+        menu:
+          - text: "Teaching philosophy"
+            href: teaching-statement.qmd
+          - text: "Teaching experience"
+            href: teaching-experience.qmd
       - text: Blog
         href: posts.qmd
-      - text: Publications
-        href: publications.qmd
       - text: CV
         href: cv.qmd
   

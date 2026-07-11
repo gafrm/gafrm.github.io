@@ -1,0 +1,20 @@
+---
+title: "Teaching statement"
+title-block-banner: false
+body-classes: "teaching-page top-level-page"
+---
+
+::: {.page-heading}
+# Teaching philosophy statement
+:::
+My teaching begins with the students in front of me. I adapt the content, examples, terminology, pace, and forms of support to their previous experience and to the purposes of the course. I do not teach students specializing in linguistics in the same way as students in education, many of whom are studying in an additional language and are primarily preparing to teach. Adaptation does not mean lowering expectations; it means choosing the most appropriate route toward them.
+
+With linguistics students, I emphasize analytical reasoning and methodology. I use extensive scaffolding when students encounter unfamiliar procedures: I model the reasoning involved, divide complex tasks into manageable stages, provide examples of successful work, and gradually ask them to make more independent decisions. Authentic language data—including corpus examples, dictionary entries, naturally occurring sentences, and real cases of variation—allow students to see linguistic categories as analytical tools rather than fixed labels.
+
+With students in education, I place greater emphasis on language awareness, accessible metalanguage, and the transfer of linguistic knowledge to teaching practice. I avoid assuming that all students share the same linguistic intuitions and use comparison, contextualized examples, and explicit explanation to make grammatical and lexical patterns observable. The objective is not simply to transmit linguistic terminology, but to help future teachers understand the language they will explain, anticipate learners’ difficulties, and evaluate pedagogical descriptions critically.
+
+Across these contexts, a major part of my teaching involves making implicit norms explicit. Students are often expected to know how to structure an argument, summarize a source, use evidence, formulate a research question, or complete a particular academic genre without having been taught the conventions involved. I explain these expectations directly and distinguish disciplinary norms from personal preferences. Clear guidance allows students to concentrate on the substance of their work rather than on guessing what is required.
+
+I also emphasize how knowledge is produced. Students should understand not only what linguists claim, but how those claims depend on the selection, classification, and interpretation of evidence. Where relevant, I connect linguistic questions with computer science, psychology, neuroscience, mathematics, philosophy, and education. These connections help students see language as both an object of analysis and a point of contact among several fields.
+
+My objective is for students to leave my courses better able to observe language carefully, understand the reasoning behind linguistic descriptions, and apply what they have learned to the academic, professional, or pedagogical problems that matter to them.

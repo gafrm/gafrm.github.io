@@ -1423,3 +1423,90 @@ body.top-level-page #title-block-header {
 .cv-page > p {
   line-height: 1.65;
 }
+
+/* Keep navbar menu text the same size in light and dark mode */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+}
+
+/* =========================================================
+   NAVBAR DROPDOWN MENUS
+   Applies to Research, Teaching, and future dropdowns
+   ========================================================= */
+
+.navbar {
+  .dropdown-menu {
+    min-width: 15rem;
+    margin-top: 0.55rem;
+    padding: 0.5rem;
+
+    background-color: #fbf6ed;
+    border: 1px solid rgba(133, 72, 30, 0.18);
+    border-radius: 0.7rem;
+
+    box-shadow:
+      0 0.45rem 1.25rem rgba(50, 35, 20, 0.10),
+      0 0.1rem 0.3rem rgba(50, 35, 20, 0.06);
+  }
+
+  .dropdown-item {
+    padding: 0.65rem 0.8rem;
+
+    color: #17384a;
+    font-size: 0.94rem;
+    font-weight: 500;
+    line-height: 1.25;
+
+    border-radius: 0.4rem;
+
+    transition:
+      color 140ms ease,
+      background-color 140ms ease,
+      transform 140ms ease;
+
+    &:hover,
+    &:focus {
+      color: #a84c17;
+      background-color: rgba(180, 86, 28, 0.09);
+      transform: translateX(0.12rem);
+    }
+
+    &.active,
+    &:active {
+      color: #8f3e10;
+      background-color: rgba(180, 86, 28, 0.14);
+    }
+  }
+
+  /* Slightly soften the dropdown arrow */
+  .dropdown-toggle::after {
+    margin-left: 0.4rem;
+    vertical-align: 0.16em;
+    border-top-width: 0.3em;
+    opacity: 0.75;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    .dropdown-menu {
+      min-width: 0;
+      margin: 0.2rem 0 0.45rem 0.6rem;
+      padding: 0.25rem;
+
+      background-color: transparent;
+      border: 0;
+      border-left: 2px solid rgba(168, 76, 23, 0.25);
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .dropdown-item {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+}
