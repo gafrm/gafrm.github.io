@@ -5,7 +5,7 @@ description: "My first international conference presentation experience"
 author: "Event"
 date: "2024-05-26"
 categories: [event, presentation]
-image: "featured.JPG"
+image: "featured.png"
 format:
   html:
     css: newspaper.css

@@ -5,8 +5,7 @@ description: "To the anonymous donor whose support made it possible."
 author: "Gabriel Frazer-McKee"
 date: "2025-08-12"
 categories: [news, research, funding]
-image: "featured.jpg"
-image-alt: "View of Grenoble with the French Alps in the background"
+image: "featured.png"
 ---
 *Originally written as a letter of thanks to the anonymous donor whose support made this short research stay possible.*
 

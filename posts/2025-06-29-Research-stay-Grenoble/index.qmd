@@ -1,11 +1,11 @@
 ---
-title: "Three weeks in Grenoble"
+title: "Three weeks in Grenoble, France"
 subtitle: "Meeting my co-supervisor and learning to use ASReview"
 description: "A three-week research stay in Grenoble offered an opportunity to work with Olivier Kraif in person and complete an online course on AI-assisted systematic reviewing."
 author: "Gabriel Frazer-McKee"
 date: 2025-06-29
 categories: [Doctoral research, Research stay, Training, Grenoble]
-image: "featured.jpg"
+image: "featured.png"
 ---
 
 After the ENEOLI Training School in Lisbon, I am spending three weeks in Grenoble for a research and training stay connected with my doctoral project. The visit is especially significant because it is my first opportunity to meet my co-supervisor, Olivier Kraif, in person.
