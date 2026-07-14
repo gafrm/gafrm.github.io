@@ -1,7 +1,7 @@
 ---
-title: "What I learned from not being shortlisted for an Outstanding Individual Award"
+title: "What I learned from not being shortlisted for an "Outstanding Individual" award"
 subtitle: "The criteria tell you who is eligible. Previous winners' profiles can tell you who is likely to win."
-description: "The criteria tell you who is eligible. Previous winners can tell you who is likely to win."
+description: "The criteria tell you who is eligible. Previous winners' profiles can tell you who is likely to win."
 author: "Gabriel Frazer-McKee"
 date: "2026-05-17"
 categories: [academic life, funding, editorial work, unsuccesful application]
