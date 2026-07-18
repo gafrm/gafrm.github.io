@@ -1,7 +1,7 @@
 ---
-title: "Taking a Backseat at JDL 2026"
+title: "Taking a backseat at JDL 2026"
 subtitle: "Why collective student projects need rotation, not permanent stewardship"
-description: "Why collective student projects need rotation, not permanent stewardship"
+description: "Why collective student projects need rotation, not permanent stewardship" 
 author: "Gabriel Frazer-McKee"
 date: "2026-03-05"
 categories: [JDL, Actes JDL, academic service, graduate studies, collective work, academic life]

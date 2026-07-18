@@ -7,6 +7,7 @@ body-classes: "teaching-page top-level-page"
 ::: {.page-heading}
 # Teaching philosophy statement
 :::
+
 My teaching begins with the students in front of me. I adapt the content, examples, terminology, pace, and forms of support to their previous experience and to the purposes of the course. I do not teach students specializing in linguistics in the same way as students in education, many of whom are studying in an additional language and are primarily preparing to teach. Adaptation does not mean lowering expectations; it means choosing the most appropriate route toward them.
 
 With linguistics students, I emphasize analytical reasoning and methodology. I use extensive scaffolding when students encounter unfamiliar procedures: I model the reasoning involved, divide complex tasks into manageable stages, provide examples of successful work, and gradually ask them to make more independent decisions. Authentic language data—including corpus examples, dictionary entries, naturally occurring sentences, and real cases of variation—allow students to see linguistic categories as analytical tools rather than fixed labels.
