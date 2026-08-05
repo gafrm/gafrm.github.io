@@ -8,14 +8,33 @@ categories: [publication]
 image: "featured.png"
 ---
 
-## Abstract
+---
 
-There are broad disagreements between existing models regarding the mental representations and processes involved in the “DEGREE ADVERB + PROPER NAME” construction, including divergences regarding the semantics of the degree device, the category status of the proper name, the construction’s expressed meaning, its compositionality, and, crucially, the operation holding between the degree device and the proper name. Our corpus-based investigation of two competing models from Construction Grammar and Formal Semantics shows that while both make useful contributions to the scientific understanding of the construction, neither is empirically adequate. Most importantly, we find that the construction participates in several non-predicted expressed meanings; multivariate analyses show that the three meanings amenable to statistical analysis cluster with different semantic usage-features. We argue that the best way to account for the construction’s semantics/pragmatics is via a previously-dismissed cognitive mechanism: an enrichment/strengthening-type operation whereby a pragmatically-supplied scale is added to the message.
+title: "The cognitive mechanisms involved in the “DEGREE ADVERB + PROPER NAME” construction"
+description: "A publication stemming from my MA thesis."
+author: "Gabriel Frazer-McKee"
+date: "2024-07-24"
+categories: [publication, pragmatics, corpus-linguistics, ma]
+image: "featured.png"
+---------------------
 
+My first peer-reviewed journal article, co-authored with my MA supervisor, Patrick J. Duffley, has been published in the *International Review of Pragmatics*.
 
-## Links
+The article examines an unusual English construction in which a degree adverb modifies a proper name, as in *very Kurt Cobain*, *so 1990s*, or *quite New York City in the 1970s*.
 
-Published [paper](https://doi.org/10.1163/18773109-01602002)
+These expressions present an interesting linguistic problem. Degree adverbs normally operate on something gradable: a person can be *very tall*, for example, because height can be represented on a scale. Proper names, however, do not obviously provide such a scale. What, then, does it mean to be *very Kurt Cobain*, and what cognitive operation allows speakers to understand the expression?
+
+## Evaluating existing explanations
+
+The article uses corpus data to evaluate competing explanations from Construction Grammar and Formal Semantics.
+
+Both approaches capture important aspects of the construction, but neither adequately predicts the range of meanings found in naturally occurring examples. Different uses of the construction are associated with different semantic features, suggesting that it cannot be explained through a single fixed interpretation.
+
+We argue instead that the construction involves pragmatic enrichment or strengthening. In context, speakers supply a relevant scale associated with the person, place, period, or other entity named. The degree adverb then indicates where something falls on that contextually constructed scale.
+
+The article grew out of my MA thesis and changed considerably on its way to publication. It is satisfying to see that work—begun several years and one research direction ago—appear in its final form.
+
+[Read the article](https://doi.org/10.1163/18773109-01602002).
 
 <!--Include academic icons or bottons-->
 

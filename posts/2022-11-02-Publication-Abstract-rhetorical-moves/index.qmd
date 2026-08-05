@@ -1,5 +1,5 @@
 ---
-title: "Publication: Students would benefit from guidelines for preparing conference abstracts"
+title: "Working paper: Students would benefit from guidelines for preparing conference abstracts"
 subtitle: "A corpus-based study of how graduate students structure French-language conference abstracts."
 description: "A corpus-based study of how graduate students structure French-language conference abstracts."
 author: "Gabriel Frazer-McKee"
@@ -10,9 +10,9 @@ image: "featured.png"
 #draft: true
 ---
 
-My colleague Kendall Vogh and I have just published an article on the structure of French-language conference abstracts in *Working Papers in Applied Linguistics and Linguistics at York*.
+My colleague Kendall Vogh and I have just published a working paper on the structure of French-language conference abstracts in *Working Papers in Applied Linguistics and Linguistics at York*.
 
-The article, [“Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields”](https://wally.journals.yorku.ca/index.php/default/article/view/19), examines 107 abstracts submitted to the *Journées de linguistique* at Université Laval.
+The study, [“Graduate students would benefit from guidelines for preparing conference abstracts: A rhetorical moves analysis of French-language conference abstracts in language-related fields”](https://wally.journals.yorku.ca/index.php/default/article/view/19), examines 107 abstracts submitted to the *Journées de linguistique* at Université Laval.
 
 Conference abstracts are short, but they must accomplish a great deal. Authors are expected to introduce their topic, establish the purpose of their study, describe their methods, present their results, and explain the significance of those results—often within only a few hundred words.
 

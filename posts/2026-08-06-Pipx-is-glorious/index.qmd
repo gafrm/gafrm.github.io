@@ -1,0 +1,114 @@
+---
+
+title: "pipx is glorious"
+subtitle: "The Python tool I wish someone had explained to me years ago"
+description: "Why installing command-line applications should not require remembering which virtual environment they disappeared into."
+author: "Gabriel Frazer-McKee"
+date: "2026-08-06"
+categories: [python, research-tools, reproducibility, technical]
+image: "featured.png"
+
+## draft: true
+
+---
+
+I recently installed ASReview inside a Python virtual environment. This was technically the correct thing to do. It was isolated from the rest of my Python installation, unlikely to create dependency conflicts, and easy to remove if something went wrong.
+
+There was only one problem: I knew perfectly well that, six months from now, I would have no idea where I had installed it.
+
+I would remember that ASReview was somewhere on my computer. I might even remember creating a virtual environment for it. But I would probably not remember what I had called the environment, where I had placed it, or which sequence of commands was required to reactivate it.
+
+Then I discovered `pipx`.
+
+## The problem with installing Python applications
+
+Python packages are not all used in the same way.
+
+Some are libraries that belong to a particular project. If I am writing a script that imports `pandas`, `numpy`, or a specialized text-processing library, those dependencies should normally live inside that project’s virtual environment. The environment records what the project needs and prevents its dependencies from interfering with those of another project.
+
+Other Python packages are really applications. I do not primarily want to import them into my own code. I want to type a command, launch the program, and use it.
+
+ASReview is a good example. It is written in Python, but from my perspective it is a research application. I want it to behave like an ordinary installed program—not like a fragile collection of packages hidden inside a folder I must remember to activate.
+
+Installing such tools directly into the base Python environment is tempting, but eventually creates a thicket of shared dependencies. Installing each one in its own virtual environment is cleaner, but makes the applications inconvenient to find and launch.
+
+`pipx` provides the missing middle ground.
+
+## What pipx does
+
+When I run:
+
+```powershell
+pipx install asreview
+```
+
+`pipx` creates a dedicated virtual environment for ASReview and installs the program inside it. It then makes the application’s command available from the terminal without requiring me to activate that environment manually.
+
+The result combines the best parts of both approaches:
+
+* ASReview remains isolated from other Python applications.
+* Its dependencies do not clutter my base Python installation.
+* I can launch it from anywhere.
+* I do not have to remember where its virtual environment lives.
+* I can see and manage my installed applications from one place.
+
+In other words, `pipx` treats Python command-line applications like applications.
+
+This seems obvious in retrospect. It also feels faintly miraculous after years of manually creating environments, activating them, forgetting them, and occasionally installing things into the wrong Python interpreter.
+
+## A much more intelligible system
+
+The commands are refreshingly straightforward:
+
+```powershell
+pipx list
+```
+
+shows the applications managed by `pipx`.
+
+```powershell
+pipx upgrade-all
+```
+
+updates them.
+
+```powershell
+pipx uninstall asreview
+```
+
+removes ASReview and its isolated environment.
+
+The environments still exist, but I no longer have to manage them individually. `pipx` handles that machinery while presenting a simple application-level interface.
+
+This is exactly the kind of abstraction that makes a technical workflow more sustainable. It does not eliminate virtual environments. It uses them properly and then gets them out of the way.
+
+## When pipx is—and is not—the answer
+
+My new rule is simple.
+
+If a Python package is something I intend to **import into a project**, it belongs in that project’s virtual environment.
+
+If it is something I intend to **run as a standalone command or application**, it is probably a candidate for `pipx`.
+
+That distinction also prevents overusing it. A library such as `pandas` does not belong in `pipx`, because my scripts need access to it within their own environments. A tool such as ASReview, which I want to launch and use independently, fits the model extremely well.
+
+Not every Python installation question is solved by `pipx`. But an unexpectedly large and irritating category of them is.
+
+## The joy of boring infrastructure
+
+Research workflows accumulate tools: screening applications, bibliographic utilities, corpus-processing programs, converters, validators, and small command-line programs installed for one specific task. The difficult part is often not learning to use them. It is keeping them installed in a way that remains understandable several months later.
+
+A good technical setup should reduce the number of things I must remember.
+
+I should not need to recall that a program was installed in a folder called `asreview-env`, under a particular project directory, using a particular copy of Python. I should only need to remember that the program is installed.
+
+That is what `pipx` gives me.
+
+It is isolated virtual environments without the inconvenience, global commands without the dependency chaos, and package management that corresponds to how the software is actually used.
+
+Glorious.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
