@@ -1,0 +1,66 @@
+---
+title: "Preparing for a postdoc fellowship"
+description: "14 months left to prepare."
+author: "Gabriel Frazer-McKee"
+date: "2026-08-05"
+categories: [phd, postdoc, fellowships, academic-careers]
+image: "featured.png"
+##draft: true
+---
+
+# Preparing for a Postdoctoral Fellowship
+
+*14 months left to prepare*
+
+Although I am still in the middle of my PhD, I have reached the point where it is no longer too early to start thinking about what comes next.
+
+If all goes according to plan, I will begin applying for postdoctoral fellowships in roughly fourteen months. That sounds comfortably far away. Yet, the more I learn about the process, the more it seems that successful applications are built long before the call for proposals even opens.
+
+This is therefore not a guide to applying for postdoctoral fellowships. I have not yet written a single application, and I certainly do not claim to know the best strategy. Instead, I want to document the preparation phase: the questions I am asking, the decisions I need to make, and the work that happens before a proposal ever reaches a review committee.
+
+## What I know so far
+
+At the moment, I know remarkably little.
+
+I know that I will need a strong publication record. I know that my doctoral research should lead naturally into a postdoctoral project while still demonstrating intellectual independence. I know that choosing collaborators, institutions, and funding opportunities will matter.
+
+Beyond that, there is a surprising amount of uncertainty.
+
+How many publications should I realistically aim to have before applying? When should I begin contacting potential supervisors? How closely should a postdoctoral project build on my doctoral work? How much should I prioritize methodological training, networking, grant writing, or simply finishing my dissertation?
+
+These are questions that rarely appear in graduate handbooks, yet they probably shape the outcome of an application just as much as the proposal itself.
+
+## The next fourteen months
+
+Over the coming year, I hope to turn those uncertainties into a concrete plan.
+
+Some of that work will be visible: finishing manuscripts, presenting research, developing collaborations, and continuing to build a coherent research profile.
+
+Other parts will happen quietly in the background: reading successful fellowship applications where possible, learning about different funding agencies, identifying potential research environments, and thinking carefully about where I want my research to go after the PhD.
+
+Perhaps the most difficult challenge will be balancing two competing priorities. Before I can prepare convincingly for a postdoc, I first have to finish the PhD that makes me eligible to apply in the first place.
+
+## Questions I hope to answer
+
+Over the next fourteen months, I hope to gradually answer questions such as:
+
+* What distinguishes a competitive fellowship application from a merely good one?
+* How ambitious should a postdoctoral project be?
+* What makes a strong host institution or supervisor?
+* Which parts of an application require months of preparation, and which can be completed once a competition opens?
+* What should I be doing now that my future self will thank me for?
+
+I suspect that my answers will change as I gain experience, and that is precisely why I want to write about them.
+
+## Looking ahead
+
+For obvious reasons, I will not be discussing the details of any future research proposal before it is submitted. Ideas evolve, collaborations take shape gradually, and some aspects are best kept confidential until the appropriate time.
+
+What I can share is the process.
+
+Over the next year or so, I hope to write occasionally about what I learn while preparing for this next stage of my academic career. If nothing else, it will provide a record of the decisions, uncertainties, and lessons that rarely appear on a CV—but often make the difference behind it.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
