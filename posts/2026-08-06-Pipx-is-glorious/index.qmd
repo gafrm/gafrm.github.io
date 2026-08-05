@@ -1,5 +1,4 @@
 ---
-
 title: "pipx is glorious"
 subtitle: "The Python tool I wish someone had explained to me years ago"
 description: "Why installing command-line applications should not require remembering which virtual environment they disappeared into."
@@ -7,9 +6,7 @@ author: "Gabriel Frazer-McKee"
 date: "2026-08-06"
 categories: [python, research-tools, reproducibility, technical]
 image: "featured.png"
-
-## draft: true
-
+##draft: true
 ---
 
 I recently installed ASReview inside a Python virtual environment. This was technically the correct thing to do. It was isolated from the rest of my Python installation, unlikely to create dependency conflicts, and easy to remove if something went wrong.

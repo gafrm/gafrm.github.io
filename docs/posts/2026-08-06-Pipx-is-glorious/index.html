@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Gabriel Frazer-McKee">
+<meta name="dcterms.date" content="2026-08-06">
 <meta name="description" content="Quarto Academic Website Template adapted from a template by Dr.&nbsp;Gang He">
 
-<title>index – Gabriel Frazer-McKee</title>
+<title>pipx is glorious – Gabriel Frazer-McKee</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -141,12 +142,18 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
 
-<meta property="og:title" content="Gabriel Frazer-McKee">
-<meta property="og:description" content="Academic website of Gabriel Frazer-McKee">
+<meta property="og:title" content="pipx is glorious – Gabriel Frazer-McKee">
+<meta property="og:description" content="Why installing command-line applications should not require remembering which virtual environment they disappeared into.">
+<meta property="og:image" content="https://www.gabriel-frazer-mckee.com/posts/2026-08-06-Pipx-is-glorious/featured.png">
 <meta property="og:site_name" content="Gabriel Frazer-McKee">
-<meta name="twitter:title" content="Gabriel Frazer-McKee">
-<meta name="twitter:description" content="Academic website of Gabriel Frazer-McKee">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1536">
+<meta name="twitter:title" content="pipx is glorious – Gabriel Frazer-McKee">
+<meta name="twitter:description" content="Why installing command-line applications should not require remembering which virtual environment they disappeared into.">
+<meta name="twitter:image" content="https://www.gabriel-frazer-mckee.com/posts/2026-08-06-Pipx-is-glorious/featured.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1536">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed blog-post fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -393,8 +400,21 @@ https://badge.dimensions.ai/
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-</div>
+<h1 class="title">pipx is glorious</h1>
+<p class="subtitle lead">The Python tool I wish someone had explained to me years ago</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">python</div>
+    <div class="quarto-category">research-tools</div>
+    <div class="quarto-category">reproducibility</div>
+    <div class="quarto-category">technical</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Why installing command-line applications should not require remembering which virtual environment they disappeared into.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -406,6 +426,12 @@ https://badge.dimensions.ai/
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 6, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -415,16 +441,10 @@ https://badge.dimensions.ai/
 </header>
 
 
-<hr>
-<p>title: “pipx is glorious” subtitle: “The Python tool I wish someone had explained to me years ago” description: “Why installing command-line applications should not require remembering which virtual environment they disappeared into.” author: “Gabriel Frazer-McKee” date: “2026-08-06” categories: [python, research-tools, reproducibility, technical] image: “featured.png”</p>
-<section id="draft-true" class="level2">
-<h2 class="anchored" data-anchor-id="draft-true">draft: true</h2>
-<hr>
 <p>I recently installed ASReview inside a Python virtual environment. This was technically the correct thing to do. It was isolated from the rest of my Python installation, unlikely to create dependency conflicts, and easy to remove if something went wrong.</p>
 <p>There was only one problem: I knew perfectly well that, six months from now, I would have no idea where I had installed it.</p>
 <p>I would remember that ASReview was somewhere on my computer. I might even remember creating a virtual environment for it. But I would probably not remember what I had called the environment, where I had placed it, or which sequence of commands was required to reactivate it.</p>
 <p>Then I discovered <code>pipx</code>.</p>
-</section>
 <section id="the-problem-with-installing-python-applications" class="level2">
 <h2 class="anchored" data-anchor-id="the-problem-with-installing-python-applications">The problem with installing Python applications</h2>
 <p>Python packages are not all used in the same way.</p>

@@ -10,7 +10,97 @@
 <atom:link href="https://www.gabriel-frazer-mckee.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Academic website of Gabriel Frazer-McKee</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 05 Aug 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>pipx is glorious</title>
+  <dc:creator>Gabriel Frazer-McKee</dc:creator>
+  <link>https://www.gabriel-frazer-mckee.com/posts/2026-08-06-Pipx-is-glorious/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I recently installed ASReview inside a Python virtual environment. This was technically the correct thing to do. It was isolated from the rest of my Python installation, unlikely to create dependency conflicts, and easy to remove if something went wrong.</p>
+<p>There was only one problem: I knew perfectly well that, six months from now, I would have no idea where I had installed it.</p>
+<p>I would remember that ASReview was somewhere on my computer. I might even remember creating a virtual environment for it. But I would probably not remember what I had called the environment, where I had placed it, or which sequence of commands was required to reactivate it.</p>
+<p>Then I discovered <code>pipx</code>.</p>
+<section id="the-problem-with-installing-python-applications" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-with-installing-python-applications">The problem with installing Python applications</h2>
+<p>Python packages are not all used in the same way.</p>
+<p>Some are libraries that belong to a particular project. If I am writing a script that imports <code>pandas</code>, <code>numpy</code>, or a specialized text-processing library, those dependencies should normally live inside that project’s virtual environment. The environment records what the project needs and prevents its dependencies from interfering with those of another project.</p>
+<p>Other Python packages are really applications. I do not primarily want to import them into my own code. I want to type a command, launch the program, and use it.</p>
+<p>ASReview is a good example. It is written in Python, but from my perspective it is a research application. I want it to behave like an ordinary installed program—not like a fragile collection of packages hidden inside a folder I must remember to activate.</p>
+<p>Installing such tools directly into the base Python environment is tempting, but eventually creates a thicket of shared dependencies. Installing each one in its own virtual environment is cleaner, but makes the applications inconvenient to find and launch.</p>
+<p><code>pipx</code> provides the missing middle ground.</p>
+</section>
+<section id="what-pipx-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-pipx-does">What pipx does</h2>
+<p>When I run:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1">pipx install asreview</span></code></pre></div></div>
+<p><code>pipx</code> creates a dedicated virtual environment for ASReview and installs the program inside it. It then makes the application’s command available from the terminal without requiring me to activate that environment manually.</p>
+<p>The result combines the best parts of both approaches:</p>
+<ul>
+<li>ASReview remains isolated from other Python applications.</li>
+<li>Its dependencies do not clutter my base Python installation.</li>
+<li>I can launch it from anywhere.</li>
+<li>I do not have to remember where its virtual environment lives.</li>
+<li>I can see and manage my installed applications from one place.</li>
+</ul>
+<p>In other words, <code>pipx</code> treats Python command-line applications like applications.</p>
+<p>This seems obvious in retrospect. It also feels faintly miraculous after years of manually creating environments, activating them, forgetting them, and occasionally installing things into the wrong Python interpreter.</p>
+</section>
+<section id="a-much-more-intelligible-system" class="level2">
+<h2 class="anchored" data-anchor-id="a-much-more-intelligible-system">A much more intelligible system</h2>
+<p>The commands are refreshingly straightforward:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb2-1">pipx list</span></code></pre></div></div>
+<p>shows the applications managed by <code>pipx</code>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb3-1">pipx upgrade-all</span></code></pre></div></div>
+<p>updates them.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb4-1">pipx uninstall asreview</span></code></pre></div></div>
+<p>removes ASReview and its isolated environment.</p>
+<p>The environments still exist, but I no longer have to manage them individually. <code>pipx</code> handles that machinery while presenting a simple application-level interface.</p>
+<p>This is exactly the kind of abstraction that makes a technical workflow more sustainable. It does not eliminate virtual environments. It uses them properly and then gets them out of the way.</p>
+</section>
+<section id="when-pipx-isand-is-notthe-answer" class="level2">
+<h2 class="anchored" data-anchor-id="when-pipx-isand-is-notthe-answer">When pipx is—and is not—the answer</h2>
+<p>My new rule is simple.</p>
+<p>If a Python package is something I intend to <strong>import into a project</strong>, it belongs in that project’s virtual environment.</p>
+<p>If it is something I intend to <strong>run as a standalone command or application</strong>, it is probably a candidate for <code>pipx</code>.</p>
+<p>That distinction also prevents overusing it. A library such as <code>pandas</code> does not belong in <code>pipx</code>, because my scripts need access to it within their own environments. A tool such as ASReview, which I want to launch and use independently, fits the model extremely well.</p>
+<p>Not every Python installation question is solved by <code>pipx</code>. But an unexpectedly large and irritating category of them is.</p>
+</section>
+<section id="the-joy-of-boring-infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="the-joy-of-boring-infrastructure">The joy of boring infrastructure</h2>
+<p>Research workflows accumulate tools: screening applications, bibliographic utilities, corpus-processing programs, converters, validators, and small command-line programs installed for one specific task. The difficult part is often not learning to use them. It is keeping them installed in a way that remains understandable several months later.</p>
+<p>A good technical setup should reduce the number of things I must remember.</p>
+<p>I should not need to recall that a program was installed in a folder called <code>asreview-env</code>, under a particular project directory, using a particular copy of Python. I should only need to remember that the program is installed.</p>
+<p>That is what <code>pipx</code> gives me.</p>
+<p>It is isolated virtual environments without the inconvenience, global commands without the dependency chaos, and package management that corresponds to how the software is actually used.</p>
+<p>Glorious.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>research-tools</category>
+  <category>reproducibility</category>
+  <category>technical</category>
+  <guid>https://www.gabriel-frazer-mckee.com/posts/2026-08-06-Pipx-is-glorious/</guid>
+  <pubDate>Thu, 06 Aug 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://www.gabriel-frazer-mckee.com/posts/2026-08-06-Pipx-is-glorious/featured.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Preparing for a postdoc fellowship</title>
   <dc:creator>Gabriel Frazer-McKee</dc:creator>
@@ -889,53 +979,6 @@ https://badge.dimensions.ai/
   <guid>https://www.gabriel-frazer-mckee.com/posts/2024-07-24-Paper-accepted-International-Review-Pragmatics/</guid>
   <pubDate>Wed, 24 Jul 2024 04:00:00 GMT</pubDate>
   <media:content url="https://www.gabriel-frazer-mckee.com/posts/2024-07-24-Paper-accepted-International-Review-Pragmatics/featured.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>My doctoral fellowship just increased by $40,000</title>
-  <dc:creator>Gabriel Frazer-McKee</dc:creator>
-  <link>https://www.gabriel-frazer-mckee.com/posts/2024-05-31-Fellowship-increased-by-40k/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>When I received a SSHRC doctoral fellowship last year, the award was already transformative. It gave me several years of stable funding and made it possible to concentrate much more fully on my doctoral research.</p>
-<p>Today, the federal government confirmed that the annual value of doctoral scholarships will increase to $40,000 beginning September 1, 2024. The increase applies not only to future competitions, but also to people who already hold an award.</p>
-<p>In my case, this adds approximately <strong>$40,000 to the total value of my fellowship</strong>.</p>
-<p>That is a rather remarkable sentence to be able to write.</p>
-<p>The original award was worth $80,000 over four years. It will now provide approximately $120,000 over the same period. Nothing about the research project has changed, and I have not had to submit another application. The financial conditions under which I can complete the project have simply—and substantially—improved.</p>
-<section id="what-the-increase-changes" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-increase-changes">What the increase changes</h2>
-<p>Doctoral funding is not merely recognition attached to a CV. It determines how much time a student can devote to research, how much teaching or outside employment is necessary, and whether conference travel, research visits, equipment, and other professional expenses are financially manageable.</p>
-<p>An additional $40,000 therefore does more than increase the nominal value of the award. It gives me considerably more flexibility in organizing the remaining years of the doctorate and reduces some of the financial pressure that accompanies a long research project.</p>
-<p>The increase is also overdue. Federal graduate scholarships had remained largely unchanged for many years while tuition, housing, food, and nearly every other expense continued to rise. Raising the value of doctoral awards to $40,000 represents a substantial improvement in the support offered to federally funded researchers.</p>
-</section>
-<section id="still-an-unequal-system" class="level2">
-<h2 class="anchored" data-anchor-id="still-an-unequal-system">Still an unequal system</h2>
-<p>This announcement does not resolve the broader problem of graduate-student funding. Federal scholarships remain highly competitive, and many doctoral students must conduct their research with much less financial support. Increasing the value of existing awards helps their recipients enormously, but it does not create adequate funding conditions for everyone.</p>
-<p>I am nevertheless extremely fortunate to benefit from the change. Receiving the fellowship was already one of the most consequential developments of my doctorate. Learning that its value will increase by approximately $40,000 makes it more consequential still.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <category>Funding</category>
-  <category>PhD</category>
-  <category>SSHRC</category>
-  <guid>https://www.gabriel-frazer-mckee.com/posts/2024-05-31-Fellowship-increased-by-40k/</guid>
-  <pubDate>Fri, 31 May 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.gabriel-frazer-mckee.com/posts/2024-05-31-Fellowship-increased-by-40k/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>
