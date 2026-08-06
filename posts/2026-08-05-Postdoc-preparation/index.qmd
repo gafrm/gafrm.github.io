@@ -1,16 +1,12 @@
 ---
 title: "Preparing for a postdoc fellowship"
-description: "14 months left to prepare."
+description: "The countdown is at 14 months"
 author: "Gabriel Frazer-McKee"
 date: "2026-08-05"
 categories: [phd, postdoc, fellowships, academic-careers]
 image: "featured.png"
 ##draft: true
 ---
-
-# Preparing for a Postdoctoral Fellowship
-
-*14 months left to prepare*
 
 Although I am still in the middle of my PhD, I have reached the point where it is no longer too early to start thinking about what comes next.
 

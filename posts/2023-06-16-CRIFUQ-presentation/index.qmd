@@ -2,7 +2,7 @@
 ---
 title: "Presenting the first version of my PhD project"
 subtitle: "Presented at the fifth CRIFUQ Student Day"
-subtitle: "Presented at the fifth CRIFUQ Student Day"
+description: "The 5th CRIFUQ Student Day"
 author: "Gabriel Frazer-McKee"
 date: "2023-06-15"
 categories: [conference, PhD, neology]
