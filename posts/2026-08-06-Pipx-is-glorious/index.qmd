@@ -8,6 +8,7 @@ categories: [python, research-tools, reproducibility, technical]
 image: "featured.png"
 ##draft: true
 ---
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research.*
 
 I recently installed ASReview inside a Python virtual environment. This was technically the correct thing to do. It was isolated from the rest of my Python installation, unlikely to create dependency conflicts, and easy to remove if something went wrong.
 

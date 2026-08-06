@@ -8,6 +8,8 @@ categories: [Conferences, PhD, Scoping review]
 image: "featured.png"
 ---
 
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research. This particular activity was formally cleared by Université Laval's BBAF*
+
 Today, I gave my first invited conference presentation.
 
 Because I am currently on parental leave, I cleared my participation with the BBAF beforehand. The presentation concerned work completed before the beginning of my leave: the protocol for our scoping review of the linguistic and extralinguistic factors associated with neological diffusion.

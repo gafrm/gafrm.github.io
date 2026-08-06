@@ -8,6 +8,8 @@ categories: [academic life, funding, editorial work, unsuccesful application]
 image: "featured.png"
 ---
 
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research.*
+
 I recently applied for Université Laval’s *Bourse Personnalité* (Outstanding Individual award). I was not selected—or even shortlisted.
 
 Congratulations are due to the students whose candidacies were recognized. Their projects clearly made a strong impression, and being selected in a university-wide competition is a significant achievement.

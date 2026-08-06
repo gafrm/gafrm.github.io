@@ -7,6 +7,7 @@ date: 2026-06-17
 categories: [Journées de linguistique, Publications, Editorial work, Conferences]
 image: "featured.png"
 ---
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research.*
 
 As editor-in-chief, I am pleased to announce that the [proceedings of the **38th Journées de linguistique**](https://revues.ulaval.ca/ojs/index.php/actes-jdl/fr_CA/issue/view/220), held at Université Laval on March 5 and 6, 2025, are now available online.
 
