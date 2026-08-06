@@ -1,0 +1,308 @@
+---
+title: "The Corpus Was There. Access Wasn't."
+subtitle: "An eighteen-month search for newspaper data—and why Canada needs a text and data mining exception"
+description: "An eighteen-month search for newspaper data—and why Canada needs a text and data mining exception"
+author: "Gabriel Frazer-McKee"
+date: "2026-08-07"
+categories: [corpus-linguistics, copyright, text-and-data-mining, research, open-science]
+image: "featured.png"
+##draft: true
+---
+
+# The Corpus Was There. Access Wasn't.
+
+*An eighteen-month search for newspaper data—and why Canada needs a text and data mining exception*
+
+This post has been eighteen months in the making.
+
+Not because it took eighteen months to write, but because the search for a usable Canadian newspaper corpus has now lasted that long.
+
+During that time, I have contacted heritage institutions, approached a public broadcaster, investigated commercial media databases, examined licensing terms, compared technical access routes, and consulted copyright specialists. Some possibilities initially appeared promising. Others collapsed almost immediately. A few led to prolonged exchanges before it became clear that the data could not be supplied in a form, at a price, or under conditions compatible with the research. In other cases, rights holders simply did not respond.
+
+I am intentionally omitting the names of the institutions, organizations, companies, newspaper collections, and individuals involved. The purpose of this post is not to publicly litigate individual exchanges or assign blame to particular employees. Many of the people I contacted were helpful and were themselves constrained by copyright, licensing agreements, technical infrastructure, institutional mandates, or decisions made elsewhere in their organizations.
+
+The problem is systemic.
+
+My doctoral research requires a large collection of newspaper articles that can be searched and analyzed computationally. I had assumed that identifying a suitable source and obtaining access would be a preliminary methodological task. Instead, acquiring the corpus became a research project of its own.
+
+The texts exist. They were born digital and remain available online. But there was no clear route for turning those archives into a corpus that could be legally obtained, securely retained, and analyzed computationally.
+
+A further complication surfaced in many of these exchanges: the assumption that a request for a large textual dataset must involve artificial intelligence. I repeatedly had to explain that I was not seeking the articles to train a language model, develop a generative-AI system, or build a commercial product. The proposed research is corpus linguistics: counting linguistic forms, tracing their distribution over time, and modelling patterns of usage.
+
+The distinction matters. Large collections of machine-readable text have become closely associated with generative AI, but not every computational analysis of language is AI—and not every request for textual data presents the same purposes, methods, or risks. Conflating established forms of corpus research with AI development added yet another layer of uncertainty to an already difficult access process.
+
+That difficulty cannot be explained by technology alone. It reflects a deeper uncertainty in Canadian copyright law: text and data mining is not expressly prohibited, but neither is it clearly authorized through a specific statutory exception.
+
+## A corpus that existed everywhere and nowhere
+
+My search eventually concentrated on three broad possibilities.
+
+The first was a major heritage institution with extensive newspaper holdings. This seemed like the most natural place to begin. Preserving and facilitating access to documentary heritage is, after all, central to the role of such institutions.
+
+The difficulty was not necessarily that the material did not exist. Rather, the institution did not appear to hold—or have the authority to supply—the kind of structured textual data required for computational analysis. Access designed for consulting individual documents is not the same as access to a corpus.
+
+This distinction matters. A researcher may be able to find and read an article through a catalogue or database interface while remaining unable to download, index, or systematically analyze the larger collection from which it comes.
+
+The second possibility was a major public broadcaster. Its archives offered the kind of longitudinal material that would be extremely valuable for linguistic research.
+
+Here, too, the central challenge was not simply locating articles. It was determining whether the underlying texts could be supplied in bulk, who had the authority to authorize that use, what contractual or copyright obligations applied, and whether the archive existed in a technically usable form.
+
+The third route was a commercial media-monitoring provider.
+
+This was the option most likely to produce data immediately. It was also the least compatible with an ordinary academic research budget.
+
+Even relatively limited access could cost thousands of dollars. More comprehensive access required annual contracts priced at levels that might be manageable for corporations, government departments, or major institutions, but were absurd for a doctoral project.
+
+The prices were only part of the problem.
+
+Some proposed contractual conditions would have imposed severe limits on retention, reuse, processing, or verification. From the provider’s perspective, these restrictions protected a commercial product. From the researcher’s perspective, they risked making rigorous corpus research impossible.
+
+A corpus is not useful only once. It must often be cleaned, searched, corrected, reprocessed, annotated, validated, and revisited as the analysis develops. Research findings may need to be checked months or years later. Code and derived data may need to be tested against the original material.
+
+A licence that gives a researcher temporary access while preventing meaningful retention or repeated analysis does not merely make research inconvenient. It can undermine the reproducibility and integrity of the project itself.
+
+Some of the contractual proposals I encountered struck me as abusive. They sought to preserve extremely broad control over material being requested for legitimate, non-commercial, publicly funded research while imposing prices and conditions that placed meaningful access beyond the reach of most individual researchers.
+
+I am deliberately not identifying the companies or contracts involved. The point is not that one provider behaved unusually badly. The point is that, in the absence of a clear legal and institutional framework for text and data mining, restrictive private contracts can become the only obvious route to legal certainty.
+
+The result is a peculiar situation.
+
+Canadian newspaper texts have been written, published, preserved, indexed, licensed, and commercialized. They can often be located and read one at a time. Yet obtaining them as a research corpus may remain prohibitively expensive, contractually impractical, legally uncertain—or dependent on receiving a response from a rights holder who may never reply.
+
+## What text and data mining actually requires
+
+Text and data mining, usually abbreviated as **TDM**, refers to the automated analysis of large collections of material in order to identify patterns, relationships, changes, or other information.
+
+The name can make the process sound more exotic than it is.
+
+A human researcher can read an article, note which words occur, compare its vocabulary with another article, and record the results. A computer can perform related operations across hundreds of thousands of articles, allowing researchers to study patterns that no person could identify manually.
+
+But the computer must first be able to process the texts.
+
+In practical terms, that usually means creating or obtaining copies. Articles may need to be downloaded, converted into machine-readable text, stored locally, indexed, cleaned, tokenized, annotated, or repeatedly queried.
+
+The researcher may have no interest in republishing the articles or making them available to the public. The copies are instrumental: they are required because computational analysis cannot occur without computational access.
+
+Copyright law nevertheless regulates reproduction. This means that even research aimed only at extracting linguistic patterns may involve acts that engage copyright before the substantive analysis has begun.
+
+Some jurisdictions have responded by adopting specific exceptions for text and data mining.
+
+Canada has not.
+
+## Fair dealing and the Canadian grey area
+
+The absence of an explicit TDM exception does not mean that text and data mining is necessarily unlawful in Canada.
+
+Instead, researchers must look primarily to the more general doctrine of **fair dealing**.
+
+Section 29 of the Canadian *Copyright Act* provides that fair dealing for the purpose of research, private study, education, parody, or satire does not infringe copyright. Research is therefore expressly recognized as a legitimate purpose.
+
+The expression *fair dealing* can be misleading to readers unfamiliar with copyright law. It does not simply mean behaving reasonably, acting in good faith, or using material for a worthy cause. It is a legal exception with a structured analysis.
+
+The first question is whether the dealing was undertaken for one of the purposes listed in the Act. A bona fide academic corpus project would ordinarily have little difficulty identifying research as its purpose.
+
+But that does not end the inquiry.
+
+The dealing must also be **fair**.
+
+The Supreme Court of Canada has identified six factors that may be considered when assessing fairness:
+
+* the purpose of the dealing;
+* the character of the dealing;
+* the amount of the dealing;
+* the alternatives to the dealing;
+* the nature of the work;
+* the effect of the dealing on the work.
+
+No single factor automatically determines the result. Fairness must be assessed in light of the circumstances.
+
+This flexible, contextual approach is one of the strengths of Canadian copyright law. Fair dealing has been treated as a users’ right rather than as a narrow loophole, and it should not be interpreted restrictively.
+
+But flexibility can also produce uncertainty.
+
+The difficulty is not establishing that corpus linguistics constitutes research. The difficulty is determining whether the technical acts required to build and analyze a very large corpus will be regarded as fair.
+
+Consider the **purpose** of the dealing.
+
+A non-commercial doctoral project undertaken to investigate linguistic change would appear to sit comfortably within the research purpose. The researcher may have no intention of replacing the original publications, redistributing the articles, or providing a competing archive.
+
+Now consider the **amount** of the dealing.
+
+Corpus research may require complete copies of hundreds of thousands of articles. Even if the software ultimately extracts only word counts, dates, frequencies, or statistical patterns, the intermediate process may require reproducing each article in full.
+
+This can look very different from the familiar example of quoting a short passage in a scholarly publication.
+
+The **character of the dealing** raises further questions. Are the copies retained or destroyed? How many people can access them? Are they placed online, or held securely on an encrypted research drive? Must each computational operation create another temporary copy? Can the corpus be preserved long enough to permit verification?
+
+The **alternatives** factor is also difficult to apply.
+
+In theory, a researcher might consult the articles individually through an institutional database. But manually reading hundreds of thousands of texts is not a realistic alternative to computational analysis. More importantly, it is not an alternative method of performing the same research. It is an entirely different kind of inquiry, incapable of answering many of the same questions.
+
+The **effect on the market** may be similarly ambiguous.
+
+A secure research corpus does not necessarily replace a newspaper subscription, a media-monitoring service, or public access to the original articles. The researcher may publish only aggregate results and a small number of illustrative quotations.
+
+At the same time, a commercial provider may argue that bulk access itself forms part of an existing or potential licensing market. The fact that someone is willing to sell a licence can therefore become part of the argument that researchers should be required to purchase one—even when the licence is unaffordable or its conditions are incompatible with the research.
+
+These factors do not produce an obvious answer.
+
+A careful fair-dealing analysis may provide strong support for some forms of non-commercial TDM. But it does not give Canadian researchers a simple statutory rule saying that the technically necessary reproduction of lawfully accessed material for computational research is permitted.
+
+That is the grey area.
+
+TDM is not clearly excluded from fair dealing. Nor has Parliament expressly defined the conditions under which it is allowed. Researchers and institutions must therefore apply a general, fact-specific legal test to technical practices that can involve vast numbers of complete works.
+
+## Consulting the copyright office
+
+Because of this uncertainty, I consulted my university’s copyright office.
+
+The central issue was not whether my project counted as research. It plainly did. The harder question was whether obtaining, reproducing, retaining, and computationally processing a complete newspaper corpus would constitute fair dealing.
+
+The consultation helped me identify the relevant legal factors and the precautions that would make the proposed use more defensible.
+
+The corpus would be used only for non-commercial academic research. Access would be tightly restricted. The complete articles would not be redistributed. Published findings would consist primarily of aggregate results, with only limited excerpts reproduced where necessary. The material would be securely stored and eventually destroyed according to a documented retention schedule.
+
+These safeguards matter.
+
+They distinguish corpus analysis from the creation of a competing newspaper archive. They reduce the risk that research copies could substitute for commercial access to the original works. They also demonstrate that the amount copied is connected to the technical requirements of the research rather than to an intention to republish the material.
+
+But precautions do not eliminate the underlying uncertainty.
+
+A copyright office can advise researchers on how the existing law might apply. It can help them reduce risk and document responsible practices. It cannot supply the explicit statutory protection that Canadian law currently lacks.
+
+The result is that the legality of a major component of a doctoral project may depend on a contextual analysis for which there is no clearly controlling Canadian TDM rule.
+
+## Why this took eighteen months
+
+Any research project involving a large dataset will require planning.
+
+Archives must be evaluated. Metadata must be inspected. Formats must be tested. Licensing conditions must be read. Privacy and research-ethics requirements must be considered.
+
+Some delay was therefore inevitable.
+
+But eighteen months is not a normal amount of time to spend establishing whether a body of lawfully accessible published texts can be computationally analyzed for non-commercial academic research.
+
+During those eighteen months, I pursued potential partnerships, investigated public archives, contacted rights holders and data providers, considered commercial contracts, examined technical alternatives, and sought legal guidance.
+
+Sometimes the answer was no. Sometimes the answer came only after several referrals. Sometimes the proposed price or contract made the route unusable. And sometimes there was no answer at all.
+
+That last category matters. In a system that relies heavily on permissions and individualized negotiation, silence becomes a practical veto. A researcher can follow up, clarify the project, supply security plans, and offer to sign reasonable conditions, but cannot negotiate with an organization that does not respond.
+
+Rights holders are under no general obligation to prioritize a doctoral researcher’s request. From their perspective, such inquiries may be unusual, administratively burdensome, or commercially unimportant. But when permission is treated as the safest—or only—route forward, non-response can halt an otherwise legitimate project indefinitely.
+
+Each route introduced a different uncertainty.
+
+One institution might possess the documents without possessing extractable text. Another might possess usable text without holding all the relevant rights. A commercial provider might offer both access and apparent legal security, but at an absurd price and under contractual terms incompatible with reproducible research. A rights holder might simply leave the request unanswered.
+
+At several points, the problem seemed close to resolution. A promising contact would refer the request elsewhere. A technically plausible solution would expose a legal uncertainty. A licensing discussion would reveal conditions that made the resulting corpus practically unusable. A carefully prepared request would disappear into an inbox.
+
+This is why the post itself has been eighteen months in the making.
+
+It would have been premature to write it after the first rejection, the first unreasonable quote, or the first unanswered message. At that stage, the problem might still have been local: the wrong contact, the wrong archive, the wrong provider, or an unusually complicated request.
+
+After eighteen months, the pattern is harder to dismiss.
+
+The obstacle is not merely that one institution could not help. It is that Canada lacks a coherent legal and institutional pathway through which researchers can obtain and analyze large textual collections.
+
+## Why institutional access is not enough
+
+It is tempting to respond that university libraries already subscribe to newspaper databases.
+
+They do. Those subscriptions are indispensable for reading, teaching, and conventional scholarly research.
+
+But access to a search interface is not necessarily access for text and data mining.
+
+A database may allow users to locate articles, display them individually, save a limited number, or export citations. Those functions are designed around human reading and document retrieval.
+
+Corpus research requires something different: the capacity to process the collection systematically.
+
+The technical ability to view every article one at a time does not imply permission to download the collection. Nor does a university subscription necessarily give its researchers the right to crawl the interface, automate searches, retain the resulting texts, or perform large-scale computational analysis.
+
+Contractual terms may prohibit precisely the operations that make TDM possible, even when the researcher already has lawful access to read the material.
+
+This is an important distinction because copyright exceptions and contracts do not always operate identically.
+
+Even where a researcher believes that an activity could qualify as fair dealing, a licence agreement governing access to a database may impose additional restrictions. Institutions may consequently take a cautious approach, particularly when breaching a contract could jeopardize access for the entire university.
+
+In practice, the safest route may therefore appear to be a separate commercial TDM licence.
+
+That returns the researcher to the problem of absurd prices and restrictive contracts.
+
+## The European contrast
+
+The European Union has addressed this issue more directly.
+
+Its 2019 copyright directive requires an exception for reproductions and extractions made by research organizations and cultural heritage institutions in order to conduct text and data mining for scientific research, provided they have lawful access to the works. It also allows research copies to be retained under appropriate security conditions.
+
+The European approach does not make all material free.
+
+Researchers still need lawful access. Security measures may be required. The exception does not authorize the public redistribution of complete copyrighted collections.
+
+What it does is recognize a basic technical fact: computational analysis normally requires reproduction.
+
+Rather than forcing every researcher to argue that these technically necessary copies are fair under a general exception, the law addresses TDM explicitly.
+
+Canada asks researchers to reach a similar conclusion through fair dealing, without telling them clearly when that conclusion is correct.
+
+## Why fair dealing is not enough
+
+Fair dealing remains essential.
+
+A rigid copyright system capable of permitting only narrowly enumerated activities would quickly become obsolete. The flexibility of fair dealing is precisely what allows Canadian law to accommodate new forms of research and expression.
+
+But flexibility is not the same thing as certainty.
+
+When a research method routinely requires the reproduction of complete works at scale, leaving its legality to a project-specific balancing exercise creates significant practical costs.
+
+Large institutions may be able to obtain detailed legal opinions, negotiate bespoke agreements, or purchase expensive licences. Individual researchers, graduate students, smaller universities, and underfunded projects generally cannot.
+
+The ambiguity also encourages institutional risk aversion.
+
+An archive or library may possess both the material and the technical capacity to provide it, but remain unwilling to do so because its authority is unclear. A publisher may default to refusal because granting access appears legally or contractually complicated. A researcher may abandon a defensible project because no one can provide an unequivocal answer—or because the relevant rights holder never responds.
+
+Meanwhile, commercial providers can offer certainty at a price.
+
+This transforms legal ambiguity into a commercial advantage. The less clear the public-law position becomes, the easier it is to present a costly private licence as the only safe option.
+
+That is a poor foundation for publicly funded research.
+
+## Canada needs a TDM exception
+
+Canada sorely needs an explicit text and data mining exception.
+
+Such an exception would not mean that researchers could take anything they wanted from anywhere on the internet.
+
+It would not eliminate the requirement for lawful access. It would not authorize the redistribution of complete newspaper archives. It would not prevent reasonable security requirements. It would not remove the need to address privacy, confidentiality, research ethics, or the protection of unpublished and sensitive material.
+
+It would establish a much narrower principle:
+
+Researchers who already have lawful access to works should be permitted to make the copies technically necessary to analyze those works computationally, subject to appropriate safeguards.
+
+That principle would not eliminate every difficulty I encountered over the past eighteen months. Heritage institutions would still face technical limitations. Publishers would still need to locate and prepare data. Researchers would still need to fund some extraction and infrastructure costs.
+
+But the legal starting point would be clear.
+
+Institutions would not need to decide from scratch whether large-scale computational analysis could qualify as fair dealing. Researchers would not need to treat ordinary corpus construction as a potential copyright problem. A legitimate project would be less dependent on whether a rights holder chose to answer an email. Commercial providers could still sell valuable services, but legal uncertainty would no longer make their contracts appear to be the only viable route.
+
+Most importantly, access to computational research would depend less heavily on institutional wealth.
+
+The ability to study Canadian language, journalism, politics, culture, and history at scale should not be reserved for researchers who can afford five-figure data contracts—or who happen to receive a favourable response from every organization whose cooperation may be needed.
+
+After eighteen months of pursuing archives, institutional partnerships, commercial access, technical workarounds, legal advice, and unanswered permission requests, I have reached a fairly simple conclusion.
+
+The data exists.
+
+The research is legitimate.
+
+The necessary safeguards are entirely manageable.
+
+What is missing is a clear legal framework.
+
+Canada should stop leaving text and data mining in a grey area.
+
+It should enact an explicit TDM exception.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
