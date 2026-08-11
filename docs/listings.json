@@ -1,11 +1,8 @@
 [
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-08-10-Travel-fellowship-SSHRC/index.html",
       "/posts/2026-08-07-TDM-in-Canada/index.html",
       "/posts/2026-08-06-Pipx-is-glorious/index.html",
       "/posts/2026-08-05-Postdoc-preparation/index.html",
@@ -43,8 +40,13 @@
     ]
   },
   {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
     "listing": "/posts.html",
     "items": [
+      "/posts/2026-08-10-Travel-fellowship-SSHRC/index.html",
       "/posts/2026-08-07-TDM-in-Canada/index.html",
       "/posts/2026-08-06-Pipx-is-glorious/index.html",
       "/posts/2026-08-05-Postdoc-preparation/index.html",

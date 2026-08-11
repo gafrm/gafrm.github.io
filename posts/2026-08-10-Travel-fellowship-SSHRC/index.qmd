@@ -1,0 +1,32 @@
+---
+title: "My 2027 Grenoble trip is now funded"
+subtitle: "An SSHRC travel fellowship will support the international research component of my doctoral project."
+description: "An SSHRC travel fellowship will support the international research component of my doctoral project."
+author: "Gabriel Frazer-McKee"
+date: "2026-08-10"
+categories: [phd, funding, research-stay, sshrc]
+image: "featured.png"
+##draft: true
+---
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research.*
+
+
+I received some very welcome news today: I have been awarded a SSHRC travel fellowship to support an upcoming international research stay as part of my doctoral work.
+
+The fellowship will help cover the costs associated with spending several months working abroad with researchers whose expertise closely overlaps with my own. The stay will provide an opportunity to develop parts of my doctoral research in a different research environment, strengthen an existing collaboration, and spend sustained time working on questions at the intersection of neology, corpus linguistics, and computational methods.
+International research stays are enormously valuable, but they are also expensive. Transportation, temporary accommodation, and the practical costs of maintaining a research stay away from home add up quickly. Funding of this kind makes the difference between an opportunity that exists in principle and one that is actually feasible.
+
+Getting the application in was a slightly unusual experience. The programme operates on a first-come, first-served basis, which meant that timing mattered considerably more than it does for most academic funding competitions. Once the call opened on 14 april, there was a fairly mad dash to get the application, supporting documents, and institutional approvals assembled and submitted as quickly as possible. It is not often that a grant application feels quite so much like trying to get concert tickets before they sell out. I got my application in about a week after the competition was announced.
+In Grenoble, I will be working with Olivier Kraif at Université Grenoble Alpes on the preparation and cleaning of my corpora and, in particular, on methods for distinguishing different types of occurrences: ordinary lexical uses, metalinguistic uses, quoted speech, and other contexts that need to be treated separately in the analysis on a massive scale.
+
+The research stay will also give me the opportunity to visit a researcher with whom I may eventually hope to develop a postdoctoral project. That is still far enough away that I will save the details for another post—probably sometime next year—but being able to make that visit while already in Europe adds another dimension to the stay.
+
+There is still quite a bit to organize before departure—and, in my case, a parental-leave schedule to rearrange—but receiving the fellowship removes one of the biggest uncertainties surrounding the stay.
+
+I am very grateful to the Social Sciences and Humanities Research Council of Canada (SSHRC/CRSH) for supporting this part of my doctoral research.
+
+More on the research stay once it gets closer.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

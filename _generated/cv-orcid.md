@@ -92,6 +92,7 @@ Bruno Courbon & **Gabriel Frazer-McKee**. (2026). Représentations associées à
 
 ## Competitive Travel Awards
 
+- **Canada Research Training Awards – Research Stay Supplements (CRTA-RSS)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 9,000.
 - **Research stay in Grenoble, France (2027)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 1,500.
 - **Research stay in Grenoble, France (2025)**. Funder: Social Sciences and Humanities Research Council of Canada · 2025 · CAD 1,500.
 - **Research stay in Lisbon, Portugual**. Funder: Université Laval · 2025 · CAD 1,000.
