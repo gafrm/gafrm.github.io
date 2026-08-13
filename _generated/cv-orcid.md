@@ -88,7 +88,7 @@ Bruno Courbon & **Gabriel Frazer-McKee**. (2026). Représentations associées à
 
 ## Major Grants and Awards
 
-- **Les facteurs linguistiques et extralinguistiques associés à la (non-) diffusion de néologismes dans le français québécois au début du 21e siècle : Une approche par les mégadonnées**. Social Sciences and Humanities Research Council · 2023–2028 · CAD 120,000.
+- **SSHRC Doctoral Fellowship**. Social Sciences and Humanities Research Council · 2023–2028 · CAD 120,000.
 - **Pierre J. Durand Doctoral Admission Award**. Université Laval · 2020 · CAD 10,000.
 
 ## Competitive Travel Awards
@@ -108,6 +108,10 @@ Bruno Courbon & **Gabriel Frazer-McKee**. (2026). Représentations associées à
 - **Conference organizer**. Journées de Linguistique (2023-2026) · Department of Languages, Linguistics, and Translation · 2022–2026.
 
 ## Teaching Experience
+
+**ANG-1002 (Intro. to Linguistics) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2025  
+
+**FRN-1110 (Lexicologie) Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2025  
 
 **ANG-2502 - Understanding Grammar - Lecturer** · Université Laval · Département de langues, linguistique et traduction · 2024  
 

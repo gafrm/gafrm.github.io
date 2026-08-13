@@ -998,7 +998,7 @@ const CV_SECTION_ORDER = [
   "Preprints",
   "Reports",
   "Theses",
-  "Editorial and Reference Work",
+  "Editorial Work",
   "Other Scholarly Outputs",
 ];
 
