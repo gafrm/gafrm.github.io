@@ -77,7 +77,7 @@ Bruno Courbon & **Gabriel Frazer-McKee**. (2026). Représentations associées à
 **Gabriel Frazer-McKee**. (2020). [The semantics and pragmatics of proper names in adverbial degree constructions in English: A corpus-driven contribution](https://doi.org/10.13140/rg.2.2.28317.23523). *Unpublished*, [doi:10.13140/rg.2.2.28317.23523](https://doi.org/10.13140/rg.2.2.28317.23523).
 :::
 
-### Editorial and Reference Work
+### Editorial Work
 
 ::: {.cv-publication}
 **Gabriel Frazer-McKee**, Maggie Bertolacci, Emmanuel Blaise Tapon, & Linda Wong. (2026). [Vol. 2: Actes des JDL 2025](https://doi.org/10.70637/kqamk124). *Actes des Journées de linguistique*, 2, [doi:10.70637/kqamk124](https://doi.org/10.70637/kqamk124).

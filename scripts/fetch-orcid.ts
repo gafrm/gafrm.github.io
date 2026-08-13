@@ -1041,9 +1041,9 @@ function cvSectionForWork(work) {
     ["preprint", "Preprints"],
     ["report", "Reports"],
     ["dissertation-thesis", "Theses"],
-    ["journal-issue", "Editorial and Reference Work"],
-    ["dictionary-entry", "Editorial and Reference Work"],
-    ["encyclopedia-entry", "Editorial and Reference Work"],
+    ["journal-issue", "Editorial Work"],
+    ["dictionary-entry", "Editorial Work"],
+    ["encyclopedia-entry", "Editorial Work"],
     ["review", "Other Scholarly Outputs"],
     ["other", "Other Scholarly Outputs"],
   ]);
