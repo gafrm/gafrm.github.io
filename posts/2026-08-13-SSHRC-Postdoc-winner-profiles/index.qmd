@@ -1,0 +1,173 @@
+---
+title: "What does it actually take to win a SSHRC postdoc?"
+subtitle: "Looking at the research profiles of successful language-oriented applicants"
+description: "Looking at the research profiles of successful language-oriented applicants"
+author: "Gabriel Frazer-McKee"
+date: "2026-08-13"
+categories: [postdoc, sshrc, funding, academic-career]
+image: "featured.png"
+##draft: true
+---
+
+I have about a year left before I expect to apply for a postdoctoral fellowship.
+
+That is enough time to improve a CV, but only if I have some idea of what "competitive" actually means.
+
+Academic advice is not especially helpful here. Depending on whom you ask, a successful postdoctoral applicant either needs several major publications, an international reputation and a nearly finished book—or simply a good project and evidence that they can carry it out. Neither description gives me much to work with.
+
+So I decided to look at the people who actually received SSHRC Postdoctoral Fellowships.
+
+The results were both more intimidating and more reassuring than I expected.
+
+## Who I looked at
+
+The most recent set of recipients I could use was the **Fall 2024 SSHRC Postdoctoral Fellowships competition**. At the time of writing, the public SSHRC recipient page does not yet list the results of the September 2025 Canada Postdoctoral Research Award competition, so 2024 remains the latest publicly available cohort for this exercise. The 2024 competition funded 174 applicants.
+
+I did **not** look at all 174.
+
+SSHRC postdoctoral applications are evaluated by broad multidisciplinary committees. In 2024, **Education, Linguistics, Psychology and Social Work** were grouped together in Committees 4A and 4B. The current Canada Postdoctoral Research Award retains Committee 4 for the same four disciplines.
+
+Since my own application would be in linguistics, I was primarily interested in successful applicants whose research was language-based or sufficiently language-adjacent to make the comparison useful: applied linguistics, psycholinguistics, language education, literacy and closely related work.
+
+There is an important limitation here. SSHRC publishes the names, affiliations and project titles of award recipients, but it does **not** publish the committee assignment of each recipient. I therefore identified likely Committee 4 candidates from their project titles and disciplinary backgrounds and then checked public university profiles, publication records and other academic pages.
+
+This is consequently a **small purposive sample**, not a census of Committee 4.
+
+I also decided not to name individual researchers in the analysis below. All of the information is public, but the purpose is to understand the range of successful profiles—not to turn early-career researchers into an unsolicited ranking exercise.
+
+## What I was actually comparing
+
+There is another important limitation.
+
+I cannot reconstruct a successful SSHRC application from Google Scholar.
+
+Under the current Canada Postdoctoral Research Award, applications receive two equally weighted scores. **Research potential and experience is worth 50%**, while the **quality of the proposed research program is worth the other 50%**.
+
+For the research-profile half, SSHRC tells reviewers to consider three things:
+
+1. **fellowships, scholarships or other awards obtained;**
+2. **previous research experience and/or publications;**
+3. **timely completion of doctoral studies**, taking into account the nature of the program and circumstances that may have delayed an academic career.
+
+The subcriteria are not independently scored. Reviewers make an overall judgment of research potential and experience. SSHRC also asks applicants to identify their three most significant research contributions, explain their influence and significance, describe their role in co-authored work, and discuss relevant research experience and the skills developed through it.
+
+That means simply counting publications would miss much of what SSHRC is trying to evaluate.
+
+Still, this half of the application is the part that can be approximated reasonably well from public information. For each researcher, I tried to reconstruct the profile that would have existed **at the Fall 2024 application deadline**, excluding later publications and awards wherever possible.
+
+## What the profiles looked like
+
+The four profiles below illustrate the range I found among successful language-oriented applicants.
+
+| Profile                                      | PhD status in 2024    | Research and publication record                                                                 | Funding and other signals                                                                   | What stood out                                                                            |
+| -------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **A — Applied linguistics**                  | PhD completed in 2023 | Several peer-reviewed publications, including clear lead-authored work                          | Major dissertation-completion fellowship plus a selective year-long dissertation fellowship | A mature and very coherent research specialization                                        |
+| **B — Psycholinguistics / child language**   | PhD still underway    | Two first-authored journal articles plus a first-authored conference proceedings paper          | SSHRC graduate funding and two Ontario Graduate Scholarships                                | Good publications and funding, but hardly an enormous CV                                  |
+| **C — Language education / translanguaging** | PhD completed in 2022 | Much more modest conventional journal record, supplemented by chapters and other scholarly work | Roughly 25 years of directly relevant professional language-teaching experience             | Deep expertise and exceptional coherence between professional experience, PhD and postdoc |
+| **D — Education / academic literacy**        | PhD still underway    | Multiple empirical publications, including substantial first-author work                        | Won both SSHRC and FRQSC doctoral competitions and received research prizes                 | The conventionally formidable profile of the group                                        |
+
+The details behind those summaries are quite different.
+
+Profile A completed a PhD in Applied Linguistics at Penn State in 2023. Penn State records both a selective Gil Watz dissertation fellowship—a year-long teaching release awarded for exceptional achievement in teaching, research and service—and a Mellon/ACLS Dissertation Completion Fellowship. The research undertaken during the doctorate and the eventual postdoctoral project also form an unusually clear intellectual progression.
+
+It is worth distinguishing that from simply being funded at a well-supported doctoral program. Strong institutional funding is valuable, but it is not the same signal as winning an external or selective fellowship. What interested me here was not merely that the researcher had financial support, but that other competitive processes had already recognized the research.
+
+Profile B was still completing a Psychology PhD at Toronto. By the application deadline, the public record shows two first-authored journal articles and a first-authored CogSci proceedings paper, along with a SSHRC graduate scholarship and Ontario Graduate Scholarships in two successive years.
+
+This was perhaps the most reassuring case. It is a strong doctoral record. It is not, however, the CV of someone who had somehow published eight first-author papers before finishing a PhD.
+
+Profile C looked different again. This researcher completed a PhD in Educational Studies in 2022 after approximately 25 years of work teaching English to adult newcomers. The conventional journal-publication record was comparatively modest, but the postdoctoral project emerged directly from both that professional experience and the doctoral research on newcomer belonging, multilingualism and translanguaging.
+
+And then there was Profile D.
+
+This researcher was still completing a doctorate in Education when applying, but had already accumulated multiple empirical publications, major doctoral funding and research prizes. In 2021, UQAM recorded the researcher as successful in **both the SSHRC and FRQSC doctoral competitions**; only weeks before the 2024 postdoctoral deadline, the Fonds de recherche du Québec awarded a *Relève étoile Paul-Gérin-Lajoie* prize for a doctoral publication.
+
+That profile was intimidating.
+
+But it was also clearly not the only kind of profile SSHRC funded.
+
+## So, what seems to matter?
+
+The first conclusion is the one I was hoping not to reach: **publications do matter**.
+
+There is no SSHRC rule saying that an applicant needs two first-author articles. My sample is also far too small to establish such a threshold.
+
+Nevertheless, if I were advising myself, I would want **at least one or two substantial lead-authored publications arising from the PhD before applying**.
+
+The conventional successful profiles I examined generally had that kind of evidence. More importantly, first authorship makes something visible that a raw publication count cannot: the applicant has already demonstrated an ability to take substantial ownership of a research project and bring it to publication.
+
+I would rather enter the competition with two strong papers I clearly led than with a long list of peripheral co-authorships.
+
+The second conclusion is that **competitive funding is a major asset**.
+
+Again, I found no evidence of an absolute requirement. But external scholarships and selective fellowships appeared repeatedly among the stronger conventional profiles. They are unusually efficient signals: another competitive process has already evaluated the applicant and decided that the research was worth supporting.
+
+That does not mean every successful applicant needs a SSHRC doctoral fellowship. The language-education profile above shows that there are other ways to demonstrate research potential. But for someone following a conventional doctoral-research trajectory, major funding clearly strengthens the case.
+
+Third, **the PhD does not have to be finished**.
+
+Two of the four profiles above were still doctoral candidates when they applied. What seems more important is that the record already looks sufficiently mature: research has been completed, outputs exist, and the transition to a postdoctoral program is credible.
+
+Fourth, **coherence matters**.
+
+This may have been the strongest qualitative pattern.
+
+The successful postdoctoral projects I looked at generally made sense in light of what the researcher had already done. Language maintenance led to further work on language maintenance. Child-language research developed into another language-development problem. Decades of teaching newcomers, followed by doctoral research on multilingual belonging, led naturally into postdoctoral work involving newcomer educators and translanguaging.
+
+The postdoc was not simply another project.
+
+It was the next project.
+
+That is encouraging because it means preparing for a postdoctoral fellowship is not necessarily about accumulating the largest possible number of unrelated accomplishments. It is also about developing enough of a research identity that a reviewer can understand why this particular researcher should be the person undertaking this particular project.
+
+Finally, **there appears to be more than one way to look competitive**.
+
+One successful applicant had the sort of CV that makes another doctoral student close the browser tab and reconsider their life choices: major national and provincial funding, numerous empirical publications and research prizes.
+
+Another had a much smaller conventional publication record but decades of relevant expertise and an extraordinarily coherent research trajectory.
+
+Another was still a PhD student with a couple of first-author papers and good graduate funding.
+
+All received the same fellowship.
+
+## Only half the equation
+
+There is a danger in exercises like this.
+
+It is easy to look at the weakest publication record among successful applicants and conclude that this is the bar. It is equally easy to find the strongest researcher and conclude that everyone below that level has no chance.
+
+Neither inference is justified.
+
+Most importantly, I have examined only **half of the SSHRC evaluation**.
+
+The other 50% concerns the proposed research program: its **originality and potential significance, feasibility, appropriateness of the proposed host institution, and the effectiveness of the support provided by that institution**.
+
+I cannot see the four-page proposals these researchers submitted. I cannot see their referee letters or host assessments. I cannot know whether someone with a comparatively modest publication record submitted an extraordinary proposal, or whether someone with a formidable CV merely needed a very good one.
+
+The research profile therefore does not determine the result.
+
+It determines whether I can enter that second half of the competition with a credible case that I have the experience to do what I am proposing.
+
+## What I am taking from this
+
+Before looking at actual recipients, I had a fairly vague image of the successful SSHRC postdoctoral applicant: finished PhD, long publication list, several major prizes, perhaps already halfway to being an assistant professor.
+
+That person exists.
+
+They are just not the only person who wins.
+
+My working target now is much more concrete. By the time I apply, I want a research profile with **clear lead-authored publications, strong competitive funding, evidence that I can manage and complete substantial research, and an obvious intellectual progression from the PhD into the proposed postdoctoral work**.
+
+That will not guarantee anything.
+
+It does, however, look remarkably similar to profiles that SSHRC has already funded.
+
+And that is much more useful than trying to become competitive against an imaginary applicant who has published everything, won everything and apparently never needed to sleep.
+
+The profile matters.
+
+But it is only half the application.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
