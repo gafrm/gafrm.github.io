@@ -89,13 +89,14 @@ Bruno Courbon & **Gabriel Frazer-McKee**. (2026). Représentations associées à
 ## Major Grants and Awards
 
 - **Les facteurs linguistiques et extralinguistiques associés à la (non-) diffusion de néologismes dans le français québécois au début du 21e siècle : Une approche par les mégadonnées**. Social Sciences and Humanities Research Council · 2023–2028 · CAD 120,000.
+- **Pierre J. Durand Doctoral Admission Award**. Université Laval · 2020 · CAD 10,000.
 
 ## Competitive Travel Awards
 
 - **Canada Research Training Awards – Research Stay Supplements (CRTA-RSS)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 9,000.
-- **Research stay in Grenoble, France (2027)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 1,500.
-- **Research stay in Grenoble, France (2025)**. Funder: Social Sciences and Humanities Research Council of Canada · 2025 · CAD 1,500.
-- **Research stay in Lisbon, Portugual**. Funder: Université Laval · 2025 · CAD 1,000.
+- **SSHRC General Fund for Graduate Studies Scholarship (2027)**. Funder: Social Sciences and Humanities Research Council of Canada · 2027 · CAD 1,500.
+- **Research or Training Abroad Scholarship**. Funder: Université Laval · 2025 · CAD 1,000.
+- **SSHRC General Fund for Graduate Studies Scholarship (2025)**. Funder: Social Sciences and Humanities Research Council of Canada · 2025 · CAD 1,500.
 
 ## Peer Review
 
