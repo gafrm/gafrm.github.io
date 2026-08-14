@@ -8,12 +8,13 @@ categories: [postdoc, sshrc, funding, academic-career]
 image: "featured.png"
 ##draft: true
 ---
+*I remain on parental leave. This post documents an ongoing project, a completed milestone, or occasional preparation for the next stage of my research.*
 
-I have about a year left before I expect to apply for a postdoctoral fellowship.
+I have about a year left before I expect to submit an application for a postdoctoral fellowship.
 
-That is enough time to improve a CV, but only if I have some idea of what "competitive" actually means.
+That is enough time to improve a CV, but only if I have some idea of what “competitive” actually means.
 
-Academic advice is not especially helpful here. Depending on whom you ask, a successful postdoctoral applicant either needs several major publications, an international reputation and a nearly finished book—or simply a good project and evidence that they can carry it out. Neither description gives me much to work with.
+Academic truisms are not especially helpful here. Depending on whom you ask, a successful postdoctoral applicant either needs several major publications, an international reputation and a finished book—or simply a good project and evidence that they can carry it out. Neither description is empirically anchored.
 
 So I decided to look at the people who actually received SSHRC Postdoctoral Fellowships.
 
@@ -39,7 +40,7 @@ I also decided not to name individual researchers in the analysis below. All of 
 
 There is another important limitation.
 
-I cannot reconstruct a successful SSHRC application from Google Scholar.
+I cannot reconstruct a successful SSHRC application from Google Scholar and LinkedIn.
 
 Under the current Canada Postdoctoral Research Award, applications receive two equally weighted scores. **Research potential and experience is worth 50%**, while the **quality of the proposed research program is worth the other 50%**.
 
@@ -57,14 +58,15 @@ Still, this half of the application is the part that can be approximated reasona
 
 ## What the profiles looked like
 
-The four profiles below illustrate the range I found among successful language-oriented applicants.
+The five profiles below illustrate the range I found among successful language-oriented or language-adjacent applicants.
 
-| Profile                                      | PhD status in 2024    | Research and publication record                                                                 | Funding and other signals                                                                   | What stood out                                                                            |
-| -------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **A — Applied linguistics**                  | PhD completed in 2023 | Several peer-reviewed publications, including clear lead-authored work                          | Major dissertation-completion fellowship plus a selective year-long dissertation fellowship | A mature and very coherent research specialization                                        |
-| **B — Psycholinguistics / child language**   | PhD still underway    | Two first-authored journal articles plus a first-authored conference proceedings paper          | SSHRC graduate funding and two Ontario Graduate Scholarships                                | Good publications and funding, but hardly an enormous CV                                  |
-| **C — Language education / translanguaging** | PhD completed in 2022 | Much more modest conventional journal record, supplemented by chapters and other scholarly work | Roughly 25 years of directly relevant professional language-teaching experience             | Deep expertise and exceptional coherence between professional experience, PhD and postdoc |
-| **D — Education / academic literacy**        | PhD still underway    | Multiple empirical publications, including substantial first-author work                        | Won both SSHRC and FRQSC doctoral competitions and received research prizes                 | The conventionally formidable profile of the group                                        |
+| Profile                                      | PhD status in 2024    | Research and publication record                                                                      | Funding and other signals                                                                   | What stood out                                                                            |
+| -------------------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **A — Applied linguistics**                  | PhD completed in 2023 | Several peer-reviewed publications, including clear lead-authored work                               | Major dissertation-completion fellowship plus a selective year-long dissertation fellowship | A mature and very coherent research specialization                                        |
+| **B — Psycholinguistics / child language**   | PhD still underway    | Two first-authored journal articles plus a first-authored conference proceedings paper               | SSHRC graduate funding and two Ontario Graduate Scholarships                                | Good publications and funding, but hardly an enormous CV                                  |
+| **C — Language education / translanguaging** | PhD completed in 2022 | Much more modest conventional journal record, supplemented by chapters and other scholarly work      | Roughly 25 years of directly relevant professional language-teaching experience             | Deep expertise and exceptional coherence between professional experience, PhD and postdoc |
+| **D — Education / academic literacy**        | PhD still underway    | Multiple empirical publications, including substantial first-author work                             | Won both SSHRC and FRQSC doctoral competitions and received research prizes                 | The conventionally formidable profile of the group                                        |
+| **E — Psychology / language and cognition**  | PhD still underway    | Two first-authored journal articles plus two additional co-authored journal articles by the deadline | No major doctoral fellowship identified in the public record examined                       | Strong evidence of research productivity without a conspicuous major-funding record       |
 
 The details behind those summaries are quite different.
 
@@ -74,7 +76,7 @@ It is worth distinguishing that from simply being funded at a well-supported doc
 
 Profile B was still completing a Psychology PhD at Toronto. By the application deadline, the public record shows two first-authored journal articles and a first-authored CogSci proceedings paper, along with a SSHRC graduate scholarship and Ontario Graduate Scholarships in two successive years.
 
-This was perhaps the most reassuring case. It is a strong doctoral record. It is not, however, the CV of someone who had somehow published eight first-author papers before finishing a PhD.
+This was perhaps the most reassuring case. It is a strong doctoral record. It is not, however, the CV of someone who had somehow published eight first-author papers in Q1 journals before finishing a PhD.
 
 Profile C looked different again. This researcher completed a PhD in Educational Studies in 2022 after approximately 25 years of work teaching English to adult newcomers. The conventional journal-publication record was comparatively modest, but the postdoctoral project emerged directly from both that professional experience and the doctoral research on newcomer belonging, multilingualism and translanguaging.
 
@@ -86,39 +88,59 @@ That profile was intimidating.
 
 But it was also clearly not the only kind of profile SSHRC funded.
 
+Profile E adds another useful point of comparison. This researcher was still completing a Psychology PhD when applying. By the Fall 2024 deadline, the publication record included **two first-authored journal articles**—one in *Cognition and Emotion* in 2023 and another in *Frontiers in Sociology* in 2024—as well as two additional co-authored journal articles published in 2023.
+
+Unlike several of the other researchers in this small sample, I could not identify a major national or provincial doctoral fellowship in the public record I examined. That absence should be interpreted cautiously: public profiles are incomplete, and failing to find an award is not proof that none existed. Still, there was no conspicuous funding record comparable to the SSHRC, FRQSC or selective dissertation fellowships visible for some of the other profiles.
+
+The researcher subsequently moved into a MIND postdoctoral fellowship, but that later success is not part of the research profile I am reconstructing here. It is relevant only as an indication of where the trajectory led after the 2024 application.
+
+This is a particularly useful case because the pre-application record is neither unusually sparse nor unusually prolific. Four journal articles, two of them clearly led by the applicant, is a strong doctoral publication record. It is also a plausible one.
+
 ## So, what seems to matter?
 
-The first conclusion is the one I was hoping not to reach: **publications do matter**.
+The first conclusion I can tentatively put forward is that **publications do matter**.
 
-There is no SSHRC rule saying that an applicant needs two first-author articles. My sample is also far too small to establish such a threshold.
+Among the more conventional academic profiles I examined, **one or two substantial lead-authored publications—and often at least two—were already present by the application deadline**. Profile B had two first-authored journal articles plus a proceedings paper. Profile E had two first-authored journal articles plus two additional co-authored papers. Profiles A and D had still larger bodies of lead-authored work.
 
-Nevertheless, if I were advising myself, I would want **at least one or two substantial lead-authored publications arising from the PhD before applying**.
+Profile C is the important exception: a researcher whose much longer professional trajectory and unusually close alignment between prior experience, doctoral work and proposed postdoctoral research provided a different form of evidence.
 
-The conventional successful profiles I examined generally had that kind of evidence. More importantly, first authorship makes something visible that a raw publication count cannot: the applicant has already demonstrated an ability to take substantial ownership of a research project and bring it to publication.
+So while I would not turn “two papers” into a rule, if I were advising any aspiring postdoc applicants, I would want **at least one or two substantial lead-authored publications arising during the PhD before applying**.
+
+More importantly, first authorship makes something visible that a raw publication count cannot: the applicant has already demonstrated an ability to take substantial ownership of a research project and bring it to publication.
 
 I would rather enter the competition with two strong papers I clearly led than with a long list of peripheral co-authorships.
 
-The second conclusion is that **competitive funding is a major asset**.
+The second conclusion is that **competitive funding is a major asset, but apparently not a prerequisite**.
 
-Again, I found no evidence of an absolute requirement. But external scholarships and selective fellowships appeared repeatedly among the stronger conventional profiles. They are unusually efficient signals: another competitive process has already evaluated the applicant and decided that the research was worth supporting.
+External scholarships and selective fellowships appeared repeatedly among the profiles I examined. They are unusually efficient signals: another competitive process has already evaluated the applicant and decided that the research was worth supporting.
 
-That does not mean every successful applicant needs a SSHRC doctoral fellowship. The language-education profile above shows that there are other ways to demonstrate research potential. But for someone following a conventional doctoral-research trajectory, major funding clearly strengthens the case.
+But the comparison does not suggest that every successful applicant arrives with a major national doctoral fellowship. Profile E is particularly useful here: the public record shows clear evidence of research productivity and independence without an equally conspicuous record of major competitive doctoral funding. Profile C reached the competition through a very different professional and academic trajectory again.
+
+For someone following a conventional doctoral-research path, major competitive funding clearly strengthens the case. But it appears to be one way of demonstrating research potential rather than an admission ticket to the competition.
 
 Third, **the PhD does not have to be finished**.
 
-Two of the four profiles above were still doctoral candidates when they applied. What seems more important is that the record already looks sufficiently mature: research has been completed, outputs exist, and the transition to a postdoctoral program is credible.
+Three of the five profiles above were still doctoral candidates when they applied. What seems more important is that the record already looks sufficiently mature: research has been completed, outputs exist, and the transition to a postdoctoral program is credible.
 
 Fourth, **coherence matters**.
 
 This may have been the strongest qualitative pattern.
 
-The successful postdoctoral projects I looked at generally made sense in light of what the researcher had already done. Language maintenance led to further work on language maintenance. Child-language research developed into another language-development problem. Decades of teaching newcomers, followed by doctoral research on multilingual belonging, led naturally into postdoctoral work involving newcomer educators and translanguaging.
+The successful postdoctoral projects I looked at generally made sense in light of what the researcher had already done. Language maintenance led to further work on language maintenance. Child-language research developed into another language-development problem. Decades of teaching newcomers, followed by doctoral research on multilingual belonging, led naturally into postdoctoral work involving newcomer educators and translanguaging. Work in experimental psychology and language processing developed into research on bilingual reading.
 
 The postdoc was not simply another project.
 
 It was the next project.
 
-That is encouraging because it means preparing for a postdoctoral fellowship is not necessarily about accumulating the largest possible number of unrelated accomplishments. It is also about developing enough of a research identity that a reviewer can understand why this particular researcher should be the person undertaking this particular project.
+That is encouraging because it means preparing for a postdoctoral fellowship is not necessarily about accumulating the largest possible number of unrelated accomplishments. It is about developing enough of a research identity that a reviewer can understand why this particular researcher should be the person undertaking this particular project.
+
+Fifth, **raw publication counts are probably the wrong thing to optimize**.
+
+The profiles reinforce a distinction between quantity and evidence of research independence.
+
+A researcher with two or three substantial first-authored studies has shown something that may be much harder to infer from a longer list of peripheral co-authorships: they can formulate a question, conduct the work, and bring it through to publication.
+
+That seems particularly important at the transition from PhD to postdoc, when the application is implicitly asking the committee to believe that the applicant is ready to undertake a more independent program of research.
 
 Finally, **there appears to be more than one way to look competitive**.
 
@@ -126,7 +148,7 @@ One successful applicant had the sort of CV that makes another doctoral student 
 
 Another had a much smaller conventional publication record but decades of relevant expertise and an extraordinarily coherent research trajectory.
 
-Another was still a PhD student with a couple of first-author papers and good graduate funding.
+Others were still PhD students with a couple of first-author papers and credible research records. One of those profiles did not appear to include a major doctoral fellowship at all.
 
 All received the same fellowship.
 
@@ -144,6 +166,8 @@ The other 50% concerns the proposed research program: its **originality and pote
 
 I cannot see the four-page proposals these researchers submitted. I cannot see their referee letters or host assessments. I cannot know whether someone with a comparatively modest publication record submitted an extraordinary proposal, or whether someone with a formidable CV merely needed a very good one.
 
+Nor can I infer from a public CV how the committee itself interpreted that record.
+
 The research profile therefore does not determine the result.
 
 It determines whether I can enter that second half of the competition with a credible case that I have the experience to do what I am proposing.
@@ -156,7 +180,21 @@ That person exists.
 
 They are just not the only person who wins.
 
-My working target now is much more concrete. By the time I apply, I want a research profile with **clear lead-authored publications, strong competitive funding, evidence that I can manage and complete substantial research, and an obvious intellectual progression from the PhD into the proposed postdoctoral work**.
+My working target now is much more concrete. By the time I apply, I want a research profile with **at least a small number of substantial lead-authored publications, strong evidence of research potential—competitive funding where possible—evidence that I can manage and complete substantial research, and an obvious intellectual progression from the PhD into the proposed postdoctoral work**.
+
+The small comparison above suggests that I do not need to become a publication machine.
+
+I do need to demonstrate independence.
+
+I do not necessarily need to have defended before applying.
+
+I do not necessarily need every possible credential at once.
+
+I do need to look like someone who is clearly approaching the end of a productive doctorate and is ready for the next research program.
+
+And even if I accomplish all of that, I will have strengthened only half of the application.
+
+The other half will still have to be an excellent proposal.
 
 That will not guarantee anything.
 
@@ -167,6 +205,7 @@ And that is much more useful than trying to become competitive against an imagin
 The profile matters.
 
 But it is only half the application.
+
 
 <!--Include social share buttons-->
 
